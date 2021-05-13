@@ -1,0 +1,56 @@
+{
+  "name": "lisc",
+  "description": "Spellcrafting Calculator for the Phoenix Freeshard Server",
+  "version": "0.0.0",
+  "author": "Mathias Punkehofer",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mpunkenhofer/lisc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mpunkenhofer/lisc/issues"
+  },
+  "homepage": "https://mpunkenhofer.github.io/lisc/",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "npm run clean && webpack --config webpack.production.js",
+    "start": "npm run clean && webpack serve --config=webpack.development.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.3",
+    "@types/react": "^17.0.5",
+    "@types/react-dom": "^17.0.5",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "create-file-webpack": "^1.0.2",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.26.0",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "fast-css-loader": "^1.0.2",
+    "fast-sass-loader": "^2.0.0",
+    "fork-ts-checker-webpack-plugin": "^6.2.7",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "react-hot-loader": "^4.13.0",
+    "rimraf": "^3.0.2",
+    "sass-loader": "^11.1.0",
+    "ts-loader": "^9.1.2",
+    "typescript": "^4.2.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.37.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-middleware": "^3.7.3",
+    "webpack-dev-server": "^3.11.2",
+    "webpack-merge": "^5.7.3"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
