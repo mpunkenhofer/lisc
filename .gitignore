@@ -30,6 +30,7 @@ yarn-error.log
 testem.log
 /typings
 .awcache
+/debug
 
 # System Files
 .DS_Store
