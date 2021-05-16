@@ -1,0 +1,9 @@
+/dist
+/build
+/tmp
+/node_modules
+coverage
+.html
+public
+.*
+webpack.*
