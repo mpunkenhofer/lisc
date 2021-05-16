@@ -1,6 +1,6 @@
 import * as Race from "./races";
 import * as Skill from "./bonuses/skill"
-import { Stat, ArmorType, Realm, ShieldSize, WeaponType } from "./types";
+import { Stat, ArmorType, Realm, ShieldSize, WeaponType } from "../common/types";
 import { Bonus } from "./bonuses";
 
 export interface Class {

@@ -1,7 +1,3 @@
-export interface Template {
-  id: string;
-}
-
 export enum Realm {
   Albion,
   Midgard,
@@ -58,8 +54,17 @@ export enum WeaponType {
   Hammer,
   Sword,
 }
+
 export enum ShieldSize {
   Small,
   Medium,
   Large,
+}
+
+export type Options = {
+  a: boolean;
+}
+
+export type Template = {
+  name: string;
 }
