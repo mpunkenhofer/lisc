@@ -14,3 +14,5 @@ A collection of useful links regarding this project.
 - [React+TypeScript Cheatsheets](https://github.com/typescript-cheatsheets/react-typescript-cheatsheet)
 - [React & Redux in TypeScript - Complete Guide](https://github.com/piotrwitek/react-redux-typescript-guide)
 - [Bootstrap](https://getbootstrap.com/) and [React-Bootstrap](https://react-bootstrap.github.io/)
+- [React Hotkeys Hook](https://github.com/JohannesKlauss/react-hotkeys-hook#readme)
+- [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp)

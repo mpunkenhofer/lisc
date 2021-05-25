@@ -1,7 +1,7 @@
 export enum Realm {
-  Albion,
-  Midgard,
-  Hibernia,
+  Albion = 'Albion',
+  Hibernia = 'Hibernia',
+  Midgard = 'Midgard'
 }
 
 export enum Slot {
