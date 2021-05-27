@@ -14,14 +14,5 @@ module.exports = merge(commonConfig, {
         hot: true,
         inline: true,
     },
-    module: {
-        rules: [
-            {
-                test: /\.scss$/,
-                include: [path.resolve(__dirname, 'src')],
-                use: [MiniCssExtractPlugin.loader, 'fast-css-loader', 'fast-sass-loader'],
-            },
-        ]
-    },
     plugins: [new webpack.HotModuleReplacementPlugin()],
 })

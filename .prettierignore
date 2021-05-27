@@ -1,9 +1,8 @@
-/dist
-/build
-/tmp
-/node_modules
+dist
+build
+tmp
+node_modules
 coverage
-.html
-public
+public/images
 .*
-webpack.*
+*.min.js

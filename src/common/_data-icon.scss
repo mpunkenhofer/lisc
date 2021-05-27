@@ -1,0 +1,7 @@
+@import 'extends';
+
+.is::before,
+[data-icon]::before,
+.is-after::after {
+  @extend %data-icon;
+}
