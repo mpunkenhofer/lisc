@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46666"
+   version="1.1"
+   id="svg1304"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="blademaster.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1306"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     width="512mm"
+     units="px"
+     inkscape:zoom="0.5"
+     inkscape:cx="307"
+     inkscape:cy="299"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1301">
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Colorize"
+       id="filter139057"
+       x="0"
+       y="0"
+       width="1"
+       height="1">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix139055"
+         result="fbSourceGraphic" />
+      <feColorMatrix
+         result="fbSourceGraphicAlpha"
+         in="fbSourceGraphic"
+         values="0 0 0 -1 0 0 0 0 -1 0 0 0 0 -1 0 0 0 0 1 0"
+         id="feColorMatrix139265" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite139267"
+         operator="arithmetic"
+         k1="0"
+         k2="1"
+         result="composite1"
+         in="fbSourceGraphic" />
+      <feColorMatrix
+         id="feColorMatrix139269"
+         in="composite1"
+         values="1"
+         type="saturate"
+         result="colormatrix1" />
+      <feFlood
+         id="feFlood139271"
+         flood-opacity="1"
+         flood-color="rgb(0,0,0)"
+         result="flood1" />
+      <feBlend
+         in2="colormatrix1"
+         id="feBlend139273"
+         in="flood1"
+         mode="multiply"
+         result="blend1" />
+      <feBlend
+         in2="blend1"
+         id="feBlend139275"
+         mode="screen"
+         result="blend2" />
+      <feColorMatrix
+         id="feColorMatrix139277"
+         in="blend2"
+         values="1"
+         type="saturate"
+         result="colormatrix2" />
+      <feComposite
+         in2="fbSourceGraphic"
+         id="feComposite139279"
+         in="colormatrix2"
+         operator="in"
+         k2="1"
+         result="composite2" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path140269"
+       style="fill:#000000;stroke-width:0.656089"
+       d="m 107.64653,14.29723 c -3.42681,2.554702 -10.570478,7.518128 -10.570478,7.518128 L 67.705774,47.388769 38.390596,21.862767 c 0,0 -7.143664,-4.963418 -10.570482,-7.518122 l 5.880462,11.361123 25.263309,29.295955 -7.396388,6.44044 -17.973278,22.404451 -8.668847,-3.995482 -4.71052,-5.051381 2.182267,-3.331704 -0.308823,-5.387117 -1.171222,-0.881621 -4.980903,0.196071 -2.268124,5.357637 12.673302,19.799312 -14.061087,16.006291 -9.5299633,2.45649 -0.3690503,10.16683 1.6325371,1.94008 8.7008795,-0.59202 2.592324,-1.88241 1.512083,-7.30157 16.207474,-14.608252 19.074024,11.635352 5.35764,-2.26813 0.196046,-4.98218 -0.881621,-1.171223 -5.387114,-0.308828 -3.331707,2.183551 -5.051381,-4.710522 -3.188185,-6.917137 0.05639,-0.05381 22.020022,-18.246225 5.822801,-6.75183 5.862519,6.799245 22.020022,18.246224 0.05639,0.05381 -3.188191,6.917137 -5.051373,4.710518 -3.331712,-2.183549 -5.387116,0.308823 -0.881621,1.171226 0.19607,4.98218 5.357645,2.26812 19.074016,-11.635337 16.20747,14.608247 1.51209,7.30157 2.59232,1.88241 8.70088,0.59202 1.63254,-1.94008 -0.36905,-10.16683 -9.52997,-2.45649 -14.06108,-16.006294 12.6733,-19.799307 -2.26813,-5.357645 -4.9809,-0.196046 -1.17122,0.881622 -0.30882,5.387116 2.18227,3.331709 -4.71053,5.051376 -8.66884,3.995488 L 83.899164,61.4896 76.455356,55.008146 101.76608,25.658373 Z" />
+  </g>
+</svg>

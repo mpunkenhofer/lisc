@@ -3,6 +3,7 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 const MiniCssExtractPlugin = require( 'mini-css-extract-plugin');
+const FontPreloadPlugin = require("webpack-font-preload-plugin");
 
 module.exports = {
     entry: './src/index.tsx',
@@ -68,6 +69,7 @@ module.exports = {
         new ForkTsCheckerWebpackPlugin(),
         new HtmlWebpackPlugin({ template: 'public/index.html' }),
         new MiniCssExtractPlugin({filename: '[name].css',}),    
+        new FontPreloadPlugin()
     ],
     devtool: 'source-map',
     externals: {
