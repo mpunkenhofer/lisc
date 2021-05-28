@@ -18,3 +18,4 @@ A collection of useful links regarding this project.
 - [CSS Filter Generator](https://codepen.io/sosuke/pen/Pjoqqp)
 - [CSS Image Sprites](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Images/Implementing_image_sprites_in_CSS)
 - [SVG Optimization](https://www.npmjs.com/package/svgo)
+- [CSS Animation](https://animate.style/)
