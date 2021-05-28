@@ -1,0 +1,3 @@
+@font-face{font-family:"lisc";src:url(/lisc/lisc.woff2) format("woff2");font-display:block;font-weight:normal;font-style:normal}.is::before,[data-icon]::before,.is-after::after{font-size:1.2em;vertical-align:middle;font-family:"lisc";font-style:normal;font-weight:normal;text-transform:none;speak:none;content:attr(data-icon);opacity:.9}button{border:none;outline:none}.test{background-color:red}
+
+/*# sourceMappingURL=main.css.map*/
