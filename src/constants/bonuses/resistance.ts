@@ -1,6 +1,8 @@
 import { Bonus, Dust, Liquid } from ".";
 
-export const Body: Bonus = {
+export type Resistance = Bonus;
+
+export const Body: Resistance = {
   name: "Body",
   jewel: {
     name: "Dusty Shielding Jewel",
@@ -11,7 +13,7 @@ export const Body: Bonus = {
   },
 };
 
-export const Cold: Bonus = {
+export const Cold: Resistance = {
   name: "Cold",
   jewel: {
     name: "Icy Shielding Jewel",
@@ -22,7 +24,7 @@ export const Cold: Bonus = {
   },
 };
 
-export const Heat: Bonus = {
+export const Heat: Resistance = {
   name: "Heat",
   jewel: {
     name: "Heated Shielding Jewel",
@@ -33,7 +35,7 @@ export const Heat: Bonus = {
   },
 };
 
-export const Energy: Bonus = {
+export const Energy: Resistance = {
   name: "Energy",
   jewel: {
     name: "Light Shielding Jewel",
@@ -44,7 +46,7 @@ export const Energy: Bonus = {
   },
 };
 
-export const Matter: Bonus = {
+export const Matter: Resistance = {
   name: "Matter",
   jewel: {
     name: "Earthen Shielding Jewel",
@@ -55,7 +57,7 @@ export const Matter: Bonus = {
   },
 };
 
-export const Spirit: Bonus = {
+export const Spirit: Resistance = {
   name: "Spirit",
   jewel: {
     name: "Vapor Shielding Jewel",
@@ -66,7 +68,7 @@ export const Spirit: Bonus = {
   },
 };
 
-export const Crush: Bonus = {
+export const Crush: Resistance = {
   name: "Crush",
   jewel: {
     name: "Fiery Shielding Jewel",
@@ -77,7 +79,7 @@ export const Crush: Bonus = {
   },
 };
 
-export const Thrust: Bonus = {
+export const Thrust: Resistance = {
   name: "Thrust",
   jewel: {
     name: "Airy Shielding Jewel",
@@ -88,7 +90,7 @@ export const Thrust: Bonus = {
   },
 };
 
-export const Slash: Bonus = {
+export const Slash: Resistance = {
   name: "Slash",
   jewel: {
     name: "Watery Shielding Jewel",

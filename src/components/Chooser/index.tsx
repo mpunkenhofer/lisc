@@ -3,6 +3,7 @@ import { Realm } from "../../common/types";
 import * as cls from "../../constants/classes";
 import { ICONS } from "../../constants";
 import "./chooser.scss"
+import { useDispatch } from "react-redux";
 
 interface ClassChooserProps {
     realm: Realm;
@@ -72,6 +73,7 @@ const ClassChooser: React.FunctionComponent<ClassChooserProps> = ({ realm, onCla
 }
 
 const Chooser: React.FunctionComponent = () => {
+    const dispatch = useDispatch();
     const [realm, setRealm] = React.useState<Realm | undefined>(undefined);
 
     const onRealmButtonClicked = (realm: Realm | undefined) => {

@@ -1,6 +1,8 @@
 import { Bonus, Dust, Liquid } from ".";
 
-export const BoneArmyFocus: Bonus = {
+export type Focus = Bonus;
+
+export const BoneArmyFocus: Focus = {
   name: "Bone Army Focus",
   jewel: {
     name: "Ashen Rune",
@@ -11,7 +13,7 @@ export const BoneArmyFocus: Bonus = {
   },
 };
 
-export const DarknessFocus: Bonus = {
+export const DarknessFocus: Focus = {
   name: "Darkness Focus",
   jewel: {
     name: "Ice Rune",
@@ -22,7 +24,7 @@ export const DarknessFocus: Bonus = {
   },
 };
 
-export const RunecarvingFocus: Bonus = {
+export const RunecarvingFocus: Focus = {
   name: "Runecarving Focus",
   jewel: {
     name: "Heat Rune",
@@ -33,7 +35,7 @@ export const RunecarvingFocus: Bonus = {
   },
 };
 
-export const SummoningFocus: Bonus = {
+export const SummoningFocus: Focus = {
   name: "Summoning Focus",
   jewel: {
     name: "Vapor Rune",
@@ -44,7 +46,7 @@ export const SummoningFocus: Bonus = {
   },
 };
 
-export const SuppressionFocus: Bonus = {
+export const SuppressionFocus: Focus = {
   name: "Suppression Focus",
   jewel: {
     name: "Dust Rune",
@@ -55,7 +57,7 @@ export const SuppressionFocus: Bonus = {
   },
 };
 
-export const ArborealPathFocus: Bonus = {
+export const ArborealPathFocus: Focus = {
   name: "Arboreal Path Focus",
   jewel: {
     name: "Steaming Spell Stone",
@@ -66,7 +68,7 @@ export const ArborealPathFocus: Bonus = {
   },
 };
 
-export const CreepingPathFocus: Bonus = {
+export const CreepingPathFocus: Focus = {
   name: "Creeping Path Focus",
   jewel: {
     name: "Oozing Spell Stone",
@@ -77,7 +79,7 @@ export const CreepingPathFocus: Bonus = {
   },
 };
 
-export const EnchantmentsFocus: Bonus = {
+export const EnchantmentsFocus: Focus = {
   name: "Enchantments Focus",
   jewel: {
     name: "Vapor Spell Stone",
@@ -88,7 +90,7 @@ export const EnchantmentsFocus: Bonus = {
   },
 };
 
-export const LightFocus: Bonus = {
+export const LightFocus: Focus = {
   name: "Light Focus",
   jewel: {
     name: "Fire Spell Stone",
@@ -99,7 +101,7 @@ export const LightFocus: Bonus = {
   },
 };
 
-export const ManaFocus: Bonus = {
+export const ManaFocus: Focus = {
   name: "Mana Focus",
   jewel: {
     name: "Water Spell Stone",
@@ -110,7 +112,7 @@ export const ManaFocus: Bonus = {
   },
 };
 
-export const MentalismFocus: Bonus = {
+export const MentalismFocus: Focus = {
   name: "Mentalism Focus",
   jewel: {
     name: "Earth Spell Stone",
@@ -121,7 +123,7 @@ export const MentalismFocus: Bonus = {
   },
 };
 
-export const VerdantPathFocus: Bonus = {
+export const VerdantPathFocus: Focus = {
   name: "Verdant Path Focus",
   jewel: {
     name: "Mineral Encrusted Spell Stone",
@@ -132,7 +134,7 @@ export const VerdantPathFocus: Bonus = {
   },
 };
 
-export const VoidFocus: Bonus = {
+export const VoidFocus: Focus = {
   name: "Void Focus",
   jewel: {
     name: "Ice Spell Stone",
@@ -143,7 +145,7 @@ export const VoidFocus: Bonus = {
   },
 };
 
-export const BodyFocus: Bonus = {
+export const BodyFocus: Focus = {
   name: "Body Focus",
   jewel: {
     name: "Heat Sigil",
@@ -154,7 +156,7 @@ export const BodyFocus: Bonus = {
   },
 };
 
-export const ColdFocus: Bonus = {
+export const ColdFocus: Focus = {
   name: "Cold Focus",
   jewel: {
     name: "Ice Sigil",
@@ -165,7 +167,7 @@ export const ColdFocus: Bonus = {
   },
 };
 
-export const DeathServantFocus: Bonus = {
+export const DeathServantFocus: Focus = {
   name: "Death Servant Focus",
   jewel: {
     name: "Ashen Sigil",
@@ -176,7 +178,7 @@ export const DeathServantFocus: Bonus = {
   },
 };
 
-export const DeathsightFocus: Bonus = {
+export const DeathsightFocus: Focus = {
   name: "Deathsight Focus",
   jewel: {
     name: "Vacuous Sigil",
@@ -187,7 +189,7 @@ export const DeathsightFocus: Bonus = {
   },
 };
 
-export const EarthFocus: Bonus = {
+export const EarthFocus: Focus = {
   name: "Earth Focus",
   jewel: {
     name: "Earth Sigil",
@@ -198,7 +200,7 @@ export const EarthFocus: Bonus = {
   },
 };
 
-export const FireFocus: Bonus = {
+export const FireFocus: Focus = {
   name: "Fire Focus",
   jewel: {
     name: "Fire Sigil",
@@ -209,7 +211,7 @@ export const FireFocus: Bonus = {
   },
 };
 
-export const MatterFocus: Bonus = {
+export const MatterFocus: Focus = {
   name: "Matter Focus",
   jewel: {
     name: "Dust Sigil",
@@ -220,7 +222,7 @@ export const MatterFocus: Bonus = {
   },
 };
 
-export const MindFocus: Bonus = {
+export const MindFocus: Focus = {
   name: "Mind Focus",
   jewel: {
     name: "Water Sigil",
@@ -231,7 +233,7 @@ export const MindFocus: Bonus = {
   },
 };
 
-export const PainworkingFocus: Bonus = {
+export const PainworkingFocus: Focus = {
   name: "Painworking Focus",
   jewel: {
     name: "Salt Crusted Sigil",
@@ -242,7 +244,7 @@ export const PainworkingFocus: Bonus = {
   },
 };
 
-export const SpiritFocus: Bonus = {
+export const SpiritFocus: Focus = {
   name: "Spirit Focus",
   jewel: {
     name: "Vapor Sigil",
@@ -253,7 +255,7 @@ export const SpiritFocus: Bonus = {
   },
 };
 
-export const WindFocus: Bonus = {
+export const WindFocus: Focus = {
   name: "Wind Focus",
   jewel: {
     name: "Air Sigil",

@@ -1,6 +1,8 @@
 import { Bonus, Dust, Liquid } from ".";
 
-export const Augmentation: Bonus = {
+export type Skill = Bonus;
+
+export const Augmentation: Skill = {
   name: "Augmentation",
   jewel: {
     name: "Airy Chaos Rune",
@@ -11,7 +13,7 @@ export const Augmentation: Bonus = {
   },
 };
 
-export const Axe: Bonus = {
+export const Axe: Skill = {
   name: "Axe",
   jewel: {
     name: "Earthen War Rune",
@@ -22,7 +24,7 @@ export const Axe: Bonus = {
   },
 };
 
-export const Battlesongs: Bonus = {
+export const Battlesongs: Skill = {
   name: "Battlesongs",
   jewel: {
     name: "Airy Primal Rune",
@@ -33,7 +35,7 @@ export const Battlesongs: Bonus = {
   },
 };
 
-export const Beastcraft: Bonus = {
+export const Beastcraft: Skill = {
   name: "Beastcraft",
   jewel: {
     name: "Earthen Primal Rune",
@@ -44,7 +46,7 @@ export const Beastcraft: Bonus = {
   },
 };
 
-export const BoneArmy: Bonus = {
+export const BoneArmy: Skill = {
   name: "Bone Army",
   jewel: {
     name: "Ashen Primal Rune",
@@ -55,7 +57,7 @@ export const BoneArmy: Bonus = {
   },
 };
 
-export const Subterranean: Bonus = {
+export const Subterranean: Skill = {
   name: "Subterranean",
   jewel: {
     name: "Fiery Chaos Rune",
@@ -66,7 +68,7 @@ export const Subterranean: Bonus = {
   },
 };
 
-export const CompositeBow: Bonus = {
+export const CompositeBow: Skill = {
   name: "Composite Bow",
   jewel: {
     name: "Airy War Rune",
@@ -77,7 +79,7 @@ export const CompositeBow: Bonus = {
   },
 };
 
-export const CriticalStrike: Bonus = {
+export const CriticalStrike: Skill = {
   name: "Critical Strike",
   jewel: {
     name: "Heated Battle Jewel",
@@ -88,7 +90,7 @@ export const CriticalStrike: Bonus = {
   },
 };
 
-export const Cursing: Bonus = {
+export const Cursing: Skill = {
   name: "Cursing",
   jewel: {
     name: "Blighted Primal Rune",
@@ -99,7 +101,7 @@ export const Cursing: Bonus = {
   },
 };
 
-export const Darkness: Bonus = {
+export const Darkness: Skill = {
   name: "Darkness",
   jewel: {
     name: "Icy Chaos Rune",
@@ -110,7 +112,7 @@ export const Darkness: Bonus = {
   },
 };
 
-export const Hammer: Bonus = {
+export const Hammer: Skill = {
   name: "Hammer",
   jewel: {
     name: "Fiery War Rune",
@@ -121,7 +123,7 @@ export const Hammer: Bonus = {
   },
 };
 
-export const HandToHand: Bonus = {
+export const HandToHand: Skill = {
   name: "Hand to Hand",
   jewel: {
     name: "Lightning Charged War Rune",
@@ -132,7 +134,7 @@ export const HandToHand: Bonus = {
   },
 };
 
-export const Hexing: Bonus = {
+export const Hexing: Skill = {
   name: "Hexing",
   jewel: {
     name: "Unholy Primal Rune",
@@ -143,7 +145,7 @@ export const Hexing: Bonus = {
   },
 };
 
-export const LeftAxe: Bonus = {
+export const LeftAxe: Skill = {
   name: "Left Axe",
   jewel: {
     name: "Icy War Rune",
@@ -154,7 +156,7 @@ export const LeftAxe: Bonus = {
   },
 };
 
-export const Mending: Bonus = {
+export const Mending: Skill = {
   name: "Mending",
   jewel: {
     name: "Watery Chaos Rune",
@@ -165,7 +167,7 @@ export const Mending: Bonus = {
   },
 };
 
-export const Pacification: Bonus = {
+export const Pacification: Skill = {
     name: "Pacification",
     jewel: {
       name: "Earthen Chaos Rune",
@@ -176,7 +178,7 @@ export const Pacification: Bonus = {
     },
   };
 
-export const Parry: Bonus = {
+export const Parry: Skill = {
   name: "Parry",
   jewel: {
     name: "Vapor Battle Jewel",
@@ -187,7 +189,7 @@ export const Parry: Bonus = {
   },
 };
 
-export const Runecarving: Bonus = {
+export const Runecarving: Skill = {
   name: "Runecarving",
   jewel: {
     name: "Heated Chaos Rune",
@@ -198,7 +200,7 @@ export const Runecarving: Bonus = {
   },
 };
 
-export const Shield: Bonus = {
+export const Shield: Skill = {
   name: "Shield",
   jewel: {
     name: "Fiery Battle Jewel",
@@ -209,7 +211,7 @@ export const Shield: Bonus = {
   },
 };
 
-export const Spear: Bonus = {
+export const Spear: Skill = {
   name: "Spear",
   jewel: {
     name: "Heated War Rune",
@@ -220,7 +222,7 @@ export const Spear: Bonus = {
   },
 };
 
-export const Staff: Bonus = {
+export const Staff: Skill = {
   name: "Staff",
   jewel: {
     name: "Earthen Battle Jewel",
@@ -231,7 +233,7 @@ export const Staff: Bonus = {
   },
 };
 
-export const Stealth: Bonus = {
+export const Stealth: Skill = {
   name: "Stealth",
   jewel: {
     name: "Airy Battle Jewel",
@@ -242,7 +244,7 @@ export const Stealth: Bonus = {
   },
 };
 
-export const Stormcalling: Bonus = {
+export const Stormcalling: Skill = {
   name: "Stormcalling",
   jewel: {
     name: "Fiery Primal Rune",
@@ -253,7 +255,7 @@ export const Stormcalling: Bonus = {
   },
 };
 
-export const Summoning: Bonus = {
+export const Summoning: Skill = {
   name: "Summoning",
   jewel: {
     name: "Vapor Chaos Rune",
@@ -264,7 +266,7 @@ export const Summoning: Bonus = {
   },
 };
 
-export const Suppression: Bonus = {
+export const Suppression: Skill = {
   name: "Suppression",
   jewel: {
     name: "Dusty Chaos Rune",
@@ -275,7 +277,7 @@ export const Suppression: Bonus = {
   },
 };
 
-export const Sword: Bonus = {
+export const Sword: Skill = {
   name: "Sword",
   jewel: {
     name: "Watery War Rune",
@@ -286,7 +288,7 @@ export const Sword: Bonus = {
   },
 };
 
-export const ThrownWeapons: Bonus = {
+export const ThrownWeapons: Skill = {
   name: "Thrown Weapons",
   jewel: {
     name: "Vapor War Rune",
@@ -297,7 +299,7 @@ export const ThrownWeapons: Bonus = {
   },
 };
 
-export const ArborealPath: Bonus = {
+export const ArborealPath: Skill = {
   name: "Arboreal Path",
   jewel: {
     name: "Steaming Nature Spell Stone",
@@ -308,7 +310,7 @@ export const ArborealPath: Bonus = {
   },
 };
 
-export const Blades: Bonus = {
+export const Blades: Skill = {
   name: "Blades",
   jewel: {
     name: "Watery War Spell Stone",
@@ -319,7 +321,7 @@ export const Blades: Bonus = {
   },
 };
 
-export const Blunt: Bonus = {
+export const Blunt: Skill = {
   name: "Blunt",
   jewel: {
     name: "Fiery War Spell Stone",
@@ -330,7 +332,7 @@ export const Blunt: Bonus = {
   },
 };
 
-export const CelticDual: Bonus = {
+export const CelticDual: Skill = {
   name: "Celtic Dual",
   jewel: {
     name: "Icy War Spell Stone",
@@ -341,7 +343,7 @@ export const CelticDual: Bonus = {
   },
 };
 
-export const CelticSpear: Bonus = {
+export const CelticSpear: Skill = {
   name: "Celtic Spear",
   jewel: {
     name: "Earthen War Spell Stone",
@@ -352,7 +354,7 @@ export const CelticSpear: Bonus = {
   },
 };
 
-export const CreepingPath: Bonus = {
+export const CreepingPath: Skill = {
   name: "Creeping Path",
   jewel: {
     name: "Oozing Nature Spell Stone",
@@ -363,7 +365,7 @@ export const CreepingPath: Bonus = {
   },
 };
 
-export const Enchantment: Bonus = {
+export const Enchantment: Skill = {
   name: "Enchantment",
   jewel: {
     name: "Vapor Arcane Spell Stone",
@@ -374,7 +376,7 @@ export const Enchantment: Bonus = {
   },
 };
 
-export const LargeWeaponry: Bonus = {
+export const LargeWeaponry: Skill = {
   name: "Large Weaponry",
   jewel: {
     name: "Heated War Spell Stone",
@@ -385,7 +387,7 @@ export const LargeWeaponry: Bonus = {
   },
 };
 
-export const LightMagic: Bonus = {
+export const LightMagic: Skill = {
   name: "Light Magic",
   jewel: {
     name: "Fiery Arcane Spell Stone",
@@ -396,7 +398,7 @@ export const LightMagic: Bonus = {
   },
 };
 
-export const ManaMagic: Bonus = {
+export const ManaMagic: Skill = {
   name: "Mana Magic",
   jewel: {
     name: "Watery Arcane Spell Stone",
@@ -407,7 +409,7 @@ export const ManaMagic: Bonus = {
   },
 };
 
-export const Mentalism: Bonus = {
+export const Mentalism: Skill = {
   name: "Mentalism",
   jewel: {
     name: "Earthen Arcane Spell Stone",
@@ -418,7 +420,7 @@ export const Mentalism: Bonus = {
   },
 };
 
-export const Music: Bonus = {
+export const Music: Skill = {
   name: "Music",
   jewel: {
     name: "Airy Nature Spell Stone",
@@ -429,7 +431,7 @@ export const Music: Bonus = {
   },
 };
 
-export const Nature: Bonus = {
+export const Nature: Skill = {
   name: "Nature",
   jewel: {
     name: "Earthen Nature Spell Stone",
@@ -440,7 +442,7 @@ export const Nature: Bonus = {
   },
 };
 
-export const Nurture: Bonus = {
+export const Nurture: Skill = {
   name: "Nurture",
   jewel: {
     name: "Fiery Nature Spell Stone",
@@ -451,7 +453,7 @@ export const Nurture: Bonus = {
   },
 };
 
-export const Piercing: Bonus = {
+export const Piercing: Skill = {
   name: "Piercing",
   jewel: {
     name: "Dusty War Spell Stone",
@@ -462,7 +464,7 @@ export const Piercing: Bonus = {
   },
 };
 
-export const RecurveBow: Bonus = {
+export const RecurveBow: Skill = {
   name: "Recurve Bow",
   jewel: {
     name: "Airy War Spell Stone",
@@ -473,7 +475,7 @@ export const RecurveBow: Bonus = {
   },
 };
 
-export const Regrowth: Bonus = {
+export const Regrowth: Skill = {
   name: "Regrowth",
   jewel: {
     name: "Watery Nature Spell Stone",
@@ -484,7 +486,7 @@ export const Regrowth: Bonus = {
   },
 };
 
-export const Scythe: Bonus = {
+export const Scythe: Skill = {
   name: "Scythe",
   jewel: {
     name: "Light War Spell Stone",
@@ -495,7 +497,7 @@ export const Scythe: Bonus = {
   },
 };
 
-export const ShadowMastery: Bonus = {
+export const ShadowMastery: Skill = {
   name: "Shadow Mastery",
   jewel: {
     name: "Shadowy Arcane Spell Stone",
@@ -506,7 +508,7 @@ export const ShadowMastery: Bonus = {
   },
 };
 
-export const Valor: Bonus = {
+export const Valor: Skill = {
   name: "Valor",
   jewel: {
     name: "Airy Arcane Spell Stone",
@@ -517,7 +519,7 @@ export const Valor: Bonus = {
   },
 };
 
-export const VerdantPath: Bonus = {
+export const VerdantPath: Skill = {
   name: "Verdant Path",
   jewel: {
     name: "Mineral Encrusted Nature Spell Stone",
@@ -528,7 +530,7 @@ export const VerdantPath: Bonus = {
   },
 };
 
-export const VoidMagic: Bonus = {
+export const VoidMagic: Skill = {
   name: "Void Magic",
   jewel: {
     name: "Icy Arcane Spell Stone",
@@ -539,7 +541,7 @@ export const VoidMagic: Bonus = {
   },
 };
 
-export const BodyMagic: Bonus = {
+export const BodyMagic: Skill = {
   name: "Body Magic",
   jewel: {
     name: "Heated Evocation Sigil",
@@ -550,7 +552,7 @@ export const BodyMagic: Bonus = {
   },
 };
 
-export const Chants: Bonus = {
+export const Chants: Skill = {
   name: "Chants",
   jewel: {
     name: "Earthen Fervor Sigil",
@@ -561,7 +563,7 @@ export const Chants: Bonus = {
   },
 };
 
-export const ColdMagic: Bonus = {
+export const ColdMagic: Skill = {
   name: "Cold Magic",
   jewel: {
     name: "Icy Evocation Sigil",
@@ -572,7 +574,7 @@ export const ColdMagic: Bonus = {
   },
 };
 
-export const Crossbow: Bonus = {
+export const Crossbow: Skill = {
   name: "Crossbow",
   jewel: {
     name: "Vapor War Sigil",
@@ -583,7 +585,7 @@ export const Crossbow: Bonus = {
   },
 };
 
-export const Crush: Bonus = {
+export const Crush: Skill = {
   name: "Crush",
   jewel: {
     name: "Fiery War Sigil",
@@ -594,7 +596,7 @@ export const Crush: Bonus = {
   },
 };
 
-export const DeathServant: Bonus = {
+export const DeathServant: Skill = {
   name: "Death Servant",
   jewel: {
     name: "Ashen Fervor Sigil",
@@ -605,7 +607,7 @@ export const DeathServant: Bonus = {
   },
 };
 
-export const Deathsight: Bonus = {
+export const Deathsight: Skill = {
   name: "Deathsight",
   jewel: {
     name: "Vacuous Fervor Sigil",
@@ -616,7 +618,7 @@ export const Deathsight: Bonus = {
   },
 };
 
-export const DualWield: Bonus = {
+export const DualWield: Skill = {
   name: "Dual Wield",
   jewel: {
     name: "Icy War Sigil",
@@ -627,7 +629,7 @@ export const DualWield: Bonus = {
   },
 };
 
-export const EarthMagic: Bonus = {
+export const EarthMagic: Skill = {
   name: "Earth Magic",
   jewel: {
     name: "Earthen Evocation Sigil",
@@ -638,7 +640,7 @@ export const EarthMagic: Bonus = {
   },
 };
 
-export const Enhancement: Bonus = {
+export const Enhancement: Skill = {
   name: "Enhancement",
   jewel: {
     name: "Airy Fervor Sigil",
@@ -649,7 +651,7 @@ export const Enhancement: Bonus = {
   },
 };
 
-export const FireMagic: Bonus = {
+export const FireMagic: Skill = {
   name: "Fire Magic",
   jewel: {
     name: "Fiery Evocation Sigil",
@@ -660,7 +662,7 @@ export const FireMagic: Bonus = {
   },
 };
 
-export const Flexible: Bonus = {
+export const Flexible: Skill = {
   name: "Flexible",
   jewel: {
     name: "Molten Magma War Sigil",
@@ -671,7 +673,7 @@ export const Flexible: Bonus = {
   },
 };
 
-export const Instruments: Bonus = {
+export const Instruments: Skill = {
   name: "Instruments",
   jewel: {
     name: "Vapor Fervor Sigil",
@@ -682,7 +684,7 @@ export const Instruments: Bonus = {
   },
 };
 
-export const Longbow: Bonus = {
+export const Longbow: Skill = {
   name: "Longbow",
   jewel: {
     name: "Airy War Sigil",
@@ -693,7 +695,7 @@ export const Longbow: Bonus = {
   },
 };
 
-export const Envenom: Bonus = {
+export const Envenom: Skill = {
     name: "Envenom",
     jewel: {
       name: "Dusty Battle Jewel",
@@ -704,7 +706,7 @@ export const Envenom: Bonus = {
     },
   };
 
-export const MatterMagic: Bonus = {
+export const MatterMagic: Skill = {
   name: "Matter Magic",
   jewel: {
     name: "Dusty Evocation Sigil",
@@ -715,7 +717,7 @@ export const MatterMagic: Bonus = {
   },
 };
 
-export const MindMagic: Bonus = {
+export const MindMagic: Skill = {
   name: "Mind Magic",
   jewel: {
     name: "Watery Evocation Sigil",
@@ -726,7 +728,7 @@ export const MindMagic: Bonus = {
   },
 };
 
-export const Painworking: Bonus = {
+export const Painworking: Skill = {
   name: "Painworking",
   jewel: {
     name: "Salt Crusted Fervor Sigil",
@@ -737,7 +739,7 @@ export const Painworking: Bonus = {
   },
 };
 
-export const Polearm: Bonus = {
+export const Polearm: Skill = {
   name: "Polearm",
   jewel: {
     name: "Earthen War Sigil",
@@ -748,7 +750,7 @@ export const Polearm: Bonus = {
   },
 };
 
-export const Rejuvenation: Bonus = {
+export const Rejuvenation: Skill = {
   name: "Rejuvenation",
   jewel: {
     name: "Watery Fervor Sigil",
@@ -759,7 +761,7 @@ export const Rejuvenation: Bonus = {
   },
 };
 
-export const Slash: Bonus = {
+export const Slash: Skill = {
   name: "Slash",
   jewel: {
     name: "Watery War Sigil",
@@ -770,7 +772,7 @@ export const Slash: Bonus = {
   },
 };
 
-export const Smiting: Bonus = {
+export const Smiting: Skill = {
   name: "Smiting",
   jewel: {
     name: "Fiery Fervor Sigil",
@@ -781,7 +783,7 @@ export const Smiting: Bonus = {
   },
 };
 
-export const Soulrending: Bonus = {
+export const Soulrending: Skill = {
   name: "Soulrending",
   jewel: {
     name: "Steaming Fervor Sigil",
@@ -792,7 +794,7 @@ export const Soulrending: Bonus = {
   },
 };
 
-export const SpiritMagic: Bonus = {
+export const SpiritMagic: Skill = {
   name: "SpiritMagic",
   jewel: {
     name: "Vapor Evocation Sigil",
@@ -803,7 +805,7 @@ export const SpiritMagic: Bonus = {
   },
 };
 
-export const Thrust: Bonus = {
+export const Thrust: Skill = {
   name: "Thrust",
   jewel: {
     name: "Dusty War Sigil",
@@ -814,7 +816,7 @@ export const Thrust: Bonus = {
   },
 };
 
-export const TwoHanded: Bonus = {
+export const TwoHanded: Skill = {
   name: "Two Handed",
   jewel: {
     name: "Heated War Sigil",
@@ -825,7 +827,7 @@ export const TwoHanded: Bonus = {
   },
 };
 
-export const WindMagic: Bonus = {
+export const WindMagic: Skill = {
   name: "Wind Magic",
   jewel: {
     name: "Airy Evocation Sigil",

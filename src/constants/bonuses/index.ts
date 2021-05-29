@@ -36,6 +36,6 @@ export interface Jewel {
 }
 
 export interface Bonus {
-  name: string;
-  jewel: Jewel;
+  readonly name: string;
+  readonly jewel: Jewel;
 }

@@ -1,6 +1,8 @@
 import { Bonus, Dust, Liquid } from ".";
 
-export const Strength: Bonus = {
+export type Stat = Bonus;
+
+export const Strength: Stat = {
   name: "Strength",
   jewel: {
     name: "Fiery Essence Jewel",
@@ -11,7 +13,7 @@ export const Strength: Bonus = {
   },
 };
 
-export const Constitution: Bonus = {
+export const Constitution: Stat = {
   name: "Constitution",
   jewel: {
     name: "Earthen Essence Jewel",
@@ -22,7 +24,7 @@ export const Constitution: Bonus = {
   },
 };
 
-export const Dexterity: Bonus = {
+export const Dexterity: Stat = {
   name: "Dexterity",
   jewel: {
     name: "Vapor Essence Jewel",
@@ -33,7 +35,7 @@ export const Dexterity: Bonus = {
   },
 };
 
-export const Quickness: Bonus = {
+export const Quickness: Stat = {
   name: "Quickness",
   jewel: {
     name: "Airy Essence Jewel",
@@ -44,7 +46,7 @@ export const Quickness: Bonus = {
   },
 };
 
-export const Intelligence: Bonus = {
+export const Intelligence: Stat = {
   name: "Intelligence",
   jewel: {
     name: "Dusty Essence Jewel",
@@ -55,7 +57,7 @@ export const Intelligence: Bonus = {
   },
 };
 
-export const Piety: Bonus = {
+export const Piety: Stat = {
   name: "Piety",
   jewel: {
     name: "Watery Essence Jewel",
@@ -66,7 +68,7 @@ export const Piety: Bonus = {
   },
 };
 
-export const Charisma: Bonus = {
+export const Charisma: Stat = {
   name: "Charisma",
   jewel: {
     name: "Icy Essence Jewel",
@@ -77,7 +79,7 @@ export const Charisma: Bonus = {
   },
 };
 
-export const Empathy: Bonus = {
+export const Empathy: Stat = {
   name: "Empathy",
   jewel: {
     name: "Heated Essence Jewel",
@@ -88,7 +90,7 @@ export const Empathy: Bonus = {
   },
 };
 
-export const Hits: Bonus = {
+export const Hits: Stat = {
   name: "Hits",
   jewel: {
     name: "Blood Essence Jewel",
@@ -99,7 +101,7 @@ export const Hits: Bonus = {
   },
 };
 
-export const Power: Bonus = {
+export const Power: Stat = {
   name: "Power",
   jewel: {
     name: "Mystical Essence Jewel",
