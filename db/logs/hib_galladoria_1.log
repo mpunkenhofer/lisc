@@ -1,0 +1,3355 @@
+
+*** Chat Log Opened: Sun May 30 17:52:21 2021
+
+[17:52:21]                                       
+[17:52:24] You are no longer ready to sprint.
+[17:52:28] You whistle for your mount.
+[17:52:29] You are moving and cannot call your mount.
+[17:52:30] @@Lengar's Assistant says, "You can buy items here for Phoenix Feathers."
+[17:52:33] @@[LFG] Inilleala (29, Bard): needs xp grp
+[17:52:33] <Begin Info: Azure Incandescent Robe>
+[17:52:33] Usable by:
+[17:52:33] - Valewalker
+[17:52:33]  
+[17:52:33] Total Utility: 62
+[17:52:33]  
+[17:52:33] Magical Bonuses:
+[17:52:33] 18.00 | Intelligence: +27 pts
+[17:52:33] 14.00 | Hits: +56 pts
+[17:52:33] 15.00 | Arboreal: +3 pts
+[17:52:33] 15.00 | Scythe: +3 pts
+[17:52:33]  
+[17:52:33] Level Requirement: 50 Level
+[17:52:33]  
+[17:52:33] Magical Ability:
+[17:52:33] Heals the target.
+[17:52:33]  
+[17:52:33] Value: 180
+[17:52:33] Target: Self
+[17:52:33] Casting time: instant
+[17:52:33]  
+[17:52:33] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:33]  
+[17:52:33] Armor Modifiers:
+[17:52:33] - 51 Base Factor
+[17:52:33] - 51 Clamped Factor
+[17:52:33] - 0% Absorption
+[17:52:33] - 100% Quality
+[17:52:33] - 100% Condition
+[17:52:33]  
+[17:52:33] Effective Armor:
+[17:52:33] - 51 Factor
+[17:52:33] <End Info>
+[17:52:34] <Begin Info: Azure Incandescent Leggings>
+[17:52:34] Usable by:
+[17:52:34] - Valewalker
+[17:52:34]  
+[17:52:34] Total Utility: 62
+[17:52:34]  
+[17:52:34] Magical Bonuses:
+[17:52:34] 18.00 | Intelligence: +27 pts
+[17:52:34] 14.00 | Hits: +56 pts
+[17:52:34] 15.00 | Arboreal: +3 pts
+[17:52:34] 15.00 | Scythe: +3 pts
+[17:52:34]  
+[17:52:34] Level Requirement: 50 Level
+[17:52:34]  
+[17:52:34] Magical Ability:
+[17:52:34] Function: melee health buffer
+[17:52:34] 
+[17:52:34] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:34] 
+[17:52:34] Absorption: 50%
+[17:52:34] Value: 150
+[17:52:34] Target: Self
+[17:52:34] Duration: 10:00 min
+[17:52:34] Casting time: Instant
+[17:52:34] Function: melee health buffer
+[17:52:34]  
+[17:52:34] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:34]  
+[17:52:34] Armor Modifiers:
+[17:52:34] - 51 Base Factor
+[17:52:34] - 51 Clamped Factor
+[17:52:34] - 0% Absorption
+[17:52:34] - 100% Quality
+[17:52:34] - 100% Condition
+[17:52:34]  
+[17:52:34] Effective Armor:
+[17:52:34] - 51 Factor
+[17:52:34] <End Info>
+[17:52:35] <Begin Info: Azure Incandescent Sleeves>
+[17:52:35] Usable by:
+[17:52:35] - Valewalker
+[17:52:35]  
+[17:52:35] Total Utility: 56
+[17:52:35]  
+[17:52:35] Magical Bonuses:
+[17:52:35] 18.00 | Dexterity: +27 pts
+[17:52:35] 8.00 | Power: +8 pts
+[17:52:35] 15.00 | Parry: +3 pts
+[17:52:35] 15.00 | Arboreal: +3 pts
+[17:52:35]  
+[17:52:35] Level Requirement: 50 Level
+[17:52:35]  
+[17:52:35] Magical Ability:
+[17:52:35] Function: melee health buffer
+[17:52:35] 
+[17:52:35] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:35] 
+[17:52:35] Absorption: 50%
+[17:52:35] Value: 150
+[17:52:35] Target: Self
+[17:52:35] Duration: 10:00 min
+[17:52:35] Casting time: Instant
+[17:52:35] Function: melee health buffer
+[17:52:35]  
+[17:52:35] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:35]  
+[17:52:35] Armor Modifiers:
+[17:52:35] - 51 Base Factor
+[17:52:35] - 51 Clamped Factor
+[17:52:35] - 0% Absorption
+[17:52:35] - 100% Quality
+[17:52:35] - 100% Condition
+[17:52:35]  
+[17:52:35] Effective Armor:
+[17:52:35] - 51 Factor
+[17:52:35] <End Info>
+[17:52:35] <Begin Info: Azure Incandescent Gloves>
+[17:52:35] Usable by:
+[17:52:35] - Valewalker
+[17:52:35]  
+[17:52:35] Total Utility: 60
+[17:52:35]  
+[17:52:35] Magical Bonuses:
+[17:52:35] 12.00 | Dexterity: +18 pts
+[17:52:35] 18.00 | Crush: +9 %
+[17:52:35] 16.00 | Heat: +8 %
+[17:52:35] 14.00 | Matter: +7 %
+[17:52:35]  
+[17:52:35] Level Requirement: 50 Level
+[17:52:35]  
+[17:52:35] Magical Ability:
+[17:52:35] Damages the target.
+[17:52:35] 
+[17:52:35] Damage: 95
+[17:52:35] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:35] Target: Enemy Target
+[17:52:35] Range: 1500
+[17:52:35] Damage Type: Cold
+[17:52:35] Casting time: Instant
+[17:52:35]  
+[17:52:35] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:35]  
+[17:52:35] Armor Modifiers:
+[17:52:35] - 51 Base Factor
+[17:52:35] - 51 Clamped Factor
+[17:52:35] - 0% Absorption
+[17:52:35] - 100% Quality
+[17:52:35] - 100% Condition
+[17:52:35]  
+[17:52:35] Effective Armor:
+[17:52:35] - 51 Factor
+[17:52:35] <End Info>
+[17:52:36] <Begin Info: Azure Incandescent Boots>
+[17:52:36] Usable by:
+[17:52:36] - Valewalker
+[17:52:36]  
+[17:52:36] Total Utility: 60
+[17:52:36]  
+[17:52:36] Magical Bonuses:
+[17:52:36] 12.00 | Constitution: +18 pts
+[17:52:36] 14.00 | Body: +7 %
+[17:52:36] 16.00 | Cold: +8 %
+[17:52:36] 18.00 | Slash: +9 %
+[17:52:36]  
+[17:52:36] Level Requirement: 50 Level
+[17:52:36]  
+[17:52:36] Magical Ability:
+[17:52:36] Damages the target.
+[17:52:36] 
+[17:52:36] Damage: 95
+[17:52:36] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:36] Target: Enemy Target
+[17:52:36] Range: 1500
+[17:52:36] Damage Type: Cold
+[17:52:36] Casting time: Instant
+[17:52:36]  
+[17:52:36] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:36]  
+[17:52:36] Armor Modifiers:
+[17:52:36] - 51 Base Factor
+[17:52:36] - 51 Clamped Factor
+[17:52:36] - 0% Absorption
+[17:52:36] - 100% Quality
+[17:52:36] - 100% Condition
+[17:52:36]  
+[17:52:36] Effective Armor:
+[17:52:36] - 51 Factor
+[17:52:36] <End Info>
+[17:52:37] <Begin Info: Azure Incandescent Crown>
+[17:52:37] Usable by:
+[17:52:37] - Valewalker
+[17:52:37]  
+[17:52:37] Total Utility: 60
+[17:52:37]  
+[17:52:37] Magical Bonuses:
+[17:52:37] 12.00 | Constitution: +18 pts
+[17:52:37] 16.00 | Energy: +8 %
+[17:52:37] 14.00 | Spirit: +7 %
+[17:52:37] 18.00 | Thrust: +9 %
+[17:52:37]  
+[17:52:37] Level Requirement: 50 Level
+[17:52:37]  
+[17:52:37] Magical Ability:
+[17:52:37] Damages the target.
+[17:52:37] 
+[17:52:37] Damage: 95
+[17:52:37] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:37] Target: Enemy Target
+[17:52:37] Range: 1500
+[17:52:37] Damage Type: Cold
+[17:52:37] Casting time: Instant
+[17:52:37]  
+[17:52:37] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:37]  
+[17:52:37] Armor Modifiers:
+[17:52:37] - 51 Base Factor
+[17:52:37] - 51 Clamped Factor
+[17:52:37] - 0% Absorption
+[17:52:37] - 100% Quality
+[17:52:37] - 100% Condition
+[17:52:37]  
+[17:52:37] Effective Armor:
+[17:52:37] - 51 Factor
+[17:52:37] <End Info>
+[17:52:38] <Begin Info: Globule Covered Robe>
+[17:52:38] Usable by:
+[17:52:38] - Eldritch
+[17:52:38]  
+[17:52:38] Total Utility: 72
+[17:52:38] Single Skill Utility: 57
+[17:52:38]  
+[17:52:38] Magical Bonuses:
+[17:52:38] 18.00 | Intelligence: +27 pts
+[17:52:38] 14.00 | Hits: +56 pts
+[17:52:38] 10.00 | Dexterity: +15 pts
+[17:52:38] 30.00 | ALL magic skills: +3 pts
+[17:52:38]  
+[17:52:38] Level Requirement: 50 Level
+[17:52:38]  
+[17:52:38] Magical Ability:
+[17:52:38] Heals the target.
+[17:52:38]  
+[17:52:38] Value: 180
+[17:52:38] Target: Self
+[17:52:38] Casting time: instant
+[17:52:38]  
+[17:52:38] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:38]  
+[17:52:38] Armor Modifiers:
+[17:52:38] - 51 Base Factor
+[17:52:38] - 51 Clamped Factor
+[17:52:38] - 0% Absorption
+[17:52:38] - 100% Quality
+[17:52:38] - 100% Condition
+[17:52:38]  
+[17:52:38] Effective Armor:
+[17:52:38] - 51 Factor
+[17:52:38] <End Info>
+[17:52:39] <Begin Info: Globule Covered Pants>
+[17:52:39] Usable by:
+[17:52:39] - Eldritch
+[17:52:39]  
+[17:52:39] Total Utility: 72
+[17:52:39] Single Skill Utility: 57
+[17:52:39]  
+[17:52:39] Magical Bonuses:
+[17:52:39] 10.00 | Constitution: +15 pts
+[17:52:39] 18.00 | Intelligence: +27 pts
+[17:52:39] 14.00 | Hits: +56 pts
+[17:52:39] 30.00 | ALL magic skills: +3 pts
+[17:52:39]  
+[17:52:39] Level Requirement: 50 Level
+[17:52:39]  
+[17:52:39] Magical Ability:
+[17:52:39] Function: melee health buffer
+[17:52:39] 
+[17:52:39] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:39] 
+[17:52:39] Absorption: 50%
+[17:52:39] Value: 150
+[17:52:39] Target: Self
+[17:52:39] Duration: 10:00 min
+[17:52:39] Casting time: Instant
+[17:52:39] Function: melee health buffer
+[17:52:39]  
+[17:52:39] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:39]  
+[17:52:39] Armor Modifiers:
+[17:52:39] - 51 Base Factor
+[17:52:39] - 51 Clamped Factor
+[17:52:39] - 0% Absorption
+[17:52:39] - 100% Quality
+[17:52:39] - 100% Condition
+[17:52:39]  
+[17:52:39] Effective Armor:
+[17:52:39] - 51 Factor
+[17:52:39] <End Info>
+[17:52:40] <Begin Info: Globule Covered Sleeves>
+[17:52:40] Usable by:
+[17:52:40] - Eldritch
+[17:52:40]  
+[17:52:40] Total Utility: 64.667
+[17:52:40] Single Skill Utility: 49.667
+[17:52:40]  
+[17:52:40] Magical Bonuses:
+[17:52:40] 18.67 | Constitution: +28 pts
+[17:52:40] 10.00 | Intelligence: +15 pts
+[17:52:40] 6.00 | Power: +6 pts
+[17:52:40] 30.00 | ALL magic skills: +3 pts
+[17:52:40]  
+[17:52:40] Level Requirement: 50 Level
+[17:52:40]  
+[17:52:40] Magical Ability:
+[17:52:40] Function: melee health buffer
+[17:52:40] 
+[17:52:40] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:40] 
+[17:52:40] Absorption: 50%
+[17:52:40] Value: 150
+[17:52:40] Target: Self
+[17:52:40] Duration: 10:00 min
+[17:52:40] Casting time: Instant
+[17:52:40] Function: melee health buffer
+[17:52:40]  
+[17:52:40] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:40]  
+[17:52:40] Armor Modifiers:
+[17:52:40] - 51 Base Factor
+[17:52:40] - 51 Clamped Factor
+[17:52:40] - 0% Absorption
+[17:52:40] - 100% Quality
+[17:52:40] - 100% Condition
+[17:52:40]  
+[17:52:40] Effective Armor:
+[17:52:40] - 51 Factor
+[17:52:40] <End Info>
+[17:52:41] <Begin Info: Globule Covered Gloves>
+[17:52:41] Usable by:
+[17:52:41] - Eldritch
+[17:52:41]  
+[17:52:41] Total Utility: 60
+[17:52:41]  
+[17:52:41] Magical Bonuses:
+[17:52:41] 12.00 | Constitution: +18 pts
+[17:52:41] 18.00 | Crush: +9 %
+[17:52:41] 16.00 | Slash: +8 %
+[17:52:41] 14.00 | Thrust: +7 %
+[17:52:41]  
+[17:52:41] Level Requirement: 50 Level
+[17:52:41]  
+[17:52:41] Magical Ability:
+[17:52:41] Damages the target.
+[17:52:41] 
+[17:52:41] Damage: 95
+[17:52:41] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:41] Target: Enemy Target
+[17:52:41] Range: 1500
+[17:52:41] Damage Type: Cold
+[17:52:41] Casting time: Instant
+[17:52:41]  
+[17:52:41] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:41]  
+[17:52:41] Armor Modifiers:
+[17:52:41] - 51 Base Factor
+[17:52:41] - 51 Clamped Factor
+[17:52:41] - 0% Absorption
+[17:52:41] - 100% Quality
+[17:52:41] - 100% Condition
+[17:52:41]  
+[17:52:41] Effective Armor:
+[17:52:41] - 51 Factor
+[17:52:41] <End Info>
+[17:52:41] <Begin Info: Globule Covered Boots>
+[17:52:41] Usable by:
+[17:52:41] - Eldritch
+[17:52:41]  
+[17:52:41] Total Utility: 60
+[17:52:41]  
+[17:52:41] Magical Bonuses:
+[17:52:41] 12.00 | Dexterity: +18 pts
+[17:52:41] 16.00 | Cold: +8 %
+[17:52:41] 14.00 | Energy: +7 %
+[17:52:41] 18.00 | Heat: +9 %
+[17:52:41]  
+[17:52:41] Level Requirement: 50 Level
+[17:52:41]  
+[17:52:41] Magical Ability:
+[17:52:41] Damages the target.
+[17:52:41] 
+[17:52:41] Damage: 95
+[17:52:41] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:41] Target: Enemy Target
+[17:52:41] Range: 1500
+[17:52:41] Damage Type: Cold
+[17:52:41] Casting time: Instant
+[17:52:41]  
+[17:52:41] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:41]  
+[17:52:41] Armor Modifiers:
+[17:52:41] - 51 Base Factor
+[17:52:41] - 51 Clamped Factor
+[17:52:41] - 0% Absorption
+[17:52:41] - 100% Quality
+[17:52:41] - 100% Condition
+[17:52:41]  
+[17:52:41] Effective Armor:
+[17:52:41] - 51 Factor
+[17:52:41] <End Info>
+[17:52:42] <Begin Info: Globule Covered Crown>
+[17:52:42] Usable by:
+[17:52:42] - Eldritch
+[17:52:42]  
+[17:52:42] Total Utility: 60
+[17:52:42]  
+[17:52:42] Magical Bonuses:
+[17:52:42] 12.00 | Dexterity: +18 pts
+[17:52:42] 16.00 | Body: +8 %
+[17:52:42] 18.00 | Matter: +9 %
+[17:52:42] 14.00 | Spirit: +7 %
+[17:52:42]  
+[17:52:42] Level Requirement: 50 Level
+[17:52:42]  
+[17:52:42] Magical Ability:
+[17:52:42] Damages the target.
+[17:52:42] 
+[17:52:42] Damage: 95
+[17:52:42] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:42] Target: Enemy Target
+[17:52:42] Range: 1500
+[17:52:42] Damage Type: Cold
+[17:52:42] Casting time: Instant
+[17:52:42]  
+[17:52:42] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:42]  
+[17:52:42] Armor Modifiers:
+[17:52:42] - 51 Base Factor
+[17:52:42] - 51 Clamped Factor
+[17:52:42] - 0% Absorption
+[17:52:42] - 100% Quality
+[17:52:42] - 100% Condition
+[17:52:42]  
+[17:52:42] Effective Armor:
+[17:52:42] - 51 Factor
+[17:52:42] <End Info>
+[17:52:43] <Begin Info: Striated Blood Vine Robe>
+[17:52:43] Usable by:
+[17:52:43] - Enchanter
+[17:52:43]  
+[17:52:43] Total Utility: 72
+[17:52:43] Single Skill Utility: 57
+[17:52:43]  
+[17:52:43] Magical Bonuses:
+[17:52:43] 18.00 | Intelligence: +27 pts
+[17:52:43] 14.00 | Hits: +56 pts
+[17:52:43] 10.00 | Dexterity: +15 pts
+[17:52:43] 30.00 | ALL magic skills: +3 pts
+[17:52:43]  
+[17:52:43] Level Requirement: 50 Level
+[17:52:43]  
+[17:52:43] Magical Ability:
+[17:52:43] Heals the target.
+[17:52:43]  
+[17:52:43] Value: 180
+[17:52:43] Target: Self
+[17:52:43] Casting time: instant
+[17:52:43]  
+[17:52:43] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:43]  
+[17:52:43] Armor Modifiers:
+[17:52:43] - 51 Base Factor
+[17:52:43] - 51 Clamped Factor
+[17:52:43] - 0% Absorption
+[17:52:43] - 100% Quality
+[17:52:43] - 100% Condition
+[17:52:43]  
+[17:52:43] Effective Armor:
+[17:52:43] - 51 Factor
+[17:52:43] <End Info>
+[17:52:44] <Begin Info: Striated Blood Vine Pants>
+[17:52:44] Usable by:
+[17:52:44] - Enchanter
+[17:52:44]  
+[17:52:44] Total Utility: 72
+[17:52:44] Single Skill Utility: 57
+[17:52:44]  
+[17:52:44] Magical Bonuses:
+[17:52:44] 10.00 | Constitution: +15 pts
+[17:52:44] 18.00 | Intelligence: +27 pts
+[17:52:44] 14.00 | Hits: +56 pts
+[17:52:44] 30.00 | ALL magic skills: +3 pts
+[17:52:44]  
+[17:52:44] Level Requirement: 50 Level
+[17:52:44]  
+[17:52:44] Magical Ability:
+[17:52:44] Function: melee health buffer
+[17:52:44] 
+[17:52:44] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:44] 
+[17:52:44] Absorption: 50%
+[17:52:44] Value: 150
+[17:52:44] Target: Self
+[17:52:44] Duration: 10:00 min
+[17:52:44] Casting time: Instant
+[17:52:44] Function: melee health buffer
+[17:52:44]  
+[17:52:44] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:44]  
+[17:52:44] Armor Modifiers:
+[17:52:44] - 51 Base Factor
+[17:52:44] - 51 Clamped Factor
+[17:52:44] - 0% Absorption
+[17:52:44] - 100% Quality
+[17:52:44] - 100% Condition
+[17:52:44]  
+[17:52:44] Effective Armor:
+[17:52:44] - 51 Factor
+[17:52:44] <End Info>
+[17:52:45] <Begin Info: Striated Blood Vine Sleeves>
+[17:52:45] Usable by:
+[17:52:45] - Enchanter
+[17:52:45]  
+[17:52:45] Total Utility: 56
+[17:52:45]  
+[17:52:45] Magical Bonuses:
+[17:52:45] 20.00 | Dexterity: +30 pts
+[17:52:45] 6.00 | Power: +6 pts
+[17:52:45] 15.00 | Mana Magic: +3 pts
+[17:52:45] 15.00 | Enchantment: +3 pts
+[17:52:45]  
+[17:52:45] Level Requirement: 50 Level
+[17:52:45]  
+[17:52:45] Magical Ability:
+[17:52:45] Function: melee health buffer
+[17:52:45] 
+[17:52:45] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:45] 
+[17:52:45] Absorption: 50%
+[17:52:45] Value: 150
+[17:52:45] Target: Self
+[17:52:45] Duration: 10:00 min
+[17:52:45] Casting time: Instant
+[17:52:45] Function: melee health buffer
+[17:52:45]  
+[17:52:45] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:45]  
+[17:52:45] Armor Modifiers:
+[17:52:45] - 51 Base Factor
+[17:52:45] - 51 Clamped Factor
+[17:52:45] - 0% Absorption
+[17:52:45] - 100% Quality
+[17:52:45] - 100% Condition
+[17:52:45]  
+[17:52:45] Effective Armor:
+[17:52:45] - 51 Factor
+[17:52:45] <End Info>
+[17:52:46] <Begin Info: Striated Blood Vine Hand>
+[17:52:46] Usable by:
+[17:52:46] - Enchanter
+[17:52:46]  
+[17:52:46] Total Utility: 60
+[17:52:46]  
+[17:52:46] Magical Bonuses:
+[17:52:46] 12.00 | Dexterity: +18 pts
+[17:52:46] 18.00 | Crush: +9 %
+[17:52:46] 16.00 | Heat: +8 %
+[17:52:46] 14.00 | Matter: +7 %
+[17:52:46]  
+[17:52:46] Level Requirement: 50 Level
+[17:52:46]  
+[17:52:46] Magical Ability:
+[17:52:46] Damages the target.
+[17:52:46] 
+[17:52:46] Damage: 95
+[17:52:46] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:46] Target: Enemy Target
+[17:52:46] Range: 1500
+[17:52:46] Damage Type: Cold
+[17:52:46] Casting time: Instant
+[17:52:46]  
+[17:52:46] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:46]  
+[17:52:46] Armor Modifiers:
+[17:52:46] - 51 Base Factor
+[17:52:46] - 51 Clamped Factor
+[17:52:46] - 0% Absorption
+[17:52:46] - 100% Quality
+[17:52:46] - 100% Condition
+[17:52:46]  
+[17:52:46] Effective Armor:
+[17:52:46] - 51 Factor
+[17:52:46] <End Info>
+[17:52:46] @@[LFG] Kaalii (30, Bard): xp no fz
+[17:52:47] <Begin Info: Striated Blood Vine Boots>
+[17:52:47] Usable by:
+[17:52:47] - Enchanter
+[17:52:47]  
+[17:52:47] Total Utility: 60
+[17:52:47]  
+[17:52:47] Magical Bonuses:
+[17:52:47] 12.00 | Constitution: +18 pts
+[17:52:47] 14.00 | Body: +7 %
+[17:52:47] 16.00 | Cold: +8 %
+[17:52:47] 18.00 | Slash: +9 %
+[17:52:47]  
+[17:52:47] Level Requirement: 50 Level
+[17:52:47]  
+[17:52:47] Magical Ability:
+[17:52:47] Damages the target.
+[17:52:47] 
+[17:52:47] Damage: 95
+[17:52:47] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:47] Target: Enemy Target
+[17:52:47] Range: 1500
+[17:52:47] Damage Type: Cold
+[17:52:47] Casting time: Instant
+[17:52:47]  
+[17:52:47] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:47]  
+[17:52:47] Armor Modifiers:
+[17:52:47] - 51 Base Factor
+[17:52:47] - 51 Clamped Factor
+[17:52:47] - 0% Absorption
+[17:52:47] - 100% Quality
+[17:52:47] - 100% Condition
+[17:52:47]  
+[17:52:47] Effective Armor:
+[17:52:47] - 51 Factor
+[17:52:47] <End Info>
+[17:52:48] <Begin Info: Striated Blood Vine Boots>
+[17:52:48] Usable by:
+[17:52:48] - Enchanter
+[17:52:48]  
+[17:52:48] Total Utility: 60
+[17:52:48]  
+[17:52:48] Magical Bonuses:
+[17:52:48] 12.00 | Constitution: +18 pts
+[17:52:48] 14.00 | Body: +7 %
+[17:52:48] 16.00 | Cold: +8 %
+[17:52:48] 18.00 | Slash: +9 %
+[17:52:48]  
+[17:52:48] Level Requirement: 50 Level
+[17:52:48]  
+[17:52:48] Magical Ability:
+[17:52:48] Damages the target.
+[17:52:48] 
+[17:52:48] Damage: 95
+[17:52:48] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:48] Target: Enemy Target
+[17:52:48] Range: 1500
+[17:52:48] Damage Type: Cold
+[17:52:48] Casting time: Instant
+[17:52:48]  
+[17:52:48] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:48]  
+[17:52:48] Armor Modifiers:
+[17:52:48] - 51 Base Factor
+[17:52:48] - 51 Clamped Factor
+[17:52:48] - 0% Absorption
+[17:52:48] - 100% Quality
+[17:52:48] - 100% Condition
+[17:52:48]  
+[17:52:48] Effective Armor:
+[17:52:48] - 51 Factor
+[17:52:48] <End Info>
+[17:52:50] @@[LFG] Radgeirr (12, Enchanter): XP :)
+[17:52:54] <Begin Info: Striated Blood Vine Crown>
+[17:52:54] Usable by:
+[17:52:54] - Enchanter
+[17:52:54]  
+[17:52:54] Total Utility: 60
+[17:52:54]  
+[17:52:54] Magical Bonuses:
+[17:52:54] 12.00 | Constitution: +18 pts
+[17:52:54] 16.00 | Energy: +8 %
+[17:52:54] 14.00 | Spirit: +7 %
+[17:52:54] 18.00 | Thrust: +9 %
+[17:52:54]  
+[17:52:54] Level Requirement: 50 Level
+[17:52:54]  
+[17:52:54] Magical Ability:
+[17:52:54] Damages the target.
+[17:52:54] 
+[17:52:54] Damage: 95
+[17:52:54] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:54] Target: Enemy Target
+[17:52:54] Range: 1500
+[17:52:54] Damage Type: Cold
+[17:52:54] Casting time: Instant
+[17:52:54]  
+[17:52:54] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:54]  
+[17:52:54] Armor Modifiers:
+[17:52:54] - 51 Base Factor
+[17:52:54] - 51 Clamped Factor
+[17:52:54] - 0% Absorption
+[17:52:54] - 100% Quality
+[17:52:54] - 100% Condition
+[17:52:54]  
+[17:52:54] Effective Armor:
+[17:52:54] - 51 Factor
+[17:52:54] <End Info>
+[17:52:55] <Begin Info: Virulent Sporite Robe>
+[17:52:55] Usable by:
+[17:52:55] - Mentalist
+[17:52:55]  
+[17:52:55] Total Utility: 72
+[17:52:55] Single Skill Utility: 57
+[17:52:55]  
+[17:52:55] Magical Bonuses:
+[17:52:55] 18.00 | Intelligence: +27 pts
+[17:52:55] 14.00 | Hits: +56 pts
+[17:52:55] 10.00 | Dexterity: +15 pts
+[17:52:55] 30.00 | ALL magic skills: +3 pts
+[17:52:55]  
+[17:52:55] Level Requirement: 50 Level
+[17:52:55]  
+[17:52:55] Magical Ability:
+[17:52:55] Heals the target.
+[17:52:55]  
+[17:52:55] Value: 180
+[17:52:55] Target: Self
+[17:52:55] Casting time: instant
+[17:52:55]  
+[17:52:55] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:55]  
+[17:52:55] Armor Modifiers:
+[17:52:55] - 51 Base Factor
+[17:52:55] - 51 Clamped Factor
+[17:52:55] - 0% Absorption
+[17:52:55] - 100% Quality
+[17:52:55] - 100% Condition
+[17:52:55]  
+[17:52:55] Effective Armor:
+[17:52:55] - 51 Factor
+[17:52:55] <End Info>
+[17:52:55] <Begin Info: Virulent Sporite Leggings>
+[17:52:55] Usable by:
+[17:52:55] - Mentalist
+[17:52:55]  
+[17:52:55] Total Utility: 72
+[17:52:55] Single Skill Utility: 57
+[17:52:55]  
+[17:52:55] Magical Bonuses:
+[17:52:55] 10.00 | Dexterity: +15 pts
+[17:52:55] 18.00 | Intelligence: +27 pts
+[17:52:55] 14.00 | Hits: +56 pts
+[17:52:55] 30.00 | ALL magic skills: +3 pts
+[17:52:55]  
+[17:52:55] Level Requirement: 50 Level
+[17:52:55]  
+[17:52:55] Magical Ability:
+[17:52:55] Function: melee health buffer
+[17:52:55] 
+[17:52:55] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:55] 
+[17:52:55] Absorption: 50%
+[17:52:55] Value: 150
+[17:52:55] Target: Self
+[17:52:55] Duration: 10:00 min
+[17:52:55] Casting time: Instant
+[17:52:55] Function: melee health buffer
+[17:52:55]  
+[17:52:55] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:55]  
+[17:52:55] Armor Modifiers:
+[17:52:55] - 51 Base Factor
+[17:52:55] - 51 Clamped Factor
+[17:52:55] - 0% Absorption
+[17:52:55] - 100% Quality
+[17:52:55] - 100% Condition
+[17:52:55]  
+[17:52:55] Effective Armor:
+[17:52:55] - 51 Factor
+[17:52:55] <End Info>
+[17:52:56] <Begin Info: Virulent Sporite Sleeves>
+[17:52:56] Usable by:
+[17:52:56] - Mentalist
+[17:52:56]  
+[17:52:56] Total Utility: 56
+[17:52:56]  
+[17:52:56] Magical Bonuses:
+[17:52:56] 18.00 | Dexterity: +27 pts
+[17:52:56] 8.00 | Power: +8 pts
+[17:52:56] 15.00 | Light Magic: +3 pts
+[17:52:56] 15.00 | Mana Magic: +3 pts
+[17:52:56]  
+[17:52:56] Level Requirement: 50 Level
+[17:52:56]  
+[17:52:56] Magical Ability:
+[17:52:56] Function: melee health buffer
+[17:52:56] 
+[17:52:56] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:52:56] 
+[17:52:56] Absorption: 50%
+[17:52:56] Value: 150
+[17:52:56] Target: Self
+[17:52:56] Duration: 10:00 min
+[17:52:56] Casting time: Instant
+[17:52:56] Function: melee health buffer
+[17:52:56]  
+[17:52:56] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:56]  
+[17:52:56] Armor Modifiers:
+[17:52:56] - 51 Base Factor
+[17:52:56] - 51 Clamped Factor
+[17:52:56] - 0% Absorption
+[17:52:56] - 100% Quality
+[17:52:56] - 100% Condition
+[17:52:56]  
+[17:52:56] Effective Armor:
+[17:52:56] - 51 Factor
+[17:52:56] <End Info>
+[17:52:57] <Begin Info: Virulent Sporite Gloves>
+[17:52:57] Usable by:
+[17:52:57] - Mentalist
+[17:52:57]  
+[17:52:57] Total Utility: 60
+[17:52:57]  
+[17:52:57] Magical Bonuses:
+[17:52:57] 12.00 | Dexterity: +18 pts
+[17:52:57] 18.00 | Crush: +9 %
+[17:52:57] 16.00 | Heat: +8 %
+[17:52:57] 14.00 | Matter: +7 %
+[17:52:57]  
+[17:52:57] Level Requirement: 50 Level
+[17:52:57]  
+[17:52:57] Magical Ability:
+[17:52:57] Damages the target.
+[17:52:57] 
+[17:52:57] Damage: 95
+[17:52:57] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:57] Target: Enemy Target
+[17:52:57] Range: 1500
+[17:52:57] Damage Type: Cold
+[17:52:57] Casting time: Instant
+[17:52:57]  
+[17:52:57] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:57]  
+[17:52:57] Armor Modifiers:
+[17:52:57] - 51 Base Factor
+[17:52:57] - 51 Clamped Factor
+[17:52:57] - 0% Absorption
+[17:52:57] - 100% Quality
+[17:52:57] - 100% Condition
+[17:52:57]  
+[17:52:57] Effective Armor:
+[17:52:57] - 51 Factor
+[17:52:57] <End Info>
+[17:52:58] <Begin Info: Virulent Sporite Boots>
+[17:52:58] Usable by:
+[17:52:58] - Mentalist
+[17:52:58]  
+[17:52:58] Total Utility: 60
+[17:52:58]  
+[17:52:58] Magical Bonuses:
+[17:52:58] 12.00 | Constitution: +18 pts
+[17:52:58] 14.00 | Body: +7 %
+[17:52:58] 16.00 | Cold: +8 %
+[17:52:58] 18.00 | Slash: +9 %
+[17:52:58]  
+[17:52:58] Level Requirement: 50 Level
+[17:52:58]  
+[17:52:58] Magical Ability:
+[17:52:58] Damages the target.
+[17:52:58] 
+[17:52:58] Damage: 95
+[17:52:58] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:58] Target: Enemy Target
+[17:52:58] Range: 1500
+[17:52:58] Damage Type: Cold
+[17:52:58] Casting time: Instant
+[17:52:58]  
+[17:52:58] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:58]  
+[17:52:58] Armor Modifiers:
+[17:52:58] - 51 Base Factor
+[17:52:58] - 51 Clamped Factor
+[17:52:58] - 0% Absorption
+[17:52:58] - 100% Quality
+[17:52:58] - 100% Condition
+[17:52:58]  
+[17:52:58] Effective Armor:
+[17:52:58] - 51 Factor
+[17:52:58] <End Info>
+[17:52:59] <Begin Info: Virulent Sporite Crown>
+[17:52:59] Usable by:
+[17:52:59] - Mentalist
+[17:52:59]  
+[17:52:59] Total Utility: 60
+[17:52:59]  
+[17:52:59] Magical Bonuses:
+[17:52:59] 12.00 | Constitution: +18 pts
+[17:52:59] 16.00 | Energy: +8 %
+[17:52:59] 14.00 | Spirit: +7 %
+[17:52:59] 18.00 | Thrust: +9 %
+[17:52:59]  
+[17:52:59] Level Requirement: 50 Level
+[17:52:59]  
+[17:52:59] Magical Ability:
+[17:52:59] Damages the target.
+[17:52:59] 
+[17:52:59] Damage: 95
+[17:52:59] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:52:59] Target: Enemy Target
+[17:52:59] Range: 1500
+[17:52:59] Damage Type: Cold
+[17:52:59] Casting time: Instant
+[17:52:59]  
+[17:52:59] - Spell has a chance of casting when enemy strikes at this armor.
+[17:52:59]  
+[17:52:59] Armor Modifiers:
+[17:52:59] - 51 Base Factor
+[17:52:59] - 51 Clamped Factor
+[17:52:59] - 0% Absorption
+[17:52:59] - 100% Quality
+[17:52:59] - 100% Condition
+[17:52:59]  
+[17:52:59] Effective Armor:
+[17:52:59] - 51 Factor
+[17:52:59] <End Info>
+[17:53:01] <Begin Info: Writhing Blackthorn Robe>
+[17:53:01] Usable by:
+[17:53:01] - Animist
+[17:53:01]  
+[17:53:01] Total Utility: 72
+[17:53:01] Single Skill Utility: 57
+[17:53:01]  
+[17:53:01] Magical Bonuses:
+[17:53:01] 18.00 | Intelligence: +27 pts
+[17:53:01] 14.00 | Hits: +56 pts
+[17:53:01] 10.00 | Dexterity: +15 pts
+[17:53:01] 30.00 | ALL magic skills: +3 pts
+[17:53:01]  
+[17:53:01] Level Requirement: 50 Level
+[17:53:01]  
+[17:53:01] Magical Ability:
+[17:53:01] Heals the target.
+[17:53:01]  
+[17:53:01] Value: 180
+[17:53:01] Target: Self
+[17:53:01] Casting time: instant
+[17:53:01]  
+[17:53:01] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:01]  
+[17:53:01] Armor Modifiers:
+[17:53:01] - 51 Base Factor
+[17:53:01] - 51 Clamped Factor
+[17:53:01] - 0% Absorption
+[17:53:01] - 100% Quality
+[17:53:01] - 100% Condition
+[17:53:01]  
+[17:53:01] Effective Armor:
+[17:53:01] - 51 Factor
+[17:53:01] <End Info>
+[17:53:01] <Begin Info: Writhing Blackthorn Leggings>
+[17:53:01] Usable by:
+[17:53:01] - Animist
+[17:53:01]  
+[17:53:01] Total Utility: 72
+[17:53:01] Single Skill Utility: 57
+[17:53:01]  
+[17:53:01] Magical Bonuses:
+[17:53:01] 10.00 | Dexterity: +15 pts
+[17:53:01] 18.00 | Intelligence: +27 pts
+[17:53:01] 14.00 | Hits: +56 pts
+[17:53:01] 30.00 | ALL magic skills: +3 pts
+[17:53:01]  
+[17:53:01] Level Requirement: 50 Level
+[17:53:01]  
+[17:53:01] Magical Ability:
+[17:53:01] Function: melee health buffer
+[17:53:01] 
+[17:53:01] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:01] 
+[17:53:01] Absorption: 50%
+[17:53:01] Value: 150
+[17:53:01] Target: Self
+[17:53:01] Duration: 10:00 min
+[17:53:01] Casting time: Instant
+[17:53:01] Function: melee health buffer
+[17:53:01]  
+[17:53:01] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:01]  
+[17:53:01] Armor Modifiers:
+[17:53:01] - 51 Base Factor
+[17:53:01] - 51 Clamped Factor
+[17:53:01] - 0% Absorption
+[17:53:01] - 100% Quality
+[17:53:01] - 100% Condition
+[17:53:01]  
+[17:53:01] Effective Armor:
+[17:53:01] - 51 Factor
+[17:53:01] <End Info>
+[17:53:02] <Begin Info: Writhing Blackthorn Sleeves>
+[17:53:02] Usable by:
+[17:53:02] - Animist
+[17:53:02]  
+[17:53:02] Total Utility: 66
+[17:53:02] Single Skill Utility: 51
+[17:53:02]  
+[17:53:02] Magical Bonuses:
+[17:53:02] 18.00 | Constitution: +27 pts
+[17:53:02] 10.00 | Intelligence: +15 pts
+[17:53:02] 8.00 | Power: +8 pts
+[17:53:02] 30.00 | ALL magic skills: +3 pts
+[17:53:02]  
+[17:53:02] Level Requirement: 50 Level
+[17:53:02]  
+[17:53:02] Magical Ability:
+[17:53:02] Function: melee health buffer
+[17:53:02] 
+[17:53:02] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:02] 
+[17:53:02] Absorption: 50%
+[17:53:02] Value: 150
+[17:53:02] Target: Self
+[17:53:02] Duration: 10:00 min
+[17:53:02] Casting time: Instant
+[17:53:02] Function: melee health buffer
+[17:53:02]  
+[17:53:02] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:02]  
+[17:53:02] Armor Modifiers:
+[17:53:02] - 51 Base Factor
+[17:53:02] - 51 Clamped Factor
+[17:53:02] - 0% Absorption
+[17:53:02] - 100% Quality
+[17:53:02] - 100% Condition
+[17:53:02]  
+[17:53:02] Effective Armor:
+[17:53:02] - 51 Factor
+[17:53:02] <End Info>
+[17:53:03] <Begin Info: Writhing Blackthorn Sleeves>
+[17:53:03] Usable by:
+[17:53:03] - Animist
+[17:53:03]  
+[17:53:03] Total Utility: 66
+[17:53:03] Single Skill Utility: 51
+[17:53:03]  
+[17:53:03] Magical Bonuses:
+[17:53:03] 18.00 | Constitution: +27 pts
+[17:53:03] 10.00 | Intelligence: +15 pts
+[17:53:03] 8.00 | Power: +8 pts
+[17:53:03] 30.00 | ALL magic skills: +3 pts
+[17:53:03]  
+[17:53:03] Level Requirement: 50 Level
+[17:53:03]  
+[17:53:03] Magical Ability:
+[17:53:03] Function: melee health buffer
+[17:53:03] 
+[17:53:03] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:03] 
+[17:53:03] Absorption: 50%
+[17:53:03] Value: 150
+[17:53:03] Target: Self
+[17:53:03] Duration: 10:00 min
+[17:53:03] Casting time: Instant
+[17:53:03] Function: melee health buffer
+[17:53:03]  
+[17:53:03] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:03]  
+[17:53:03] Armor Modifiers:
+[17:53:03] - 51 Base Factor
+[17:53:03] - 51 Clamped Factor
+[17:53:03] - 0% Absorption
+[17:53:03] - 100% Quality
+[17:53:03] - 100% Condition
+[17:53:03]  
+[17:53:03] Effective Armor:
+[17:53:03] - 51 Factor
+[17:53:03] <End Info>
+[17:53:04] <Begin Info: Writhing Blackthorn Gloves>
+[17:53:04] Usable by:
+[17:53:04] - Animist
+[17:53:04]  
+[17:53:04] Total Utility: 60
+[17:53:04]  
+[17:53:04] Magical Bonuses:
+[17:53:04] 12.00 | Constitution: +18 pts
+[17:53:04] 18.00 | Crush: +9 %
+[17:53:04] 16.00 | Slash: +8 %
+[17:53:04] 14.00 | Thrust: +7 %
+[17:53:04]  
+[17:53:04] Level Requirement: 50 Level
+[17:53:04]  
+[17:53:04] Magical Ability:
+[17:53:04] Damages the target.
+[17:53:04] 
+[17:53:04] Damage: 95
+[17:53:04] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:04] Target: Enemy Target
+[17:53:04] Range: 1500
+[17:53:04] Damage Type: Cold
+[17:53:04] Casting time: Instant
+[17:53:04]  
+[17:53:04] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:04]  
+[17:53:04] Armor Modifiers:
+[17:53:04] - 51 Base Factor
+[17:53:04] - 51 Clamped Factor
+[17:53:04] - 0% Absorption
+[17:53:04] - 100% Quality
+[17:53:04] - 100% Condition
+[17:53:04]  
+[17:53:04] Effective Armor:
+[17:53:04] - 51 Factor
+[17:53:04] <End Info>
+[17:53:05] <Begin Info: Writhing Blackthorn Boots>
+[17:53:05] Usable by:
+[17:53:05] - Animist
+[17:53:05]  
+[17:53:05] Total Utility: 60
+[17:53:05]  
+[17:53:05] Magical Bonuses:
+[17:53:05] 12.00 | Intelligence: +18 pts
+[17:53:05] 16.00 | Cold: +8 %
+[17:53:05] 14.00 | Energy: +7 %
+[17:53:05] 18.00 | Heat: +9 %
+[17:53:05]  
+[17:53:05] Level Requirement: 50 Level
+[17:53:05]  
+[17:53:05] Magical Ability:
+[17:53:05] Damages the target.
+[17:53:05] 
+[17:53:05] Damage: 95
+[17:53:05] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:05] Target: Enemy Target
+[17:53:05] Range: 1500
+[17:53:05] Damage Type: Cold
+[17:53:05] Casting time: Instant
+[17:53:05]  
+[17:53:05] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:05]  
+[17:53:05] Armor Modifiers:
+[17:53:05] - 51 Base Factor
+[17:53:05] - 51 Clamped Factor
+[17:53:05] - 0% Absorption
+[17:53:05] - 100% Quality
+[17:53:05] - 100% Condition
+[17:53:05]  
+[17:53:05] Effective Armor:
+[17:53:05] - 51 Factor
+[17:53:05] <End Info>
+[17:53:06] <Begin Info: Writhing Blackthorn Crown>
+[17:53:06] Usable by:
+[17:53:06] - Animist
+[17:53:06]  
+[17:53:06] Total Utility: 60
+[17:53:06]  
+[17:53:06] Magical Bonuses:
+[17:53:06] 12.00 | Dexterity: +18 pts
+[17:53:06] 16.00 | Body: +8 %
+[17:53:06] 18.00 | Matter: +9 %
+[17:53:06] 14.00 | Spirit: +7 %
+[17:53:06]  
+[17:53:06] Level Requirement: 50 Level
+[17:53:06]  
+[17:53:06] Magical Ability:
+[17:53:06] Damages the target.
+[17:53:06] 
+[17:53:06] Damage: 95
+[17:53:06] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:06] Target: Enemy Target
+[17:53:06] Range: 1500
+[17:53:06] Damage Type: Cold
+[17:53:06] Casting time: Instant
+[17:53:06]  
+[17:53:06] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:06]  
+[17:53:06] Armor Modifiers:
+[17:53:06] - 51 Base Factor
+[17:53:06] - 51 Clamped Factor
+[17:53:06] - 0% Absorption
+[17:53:06] - 100% Quality
+[17:53:06] - 100% Condition
+[17:53:06]  
+[17:53:06] Effective Armor:
+[17:53:06] - 51 Factor
+[17:53:06] <End Info>
+[17:53:07] <Begin Info: Earthen Geomancer's Robe>
+[17:53:07] Usable by:
+[17:53:07] - Animist
+[17:53:07] - Mentalist
+[17:53:07] - Valewalker
+[17:53:07]  
+[17:53:07] Total Utility: 68
+[17:53:07]  
+[17:53:07] Magical Bonuses:
+[17:53:07] 16.00 | Intelligence: +24 pts
+[17:53:07] 16.00 | Hits: +64 pts
+[17:53:07] 18.00 | Cold: +9 %
+[17:53:07] 18.00 | Crush: +9 %
+[17:53:07]  
+[17:53:07] Level Requirement: 50 Level
+[17:53:07]  
+[17:53:07] Magical Ability:
+[17:53:07] Damages the target.
+[17:53:07] 
+[17:53:07] Damage: 95
+[17:53:07] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:07] Target: Enemy Target
+[17:53:07] Range: 1500
+[17:53:07] Damage Type: Energy
+[17:53:07] Casting time: Instant
+[17:53:07]  
+[17:53:07] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:07]  
+[17:53:07] Armor Modifiers:
+[17:53:07] - 51 Base Factor
+[17:53:07] - 51 Clamped Factor
+[17:53:07] - 0% Absorption
+[17:53:07] - 100% Quality
+[17:53:07] - 100% Condition
+[17:53:07]  
+[17:53:07] Effective Armor:
+[17:53:07] - 51 Factor
+[17:53:07] <End Info>
+[17:53:08] <Begin Info: Fiery Geomancer's Robe>
+[17:53:08] Usable by:
+[17:53:08] - Animist
+[17:53:08] - Eldritch
+[17:53:08] - Enchanter
+[17:53:08] - Valewalker
+[17:53:08]  
+[17:53:08] Total Utility: 68
+[17:53:08]  
+[17:53:08] Magical Bonuses:
+[17:53:08] 16.00 | Intelligence: +24 pts
+[17:53:08] 16.00 | Hits: +64 pts
+[17:53:08] 18.00 | Heat: +9 %
+[17:53:08] 18.00 | Thrust: +9 %
+[17:53:08]  
+[17:53:08] Level Requirement: 50 Level
+[17:53:08]  
+[17:53:08] Magical Ability:
+[17:53:08] Damages the target.
+[17:53:08] 
+[17:53:08] Damage: 95
+[17:53:08] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:08] Target: Enemy Target
+[17:53:08] Range: 1500
+[17:53:08] Damage Type: Energy
+[17:53:08] Casting time: Instant
+[17:53:08]  
+[17:53:08] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:08]  
+[17:53:08] Armor Modifiers:
+[17:53:08] - 51 Base Factor
+[17:53:08] - 51 Clamped Factor
+[17:53:08] - 0% Absorption
+[17:53:08] - 100% Quality
+[17:53:08] - 100% Condition
+[17:53:08]  
+[17:53:08] Effective Armor:
+[17:53:08] - 51 Factor
+[17:53:08] <End Info>
+[17:53:09] <Begin Info: Robe of Wailing Vines>
+[17:53:09]  
+[17:53:09] Total Utility: 72
+[17:53:09] Single Skill Utility: 57
+[17:53:09]  
+[17:53:09] Magical Bonuses:
+[17:53:09] 10.00 | Dexterity: +15 pts
+[17:53:09] 18.00 | Intelligence: +27 pts
+[17:53:09] 14.00 | Hits: +56 pts
+[17:53:09] 30.00 | ALL magic skills: +3 pts
+[17:53:09]  
+[17:53:09] Level Requirement: 50 Level
+[17:53:09]  
+[17:53:09] Magical Ability:
+[17:53:09] Heals the target.
+[17:53:09]  
+[17:53:09] Value: 180
+[17:53:09] Target: Self
+[17:53:09] Casting time: instant
+[17:53:09]  
+[17:53:09] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:09]  
+[17:53:09] Armor Modifiers:
+[17:53:09] - 51 Base Factor
+[17:53:09] - 51 Clamped Factor
+[17:53:09] - 0% Absorption
+[17:53:09] - 100% Quality
+[17:53:09] - 100% Condition
+[17:53:09]  
+[17:53:09] Effective Armor:
+[17:53:09] - 51 Factor
+[17:53:09] <End Info>
+[17:53:11] <Begin Info: Cured Blackthorn Vest>
+[17:53:11] Usable by:
+[17:53:11] - Nightshade
+[17:53:11]  
+[17:53:11] Total Utility: 64
+[17:53:11]  
+[17:53:11] Magical Bonuses:
+[17:53:11] 18.00 | Hits: +72 pts
+[17:53:11] 16.00 | Energy: +8 %
+[17:53:11] 15.00 | Critical Strike: +3 pts
+[17:53:11] 15.00 | Stealth: +3 pts
+[17:53:11]  
+[17:53:11] Level Requirement: 50 Level
+[17:53:11]  
+[17:53:11] Magical Ability:
+[17:53:11] Heals the target.
+[17:53:11]  
+[17:53:11] Value: 180
+[17:53:11] Target: Self
+[17:53:11] Casting time: instant
+[17:53:11]  
+[17:53:11] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:11]  
+[17:53:11] Armor Modifiers:
+[17:53:11] - 102 Base Factor
+[17:53:11] - 102 Clamped Factor
+[17:53:11] - 10% Absorption
+[17:53:11] - 100% Quality
+[17:53:11] - 100% Condition
+[17:53:11]  
+[17:53:11] Effective Armor:
+[17:53:11] - 112 Factor
+[17:53:11] <End Info>
+[17:53:12] <Begin Info: Cured Blackthorn Leggings>
+[17:53:12] Usable by:
+[17:53:12] - Nightshade
+[17:53:12]  
+[17:53:12] Total Utility: 59
+[17:53:12]  
+[17:53:12] Magical Bonuses:
+[17:53:12] 14.00 | Constitution: +21 pts
+[17:53:12] 10.00 | Hits: +40 pts
+[17:53:12] 20.00 | Cold: +10 %
+[17:53:12] 15.00 | Celtic Dual: +3 pts
+[17:53:12]  
+[17:53:12] Level Requirement: 50 Level
+[17:53:12]  
+[17:53:12] Magical Ability:
+[17:53:12] Function: melee health buffer
+[17:53:12] 
+[17:53:12] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:12] 
+[17:53:12] Absorption: 50%
+[17:53:12] Value: 150
+[17:53:12] Target: Self
+[17:53:12] Duration: 10:00 min
+[17:53:12] Casting time: Instant
+[17:53:12] Function: melee health buffer
+[17:53:12]  
+[17:53:12] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:12]  
+[17:53:12] Armor Modifiers:
+[17:53:12] - 102 Base Factor
+[17:53:12] - 102 Clamped Factor
+[17:53:12] - 10% Absorption
+[17:53:12] - 100% Quality
+[17:53:12] - 100% Condition
+[17:53:12]  
+[17:53:12] Effective Armor:
+[17:53:12] - 112 Factor
+[17:53:12] <End Info>
+[17:53:13] <Begin Info: Cured Blackthorn Sleeves>
+[17:53:13] Usable by:
+[17:53:13] - Nightshade
+[17:53:13]  
+[17:53:13] Total Utility: 59
+[17:53:13]  
+[17:53:13] Magical Bonuses:
+[17:53:13] 14.00 | Strength: +21 pts
+[17:53:13] 10.00 | Hits: +40 pts
+[17:53:13] 20.00 | Heat: +10 %
+[17:53:13] 15.00 | Envenom: +3 pts
+[17:53:13]  
+[17:53:13] Level Requirement: 50 Level
+[17:53:13]  
+[17:53:13] Magical Ability:
+[17:53:13] Function: melee health buffer
+[17:53:13] 
+[17:53:13] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:13] 
+[17:53:13] Absorption: 50%
+[17:53:13] Value: 150
+[17:53:13] Target: Self
+[17:53:13] Duration: 10:00 min
+[17:53:13] Casting time: Instant
+[17:53:13] Function: melee health buffer
+[17:53:13]  
+[17:53:13] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:13]  
+[17:53:13] Armor Modifiers:
+[17:53:13] - 102 Base Factor
+[17:53:13] - 102 Clamped Factor
+[17:53:13] - 10% Absorption
+[17:53:13] - 100% Quality
+[17:53:13] - 100% Condition
+[17:53:13]  
+[17:53:13] Effective Armor:
+[17:53:13] - 112 Factor
+[17:53:13] <End Info>
+[17:53:14] <Begin Info: Cured Blackthorn Gauntlets>
+[17:53:14] Usable by:
+[17:53:14] - Nightshade
+[17:53:14]  
+[17:53:14] Total Utility: 78
+[17:53:14] Single Skill Utility: 63
+[17:53:14]  
+[17:53:14] Magical Bonuses:
+[17:53:14] 12.00 | Strength: +18 pts
+[17:53:14] 18.00 | Crush: +9 %
+[17:53:14] 18.00 | Matter: +9 %
+[17:53:14] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:14]  
+[17:53:14] Level Requirement: 50 Level
+[17:53:14]  
+[17:53:14] Magical Ability:
+[17:53:14] Damages the target.
+[17:53:14] 
+[17:53:14] Damage: 95
+[17:53:14] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:14] Target: Enemy Target
+[17:53:14] Range: 1500
+[17:53:14] Damage Type: Cold
+[17:53:14] Casting time: Instant
+[17:53:14]  
+[17:53:14] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:14]  
+[17:53:14] Armor Modifiers:
+[17:53:14] - 102 Base Factor
+[17:53:14] - 102 Clamped Factor
+[17:53:14] - 10% Absorption
+[17:53:14] - 100% Quality
+[17:53:14] - 100% Condition
+[17:53:14]  
+[17:53:14] Effective Armor:
+[17:53:14] - 112 Factor
+[17:53:14] <End Info>
+[17:53:14] <Begin Info: Cured Blackthorn Boots>
+[17:53:14] Usable by:
+[17:53:14] - Nightshade
+[17:53:14]  
+[17:53:14] Total Utility: 63
+[17:53:14]  
+[17:53:14] Magical Bonuses:
+[17:53:14] 12.00 | Quickness: +18 pts
+[17:53:14] 18.00 | Body: +9 %
+[17:53:14] 18.00 | Slash: +9 %
+[17:53:14] 15.00 | Piercing: +3 pts
+[17:53:14]  
+[17:53:14] Level Requirement: 50 Level
+[17:53:14]  
+[17:53:14] Magical Ability:
+[17:53:14] Damages the target.
+[17:53:14] 
+[17:53:14] Damage: 95
+[17:53:14] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:14] Target: Enemy Target
+[17:53:14] Range: 1500
+[17:53:14] Damage Type: Cold
+[17:53:14] Casting time: Instant
+[17:53:14]  
+[17:53:14] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:14]  
+[17:53:14] Armor Modifiers:
+[17:53:14] - 102 Base Factor
+[17:53:14] - 102 Clamped Factor
+[17:53:14] - 10% Absorption
+[17:53:14] - 100% Quality
+[17:53:14] - 100% Condition
+[17:53:14]  
+[17:53:14] Effective Armor:
+[17:53:14] - 112 Factor
+[17:53:14] <End Info>
+[17:53:15] <Begin Info: Cured Blackthorn Crown>
+[17:53:15] Usable by:
+[17:53:15] - Nightshade
+[17:53:15]  
+[17:53:15] Total Utility: 63
+[17:53:15]  
+[17:53:15] Magical Bonuses:
+[17:53:15] 12.00 | Dexterity: +18 pts
+[17:53:15] 18.00 | Spirit: +9 %
+[17:53:15] 18.00 | Thrust: +9 %
+[17:53:15] 15.00 | Stealth: +3 pts
+[17:53:15]  
+[17:53:15] Level Requirement: 50 Level
+[17:53:15]  
+[17:53:15] Magical Ability:
+[17:53:15] Damages the target.
+[17:53:15] 
+[17:53:15] Damage: 95
+[17:53:15] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:15] Target: Enemy Target
+[17:53:15] Range: 1500
+[17:53:15] Damage Type: Cold
+[17:53:15] Casting time: Instant
+[17:53:15]  
+[17:53:15] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:15]  
+[17:53:15] Armor Modifiers:
+[17:53:15] - 102 Base Factor
+[17:53:15] - 102 Clamped Factor
+[17:53:15] - 10% Absorption
+[17:53:15] - 100% Quality
+[17:53:15] - 100% Condition
+[17:53:15]  
+[17:53:15] Effective Armor:
+[17:53:15] - 112 Factor
+[17:53:15] <End Info>
+[17:53:17] <Begin Info: Thick Uaimh Hide>
+[17:53:17] Usable by:
+[17:53:17] - Nightshade
+[17:53:17]  
+[17:53:17] Total Utility: 72
+[17:53:17]  
+[17:53:17] Magical Bonuses:
+[17:53:17] 10.00 | Constitution: +15 pts
+[17:53:17] 12.00 | Crush: +6 %
+[17:53:17] 25.00 | Critical Strike: +5 pts
+[17:53:17] 25.00 | Envenom: +5 pts
+[17:53:17]  
+[17:53:17] Armor Modifiers:
+[17:53:17] - 102 Base Factor
+[17:53:17] - 102 Clamped Factor
+[17:53:17] - 10% Absorption
+[17:53:17] - 100% Quality
+[17:53:17] - 100% Condition
+[17:53:17]  
+[17:53:17] Effective Armor:
+[17:53:17] - 112 Factor
+[17:53:17] <End Info>
+[17:53:19] <Begin Info: Rigid Razorback Jerkin>
+[17:53:19] Usable by:
+[17:53:19] - Bard
+[17:53:19]  
+[17:53:19] Total Utility: 74.333
+[17:53:19] Single Skill Utility: 59.333
+[17:53:19]  
+[17:53:19] Magical Bonuses:
+[17:53:19] 14.67 | Constitution: +22 pts
+[17:53:19] 14.67 | Charisma: +22 pts
+[17:53:19] 15.00 | Hits: +60 pts
+[17:53:19] 30.00 | ALL magic skills: +3 pts
+[17:53:19]  
+[17:53:19] Level Requirement: 50 Level
+[17:53:19]  
+[17:53:19] Magical Ability:
+[17:53:19] Heals the target.
+[17:53:19]  
+[17:53:19] Value: 180
+[17:53:19] Target: Self
+[17:53:19] Casting time: instant
+[17:53:19]  
+[17:53:19] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:19]  
+[17:53:19] Armor Modifiers:
+[17:53:19] - 102 Base Factor
+[17:53:19] - 102 Clamped Factor
+[17:53:19] - 19% Absorption
+[17:53:19] - 100% Quality
+[17:53:19] - 100% Condition
+[17:53:19]  
+[17:53:19] Effective Armor:
+[17:53:19] - 121 Factor
+[17:53:19] <End Info>
+[17:53:20] <Begin Info: Rigid Razorback Leggings>
+[17:53:20] Usable by:
+[17:53:20] - Bard
+[17:53:20]  
+[17:53:20] Total Utility: 72
+[17:53:20] Single Skill Utility: 57
+[17:53:20]  
+[17:53:20] Magical Bonuses:
+[17:53:20] 14.00 | Dexterity: +21 pts
+[17:53:20] 18.00 | Charisma: +27 pts
+[17:53:20] 10.00 | Hits: +40 pts
+[17:53:20] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:20]  
+[17:53:20] Level Requirement: 50 Level
+[17:53:20]  
+[17:53:20] Magical Ability:
+[17:53:20] Function: melee health buffer
+[17:53:20] 
+[17:53:20] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:20] 
+[17:53:20] Absorption: 50%
+[17:53:20] Value: 150
+[17:53:20] Target: Self
+[17:53:20] Duration: 10:00 min
+[17:53:20] Casting time: Instant
+[17:53:20] Function: melee health buffer
+[17:53:20]  
+[17:53:20] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:20]  
+[17:53:20] Armor Modifiers:
+[17:53:20] - 102 Base Factor
+[17:53:20] - 102 Clamped Factor
+[17:53:20] - 19% Absorption
+[17:53:20] - 100% Quality
+[17:53:20] - 100% Condition
+[17:53:20]  
+[17:53:20] Effective Armor:
+[17:53:20] - 121 Factor
+[17:53:20] <End Info>
+[17:53:21] <Begin Info: Rigid Razorback Sleeves>
+[17:53:21] Usable by:
+[17:53:21] - Bard
+[17:53:21]  
+[17:53:21] Total Utility: 72
+[17:53:21] Single Skill Utility: 57
+[17:53:21]  
+[17:53:21] Magical Bonuses:
+[17:53:21] 14.00 | Strength: +21 pts
+[17:53:21] 18.00 | Constitution: +27 pts
+[17:53:21] 10.00 | Hits: +40 pts
+[17:53:21] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:21]  
+[17:53:21] Level Requirement: 50 Level
+[17:53:21]  
+[17:53:21] Magical Ability:
+[17:53:21] Function: melee health buffer
+[17:53:21] 
+[17:53:21] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:21] 
+[17:53:21] Absorption: 50%
+[17:53:21] Value: 150
+[17:53:21] Target: Self
+[17:53:21] Duration: 10:00 min
+[17:53:21] Casting time: Instant
+[17:53:21] Function: melee health buffer
+[17:53:21]  
+[17:53:21] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:21]  
+[17:53:21] Armor Modifiers:
+[17:53:21] - 102 Base Factor
+[17:53:21] - 102 Clamped Factor
+[17:53:21] - 19% Absorption
+[17:53:21] - 100% Quality
+[17:53:21] - 100% Condition
+[17:53:21]  
+[17:53:21] Effective Armor:
+[17:53:21] - 121 Factor
+[17:53:21] <End Info>
+[17:53:22] <Begin Info: Rigid Razorback Gauntlets>
+[17:53:22] Usable by:
+[17:53:22] - Bard
+[17:53:22]  
+[17:53:22] Total Utility: 78
+[17:53:22] Single Skill Utility: 63
+[17:53:22]  
+[17:53:22] Magical Bonuses:
+[17:53:22] 18.00 | Crush: +9 %
+[17:53:22] 16.00 | Heat: +8 %
+[17:53:22] 14.00 | Matter: +7 %
+[17:53:22] 30.00 | ALL magic skills: +3 pts
+[17:53:22]  
+[17:53:22] Level Requirement: 50 Level
+[17:53:22]  
+[17:53:22] Magical Ability:
+[17:53:22] Damages the target.
+[17:53:22] 
+[17:53:22] Damage: 95
+[17:53:22] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:22] Target: Enemy Target
+[17:53:22] Range: 1500
+[17:53:22] Damage Type: Cold
+[17:53:22] Casting time: Instant
+[17:53:22]  
+[17:53:22] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:22]  
+[17:53:22] Armor Modifiers:
+[17:53:22] - 102 Base Factor
+[17:53:22] - 102 Clamped Factor
+[17:53:22] - 19% Absorption
+[17:53:22] - 100% Quality
+[17:53:22] - 100% Condition
+[17:53:22]  
+[17:53:22] Effective Armor:
+[17:53:22] - 121 Factor
+[17:53:22] <End Info>
+[17:53:22] <Begin Info: Rigid Razorback Boots>
+[17:53:22] Usable by:
+[17:53:22] - Bard
+[17:53:22]  
+[17:53:22] Total Utility: 78
+[17:53:22] Single Skill Utility: 63
+[17:53:22]  
+[17:53:22] Magical Bonuses:
+[17:53:22] 14.00 | Body: +7 %
+[17:53:22] 16.00 | Cold: +8 %
+[17:53:22] 18.00 | Slash: +9 %
+[17:53:22] 30.00 | ALL magic skills: +3 pts
+[17:53:22]  
+[17:53:22] Level Requirement: 50 Level
+[17:53:22]  
+[17:53:22] Magical Ability:
+[17:53:22] Damages the target.
+[17:53:22] 
+[17:53:22] Damage: 95
+[17:53:22] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:22] Target: Enemy Target
+[17:53:22] Range: 1500
+[17:53:22] Damage Type: Cold
+[17:53:22] Casting time: Instant
+[17:53:22]  
+[17:53:22] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:22]  
+[17:53:22] Armor Modifiers:
+[17:53:22] - 102 Base Factor
+[17:53:22] - 102 Clamped Factor
+[17:53:22] - 19% Absorption
+[17:53:22] - 100% Quality
+[17:53:22] - 100% Condition
+[17:53:22]  
+[17:53:22] Effective Armor:
+[17:53:22] - 121 Factor
+[17:53:22] <End Info>
+[17:53:23] <Begin Info: Rigid Razorback Crown>
+[17:53:23] Usable by:
+[17:53:23] - Bard
+[17:53:23]  
+[17:53:23] Total Utility: 56
+[17:53:23]  
+[17:53:23] Magical Bonuses:
+[17:53:23] 8.00 | Power: +8 pts
+[17:53:23] 16.00 | Energy: +8 %
+[17:53:23] 16.00 | Spirit: +8 %
+[17:53:23] 16.00 | Thrust: +8 %
+[17:53:23]  
+[17:53:23] Level Requirement: 50 Level
+[17:53:23]  
+[17:53:23] Magical Ability:
+[17:53:23] Damages the target.
+[17:53:23] 
+[17:53:23] Damage: 95
+[17:53:23] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:23] Target: Enemy Target
+[17:53:23] Range: 1500
+[17:53:23] Damage Type: Cold
+[17:53:23] Casting time: Instant
+[17:53:23]  
+[17:53:23] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:23]  
+[17:53:23] Armor Modifiers:
+[17:53:23] - 102 Base Factor
+[17:53:23] - 102 Clamped Factor
+[17:53:23] - 19% Absorption
+[17:53:23] - 100% Quality
+[17:53:23] - 100% Condition
+[17:53:23]  
+[17:53:23] Effective Armor:
+[17:53:23] - 121 Factor
+[17:53:23] <End Info>
+[17:53:24] <Begin Info: Phosphorescent Galite Jerkin>
+[17:53:24] Usable by:
+[17:53:24] - Ranger
+[17:53:24]  
+[17:53:24] Total Utility: 62
+[17:53:24]  
+[17:53:24] Magical Bonuses:
+[17:53:24] 14.00 | Dexterity: +21 pts
+[17:53:24] 18.00 | Constitution: +27 pts
+[17:53:24] 15.00 | Celtic Dual: +3 pts
+[17:53:24] 15.00 | ALL archery skills: +3 pts
+[17:53:24]  
+[17:53:24] Level Requirement: 50 Level
+[17:53:24]  
+[17:53:24] Magical Ability:
+[17:53:24] Heals the target.
+[17:53:24]  
+[17:53:24] Value: 180
+[17:53:24] Target: Self
+[17:53:24] Casting time: instant
+[17:53:24]  
+[17:53:24] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:24]  
+[17:53:24] Armor Modifiers:
+[17:53:24] - 102 Base Factor
+[17:53:24] - 102 Clamped Factor
+[17:53:24] - 19% Absorption
+[17:53:24] - 100% Quality
+[17:53:24] - 100% Condition
+[17:53:24]  
+[17:53:24] Effective Armor:
+[17:53:24] - 121 Factor
+[17:53:24] <End Info>
+[17:53:25] <Begin Info: Phosphorescent Galite Leggings>
+[17:53:25] Usable by:
+[17:53:25] - Ranger
+[17:53:25]  
+[17:53:25] Total Utility: 59
+[17:53:25]  
+[17:53:25] Magical Bonuses:
+[17:53:25] 14.00 | Dexterity: +21 pts
+[17:53:25] 12.00 | Hits: +48 pts
+[17:53:25] 18.00 | Cold: +9 %
+[17:53:25] 15.00 | Stealth: +3 pts
+[17:53:25]  
+[17:53:25] Level Requirement: 50 Level
+[17:53:25]  
+[17:53:25] Magical Ability:
+[17:53:25] Function: melee health buffer
+[17:53:25] 
+[17:53:25] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:25] 
+[17:53:25] Absorption: 50%
+[17:53:25] Value: 150
+[17:53:25] Target: Self
+[17:53:25] Duration: 10:00 min
+[17:53:25] Casting time: Instant
+[17:53:25] Function: melee health buffer
+[17:53:25]  
+[17:53:25] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:25]  
+[17:53:25] Armor Modifiers:
+[17:53:25] - 102 Base Factor
+[17:53:25] - 102 Clamped Factor
+[17:53:25] - 19% Absorption
+[17:53:25] - 100% Quality
+[17:53:25] - 100% Condition
+[17:53:25]  
+[17:53:25] Effective Armor:
+[17:53:25] - 121 Factor
+[17:53:25] <End Info>
+[17:53:26] <Begin Info: Phosphorescent Galite Sleeves>
+[17:53:26] Usable by:
+[17:53:26] - Ranger
+[17:53:26]  
+[17:53:26] Total Utility: 78
+[17:53:26] Single Skill Utility: 63
+[17:53:26]  
+[17:53:26] Magical Bonuses:
+[17:53:26] 12.00 | Strength: +18 pts
+[17:53:26] 18.00 | Crush: +9 %
+[17:53:26] 18.00 | Energy: +9 %
+[17:53:26] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:26]  
+[17:53:26] Level Requirement: 50 Level
+[17:53:26]  
+[17:53:26] Magical Ability:
+[17:53:26] Function: melee health buffer
+[17:53:26] 
+[17:53:26] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:26] 
+[17:53:26] Absorption: 50%
+[17:53:26] Value: 150
+[17:53:26] Target: Self
+[17:53:26] Duration: 10:00 min
+[17:53:26] Casting time: Instant
+[17:53:26] Function: melee health buffer
+[17:53:26]  
+[17:53:26] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:26]  
+[17:53:26] Armor Modifiers:
+[17:53:26] - 102 Base Factor
+[17:53:26] - 102 Clamped Factor
+[17:53:26] - 19% Absorption
+[17:53:26] - 100% Quality
+[17:53:26] - 100% Condition
+[17:53:26]  
+[17:53:26] Effective Armor:
+[17:53:26] - 121 Factor
+[17:53:26] <End Info>
+[17:53:26] A crystal shield covers Rahmschwammerl's skin.
+[17:53:27] <Begin Info: Phosphorescent Galite Gauntlets>
+[17:53:27] Usable by:
+[17:53:27] - Ranger
+[17:53:27]  
+[17:53:27] Total Utility: 63
+[17:53:27]  
+[17:53:27] Magical Bonuses:
+[17:53:27] 12.00 | Hits: +48 pts
+[17:53:27] 18.00 | Matter: +9 %
+[17:53:27] 18.00 | Slash: +9 %
+[17:53:27] 15.00 | Piercing: +3 pts
+[17:53:27]  
+[17:53:27] Level Requirement: 50 Level
+[17:53:27]  
+[17:53:27] Magical Ability:
+[17:53:27] Damages the target.
+[17:53:27] 
+[17:53:27] Damage: 95
+[17:53:27] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:27] Target: Enemy Target
+[17:53:27] Range: 1500
+[17:53:27] Damage Type: Cold
+[17:53:27] Casting time: Instant
+[17:53:27]  
+[17:53:27] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:27]  
+[17:53:27] Armor Modifiers:
+[17:53:27] - 102 Base Factor
+[17:53:27] - 102 Clamped Factor
+[17:53:27] - 19% Absorption
+[17:53:27] - 100% Quality
+[17:53:27] - 100% Condition
+[17:53:27]  
+[17:53:27] Effective Armor:
+[17:53:27] - 121 Factor
+[17:53:27] <End Info>
+[17:53:28] <Begin Info: Phosphorescent Galite Boots>
+[17:53:28] Usable by:
+[17:53:28] - Ranger
+[17:53:28]  
+[17:53:28] Total Utility: 63
+[17:53:28]  
+[17:53:28] Magical Bonuses:
+[17:53:28] 12.00 | Dexterity: +18 pts
+[17:53:28] 18.00 | Body: +9 %
+[17:53:28] 18.00 | Thrust: +9 %
+[17:53:28] 15.00 | Celtic Dual: +3 pts
+[17:53:28]  
+[17:53:28] Level Requirement: 50 Level
+[17:53:28]  
+[17:53:28] Magical Ability:
+[17:53:28] Damages the target.
+[17:53:28] 
+[17:53:28] Damage: 95
+[17:53:28] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:28] Target: Enemy Target
+[17:53:28] Range: 1500
+[17:53:28] Damage Type: Cold
+[17:53:28] Casting time: Instant
+[17:53:28]  
+[17:53:28] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:28]  
+[17:53:28] Armor Modifiers:
+[17:53:28] - 102 Base Factor
+[17:53:28] - 102 Clamped Factor
+[17:53:28] - 19% Absorption
+[17:53:28] - 100% Quality
+[17:53:28] - 100% Condition
+[17:53:28]  
+[17:53:28] Effective Armor:
+[17:53:28] - 121 Factor
+[17:53:28] <End Info>
+[17:53:29] <Begin Info: Phosphorescent Galite Crown>
+[17:53:29] Usable by:
+[17:53:29] - Ranger
+[17:53:29]  
+[17:53:29] Total Utility: 63
+[17:53:29]  
+[17:53:29] Magical Bonuses:
+[17:53:29] 12.00 | Hits: +48 pts
+[17:53:29] 18.00 | Heat: +9 %
+[17:53:29] 18.00 | Spirit: +9 %
+[17:53:29] 15.00 | ALL archery skills: +3 pts
+[17:53:29]  
+[17:53:29] Level Requirement: 50 Level
+[17:53:29]  
+[17:53:29] Magical Ability:
+[17:53:29] Damages the target.
+[17:53:29] 
+[17:53:29] Damage: 95
+[17:53:29] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:29] Target: Enemy Target
+[17:53:29] Range: 1500
+[17:53:29] Damage Type: Cold
+[17:53:29] Casting time: Instant
+[17:53:29]  
+[17:53:29] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:29]  
+[17:53:29] Armor Modifiers:
+[17:53:29] - 102 Base Factor
+[17:53:29] - 102 Clamped Factor
+[17:53:29] - 19% Absorption
+[17:53:29] - 100% Quality
+[17:53:29] - 100% Condition
+[17:53:29]  
+[17:53:29] Effective Armor:
+[17:53:29] - 121 Factor
+[17:53:29] <End Info>
+[17:53:30] <Begin Info: Encrusted Cave Crystal Jerkin>
+[17:53:30] Usable by:
+[17:53:30] - Blademaster
+[17:53:30]  
+[17:53:30] Total Utility: 62
+[17:53:30]  
+[17:53:30] Magical Bonuses:
+[17:53:30] 18.00 | Quickness: +27 pts
+[17:53:30] 14.00 | Hits: +56 pts
+[17:53:30] 15.00 | Parry: +3 pts
+[17:53:30] 15.00 | Celtic Dual: +3 pts
+[17:53:30]  
+[17:53:30] Level Requirement: 50 Level
+[17:53:30]  
+[17:53:30] Magical Ability:
+[17:53:30] Heals the target.
+[17:53:30]  
+[17:53:30] Value: 180
+[17:53:30] Target: Self
+[17:53:30] Casting time: instant
+[17:53:30]  
+[17:53:30] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:30]  
+[17:53:30] Armor Modifiers:
+[17:53:30] - 102 Base Factor
+[17:53:30] - 102 Clamped Factor
+[17:53:30] - 19% Absorption
+[17:53:30] - 100% Quality
+[17:53:30] - 100% Condition
+[17:53:30]  
+[17:53:30] Effective Armor:
+[17:53:30] - 121 Factor
+[17:53:30] <End Info>
+[17:53:30] <Begin Info: Encrusted Cave Crystal Leggings>
+[17:53:30] Usable by:
+[17:53:30] - Blademaster
+[17:53:30]  
+[17:53:30] Total Utility: 77
+[17:53:30] Single Skill Utility: 62
+[17:53:30]  
+[17:53:30] Magical Bonuses:
+[17:53:30] 18.00 | Strength: +27 pts
+[17:53:30] 14.00 | Hits: +56 pts
+[17:53:30] 15.00 | Parry: +3 pts
+[17:53:30] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:30]  
+[17:53:30] Level Requirement: 50 Level
+[17:53:30]  
+[17:53:30] Magical Ability:
+[17:53:30] Function: melee health buffer
+[17:53:30] 
+[17:53:30] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:30] 
+[17:53:30] Absorption: 50%
+[17:53:30] Value: 150
+[17:53:30] Target: Self
+[17:53:30] Duration: 10:00 min
+[17:53:30] Casting time: Instant
+[17:53:30] Function: melee health buffer
+[17:53:30]  
+[17:53:30] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:30]  
+[17:53:30] Armor Modifiers:
+[17:53:30] - 102 Base Factor
+[17:53:30] - 102 Clamped Factor
+[17:53:30] - 19% Absorption
+[17:53:30] - 100% Quality
+[17:53:30] - 100% Condition
+[17:53:30]  
+[17:53:30] Effective Armor:
+[17:53:30] - 121 Factor
+[17:53:30] <End Info>
+[17:53:31] <Begin Info: Encrusted Cave Crystal Sleeves>
+[17:53:31] Usable by:
+[17:53:31] - Blademaster
+[17:53:31]  
+[17:53:31] Total Utility: 77
+[17:53:31] Single Skill Utility: 62
+[17:53:31]  
+[17:53:31] Magical Bonuses:
+[17:53:31] 18.00 | Dexterity: +27 pts
+[17:53:31] 14.00 | Hits: +56 pts
+[17:53:31] 15.00 | Celtic Dual: +3 pts
+[17:53:31] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:31]  
+[17:53:31] Level Requirement: 50 Level
+[17:53:31]  
+[17:53:31] Magical Ability:
+[17:53:31] Function: melee health buffer
+[17:53:31] 
+[17:53:31] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:31] 
+[17:53:31] Absorption: 50%
+[17:53:31] Value: 150
+[17:53:31] Target: Self
+[17:53:31] Duration: 10:00 min
+[17:53:31] Casting time: Instant
+[17:53:31] Function: melee health buffer
+[17:53:31]  
+[17:53:31] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:31]  
+[17:53:31] Armor Modifiers:
+[17:53:31] - 102 Base Factor
+[17:53:31] - 102 Clamped Factor
+[17:53:31] - 19% Absorption
+[17:53:31] - 100% Quality
+[17:53:31] - 100% Condition
+[17:53:31]  
+[17:53:31] Effective Armor:
+[17:53:31] - 121 Factor
+[17:53:31] <End Info>
+[17:53:32] <Begin Info: Encrusted Cave Crystal Gauntlets>
+[17:53:32] Usable by:
+[17:53:32] - Blademaster
+[17:53:32]  
+[17:53:32] Total Utility: 60
+[17:53:32]  
+[17:53:32] Magical Bonuses:
+[17:53:32] 12.00 | Quickness: +18 pts
+[17:53:32] 18.00 | Crush: +9 %
+[17:53:32] 16.00 | Slash: +8 %
+[17:53:32] 14.00 | Thrust: +7 %
+[17:53:32]  
+[17:53:32] Level Requirement: 50 Level
+[17:53:32]  
+[17:53:32] Magical Ability:
+[17:53:32] Damages the target.
+[17:53:32] 
+[17:53:32] Damage: 95
+[17:53:32] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:32] Target: Enemy Target
+[17:53:32] Range: 1500
+[17:53:32] Damage Type: Cold
+[17:53:32] Casting time: Instant
+[17:53:32]  
+[17:53:32] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:32]  
+[17:53:32] Armor Modifiers:
+[17:53:32] - 102 Base Factor
+[17:53:32] - 102 Clamped Factor
+[17:53:32] - 19% Absorption
+[17:53:32] - 100% Quality
+[17:53:32] - 100% Condition
+[17:53:32]  
+[17:53:32] Effective Armor:
+[17:53:32] - 121 Factor
+[17:53:32] <End Info>
+[17:53:33] <Begin Info: Encrusted Cave Crystal Boots>
+[17:53:33] Usable by:
+[17:53:33] - Blademaster
+[17:53:33]  
+[17:53:33] Total Utility: 60
+[17:53:33]  
+[17:53:33] Magical Bonuses:
+[17:53:33] 12.00 | Constitution: +18 pts
+[17:53:33] 16.00 | Cold: +8 %
+[17:53:33] 14.00 | Energy: +7 %
+[17:53:33] 18.00 | Heat: +9 %
+[17:53:33]  
+[17:53:33] Level Requirement: 50 Level
+[17:53:33]  
+[17:53:33] Magical Ability:
+[17:53:33] Damages the target.
+[17:53:33] 
+[17:53:33] Damage: 95
+[17:53:33] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:33] Target: Enemy Target
+[17:53:33] Range: 1500
+[17:53:33] Damage Type: Cold
+[17:53:33] Casting time: Instant
+[17:53:33]  
+[17:53:33] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:33]  
+[17:53:33] Armor Modifiers:
+[17:53:33] - 102 Base Factor
+[17:53:33] - 102 Clamped Factor
+[17:53:33] - 19% Absorption
+[17:53:33] - 100% Quality
+[17:53:33] - 100% Condition
+[17:53:33]  
+[17:53:33] Effective Armor:
+[17:53:33] - 121 Factor
+[17:53:33] <End Info>
+[17:53:34] <Begin Info: Encrusted Cave Crystal Boots>
+[17:53:34] Usable by:
+[17:53:34] - Blademaster
+[17:53:34]  
+[17:53:34] Total Utility: 60
+[17:53:34]  
+[17:53:34] Magical Bonuses:
+[17:53:34] 12.00 | Constitution: +18 pts
+[17:53:34] 16.00 | Cold: +8 %
+[17:53:34] 14.00 | Energy: +7 %
+[17:53:34] 18.00 | Heat: +9 %
+[17:53:34]  
+[17:53:34] Level Requirement: 50 Level
+[17:53:34]  
+[17:53:34] Magical Ability:
+[17:53:34] Damages the target.
+[17:53:34] 
+[17:53:34] Damage: 95
+[17:53:34] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:34] Target: Enemy Target
+[17:53:34] Range: 1500
+[17:53:34] Damage Type: Cold
+[17:53:34] Casting time: Instant
+[17:53:34]  
+[17:53:34] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:34]  
+[17:53:34] Armor Modifiers:
+[17:53:34] - 102 Base Factor
+[17:53:34] - 102 Clamped Factor
+[17:53:34] - 19% Absorption
+[17:53:34] - 100% Quality
+[17:53:34] - 100% Condition
+[17:53:34]  
+[17:53:34] Effective Armor:
+[17:53:34] - 121 Factor
+[17:53:34] <End Info>
+[17:53:35] <Begin Info: Encrusted Cave Crystal Crown>
+[17:53:35] Usable by:
+[17:53:35] - Blademaster
+[17:53:35]  
+[17:53:35] Total Utility: 60
+[17:53:35]  
+[17:53:35] Magical Bonuses:
+[17:53:35] 12.00 | Dexterity: +18 pts
+[17:53:35] 16.00 | Body: +8 %
+[17:53:35] 18.00 | Matter: +9 %
+[17:53:35] 14.00 | Spirit: +7 %
+[17:53:35]  
+[17:53:35] Level Requirement: 50 Level
+[17:53:35]  
+[17:53:35] Magical Ability:
+[17:53:35] Damages the target.
+[17:53:35] 
+[17:53:35] Damage: 95
+[17:53:35] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:35] Target: Enemy Target
+[17:53:35] Range: 1500
+[17:53:35] Damage Type: Cold
+[17:53:35] Casting time: Instant
+[17:53:35]  
+[17:53:35] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:35]  
+[17:53:35] Armor Modifiers:
+[17:53:35] - 102 Base Factor
+[17:53:35] - 102 Clamped Factor
+[17:53:35] - 19% Absorption
+[17:53:35] - 100% Quality
+[17:53:35] - 100% Condition
+[17:53:35]  
+[17:53:35] Effective Armor:
+[17:53:35] - 121 Factor
+[17:53:35] <End Info>
+[17:53:36] <Begin Info: Fine Easmarach Skin>
+[17:53:36] Usable by:
+[17:53:36] - Bard
+[17:53:36]  
+[17:53:36] Total Utility: 75
+[17:53:36]  
+[17:53:36] Magical Bonuses:
+[17:53:36] 10.00 | Charisma: +15 pts
+[17:53:36] 20.00 | Regrowth: +4 pts
+[17:53:36] 20.00 | Nurture: +4 pts
+[17:53:36] 25.00 | Music: +5 pts
+[17:53:36]  
+[17:53:36] Level Requirement: 50 Level
+[17:53:36]  
+[17:53:36] Magical Ability:
+[17:53:36] Damages the target.
+[17:53:36] 
+[17:53:36] Damage: 95
+[17:53:36] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:36] Target: Enemy Target
+[17:53:36] Range: 1500
+[17:53:36] Damage Type: Cold
+[17:53:36] Casting time: Instant
+[17:53:36]  
+[17:53:36] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:36]  
+[17:53:36] Armor Modifiers:
+[17:53:36] - 102 Base Factor
+[17:53:36] - 102 Clamped Factor
+[17:53:36] - 19% Absorption
+[17:53:36] - 100% Quality
+[17:53:36] - 100% Condition
+[17:53:36]  
+[17:53:36] Effective Armor:
+[17:53:36] - 121 Factor
+[17:53:36] <End Info>
+[17:53:37] <Begin Info: Gloves of the Bladehand>
+[17:53:37]  
+[17:53:37] Total Utility: 80
+[17:53:37]  
+[17:53:37] Magical Bonuses:
+[17:53:37] 20.00 | Blades: +4 pts
+[17:53:37] 20.00 | Blunt: +4 pts
+[17:53:37] 20.00 | Piercing: +4 pts
+[17:53:37] 20.00 | Celtic Dual: +4 pts
+[17:53:37]  
+[17:53:37] Level Requirement: 50 Level
+[17:53:37]  
+[17:53:37] Charged Magic Ability:
+[17:53:37] - 10 Charges
+[17:53:37] - 10 Max
+[17:53:37]  
+[17:53:37] Increases the player's combat speed.
+[17:53:37] 
+[17:53:37] Target hasted: 14%
+[17:53:37] Target: Self
+[17:53:37] Duration: 60 seconds
+[17:53:37] Casting time: Instant
+[17:53:37]  
+[17:53:37] - This spell is cast when the item is used.
+[17:53:37]  
+[17:53:37] Can use item every: 2:00 min.
+[17:53:37]  
+[17:53:37] Armor Modifiers:
+[17:53:37] - 102 Base Factor
+[17:53:37] - 102 Clamped Factor
+[17:53:37] - 19% Absorption
+[17:53:37] - 100% Quality
+[17:53:37] - 100% Condition
+[17:53:37]  
+[17:53:37] Effective Armor:
+[17:53:37] - 121 Factor
+[17:53:37] <End Info>
+[17:53:40] <Begin Info: Vine Covered Chestplate>
+[17:53:40] Usable by:
+[17:53:40] - Warden
+[17:53:40]  
+[17:53:40] Total Utility: 61
+[17:53:40]  
+[17:53:40] Magical Bonuses:
+[17:53:40] 16.00 | Strength: +24 pts
+[17:53:40] 16.00 | Empathy: +24 pts
+[17:53:40] 14.00 | Crush: +7 %
+[17:53:40] 15.00 | Parry: +3 pts
+[17:53:40]  
+[17:53:40] Level Requirement: 50 Level
+[17:53:40]  
+[17:53:40] Magical Ability:
+[17:53:40] Heals the target.
+[17:53:40]  
+[17:53:40] Value: 180
+[17:53:40] Target: Self
+[17:53:40] Casting time: instant
+[17:53:40]  
+[17:53:40] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:40]  
+[17:53:40] Armor Modifiers:
+[17:53:40] - 102 Base Factor
+[17:53:40] - 102 Clamped Factor
+[17:53:40] - 27% Absorption
+[17:53:40] - 100% Quality
+[17:53:40] - 100% Condition
+[17:53:40]  
+[17:53:40] Effective Armor:
+[17:53:40] - 129 Factor
+[17:53:40] <End Info>
+[17:53:41] <Begin Info: Vine Covered Leggings>
+[17:53:41] Usable by:
+[17:53:41] - Warden
+[17:53:41]  
+[17:53:41] Total Utility: 59
+[17:53:41]  
+[17:53:41] Magical Bonuses:
+[17:53:41] 14.00 | Strength: +21 pts
+[17:53:41] 12.00 | Constitution: +18 pts
+[17:53:41] 18.00 | Slash: +9 %
+[17:53:41] 15.00 | Blades: +3 pts
+[17:53:41]  
+[17:53:41] Level Requirement: 50 Level
+[17:53:41]  
+[17:53:41] Magical Ability:
+[17:53:41] Function: melee health buffer
+[17:53:41] 
+[17:53:41] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:41] 
+[17:53:41] Absorption: 50%
+[17:53:41] Value: 150
+[17:53:41] Target: Self
+[17:53:41] Duration: 10:00 min
+[17:53:41] Casting time: Instant
+[17:53:41] Function: melee health buffer
+[17:53:41]  
+[17:53:41] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:41]  
+[17:53:41] Armor Modifiers:
+[17:53:41] - 102 Base Factor
+[17:53:41] - 102 Clamped Factor
+[17:53:41] - 27% Absorption
+[17:53:41] - 100% Quality
+[17:53:41] - 100% Condition
+[17:53:41]  
+[17:53:41] Effective Armor:
+[17:53:41] - 129 Factor
+[17:53:41] <End Info>
+[17:53:42] <Begin Info: Vine Covered Sleeves>
+[17:53:42] Usable by:
+[17:53:42] - Warden
+[17:53:42]  
+[17:53:42] Total Utility: 57
+[17:53:42]  
+[17:53:42] Magical Bonuses:
+[17:53:42] 10.00 | Dexterity: +15 pts
+[17:53:42] 10.00 | Quickness: +15 pts
+[17:53:42] 22.00 | Thrust: +11 %
+[17:53:42] 15.00 | Blunt: +3 pts
+[17:53:42]  
+[17:53:42] Level Requirement: 50 Level
+[17:53:42]  
+[17:53:42] Magical Ability:
+[17:53:42] Function: melee health buffer
+[17:53:42] 
+[17:53:42] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:42] 
+[17:53:42] Absorption: 50%
+[17:53:42] Value: 150
+[17:53:42] Target: Self
+[17:53:42] Duration: 10:00 min
+[17:53:42] Casting time: Instant
+[17:53:42] Function: melee health buffer
+[17:53:42]  
+[17:53:42] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:42]  
+[17:53:42] Armor Modifiers:
+[17:53:42] - 102 Base Factor
+[17:53:42] - 102 Clamped Factor
+[17:53:42] - 27% Absorption
+[17:53:42] - 100% Quality
+[17:53:42] - 100% Condition
+[17:53:42]  
+[17:53:42] Effective Armor:
+[17:53:42] - 129 Factor
+[17:53:42] <End Info>
+[17:53:43] <Begin Info: Vine Covered Gauntlets>
+[17:53:43] Usable by:
+[17:53:43] - Warden
+[17:53:43]  
+[17:53:43] Total Utility: 63
+[17:53:43]  
+[17:53:43] Magical Bonuses:
+[17:53:43] 12.00 | Hits: +48 pts
+[17:53:43] 18.00 | Heat: +9 %
+[17:53:43] 18.00 | Spirit: +9 %
+[17:53:43] 15.00 | Regrowth: +3 pts
+[17:53:43]  
+[17:53:43] Level Requirement: 50 Level
+[17:53:43]  
+[17:53:43] Magical Ability:
+[17:53:43] Damages the target.
+[17:53:43] 
+[17:53:43] Damage: 95
+[17:53:43] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:43] Target: Enemy Target
+[17:53:43] Range: 1500
+[17:53:43] Damage Type: Cold
+[17:53:43] Casting time: Instant
+[17:53:43]  
+[17:53:43] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:43]  
+[17:53:43] Armor Modifiers:
+[17:53:43] - 102 Base Factor
+[17:53:43] - 102 Clamped Factor
+[17:53:43] - 27% Absorption
+[17:53:43] - 100% Quality
+[17:53:43] - 100% Condition
+[17:53:43]  
+[17:53:43] Effective Armor:
+[17:53:43] - 129 Factor
+[17:53:43] <End Info>
+[17:53:43] @@[LFG] Xpone (50, Animist): ds/celestius (druid)
+[17:53:44] <Begin Info: Vine Covered Boots>
+[17:53:44] Usable by:
+[17:53:44] - Warden
+[17:53:44]  
+[17:53:44] Total Utility: 78
+[17:53:44] Single Skill Utility: 63
+[17:53:44]  
+[17:53:44] Magical Bonuses:
+[17:53:44] 12.00 | Hits: +48 pts
+[17:53:44] 18.00 | Body: +9 %
+[17:53:44] 18.00 | Cold: +9 %
+[17:53:44] 30.00 | ALL magic skills: +3 pts
+[17:53:44]  
+[17:53:44] Level Requirement: 50 Level
+[17:53:44]  
+[17:53:44] Magical Ability:
+[17:53:44] Damages the target.
+[17:53:44] 
+[17:53:44] Damage: 95
+[17:53:44] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:44] Target: Enemy Target
+[17:53:44] Range: 1500
+[17:53:44] Damage Type: Cold
+[17:53:44] Casting time: Instant
+[17:53:44]  
+[17:53:44] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:44]  
+[17:53:44] Armor Modifiers:
+[17:53:44] - 102 Base Factor
+[17:53:44] - 102 Clamped Factor
+[17:53:44] - 27% Absorption
+[17:53:44] - 100% Quality
+[17:53:44] - 100% Condition
+[17:53:44]  
+[17:53:44] Effective Armor:
+[17:53:44] - 129 Factor
+[17:53:44] <End Info>
+[17:53:45] <Begin Info: Vine Covered Crown>
+[17:53:45] Usable by:
+[17:53:45] - Warden
+[17:53:45]  
+[17:53:45] Total Utility: 53
+[17:53:45]  
+[17:53:45] Magical Bonuses:
+[17:53:45] 7.00 | Power: +7 pts
+[17:53:45] 10.00 | Hits: +40 pts
+[17:53:45] 18.00 | Energy: +9 %
+[17:53:45] 18.00 | Matter: +9 %
+[17:53:45]  
+[17:53:45] Level Requirement: 50 Level
+[17:53:45]  
+[17:53:45] Magical Ability:
+[17:53:45] Damages the target.
+[17:53:45] 
+[17:53:45] Damage: 95
+[17:53:45] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:45] Target: Enemy Target
+[17:53:45] Range: 1500
+[17:53:45] Damage Type: Cold
+[17:53:45] Casting time: Instant
+[17:53:45]  
+[17:53:45] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:45]  
+[17:53:45] Armor Modifiers:
+[17:53:45] - 102 Base Factor
+[17:53:45] - 102 Clamped Factor
+[17:53:45] - 27% Absorption
+[17:53:45] - 100% Quality
+[17:53:45] - 100% Condition
+[17:53:45]  
+[17:53:45] Effective Armor:
+[17:53:45] - 129 Factor
+[17:53:45] <End Info>
+[17:53:45] <Begin Info: Primal Spore Covered Chestplate>
+[17:53:45] Usable by:
+[17:53:45] - Hero
+[17:53:45]  
+[17:53:45] Total Utility: 77
+[17:53:45] Single Skill Utility: 62
+[17:53:45]  
+[17:53:45] Magical Bonuses:
+[17:53:45] 18.00 | Strength: +27 pts
+[17:53:45] 14.00 | Hits: +56 pts
+[17:53:45] 15.00 | Shields: +3 pts
+[17:53:45] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:45]  
+[17:53:45] Level Requirement: 50 Level
+[17:53:45]  
+[17:53:45] Magical Ability:
+[17:53:45] Heals the target.
+[17:53:45]  
+[17:53:45] Value: 180
+[17:53:45] Target: Self
+[17:53:45] Casting time: instant
+[17:53:45]  
+[17:53:45] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:45]  
+[17:53:45] Armor Modifiers:
+[17:53:45] - 102 Base Factor
+[17:53:45] - 102 Clamped Factor
+[17:53:45] - 27% Absorption
+[17:53:45] - 100% Quality
+[17:53:45] - 100% Condition
+[17:53:45]  
+[17:53:45] Effective Armor:
+[17:53:45] - 129 Factor
+[17:53:45] <End Info>
+[17:53:46] <Begin Info: Primal Spore Covered Leggings>
+[17:53:46] Usable by:
+[17:53:46] - Hero
+[17:53:46]  
+[17:53:46] Total Utility: 62
+[17:53:46]  
+[17:53:46] Magical Bonuses:
+[17:53:46] 18.00 | Constitution: +27 pts
+[17:53:46] 14.00 | Hits: +56 pts
+[17:53:46] 15.00 | Parry: +3 pts
+[17:53:46] 15.00 | Large Weapon: +3 pts
+[17:53:46]  
+[17:53:46] Level Requirement: 50 Level
+[17:53:46]  
+[17:53:46] Magical Ability:
+[17:53:46] Function: melee health buffer
+[17:53:46] 
+[17:53:46] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:46] 
+[17:53:46] Absorption: 50%
+[17:53:46] Value: 150
+[17:53:46] Target: Self
+[17:53:46] Duration: 10:00 min
+[17:53:46] Casting time: Instant
+[17:53:46] Function: melee health buffer
+[17:53:46]  
+[17:53:46] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:46]  
+[17:53:46] Armor Modifiers:
+[17:53:46] - 102 Base Factor
+[17:53:46] - 102 Clamped Factor
+[17:53:46] - 27% Absorption
+[17:53:46] - 100% Quality
+[17:53:46] - 100% Condition
+[17:53:46]  
+[17:53:46] Effective Armor:
+[17:53:46] - 129 Factor
+[17:53:46] <End Info>
+[17:53:47] <Begin Info: Primal Spore Covered Sleeves>
+[17:53:47] Usable by:
+[17:53:47] - Hero
+[17:53:47]  
+[17:53:47] Total Utility: 78
+[17:53:47] Single Skill Utility: 63
+[17:53:47]  
+[17:53:47] Magical Bonuses:
+[17:53:47] 18.00 | Crush: +9 %
+[17:53:47] 16.00 | Slash: +8 %
+[17:53:47] 14.00 | Thrust: +7 %
+[17:53:47] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:47]  
+[17:53:47] Level Requirement: 50 Level
+[17:53:47]  
+[17:53:47] Magical Ability:
+[17:53:47] Function: melee health buffer
+[17:53:47] 
+[17:53:47] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:47] 
+[17:53:47] Absorption: 50%
+[17:53:47] Value: 150
+[17:53:47] Target: Self
+[17:53:47] Duration: 10:00 min
+[17:53:47] Casting time: Instant
+[17:53:47] Function: melee health buffer
+[17:53:47]  
+[17:53:47] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:47]  
+[17:53:47] Armor Modifiers:
+[17:53:47] - 102 Base Factor
+[17:53:47] - 102 Clamped Factor
+[17:53:47] - 27% Absorption
+[17:53:47] - 100% Quality
+[17:53:47] - 100% Condition
+[17:53:47]  
+[17:53:47] Effective Armor:
+[17:53:47] - 129 Factor
+[17:53:47] <End Info>
+[17:53:48] <Begin Info: Primal Spore Covered Gauntlets>
+[17:53:48] Usable by:
+[17:53:48] - Hero
+[17:53:48]  
+[17:53:48] Total Utility: 63
+[17:53:48]  
+[17:53:48] Magical Bonuses:
+[17:53:48] 16.00 | Cold: +8 %
+[17:53:48] 14.00 | Energy: +7 %
+[17:53:48] 18.00 | Heat: +9 %
+[17:53:48] 15.00 | Blunt: +3 pts
+[17:53:48]  
+[17:53:48] Level Requirement: 50 Level
+[17:53:48]  
+[17:53:48] Magical Ability:
+[17:53:48] Damages the target.
+[17:53:48] 
+[17:53:48] Damage: 95
+[17:53:48] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:48] Target: Enemy Target
+[17:53:48] Range: 1500
+[17:53:48] Damage Type: Cold
+[17:53:48] Casting time: Instant
+[17:53:48]  
+[17:53:48] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:48]  
+[17:53:48] Armor Modifiers:
+[17:53:48] - 102 Base Factor
+[17:53:48] - 102 Clamped Factor
+[17:53:48] - 27% Absorption
+[17:53:48] - 100% Quality
+[17:53:48] - 100% Condition
+[17:53:48]  
+[17:53:48] Effective Armor:
+[17:53:48] - 129 Factor
+[17:53:48] <End Info>
+[17:53:48] @@[LFG] Dasso (7, Blademaster): lfm lowbie xp 2/8
+[17:53:49] <Begin Info: Primal Spore Covered Boots>
+[17:53:49] Usable by:
+[17:53:49] - Hero
+[17:53:49]  
+[17:53:49] Total Utility: 63
+[17:53:49]  
+[17:53:49] Magical Bonuses:
+[17:53:49] 16.00 | Body: +8 %
+[17:53:49] 18.00 | Matter: +9 %
+[17:53:49] 14.00 | Spirit: +7 %
+[17:53:49] 15.00 | Shields: +3 pts
+[17:53:49]  
+[17:53:49] Level Requirement: 50 Level
+[17:53:49]  
+[17:53:49] Magical Ability:
+[17:53:49] Damages the target.
+[17:53:49] 
+[17:53:49] Damage: 95
+[17:53:49] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:49] Target: Enemy Target
+[17:53:49] Range: 1500
+[17:53:49] Damage Type: Cold
+[17:53:49] Casting time: Instant
+[17:53:49]  
+[17:53:49] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:49]  
+[17:53:49] Armor Modifiers:
+[17:53:49] - 102 Base Factor
+[17:53:49] - 102 Clamped Factor
+[17:53:49] - 27% Absorption
+[17:53:49] - 100% Quality
+[17:53:49] - 100% Condition
+[17:53:49]  
+[17:53:49] Effective Armor:
+[17:53:49] - 129 Factor
+[17:53:49] <End Info>
+[17:53:50] <Begin Info: Primal Spore Covered Crown>
+[17:53:50] Usable by:
+[17:53:50] - Hero
+[17:53:50]  
+[17:53:50] Total Utility: 52
+[17:53:50]  
+[17:53:50] Magical Bonuses:
+[17:53:50] 12.00 | Strength: +18 pts
+[17:53:50] 12.00 | Dexterity: +18 pts
+[17:53:50] 18.00 | Quickness: +27 pts
+[17:53:50] 10.00 | Hits: +40 pts
+[17:53:50]  
+[17:53:50] Level Requirement: 50 Level
+[17:53:50]  
+[17:53:50] Magical Ability:
+[17:53:50] Damages the target.
+[17:53:50] 
+[17:53:50] Damage: 95
+[17:53:50] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:50] Target: Enemy Target
+[17:53:50] Range: 1500
+[17:53:50] Damage Type: Cold
+[17:53:50] Casting time: Instant
+[17:53:50]  
+[17:53:50] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:50]  
+[17:53:50] Armor Modifiers:
+[17:53:50] - 102 Base Factor
+[17:53:50] - 102 Clamped Factor
+[17:53:50] - 27% Absorption
+[17:53:50] - 100% Quality
+[17:53:50] - 100% Condition
+[17:53:50]  
+[17:53:50] Effective Armor:
+[17:53:50] - 129 Factor
+[17:53:50] <End Info>
+[17:53:51] <Begin Info: Galite Cave Chitin Chestplate>
+[17:53:51] Usable by:
+[17:53:51] - Druid
+[17:53:51]  
+[17:53:51] Total Utility: 72
+[17:53:51] Single Skill Utility: 57
+[17:53:51]  
+[17:53:51] Magical Bonuses:
+[17:53:51] 10.00 | Dexterity: +15 pts
+[17:53:51] 18.00 | Empathy: +27 pts
+[17:53:51] 14.00 | Hits: +56 pts
+[17:53:51] 30.00 | ALL magic skills: +3 pts
+[17:53:51]  
+[17:53:51] Level Requirement: 50 Level
+[17:53:51]  
+[17:53:51] Magical Ability:
+[17:53:51] Heals the target.
+[17:53:51]  
+[17:53:51] Value: 180
+[17:53:51] Target: Self
+[17:53:51] Casting time: instant
+[17:53:51]  
+[17:53:51] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:51]  
+[17:53:51] Armor Modifiers:
+[17:53:51] - 102 Base Factor
+[17:53:51] - 102 Clamped Factor
+[17:53:51] - 27% Absorption
+[17:53:51] - 100% Quality
+[17:53:51] - 100% Condition
+[17:53:51]  
+[17:53:51] Effective Armor:
+[17:53:51] - 129 Factor
+[17:53:51] <End Info>
+[17:53:52] <Begin Info: Galite Cave Chitin Leggings>
+[17:53:52] Usable by:
+[17:53:52] - Druid
+[17:53:52]  
+[17:53:52] Total Utility: 72
+[17:53:52] Single Skill Utility: 57
+[17:53:52]  
+[17:53:52] Magical Bonuses:
+[17:53:52] 18.00 | Constitution: +27 pts
+[17:53:52] 10.00 | Empathy: +15 pts
+[17:53:52] 14.00 | Hits: +56 pts
+[17:53:52] 30.00 | ALL magic skills: +3 pts
+[17:53:52]  
+[17:53:52] Level Requirement: 50 Level
+[17:53:52]  
+[17:53:52] Magical Ability:
+[17:53:52] Function: melee health buffer
+[17:53:52] 
+[17:53:52] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:52] 
+[17:53:52] Absorption: 50%
+[17:53:52] Value: 150
+[17:53:52] Target: Self
+[17:53:52] Duration: 10:00 min
+[17:53:52] Casting time: Instant
+[17:53:52] Function: melee health buffer
+[17:53:52]  
+[17:53:52] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:52]  
+[17:53:52] Armor Modifiers:
+[17:53:52] - 102 Base Factor
+[17:53:52] - 102 Clamped Factor
+[17:53:52] - 27% Absorption
+[17:53:52] - 100% Quality
+[17:53:52] - 100% Condition
+[17:53:52]  
+[17:53:52] Effective Armor:
+[17:53:52] - 129 Factor
+[17:53:52] <End Info>
+[17:53:53] <Begin Info: Galite Cave Chitin Sleeves>
+[17:53:53] Usable by:
+[17:53:53] - Druid
+[17:53:53]  
+[17:53:53] Total Utility: 72
+[17:53:53] Single Skill Utility: 57
+[17:53:53]  
+[17:53:53] Magical Bonuses:
+[17:53:53] 18.00 | Strength: +27 pts
+[17:53:53] 10.00 | Constitution: +15 pts
+[17:53:53] 14.00 | Hits: +56 pts
+[17:53:53] 30.00 | ALL magic skills: +3 pts
+[17:53:53]  
+[17:53:53] Level Requirement: 50 Level
+[17:53:53]  
+[17:53:53] Magical Ability:
+[17:53:53] Function: melee health buffer
+[17:53:53] 
+[17:53:53] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:53] 
+[17:53:53] Absorption: 50%
+[17:53:53] Value: 150
+[17:53:53] Target: Self
+[17:53:53] Duration: 10:00 min
+[17:53:53] Casting time: Instant
+[17:53:53] Function: melee health buffer
+[17:53:53]  
+[17:53:53] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:53]  
+[17:53:53] Armor Modifiers:
+[17:53:53] - 102 Base Factor
+[17:53:53] - 102 Clamped Factor
+[17:53:53] - 27% Absorption
+[17:53:53] - 100% Quality
+[17:53:53] - 100% Condition
+[17:53:53]  
+[17:53:53] Effective Armor:
+[17:53:53] - 129 Factor
+[17:53:53] <End Info>
+[17:53:55] <Begin Info: Galite Cave Chitin Gauntlets>
+[17:53:55] Usable by:
+[17:53:55] - Druid
+[17:53:55]  
+[17:53:55] Total Utility: 60
+[17:53:55]  
+[17:53:55] Magical Bonuses:
+[17:53:55] 12.00 | Empathy: +18 pts
+[17:53:55] 14.00 | Crush: +7 %
+[17:53:55] 18.00 | Heat: +9 %
+[17:53:55] 16.00 | Matter: +8 %
+[17:53:55]  
+[17:53:55] Level Requirement: 50 Level
+[17:53:55]  
+[17:53:55] Magical Ability:
+[17:53:55] Damages the target.
+[17:53:55] 
+[17:53:55] Damage: 95
+[17:53:55] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:55] Target: Enemy Target
+[17:53:55] Range: 1500
+[17:53:55] Damage Type: Energy
+[17:53:55] Casting time: Instant
+[17:53:55]  
+[17:53:55] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:55]  
+[17:53:55] Armor Modifiers:
+[17:53:55] - 102 Base Factor
+[17:53:55] - 102 Clamped Factor
+[17:53:55] - 27% Absorption
+[17:53:55] - 100% Quality
+[17:53:55] - 100% Condition
+[17:53:55]  
+[17:53:55] Effective Armor:
+[17:53:55] - 129 Factor
+[17:53:55] <End Info>
+[17:53:55] <Begin Info: Galite Cave Chitin Boots>
+[17:53:55] Usable by:
+[17:53:55] - Druid
+[17:53:55]  
+[17:53:55] Total Utility: 60
+[17:53:55]  
+[17:53:55] Magical Bonuses:
+[17:53:55] 12.00 | Constitution: +18 pts
+[17:53:55] 16.00 | Body: +8 %
+[17:53:55] 18.00 | Cold: +9 %
+[17:53:55] 14.00 | Slash: +7 %
+[17:53:55]  
+[17:53:55] Level Requirement: 50 Level
+[17:53:55]  
+[17:53:55] Magical Ability:
+[17:53:55] Damages the target.
+[17:53:55] 
+[17:53:55] Damage: 95
+[17:53:55] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:55] Target: Enemy Target
+[17:53:55] Range: 1500
+[17:53:55] Damage Type: Energy
+[17:53:55] Casting time: Instant
+[17:53:55]  
+[17:53:55] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:55]  
+[17:53:55] Armor Modifiers:
+[17:53:55] - 102 Base Factor
+[17:53:55] - 102 Clamped Factor
+[17:53:55] - 27% Absorption
+[17:53:55] - 100% Quality
+[17:53:55] - 100% Condition
+[17:53:55]  
+[17:53:55] Effective Armor:
+[17:53:55] - 129 Factor
+[17:53:55] <End Info>
+[17:53:56] <Begin Info: Galite Cave Chitin Crown>
+[17:53:56] Usable by:
+[17:53:56] - Druid
+[17:53:56]  
+[17:53:56] Total Utility: 60
+[17:53:56]  
+[17:53:56] Magical Bonuses:
+[17:53:56] 12.00 | Quickness: +18 pts
+[17:53:56] 18.00 | Energy: +9 %
+[17:53:56] 16.00 | Spirit: +8 %
+[17:53:56] 14.00 | Thrust: +7 %
+[17:53:56]  
+[17:53:56] Level Requirement: 50 Level
+[17:53:56]  
+[17:53:56] Magical Ability:
+[17:53:56] Damages the target.
+[17:53:56] 
+[17:53:56] Damage: 95
+[17:53:56] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:53:56] Target: Enemy Target
+[17:53:56] Range: 1500
+[17:53:56] Damage Type: Energy
+[17:53:56] Casting time: Instant
+[17:53:56]  
+[17:53:56] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:56]  
+[17:53:56] Armor Modifiers:
+[17:53:56] - 102 Base Factor
+[17:53:56] - 102 Clamped Factor
+[17:53:56] - 27% Absorption
+[17:53:56] - 100% Quality
+[17:53:56] - 100% Condition
+[17:53:56]  
+[17:53:56] Effective Armor:
+[17:53:56] - 129 Factor
+[17:53:56] <End Info>
+[17:53:57] <Begin Info: Bladed Crystal Chestplate>
+[17:53:57] Usable by:
+[17:53:57] - Champion
+[17:53:57]  
+[17:53:57] Total Utility: 62
+[17:53:57]  
+[17:53:57] Magical Bonuses:
+[17:53:57] 14.00 | Strength: +21 pts
+[17:53:57] 18.00 | Constitution: +27 pts
+[17:53:57] 15.00 | Parry: +3 pts
+[17:53:57] 15.00 | Shields: +3 pts
+[17:53:57]  
+[17:53:57] Level Requirement: 50 Level
+[17:53:57]  
+[17:53:57] Magical Ability:
+[17:53:57] Heals the target.
+[17:53:57]  
+[17:53:57] Value: 180
+[17:53:57] Target: Self
+[17:53:57] Casting time: instant
+[17:53:57]  
+[17:53:57] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:57]  
+[17:53:57] Armor Modifiers:
+[17:53:57] - 102 Base Factor
+[17:53:57] - 102 Clamped Factor
+[17:53:57] - 27% Absorption
+[17:53:57] - 100% Quality
+[17:53:57] - 100% Condition
+[17:53:57]  
+[17:53:57] Effective Armor:
+[17:53:57] - 129 Factor
+[17:53:57] <End Info>
+[17:53:58] <Begin Info: Bladed Crystal Leggings>
+[17:53:58] Usable by:
+[17:53:58] - Champion
+[17:53:58]  
+[17:53:58] Total Utility: 57
+[17:53:58]  
+[17:53:58] Magical Bonuses:
+[17:53:58] 14.00 | Dexterity: +21 pts
+[17:53:58] 18.00 | Quickness: +27 pts
+[17:53:58] 10.00 | Hits: +40 pts
+[17:53:58] 15.00 | Shields: +3 pts
+[17:53:58]  
+[17:53:58] Level Requirement: 50 Level
+[17:53:58]  
+[17:53:58] Magical Ability:
+[17:53:58] Function: melee health buffer
+[17:53:58] 
+[17:53:58] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:58] 
+[17:53:58] Absorption: 50%
+[17:53:58] Value: 150
+[17:53:58] Target: Self
+[17:53:58] Duration: 10:00 min
+[17:53:58] Casting time: Instant
+[17:53:58] Function: melee health buffer
+[17:53:58]  
+[17:53:58] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:58]  
+[17:53:58] Armor Modifiers:
+[17:53:58] - 102 Base Factor
+[17:53:58] - 102 Clamped Factor
+[17:53:58] - 27% Absorption
+[17:53:58] - 100% Quality
+[17:53:58] - 100% Condition
+[17:53:58]  
+[17:53:58] Effective Armor:
+[17:53:58] - 129 Factor
+[17:53:58] <End Info>
+[17:53:59] <Begin Info: Bladed Crystal Sleeves>
+[17:53:59] Usable by:
+[17:53:59] - Champion
+[17:53:59]  
+[17:53:59] Total Utility: 72
+[17:53:59] Single Skill Utility: 57
+[17:53:59]  
+[17:53:59] Magical Bonuses:
+[17:53:59] 12.00 | Strength: +18 pts
+[17:53:59] 18.00 | Intelligence: +27 pts
+[17:53:59] 12.00 | Hits: +48 pts
+[17:53:59] 30.00 | ALL melee weapon skills: +3 pts
+[17:53:59]  
+[17:53:59] Level Requirement: 50 Level
+[17:53:59]  
+[17:53:59] Magical Ability:
+[17:53:59] Function: melee health buffer
+[17:53:59] 
+[17:53:59] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[17:53:59] 
+[17:53:59] Absorption: 50%
+[17:53:59] Value: 150
+[17:53:59] Target: Self
+[17:53:59] Duration: 10:00 min
+[17:53:59] Casting time: Instant
+[17:53:59] Function: melee health buffer
+[17:53:59]  
+[17:53:59] - Spell has a chance of casting when enemy strikes at this armor.
+[17:53:59]  
+[17:53:59] Armor Modifiers:
+[17:53:59] - 102 Base Factor
+[17:53:59] - 102 Clamped Factor
+[17:53:59] - 27% Absorption
+[17:53:59] - 100% Quality
+[17:53:59] - 100% Condition
+[17:53:59]  
+[17:53:59] Effective Armor:
+[17:53:59] - 129 Factor
+[17:53:59] <End Info>
+[17:54:00] <Begin Info: Bladed Crystal Boots>
+[17:54:00] Usable by:
+[17:54:00] - Champion
+[17:54:00]  
+[17:54:00] Total Utility: 78
+[17:54:00] Single Skill Utility: 63
+[17:54:00]  
+[17:54:00] Magical Bonuses:
+[17:54:00] 16.00 | Cold: +8 %
+[17:54:00] 14.00 | Matter: +7 %
+[17:54:00] 18.00 | Slash: +9 %
+[17:54:00] 30.00 | ALL melee weapon skills: +3 pts
+[17:54:00]  
+[17:54:00] Level Requirement: 50 Level
+[17:54:00]  
+[17:54:00] Magical Ability:
+[17:54:00] Damages the target.
+[17:54:00] 
+[17:54:00] Damage: 95
+[17:54:00] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:54:00] Target: Enemy Target
+[17:54:00] Range: 1500
+[17:54:00] Damage Type: Cold
+[17:54:00] Casting time: Instant
+[17:54:00]  
+[17:54:00] - Spell has a chance of casting when enemy strikes at this armor.
+[17:54:00]  
+[17:54:00] Armor Modifiers:
+[17:54:00] - 102 Base Factor
+[17:54:00] - 102 Clamped Factor
+[17:54:00] - 27% Absorption
+[17:54:00] - 100% Quality
+[17:54:00] - 100% Condition
+[17:54:00]  
+[17:54:00] Effective Armor:
+[17:54:00] - 129 Factor
+[17:54:00] <End Info>
+[17:54:01] <Begin Info: Bladed Crystal Gauntlets>
+[17:54:01] Usable by:
+[17:54:01] - Champion
+[17:54:01]  
+[17:54:01] Total Utility: 78
+[17:54:01] Single Skill Utility: 63
+[17:54:01]  
+[17:54:01] Magical Bonuses:
+[17:54:01] 14.00 | Body: +7 %
+[17:54:01] 18.00 | Crush: +9 %
+[17:54:01] 16.00 | Energy: +8 %
+[17:54:01] 30.00 | ALL melee weapon skills: +3 pts
+[17:54:01]  
+[17:54:01] Level Requirement: 50 Level
+[17:54:01]  
+[17:54:01] Magical Ability:
+[17:54:01] Damages the target.
+[17:54:01] 
+[17:54:01] Damage: 95
+[17:54:01] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:54:01] Target: Enemy Target
+[17:54:01] Range: 1500
+[17:54:01] Damage Type: Cold
+[17:54:01] Casting time: Instant
+[17:54:01]  
+[17:54:01] - Spell has a chance of casting when enemy strikes at this armor.
+[17:54:01]  
+[17:54:01] Armor Modifiers:
+[17:54:01] - 102 Base Factor
+[17:54:01] - 102 Clamped Factor
+[17:54:01] - 27% Absorption
+[17:54:01] - 100% Quality
+[17:54:01] - 100% Condition
+[17:54:01]  
+[17:54:01] Effective Armor:
+[17:54:01] - 129 Factor
+[17:54:01] <End Info>
+[17:54:02] <Begin Info: Bladed Crystal Gauntlets>
+[17:54:02] Usable by:
+[17:54:02] - Champion
+[17:54:02]  
+[17:54:02] Total Utility: 78
+[17:54:02] Single Skill Utility: 63
+[17:54:02]  
+[17:54:02] Magical Bonuses:
+[17:54:02] 14.00 | Body: +7 %
+[17:54:02] 18.00 | Crush: +9 %
+[17:54:02] 16.00 | Energy: +8 %
+[17:54:02] 30.00 | ALL melee weapon skills: +3 pts
+[17:54:02]  
+[17:54:02] Level Requirement: 50 Level
+[17:54:02]  
+[17:54:02] Magical Ability:
+[17:54:02] Damages the target.
+[17:54:02] 
+[17:54:02] Damage: 95
+[17:54:02] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:54:02] Target: Enemy Target
+[17:54:02] Range: 1500
+[17:54:02] Damage Type: Cold
+[17:54:02] Casting time: Instant
+[17:54:02]  
+[17:54:02] - Spell has a chance of casting when enemy strikes at this armor.
+[17:54:02]  
+[17:54:02] Armor Modifiers:
+[17:54:02] - 102 Base Factor
+[17:54:02] - 102 Clamped Factor
+[17:54:02] - 27% Absorption
+[17:54:02] - 100% Quality
+[17:54:02] - 100% Condition
+[17:54:02]  
+[17:54:02] Effective Armor:
+[17:54:02] - 129 Factor
+[17:54:02] <End Info>
+[17:54:03] <Begin Info: Bladed Crystal Crown>
+[17:54:03] Usable by:
+[17:54:03] - Champion
+[17:54:03]  
+[17:54:03] Total Utility: 63
+[17:54:03]  
+[17:54:03] Magical Bonuses:
+[17:54:03] 16.00 | Heat: +8 %
+[17:54:03] 14.00 | Spirit: +7 %
+[17:54:03] 18.00 | Thrust: +9 %
+[17:54:03] 15.00 | Parry: +3 pts
+[17:54:03]  
+[17:54:03] Level Requirement: 50 Level
+[17:54:03]  
+[17:54:03] Magical Ability:
+[17:54:03] Damages the target.
+[17:54:03] 
+[17:54:03] Damage: 95
+[17:54:03] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:54:03] Target: Enemy Target
+[17:54:03] Range: 1500
+[17:54:03] Damage Type: Cold
+[17:54:03] Casting time: Instant
+[17:54:03]  
+[17:54:03] - Spell has a chance of casting when enemy strikes at this armor.
+[17:54:03]  
+[17:54:03] Armor Modifiers:
+[17:54:03] - 102 Base Factor
+[17:54:03] - 102 Clamped Factor
+[17:54:03] - 27% Absorption
+[17:54:03] - 100% Quality
+[17:54:03] - 100% Condition
+[17:54:03]  
+[17:54:03] Effective Armor:
+[17:54:03] - 129 Factor
+[17:54:03] <End Info>
+[17:54:05] <Begin Info: Broodmother Carapace>
+[17:54:05] Usable by:
+[17:54:05] - Champion
+[17:54:05] - Druid
+[17:54:05] - Hero
+[17:54:05] - Warden
+[17:54:05]  
+[17:54:05] Total Utility: 64
+[17:54:05]  
+[17:54:05] Magical Bonuses:
+[17:54:05] 16.00 | Strength: +24 pts
+[17:54:05] 16.00 | Dexterity: +24 pts
+[17:54:05] 16.00 | Constitution: +24 pts
+[17:54:05] 16.00 | Quickness: +24 pts
+[17:54:05]  
+[17:54:05] Level Requirement: 50 Level
+[17:54:05]  
+[17:54:05] Magical Ability:
+[17:54:05] Spell line: Damage over Time
+[17:54:05] 
+[17:54:05] Inflicts damage to the target repeatedly over a given time period. This spell can be cast during combat.
+[17:54:05] 
+[17:54:05] Damage per tick: 64
+[17:54:05] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[17:54:05] Target: Enemy Target
+[17:54:05] Range: 1500
+[17:54:05] Damage Type: Energy
+[17:54:05] Duration: 20 seconds
+[17:54:05] Casting time: Instant
+[17:54:05]  
+[17:54:05] - Spell has a chance of casting when enemy strikes at this armor.
+[17:54:05]  
+[17:54:05] Armor Modifiers:
+[17:54:05] - 102 Base Factor
+[17:54:05] - 102 Clamped Factor
+[17:54:05] - 27% Absorption
+[17:54:05] - 100% Quality
+[17:54:05] - 100% Condition
+[17:54:05]  
+[17:54:05] Effective Armor:
+[17:54:05] - 129 Factor
+[17:54:05] <End Info>
+[17:54:08] Tyctac's mount rears.
+[17:54:08] You need 15000 Phoenix Feather to buy Broodmother Carapace.
+[17:54:08] You need 10000 Phoenix Feather to buy Bladed Crystal Crown.
+[17:54:09] You need 10000 Phoenix Feather to buy Bladed Crystal Gauntlets.
+[17:54:10] You need 10000 Phoenix Feather to buy Bladed Crystal Boots.
+[17:54:10] You need 10000 Phoenix Feather to buy Bladed Crystal Sleeves.
+[17:54:11] You need 15000 Phoenix Feather to buy Bladed Crystal Leggings.
+[17:54:11] You need 20000 Phoenix Feather to buy Bladed Crystal Chestplate.
+[17:54:11] Tyctac's mount rears.
+[17:54:12] You need 10000 Phoenix Feather to buy Galite Cave Chitin Crown.
+[17:54:12] You need 10000 Phoenix Feather to buy Galite Cave Chitin Boots.
+[17:54:13] You need 10000 Phoenix Feather to buy Galite Cave Chitin Gauntlets.
+[17:54:14] You need 10000 Phoenix Feather to buy Galite Cave Chitin Sleeves.
+[17:54:14] You need 15000 Phoenix Feather to buy Galite Cave Chitin Leggings.
+[17:54:15] Tyctac lets his mount graze.
+[17:54:15] You need 20000 Phoenix Feather to buy Galite Cave Chitin Chestplate.
+[17:54:15] You need 15000 Phoenix Feather to buy Primal Spore Covered Crown.
+[17:54:16] You need 15000 Phoenix Feather to buy Primal Spore Covered Boots.
+[17:54:17] You need 10000 Phoenix Feather to buy Primal Spore Covered Gauntlets.
+[17:54:17] You need 10000 Phoenix Feather to buy Primal Spore Covered Sleeves.
+[17:54:18] You need 15000 Phoenix Feather to buy Primal Spore Covered Leggings.
+[17:54:19] You need 20000 Phoenix Feather to buy Primal Spore Covered Chestplate.
+[17:54:20] You need 10000 Phoenix Feather to buy Vine Covered Crown.
+[17:54:20] You need 20000 Phoenix Feather to buy Vine Covered Boots.
+[17:54:21] You need 10000 Phoenix Feather to buy Vine Covered Gauntlets.
+[17:54:22] You need 10000 Phoenix Feather to buy Vine Covered Sleeves.
+[17:54:22] You need 15000 Phoenix Feather to buy Vine Covered Leggings.
+[17:54:23] You need 20000 Phoenix Feather to buy Vine Covered Chestplate.
+[17:54:26] You need 15000 Phoenix Feather to buy Gloves of the Bladehand.
+[17:54:26] You need 15000 Phoenix Feather to buy Fine Easmarach Skin.
+[17:54:27] You need 10000 Phoenix Feather to buy Encrusted Cave Crystal Crown.
+[17:54:27] You need 10000 Phoenix Feather to buy Encrusted Cave Crystal Boots.
+[17:54:28] Tyctac's mount rears.
+[17:54:28] You need 10000 Phoenix Feather to buy Encrusted Cave Crystal Gauntlets.
+[17:54:29] You need 10000 Phoenix Feather to buy Encrusted Cave Crystal Sleeves.
+[17:54:29] You need 20000 Phoenix Feather to buy Encrusted Cave Crystal Leggings.
+[17:54:30] You need 20000 Phoenix Feather to buy Encrusted Cave Crystal Jerkin.
+[17:54:31] You need 10000 Phoenix Feather to buy Phosphorescent Galite Crown.
+[17:54:32] You need 10000 Phoenix Feather to buy Phosphorescent Galite Boots.
+[17:54:33] You need 15000 Phoenix Feather to buy Phosphorescent Galite Gauntlets.
+[17:54:33] You need 10000 Phoenix Feather to buy Phosphorescent Galite Sleeves.
+[17:54:34] You need 15000 Phoenix Feather to buy Phosphorescent Galite Leggings.
+[17:54:35] You need 20000 Phoenix Feather to buy Phosphorescent Galite Jerkin.
+[17:54:36] You need 10000 Phoenix Feather to buy Rigid Razorback Crown.
+[17:54:36] You need 10000 Phoenix Feather to buy Rigid Razorback Boots.
+[17:54:37] Tyctac lets his mount graze.
+[17:54:37] You need 10000 Phoenix Feather to buy Rigid Razorback Gauntlets.
+[17:54:38] You need 20000 Phoenix Feather to buy Rigid Razorback Sleeves.
+[17:54:38] You need 20000 Phoenix Feather to buy Rigid Razorback Leggings.
+[17:54:39] You need 20000 Phoenix Feather to buy Rigid Razorback Jerkin.
+[17:54:41] @@[LFG] Sleeve (50, Mentalist): rvr duo/small/8
+[17:54:42] You need 15000 Phoenix Feather to buy Thick Uaimh Hide.
+[17:54:42] You need 10000 Phoenix Feather to buy Cured Blackthorn Crown.
+[17:54:43] You need 10000 Phoenix Feather to buy Cured Blackthorn Boots.
+[17:54:44] You need 10000 Phoenix Feather to buy Cured Blackthorn Gauntlets.
+[17:54:44] You need 10000 Phoenix Feather to buy Cured Blackthorn Sleeves.
+[17:54:45] You need 15000 Phoenix Feather to buy Cured Blackthorn Leggings.
+[17:54:46] You need 20000 Phoenix Feather to buy Cured Blackthorn Vest.
+[17:54:48] @@[LFG] Cuefix (42, Ranger): lf xp if any has room for 42 ranger
+[17:54:48] You need 20000 Phoenix Feather to buy Robe of Wailing Vines.
+[17:54:48] You need 15000 Phoenix Feather to buy Fiery Geomancer's Robe.
+[17:54:49] You need 15000 Phoenix Feather to buy Earthen Geomancer's Robe.
+[17:54:50] You need 10000 Phoenix Feather to buy Writhing Blackthorn Crown.
+[17:54:50] You need 10000 Phoenix Feather to buy Writhing Blackthorn Boots.
+[17:54:51] You need 10000 Phoenix Feather to buy Writhing Blackthorn Gloves.
+[17:54:52] You need 20000 Phoenix Feather to buy Writhing Blackthorn Sleeves.
+[17:54:52] You need 15000 Phoenix Feather to buy Writhing Blackthorn Leggings.
+[17:54:53] You need 20000 Phoenix Feather to buy Writhing Blackthorn Robe.
+[17:54:55] You need 10000 Phoenix Feather to buy Virulent Sporite Crown.
+[17:54:56] You need 10000 Phoenix Feather to buy Virulent Sporite Boots.
+[17:54:56] You need 10000 Phoenix Feather to buy Virulent Sporite Gloves.
+[17:54:57] You need 15000 Phoenix Feather to buy Virulent Sporite Sleeves.
+[17:54:58] You need 15000 Phoenix Feather to buy Virulent Sporite Leggings.
+[17:54:58] You need 20000 Phoenix Feather to buy Virulent Sporite Robe.
+[17:54:59] You need 10000 Phoenix Feather to buy Striated Blood Vine Crown.
+[17:54:59] You need 10000 Phoenix Feather to buy Striated Blood Vine Boots.
+[17:55:00] @@[LFG] Lyribubulle (37, Warden): XP :)
+[17:55:00] You need 10000 Phoenix Feather to buy Striated Blood Vine Hand.
+[17:55:01] You need 10000 Phoenix Feather to buy Striated Blood Vine Sleeves.
+[17:55:01] You need 15000 Phoenix Feather to buy Striated Blood Vine Pants.
+[17:55:02] You need 20000 Phoenix Feather to buy Striated Blood Vine Robe.
+[17:55:03] You need 10000 Phoenix Feather to buy Globule Covered Crown.
+[17:55:03] You need 10000 Phoenix Feather to buy Globule Covered Boots.
+[17:55:04] You need 10000 Phoenix Feather to buy Globule Covered Gloves.
+[17:55:04] You need 10000 Phoenix Feather to buy Globule Covered Sleeves.
+[17:55:05] You need 15000 Phoenix Feather to buy Globule Covered Pants.
+[17:55:06] You need 20000 Phoenix Feather to buy Globule Covered Robe.
+[17:55:06] You need 10000 Phoenix Feather to buy Azure Incandescent Crown.
+[17:55:07] @@[Trade] Bardemachtspass: lf spellcrafter
+[17:55:07] You need 10000 Phoenix Feather to buy Azure Incandescent Boots.
+[17:55:08] You need 10000 Phoenix Feather to buy Azure Incandescent Gloves.
+[17:55:08] You need 10000 Phoenix Feather to buy Azure Incandescent Sleeves.
+[17:55:09] You need 15000 Phoenix Feather to buy Azure Incandescent Leggings.
+[17:55:10] You need 20000 Phoenix Feather to buy Azure Incandescent Robe.
+
+*** Chat Log Closed: Sun May 30 17:55:12 2021
+
+

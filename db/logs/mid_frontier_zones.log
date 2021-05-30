@@ -1,0 +1,848 @@
+
+*** Chat Log Opened: Sun May 30 16:55:35 2021
+
+[16:55:35]                                       
+[16:55:37] <Begin Info: Cleaver of Eternal Retribution>
+[16:55:37]  
+[16:55:37] Total Utility: 61.333
+[16:55:37]  
+[16:55:37] Magical Bonuses:
+[16:55:37] 12.67 | Strength: +19 pts
+[16:55:37] 12.67 | Quickness: +19 pts
+[16:55:37] 16.00 | Crush: +8 %
+[16:55:37] 20.00 | Left Axe: +4 pts
+[16:55:37]  
+[16:55:37] Level Requirement: 49 Level
+[16:55:37]  
+[16:55:37] Magical Ability:
+[16:55:37] Name: Proc Endurance Drain
+[16:55:37] Description: 
+[16:55:37] Target: Enemy
+[16:55:37] Casting time: instant
+[16:55:37] Range: 1500
+[16:55:37] Endurance drained: 15
+[16:55:37]  
+[16:55:37] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:55:37]  
+[16:55:37]  
+[16:55:37] Damage Modifiers:
+[16:55:37] - 16.5 Base DPS
+[16:55:37] - 16.2 Clamped DPS
+[16:55:37] - 3.2 Weapon Speed
+[16:55:37] - 100% Quality
+[16:55:37] - 100% Condition
+[16:55:37] - Damage Type: Slash
+[16:55:37]  
+[16:55:37] Effective Damage:
+[16:55:37] - 16.2 DPS
+[16:55:37] <End Info>
+[16:55:39] <Begin Info: Sword of Sorrow>
+[16:55:39]  
+[16:55:39] Total Utility: 65.333
+[16:55:39]  
+[16:55:39] Magical Bonuses:
+[16:55:39] 12.67 | Strength: +19 pts
+[16:55:39] 12.67 | Quickness: +19 pts
+[16:55:39] 20.00 | Parry: +4 pts
+[16:55:39] 20.00 | Sword: +4 pts
+[16:55:39]  
+[16:55:39] Level Requirement: 49 Level
+[16:55:39]  
+[16:55:39] Magical Ability:
+[16:55:39] Name: Proc Endurance Drain
+[16:55:39] Description: 
+[16:55:39] Target: Enemy
+[16:55:39] Casting time: instant
+[16:55:39] Range: 1500
+[16:55:39] Endurance drained: 15
+[16:55:39]  
+[16:55:39] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:55:39]  
+[16:55:39]  
+[16:55:39] Damage Modifiers:
+[16:55:39] - 16.5 Base DPS
+[16:55:39] - 16.2 Clamped DPS
+[16:55:39] - 4.3 Weapon Speed
+[16:55:39] - 100% Quality
+[16:55:39] - 100% Condition
+[16:55:39] - Damage Type: Slash
+[16:55:39]  
+[16:55:39] Effective Damage:
+[16:55:39] - 16.2 DPS
+[16:55:39] <End Info>
+[16:55:39] @@[LFG] Drexa (50, Healer): how do i play aug healer better any tips?
+[16:55:41] <Begin Info: Sleeves of Strife>
+[16:55:41]  
+[16:55:41] Total Utility: 63
+[16:55:41]  
+[16:55:41] Magical Bonuses:
+[16:55:41] 15.00 | Hits: +60 pts
+[16:55:41] 16.00 | Crush: +8 %
+[16:55:41] 16.00 | Slash: +8 %
+[16:55:41] 16.00 | Thrust: +8 %
+[16:55:41]  
+[16:55:41] Level Requirement: 50 Level
+[16:55:41]  
+[16:55:41] Magical Ability:
+[16:55:41] Heals the target
+[16:55:41]  
+[16:55:41] Value: 80
+[16:55:41] Target: Self
+[16:55:41] Casting time: instant
+[16:55:41]  
+[16:55:41] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:41]  
+[16:55:41] Armor Modifiers:
+[16:55:41] - 51 Base Factor
+[16:55:41] - 50 Clamped Factor
+[16:55:41] - 0% Absorption
+[16:55:41] - 100% Quality
+[16:55:41] - 100% Condition
+[16:55:41]  
+[16:55:41] Effective Armor:
+[16:55:41] - 50 Factor
+[16:55:41] <End Info>
+[16:55:42] <Begin Info: Sleeves of Strife>
+[16:55:42]  
+[16:55:42] Total Utility: 63
+[16:55:42]  
+[16:55:42] Magical Bonuses:
+[16:55:42] 15.00 | Hits: +60 pts
+[16:55:42] 16.00 | Crush: +8 %
+[16:55:42] 16.00 | Slash: +8 %
+[16:55:42] 16.00 | Thrust: +8 %
+[16:55:42]  
+[16:55:42] Level Requirement: 50 Level
+[16:55:42]  
+[16:55:42] Magical Ability:
+[16:55:42] Heals the target
+[16:55:42]  
+[16:55:42] Value: 80
+[16:55:42] Target: Self
+[16:55:42] Casting time: instant
+[16:55:42]  
+[16:55:42] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:42]  
+[16:55:42] Armor Modifiers:
+[16:55:42] - 51 Base Factor
+[16:55:42] - 50 Clamped Factor
+[16:55:42] - 0% Absorption
+[16:55:42] - 100% Quality
+[16:55:42] - 100% Condition
+[16:55:42]  
+[16:55:42] Effective Armor:
+[16:55:42] - 50 Factor
+[16:55:42] <End Info>
+[16:55:43] <Begin Info: Sleeves of Strife>
+[16:55:43]  
+[16:55:43] Total Utility: 63
+[16:55:43]  
+[16:55:43] Magical Bonuses:
+[16:55:43] 15.00 | Hits: +60 pts
+[16:55:43] 16.00 | Crush: +8 %
+[16:55:43] 16.00 | Slash: +8 %
+[16:55:43] 16.00 | Thrust: +8 %
+[16:55:43]  
+[16:55:43] Level Requirement: 50 Level
+[16:55:43]  
+[16:55:43] Magical Ability:
+[16:55:43] Heals the target
+[16:55:43]  
+[16:55:43] Value: 80
+[16:55:43] Target: Self
+[16:55:43] Casting time: instant
+[16:55:43]  
+[16:55:43] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:43]  
+[16:55:43] Armor Modifiers:
+[16:55:43] - 51 Base Factor
+[16:55:43] - 50 Clamped Factor
+[16:55:43] - 0% Absorption
+[16:55:43] - 100% Quality
+[16:55:43] - 100% Condition
+[16:55:43]  
+[16:55:43] Effective Armor:
+[16:55:43] - 50 Factor
+[16:55:43] <End Info>
+[16:55:44] <Begin Info: Twinkling Tiara>
+[16:55:44]  
+[16:55:44] Total Utility: 76
+[16:55:44] Single Skill Utility: 61
+[16:55:44]  
+[16:55:44] Magical Bonuses:
+[16:55:44] 14.00 | Dexterity: +21 pts
+[16:55:44] 12.00 | Hits: +48 pts
+[16:55:44] 20.00 | Thrust: +10 %
+[16:55:44] 30.00 | ALL magic skills: +3 pts
+[16:55:44]  
+[16:55:44] Level Requirement: 50 Level
+[16:55:44]  
+[16:55:44] Charged Magic Ability:
+[16:55:44] - 10 Charges
+[16:55:44] - 10 Max
+[16:55:44]  
+[16:55:44]  
+[16:55:44] Value: 20%
+[16:55:44] Target: Self
+[16:55:44] Casting time: instant
+[16:55:44]  
+[16:55:44] - This spell is cast when the item is used.
+[16:55:44]  
+[16:55:44] Can use item every: 2:00 min.
+[16:55:44]  
+[16:55:44] Armor Modifiers:
+[16:55:44] - 102 Base Factor
+[16:55:44] - 100 Clamped Factor
+[16:55:44] - 27% Absorption
+[16:55:44] - 100% Quality
+[16:55:44] - 100% Condition
+[16:55:44]  
+[16:55:44] Effective Armor:
+[16:55:44] - 127 Factor
+[16:55:44] <End Info>
+[16:55:45] <Begin Info: Ancient Daemon Jerkin>
+[16:55:45] Usable by:
+[16:55:45] - Shadowblade
+[16:55:45]  
+[16:55:45] Total Utility: 64
+[16:55:45]  
+[16:55:45] Magical Bonuses:
+[16:55:45] 12.00 | Strength: +18 pts
+[16:55:45] 12.00 | Dexterity: +18 pts
+[16:55:45] 20.00 | Body: +10 %
+[16:55:45] 20.00 | Slash: +10 %
+[16:55:45]  
+[16:55:45] Level Requirement: 50 Level
+[16:55:45]  
+[16:55:45] Magical Ability:
+[16:55:45] Creates a field that damages anyone who attacks the target in melee.
+[16:55:45] 
+[16:55:45] Creates a field that damages anyone who attacks the target in melee.
+[16:55:45] Damage: 5.1 DPS
+[16:55:45] Target: Self
+[16:55:45] Duration: 20 seconds
+[16:55:45] Casting time: Instant
+[16:55:45]  
+[16:55:45] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:45]  
+[16:55:45] Armor Modifiers:
+[16:55:45] - 102 Base Factor
+[16:55:45] - 100 Clamped Factor
+[16:55:45] - 10% Absorption
+[16:55:45] - 100% Quality
+[16:55:45] - 100% Condition
+[16:55:45]  
+[16:55:45] Effective Armor:
+[16:55:45] - 110 Factor
+[16:55:45] <End Info>
+[16:55:47] <Begin Info: Evil Empire Vest>
+[16:55:47]  
+[16:55:47] Total Utility: 64
+[16:55:47]  
+[16:55:47] Magical Bonuses:
+[16:55:47] 12.00 | Strength: +18 pts
+[16:55:47] 12.00 | Dexterity: +18 pts
+[16:55:47] 20.00 | Cold: +10 %
+[16:55:47] 20.00 | Thrust: +10 %
+[16:55:47]  
+[16:55:47] Armor Modifiers:
+[16:55:47] - 102 Base Factor
+[16:55:47] - 100 Clamped Factor
+[16:55:47] - 19% Absorption
+[16:55:47] - 100% Quality
+[16:55:47] - 100% Condition
+[16:55:47]  
+[16:55:47] Effective Armor:
+[16:55:47] - 119 Factor
+[16:55:47] <End Info>
+[16:55:48] <Begin Info: Flawless Vest of the Vile Dominion>
+[16:55:48]  
+[16:55:48] Total Utility: 65.333
+[16:55:48]  
+[16:55:48] Magical Bonuses:
+[16:55:48] 12.67 | Strength: +19 pts
+[16:55:48] 12.67 | Dexterity: +19 pts
+[16:55:48] 20.00 | Cold: +10 %
+[16:55:48] 20.00 | Thrust: +10 %
+[16:55:48]  
+[16:55:48] Level Requirement: 50 Level
+[16:55:48]  
+[16:55:48] Magical Ability:
+[16:55:48] Creates a field that damages anyone who attacks the target in melee.
+[16:55:48] 
+[16:55:48] Creates a field that damages anyone who attacks the target in melee.
+[16:55:48] Damage: 5.1 DPS
+[16:55:48] Target: Self
+[16:55:48] Duration: 20 seconds
+[16:55:48] Casting time: Instant
+[16:55:48]  
+[16:55:48] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:48]  
+[16:55:48] Armor Modifiers:
+[16:55:48] - 102 Base Factor
+[16:55:48] - 100 Clamped Factor
+[16:55:48] - 19% Absorption
+[16:55:48] - 100% Quality
+[16:55:48] - 100% Condition
+[16:55:48]  
+[16:55:48] Effective Armor:
+[16:55:48] - 119 Factor
+[16:55:48] <End Info>
+[16:55:49] <Begin Info: Flawless Hauberk of the Wretched>
+[16:55:49]  
+[16:55:49] Total Utility: 65.333
+[16:55:49]  
+[16:55:49] Magical Bonuses:
+[16:55:49] 12.67 | Constitution: +19 pts
+[16:55:49] 12.67 | Piety: +19 pts
+[16:55:49] 20.00 | Spirit: +10 %
+[16:55:49] 20.00 | Thrust: +10 %
+[16:55:49]  
+[16:55:49] Level Requirement: 50 Level
+[16:55:49]  
+[16:55:49] Magical Ability:
+[16:55:49] Creates a field that damages anyone who attacks the target in melee.
+[16:55:49] 
+[16:55:49] Creates a field that damages anyone who attacks the target in melee.
+[16:55:49] Damage: 5.1 DPS
+[16:55:49] Target: Self
+[16:55:49] Duration: 20 seconds
+[16:55:49] Casting time: Instant
+[16:55:49]  
+[16:55:49] - Spell has a chance of casting when enemy strikes at this armor.
+[16:55:49]  
+[16:55:49] Armor Modifiers:
+[16:55:49] - 102 Base Factor
+[16:55:49] - 100 Clamped Factor
+[16:55:49] - 27% Absorption
+[16:55:49] - 100% Quality
+[16:55:49] - 100% Condition
+[16:55:49]  
+[16:55:49] Effective Armor:
+[16:55:49] - 127 Factor
+[16:55:49] <End Info>
+[16:55:51] <Begin Info: Hauberk of the Wretched>
+[16:55:51]  
+[16:55:51] Total Utility: 64
+[16:55:51]  
+[16:55:51] Magical Bonuses:
+[16:55:51] 12.00 | Constitution: +18 pts
+[16:55:51] 12.00 | Piety: +18 pts
+[16:55:51] 20.00 | Spirit: +10 %
+[16:55:51] 20.00 | Thrust: +10 %
+[16:55:51]  
+[16:55:51] Armor Modifiers:
+[16:55:51] - 102 Base Factor
+[16:55:51] - 100 Clamped Factor
+[16:55:51] - 27% Absorption
+[16:55:51] - 100% Quality
+[16:55:51] - 100% Condition
+[16:55:51]  
+[16:55:51] Effective Armor:
+[16:55:51] - 127 Factor
+[16:55:51] <End Info>
+[16:55:52] <Begin Info: Hauberk of the Wretched>
+[16:55:52]  
+[16:55:52] Total Utility: 64
+[16:55:52]  
+[16:55:52] Magical Bonuses:
+[16:55:52] 12.00 | Constitution: +18 pts
+[16:55:52] 12.00 | Piety: +18 pts
+[16:55:52] 20.00 | Spirit: +10 %
+[16:55:52] 20.00 | Thrust: +10 %
+[16:55:52]  
+[16:55:52] Armor Modifiers:
+[16:55:52] - 102 Base Factor
+[16:55:52] - 100 Clamped Factor
+[16:55:52] - 27% Absorption
+[16:55:52] - 100% Quality
+[16:55:52] - 100% Condition
+[16:55:52]  
+[16:55:52] Effective Armor:
+[16:55:52] - 127 Factor
+[16:55:52] <End Info>
+[16:55:53] <Begin Info: Shimmering Hauberk of Forlorn>
+[16:55:53]  
+[16:55:53] Total Utility: 64
+[16:55:53]  
+[16:55:53] Magical Bonuses:
+[16:55:53] 8.00 | Strength: +12 pts
+[16:55:53] 16.00 | Constitution: +24 pts
+[16:55:53] 20.00 | Body: +10 %
+[16:55:53] 20.00 | Crush: +10 %
+[16:55:53]  
+[16:55:53] Armor Modifiers:
+[16:55:53] - 102 Base Factor
+[16:55:53] - 100 Clamped Factor
+[16:55:53] - 27% Absorption
+[16:55:53] - 100% Quality
+[16:55:53] - 100% Condition
+[16:55:53]  
+[16:55:53] Effective Armor:
+[16:55:53] - 127 Factor
+[16:55:53] <End Info>
+[16:55:54] <Begin Info: Shimmering Hauberk of Forlorn Souls>
+[16:55:54]  
+[16:55:54] Total Utility: 64
+[16:55:54]  
+[16:55:54] Magical Bonuses:
+[16:55:54] 8.00 | Strength: +12 pts
+[16:55:54] 16.00 | Constitution: +24 pts
+[16:55:54] 20.00 | Body: +10 %
+[16:55:54] 20.00 | Crush: +10 %
+[16:55:54]  
+[16:55:54] Armor Modifiers:
+[16:55:54] - 102 Base Factor
+[16:55:54] - 100 Clamped Factor
+[16:55:54] - 27% Absorption
+[16:55:54] - 100% Quality
+[16:55:54] - 100% Condition
+[16:55:54]  
+[16:55:54] Effective Armor:
+[16:55:54] - 127 Factor
+[16:55:54] <End Info>
+[16:55:57] <Begin Info: Luminescent Drakescale Band>
+[16:55:57]  
+[16:55:57] Total Utility: 41
+[16:55:57]  
+[16:55:57] Magical Bonuses:
+[16:55:57] 10.00 | Dexterity: +15 pts
+[16:55:57] 10.00 | Piety: +15 pts
+[16:55:57] 6.00 | Power: +6 pts
+[16:55:57] 15.00 | Hits: +60 pts
+[16:55:57]  
+[16:55:57] <End Info>
+[16:55:58] <Begin Info: Gilded Verdant Ring>
+[16:55:58]  
+[16:55:58] Total Utility: 45
+[16:55:58]  
+[16:55:58] Magical Bonuses:
+[16:55:58] 10.00 | Strength: +15 pts
+[16:55:58] 10.00 | Quickness: +15 pts
+[16:55:58] 10.00 | Hits: +40 pts
+[16:55:58] 15.00 | Parry: +3 pts
+[16:55:58]  
+[16:55:58] <End Info>
+[16:55:59] <Begin Info: Glacial Emerald Ring>
+[16:55:59]  
+[16:55:59] Total Utility: 50
+[16:55:59]  
+[16:55:59] Magical Bonuses:
+[16:55:59] 12.00 | Strength: +18 pts
+[16:55:59] 12.00 | Quickness: +18 pts
+[16:55:59] 12.00 | Charisma: +18 pts
+[16:55:59] 14.00 | Crush: +7 %
+[16:55:59]  
+[16:55:59] <End Info>
+[16:56:00] <Begin Info: Glacial Emerald Ring>
+[16:56:00]  
+[16:56:00] Total Utility: 50
+[16:56:00]  
+[16:56:00] Magical Bonuses:
+[16:56:00] 12.00 | Strength: +18 pts
+[16:56:00] 12.00 | Quickness: +18 pts
+[16:56:00] 12.00 | Charisma: +18 pts
+[16:56:00] 14.00 | Crush: +7 %
+[16:56:00]  
+[16:56:00] <End Info>
+[16:56:02] <Begin Info: Band of Eternity>
+[16:56:02]  
+[16:56:02] Total Utility: 63
+[16:56:02]  
+[16:56:02] Magical Bonuses:
+[16:56:02] 14.00 | Constitution: +21 pts
+[16:56:02] 15.00 | Hits: +60 pts
+[16:56:02] 14.00 | Body: +7 %
+[16:56:02] 20.00 | Parry: +4 pts
+[16:56:02]  
+[16:56:02] <End Info>
+[16:56:03] <Begin Info: Luminescent Drakescale Bracer>
+[16:56:03]  
+[16:56:03] Total Utility: 47
+[16:56:03]  
+[16:56:03] Magical Bonuses:
+[16:56:03] 10.00 | Dexterity: +15 pts
+[16:56:03] 10.00 | Quickness: +15 pts
+[16:56:03] 15.00 | Hits: +60 pts
+[16:56:03] 12.00 | Spirit: +6 %
+[16:56:03]  
+[16:56:03] Level Requirement: 45 Level
+[16:56:03]  
+[16:56:03] Charged Magic Ability:
+[16:56:03] - 10 Charges
+[16:56:03] - 10 Max
+[16:56:03]  
+[16:56:03] Increases Dex/Qui for a character.
+[16:56:03] 
+[16:56:03] Dex/Qui bonus: 50
+[16:56:03] Target: Self
+[16:56:03] Duration: 10:00 min
+[16:56:03] Casting time: Instant
+[16:56:03]  
+[16:56:03] - This spell is cast when the item is used.
+[16:56:03]  
+[16:56:03] Can use item every: 2:00 min.
+[16:56:03]  
+[16:56:03] <End Info>
+[16:56:04] <Begin Info: Gilded Verdant Bracer>
+[16:56:04]  
+[16:56:04] Total Utility: 41
+[16:56:04]  
+[16:56:04] Magical Bonuses:
+[16:56:04] 10.00 | Dexterity: +15 pts
+[16:56:04] 6.00 | Power: +6 pts
+[16:56:04] 15.00 | Hits: +60 pts
+[16:56:04] 10.00 | Acuity: +15 pts
+[16:56:04]  
+[16:56:04] <End Info>
+[16:56:06] <Begin Info: Icebound Bracer>
+[16:56:06]  
+[16:56:06] Total Utility: 50
+[16:56:06]  
+[16:56:06] Magical Bonuses:
+[16:56:06] 12.00 | Strength: +18 pts
+[16:56:06] 12.00 | Quickness: +18 pts
+[16:56:06] 12.00 | Hits: +48 pts
+[16:56:06] 14.00 | Thrust: +7 %
+[16:56:06]  
+[16:56:06] <End Info>
+[16:56:08] <Begin Info: Worked Wormhide Wrap>
+[16:56:08]  
+[16:56:08] Total Utility: 62
+[16:56:08]  
+[16:56:08] Magical Bonuses:
+[16:56:08] 14.00 | Dexterity: +21 pts
+[16:56:08] 16.00 | Cold: +8 %
+[16:56:08] 16.00 | Slash: +8 %
+[16:56:08] 16.00 | Spirit: +8 %
+[16:56:08]  
+[16:56:08] <End Info>
+[16:56:10] <Begin Info: Wormskin Wrap>
+[16:56:10]  
+[16:56:10] Total Utility: 64
+[16:56:10]  
+[16:56:10] Magical Bonuses:
+[16:56:10] 16.00 | Constitution: +24 pts
+[16:56:10] 16.00 | Crush: +8 %
+[16:56:10] 16.00 | Slash: +8 %
+[16:56:10] 16.00 | Thrust: +8 %
+[16:56:10]  
+[16:56:10] Level Requirement: 50 Level
+[16:56:10]  
+[16:56:10] Charged Magic Ability:
+[16:56:10] - 10 Charges
+[16:56:10] - 10 Max
+[16:56:10]  
+[16:56:10] Target regenerates the given amount of health every 'tick'.
+[16:56:10]  
+[16:56:10] Value: 29
+[16:56:10] Target: Self
+[16:56:10] Duration: 20 sec
+[16:56:10] Casting time: instant
+[16:56:10]  
+[16:56:10] - This spell is cast when the item is used.
+[16:56:10]  
+[16:56:10]  
+[16:56:10]  
+[16:56:10] Can use item every: 2:00 min
+[16:56:10] <End Info>
+[16:56:11] <Begin Info: Tasty Chunk of Legion>
+[16:56:11]  
+[16:56:11] Total Utility: 61.667
+[16:56:11]  
+[16:56:11] Magical Bonuses:
+[16:56:11] 14.67 | Constitution: +22 pts
+[16:56:11] 19.00 | Hits: +76 pts
+[16:56:11] 14.00 | Energy: +7 %
+[16:56:11] 14.00 | Spirit: +7 %
+[16:56:11]  
+[16:56:11] Level Requirement: 40 Level
+[16:56:11]  
+[16:56:11] Charged Magic Ability:
+[16:56:11] - 10 Charges
+[16:56:11] - 10 Max
+[16:56:11]  
+[16:56:11] Target gains Power
+[16:56:11]  
+[16:56:11] Value: 99
+[16:56:11] Target: Self
+[16:56:11] Casting time: instant
+[16:56:11]  
+[16:56:11] - This spell is cast when the item is used.
+[16:56:11]  
+[16:56:11] Can use item every: 2:00 min.
+[16:56:11]  
+[16:56:11] <End Info>
+[16:56:12] <Begin Info: Tasty Chunk of Legion>
+[16:56:12]  
+[16:56:12] Total Utility: 61.667
+[16:56:12]  
+[16:56:12] Magical Bonuses:
+[16:56:12] 14.67 | Constitution: +22 pts
+[16:56:12] 19.00 | Hits: +76 pts
+[16:56:12] 14.00 | Energy: +7 %
+[16:56:12] 14.00 | Spirit: +7 %
+[16:56:12]  
+[16:56:12] Level Requirement: 40 Level
+[16:56:12]  
+[16:56:12] Charged Magic Ability:
+[16:56:12] - 10 Charges
+[16:56:12] - 10 Max
+[16:56:12]  
+[16:56:12] Target gains Power
+[16:56:12]  
+[16:56:12] Value: 99
+[16:56:12] Target: Self
+[16:56:12] Casting time: instant
+[16:56:12]  
+[16:56:12] - This spell is cast when the item is used.
+[16:56:12]  
+[16:56:12] Can use item every: 2:00 min.
+[16:56:12]  
+[16:56:12] <End Info>
+[16:56:14] <Begin Info: Heart of Legion>
+[16:56:14]  
+[16:56:14] Total Utility: 61.667
+[16:56:14]  
+[16:56:14] Magical Bonuses:
+[16:56:14] 14.67 | Constitution: +22 pts
+[16:56:14] 19.00 | Hits: +76 pts
+[16:56:14] 14.00 | Energy: +7 %
+[16:56:14] 14.00 | Spirit: +7 %
+[16:56:14]  
+[16:56:14] Level Requirement: 40 Level
+[16:56:14]  
+[16:56:14] Charged Magic Ability:
+[16:56:14] - 10 Charges
+[16:56:14] - 10 Max
+[16:56:14]  
+[16:56:14] Target gains health
+[16:56:14]  
+[16:56:14] Value: 230
+[16:56:14] Target: Self
+[16:56:14] Casting time: instant
+[16:56:14]  
+[16:56:14] - This spell is cast when the item is used.
+[16:56:14]  
+[16:56:14] Can use item every: 2:00 min.
+[16:56:14]  
+[16:56:14] <End Info>
+[16:56:16] <Begin Info: Luminescent Drakescale Chain>
+[16:56:16]  
+[16:56:16] Total Utility: 43
+[16:56:16]  
+[16:56:16] Magical Bonuses:
+[16:56:16] 10.00 | Piety: +15 pts
+[16:56:16] 6.00 | Power: +6 pts
+[16:56:16] 15.00 | Hits: +60 pts
+[16:56:16] 12.00 | Crush: +6 %
+[16:56:16]  
+[16:56:16] <End Info>
+[16:56:17] <Begin Info: Skin Scrap of Legion>
+[16:56:17]  
+[16:56:17] Total Utility: 61.667
+[16:56:17]  
+[16:56:17] Magical Bonuses:
+[16:56:17] 14.67 | Constitution: +22 pts
+[16:56:17] 19.00 | Hits: +76 pts
+[16:56:17] 14.00 | Energy: +7 %
+[16:56:17] 14.00 | Spirit: +7 %
+[16:56:17]  
+[16:56:17] Level Requirement: 40 Level
+[16:56:17]  
+[16:56:17] Charged Magic Ability:
+[16:56:17] - 10 Charges
+[16:56:17] - 10 Max
+[16:56:17]  
+[16:56:17] Description: Target gains Endurance
+[16:56:17]  
+[16:56:17] Value: 80
+[16:56:17] Target: Self
+[16:56:17] Casting time: instant
+[16:56:17]  
+[16:56:17] - This spell is cast when the item is used.
+[16:56:17]  
+[16:56:17] Can use item every: 2:00 min.
+[16:56:17]  
+[16:56:17] <End Info>
+[16:56:19] <Begin Info: Frigid Glacier Skin>
+[16:56:19]  
+[16:56:19] Total Utility: 56.667
+[16:56:19]  
+[16:56:19] Magical Bonuses:
+[16:56:19] 8.67 | Constitution: +13 pts
+[16:56:19] 8.00 | Piety: +12 pts
+[16:56:19] 20.00 | Cold: +10 %
+[16:56:19] 20.00 | Slash: +10 %
+[16:56:19]  
+[16:56:19] <End Info>
+[16:56:19] @@[LFG] Iolita (50, Bonedancer): Keep your grp alive and pop Cele.. oh and dont forget your resis
+[16:56:20] <Begin Info: Frigid Glacier Skin>
+[16:56:20]  
+[16:56:20] Total Utility: 75
+[16:56:20]  
+[16:56:20] Magical Bonuses:
+[16:56:20] 20.00 | Cold: +10 %
+[16:56:20] 20.00 | Slash: +10 %
+[16:56:20] 20.00 | Stealth: +4 pts
+[16:56:20] 15.00 | ALL archery skills: +3 pts
+[16:56:20]  
+[16:56:20] <End Info>
+[16:56:22] <Begin Info: Frigid Glacier Skin>
+[16:56:22]  
+[16:56:22] Total Utility: 71.667
+[16:56:22]  
+[16:56:22] Magical Bonuses:
+[16:56:22] 6.67 | Constitution: +10 pts
+[16:56:22] 20.00 | Cold: +10 %
+[16:56:22] 20.00 | Slash: +10 %
+[16:56:22] 25.00 | Parry: +5 pts
+[16:56:22]  
+[16:56:22] <End Info>
+[16:56:24] <Begin Info: Frigid Glacier Skin>
+[16:56:24]  
+[16:56:24] Total Utility: 75
+[16:56:24]  
+[16:56:24] Magical Bonuses:
+[16:56:24] 20.00 | Cold: +10 %
+[16:56:24] 20.00 | Slash: +10 %
+[16:56:24] 20.00 | Critical Strike: +4 pts
+[16:56:24] 15.00 | Stealth: +3 pts
+[16:56:24]  
+[16:56:24] <End Info>
+[16:56:25] <Begin Info: Cerulescent Silken Cloak>
+[16:56:25]  
+[16:56:25] Total Utility: 60
+[16:56:25]  
+[16:56:25] Magical Bonuses:
+[16:56:25] 14.00 | Strength: +21 pts
+[16:56:25] 14.00 | Quickness: +21 pts
+[16:56:25] 16.00 | Hits: +64 pts
+[16:56:25] 16.00 | Slash: +8 %
+[16:56:25]  
+[16:56:25] <End Info>
+[16:56:26] <Begin Info: Cloak of Icy Vigor>
+[16:56:26]  
+[16:56:26] Total Utility: 50
+[16:56:26]  
+[16:56:26] Magical Bonuses:
+[16:56:26] 12.00 | Dexterity: +18 pts
+[16:56:26] 12.00 | Constitution: +18 pts
+[16:56:26] 12.00 | Hits: +48 pts
+[16:56:26] 14.00 | Slash: +7 %
+[16:56:26]  
+[16:56:26] <End Info>
+[16:56:28] <Begin Info: Grand Summoner's Silken Mantle>
+[16:56:28]  
+[16:56:28] Total Utility: 72
+[16:56:28]  
+[16:56:28] Magical Bonuses:
+[16:56:28] 12.00 | Hits: +48 pts
+[16:56:28] 20.00 | Crush: +10 %
+[16:56:28] 20.00 | Slash: +10 %
+[16:56:28] 20.00 | Thrust: +10 %
+[16:56:28]  
+[16:56:28] <End Info>
+[16:56:30] @@[LFG] Healeress (50, Healer): last spot SM for mod grp
+[16:56:30] <Begin Info: Hardened Wormhide Cloak>
+[16:56:30]  
+[16:56:30] Total Utility: 62
+[16:56:30]  
+[16:56:30] Magical Bonuses:
+[16:56:30] 14.00 | Hits: +56 pts
+[16:56:30] 16.00 | Body: +8 %
+[16:56:30] 16.00 | Crush: +8 %
+[16:56:30] 16.00 | Heat: +8 %
+[16:56:30]  
+[16:56:30] Level Requirement: 50 Level
+[16:56:30]  
+[16:56:30] Charged Magic Ability:
+[16:56:30] - 10 Charges
+[16:56:30] - 10 Max
+[16:56:30]  
+[16:56:30] Target regenerates the given amount of health every 'tick'.
+[16:56:30]  
+[16:56:30] Value: 29
+[16:56:30] Target: Self
+[16:56:30] Duration: 20 sec
+[16:56:30] Casting time: instant
+[16:56:30]  
+[16:56:30] - This spell is cast when the item is used.
+[16:56:30]  
+[16:56:30]  
+[16:56:30]  
+[16:56:30] Can use item every: 2:00 min
+[16:56:30] <End Info>
+[16:56:31] <Begin Info: Snow Diamond>
+[16:56:31]  
+[16:56:31] Total Utility: 44
+[16:56:31]  
+[16:56:31] Magical Bonuses:
+[16:56:31] 20.00 | Hits: +80 pts
+[16:56:31] 12.00 | Crush: +6 %
+[16:56:31] 12.00 | Thrust: +6 %
+[16:56:31]  
+[16:56:31] Level Requirement: 50 Level
+[16:56:31]  
+[16:56:31] Charged Magic Ability:
+[16:56:31] - 10 Charges
+[16:56:31] - 10 Max
+[16:56:31]  
+[16:56:31] Increases the player's combat speed.
+[16:56:31] 
+[16:56:31] Target hasted: 20%
+[16:56:31] Target: Self
+[16:56:31] Duration: 60 seconds
+[16:56:31] Casting time: Instant
+[16:56:31]  
+[16:56:31] - This spell is cast when the item is used.
+[16:56:31]  
+[16:56:31] Can use item every: 2:00 min.
+[16:56:31]  
+[16:56:31] <End Info>
+
+*** Chat Log Closed: Sun May 30 16:56:35 2021
+
+
+*** Chat Log Opened: Sun May 30 17:15:24 2021
+
+[17:15:24]                                       
+[17:15:27] @@[Trade] Panam: WTS : 1500 dusts
+[17:15:28] You need 15000 Phoenix Feather to buy Cleaver of Eternal Retribution.
+[17:15:29] You need 20000 Phoenix Feather to buy Sword of Sorrow.
+[17:15:31] You need 15000 Phoenix Feather to buy Sleeves of Strife.
+[17:15:31] You need 20000 Phoenix Feather to buy Twinkling Tiara.
+[17:15:32] You need 15000 Phoenix Feather to buy Ancient Daemon Jerkin.
+[17:15:32] You need 15000 Phoenix Feather to buy Evil Empire Vest.
+[17:15:33] You need 15000 Phoenix Feather to buy Flawless Vest of the Vile Dominion.
+[17:15:34] You need 15000 Phoenix Feather to buy Flawless Hauberk of the Wretched.
+[17:15:35] You need 15000 Phoenix Feather to buy Hauberk of the Wretched.
+[17:15:36] You need 15000 Phoenix Feather to buy Shimmering Hauberk of Forlorn.
+[17:15:36] You need 15000 Phoenix Feather to buy Shimmering Hauberk of Forlorn Souls.
+[17:15:39] You have to kill Evern before you can purchase this item.
+[17:15:39] You need 10000 Phoenix Feather to buy Gilded Verdant Ring.
+[17:15:40] You need 10000 Phoenix Feather to buy Glacial Emerald Ring.
+[17:15:42] You need 15000 Phoenix Feather to buy Band of Eternity.
+[17:15:43] You have to kill Evern before you can purchase this item.
+[17:15:44] You need 15000 Phoenix Feather to buy Gilded Verdant Bracer.
+[17:15:44] You need 15000 Phoenix Feather to buy Icebound Bracer.
+[17:15:45] You have to kill Beliathan before you can purchase this item.
+[17:15:45] You have to kill Beliathan before you can purchase this item.
+[17:15:46] You need 20000 Phoenix Feather to buy Tasty Chunk of Legion.
+[17:15:46] You need 20000 Phoenix Feather to buy Heart of Legion.
+[17:15:47] You have to kill Evern before you can purchase this item.
+[17:15:47] You need 20000 Phoenix Feather to buy Skin Scrap of Legion.
+[17:15:48] You need 10000 Phoenix Feather to buy Frigid Glacier Skin.
+[17:15:49] You need 10000 Phoenix Feather to buy Frigid Glacier Skin.
+[17:15:49] You need 10000 Phoenix Feather to buy Frigid Glacier Skin.
+[17:15:50] You need 10000 Phoenix Feather to buy Frigid Glacier Skin.
+[17:15:51] You need 15000 Phoenix Feather to buy Cerulescent Silken Cloak.
+[17:15:52] You need 15000 Phoenix Feather to buy Cloak of Icy Vigor.
+[17:15:52] You need 15000 Phoenix Feather to buy Grand Summoner's Silken Mantle.
+[17:15:53] You have to kill Beliathan before you can purchase this item.
+[17:15:54] You need 10000 Phoenix Feather to buy Snow Diamond.
+
+*** Chat Log Closed: Sun May 30 17:16:00 2021
+
+
+

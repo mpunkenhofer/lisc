@@ -1,0 +1,1221 @@
+
+*** Chat Log Opened: Sun May 30 16:42:25 2021
+
+[16:42:25]                                       
+[16:42:26] You are no longer ready to sprint.
+[16:42:30] <Begin Info: Azure Soul Quencher>
+[16:42:30]  
+[16:42:30] Total Utility: 90
+[16:42:30] Single Skill Utility: 70
+[16:42:30]  
+[16:42:30] Magical Bonuses:
+[16:42:30] 16.00 | Piety: +24 pts
+[16:42:30] 16.00 | Hits: +64 pts
+[16:42:30] 18.00 | Energy: +9 %
+[16:42:30] 40.00 | ALL magic skills: +4 pts
+[16:42:30]  
+[16:42:30] Level Requirement: 50 Level
+[16:42:30]  
+[16:42:30] Magical Ability:
+[16:42:30] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:30] 
+[16:42:30] Damage: 65
+[16:42:30] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:30] Damage returned to caster as health: 100%
+[16:42:30] Target: Enemy Target
+[16:42:30] Range: 300
+[16:42:30] Damage Type: Cold
+[16:42:30] Casting time: Instant
+[16:42:30]  
+[16:42:30] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:30]  
+[16:42:30]  
+[16:42:30] Damage Modifiers:
+[16:42:30] - 16.5 Base DPS
+[16:42:30] - 16.2 Clamped DPS
+[16:42:30] - 3.8 Weapon Speed
+[16:42:30] - 100% Quality
+[16:42:30] - 100% Condition
+[16:42:30] - Damage Type: Crush
+[16:42:30]  
+[16:42:30] Effective Damage:
+[16:42:30] - 16.2 DPS
+[16:42:30] <End Info>
+[16:42:37] <Begin Info: Dragonstorm>
+[16:42:37]  
+[16:42:37] Total Utility: 72
+[16:42:37]  
+[16:42:37] Magical Bonuses:
+[16:42:37] 16.00 | Strength: +24 pts
+[16:42:37] 18.00 | Body: +9 %
+[16:42:37] 18.00 | Matter: +9 %
+[16:42:37] 20.00 | Hammer: +4 pts
+[16:42:37]  
+[16:42:37] Level Requirement: 50 Level
+[16:42:37]  
+[16:42:37] Magical Ability:
+[16:42:37] Spell line: Damage over Time
+[16:42:37] 
+[16:42:37] Inflicts damage to the target repeatedly over a given time period. This spell can be cast during combat.
+[16:42:37] 
+[16:42:37] Damage per tick: 64
+[16:42:37] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:37] Target: Enemy Target
+[16:42:37] Range: 1500
+[16:42:37] Damage Type: Body
+[16:42:37] Duration: 20 seconds
+[16:42:37] Casting time: Instant
+[16:42:37]  
+[16:42:37] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:37]  
+[16:42:37]  
+[16:42:37] Damage Modifiers:
+[16:42:37] - 16.5 Base DPS
+[16:42:37] - 16.2 Clamped DPS
+[16:42:37] - 5.8 Weapon Speed
+[16:42:37] - 100% Quality
+[16:42:37] - 100% Condition
+[16:42:37] - Damage Type: Crush
+[16:42:37]  
+[16:42:37] Effective Damage:
+[16:42:37] - 16.2 DPS
+[16:42:37] <End Info>
+[16:42:38] <Begin Info: Azure Swathe Cutter>
+[16:42:38]  
+[16:42:38] Total Utility: 72.333
+[16:42:38]  
+[16:42:38] Magical Bonuses:
+[16:42:38] 6.67 | Strength: +10 pts
+[16:42:38] 6.67 | Constitution: +10 pts
+[16:42:38] 24.00 | Slash: +12 %
+[16:42:38] 35.00 | Axe: +7 pts
+[16:42:38]  
+[16:42:38] Level Requirement: 50 Level
+[16:42:38]  
+[16:42:38] Magical Ability:
+[16:42:38] Damages the target.
+[16:42:38] 
+[16:42:38] Damage: 95
+[16:42:38] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:38] Target: Enemy Target
+[16:42:38] Range: 1500
+[16:42:38] Damage Type: Cold
+[16:42:38] Casting time: Instant
+[16:42:38]  
+[16:42:38] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:38]  
+[16:42:38]  
+[16:42:38] Damage Modifiers:
+[16:42:38] - 16.5 Base DPS
+[16:42:38] - 16.2 Clamped DPS
+[16:42:38] - 4.7 Weapon Speed
+[16:42:38] - 100% Quality
+[16:42:38] - 100% Condition
+[16:42:38] - Damage Type: Slash
+[16:42:38]  
+[16:42:38] Effective Damage:
+[16:42:38] - 16.2 DPS
+[16:42:38] <End Info>
+[16:42:40] <Begin Info: Dragonmight>
+[16:42:40]  
+[16:42:40] Total Utility: 72
+[16:42:40]  
+[16:42:40] Magical Bonuses:
+[16:42:40] 16.00 | Strength: +24 pts
+[16:42:40] 18.00 | Body: +9 %
+[16:42:40] 18.00 | Heat: +9 %
+[16:42:40] 20.00 | Axe: +4 pts
+[16:42:40]  
+[16:42:40] Level Requirement: 50 Level
+[16:42:40]  
+[16:42:40] Magical Ability:
+[16:42:40] Spell line: Damage over Time
+[16:42:40] 
+[16:42:40] Inflicts damage to the target repeatedly over a given time period. This spell can be cast during combat.
+[16:42:40] 
+[16:42:40] Damage per tick: 64
+[16:42:40] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:40] Target: Enemy Target
+[16:42:40] Range: 1500
+[16:42:40] Damage Type: Body
+[16:42:40] Duration: 20 seconds
+[16:42:40] Casting time: Instant
+[16:42:40]  
+[16:42:40] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:40]  
+[16:42:40]  
+[16:42:40] Damage Modifiers:
+[16:42:40] - 16.5 Base DPS
+[16:42:40] - 16.2 Clamped DPS
+[16:42:40] - 4.2 Weapon Speed
+[16:42:40] - 100% Quality
+[16:42:40] - 100% Condition
+[16:42:40] - Damage Type: Slash
+[16:42:40]  
+[16:42:40] Effective Damage:
+[16:42:40] - 16.2 DPS
+[16:42:40] <End Info>
+[16:42:42] <Begin Info: Dragonfury>
+[16:42:42]  
+[16:42:42] Total Utility: 72
+[16:42:42]  
+[16:42:42] Magical Bonuses:
+[16:42:42] 16.00 | Strength: +24 pts
+[16:42:42] 18.00 | Cold: +9 %
+[16:42:42] 18.00 | Spirit: +9 %
+[16:42:42] 20.00 | Sword: +4 pts
+[16:42:42]  
+[16:42:42] Level Requirement: 50 Level
+[16:42:42]  
+[16:42:42] Magical Ability:
+[16:42:42] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:42] 
+[16:42:42] Damage: 65
+[16:42:42] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:42] Damage returned to caster as health: 100%
+[16:42:42] Target: Enemy Target
+[16:42:42] Range: 300
+[16:42:42] Damage Type: Cold
+[16:42:42] Casting time: Instant
+[16:42:42]  
+[16:42:42] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:42]  
+[16:42:42]  
+[16:42:42] Damage Modifiers:
+[16:42:42] - 16.5 Base DPS
+[16:42:42] - 16.2 Clamped DPS
+[16:42:42] - 5.7 Weapon Speed
+[16:42:42] - 100% Quality
+[16:42:42] - 100% Condition
+[16:42:42] - Damage Type: Slash
+[16:42:42]  
+[16:42:42] Effective Damage:
+[16:42:42] - 16.2 DPS
+[16:42:42] <End Info>
+[16:42:44] <Begin Info: Fine Steel Long Sword>
+[16:42:44]  
+[16:42:44] Total Utility: 70
+[16:42:44]  
+[16:42:44] Magical Bonuses:
+[16:42:44] 10.00 | Strength: +15 pts
+[16:42:44] 10.00 | Quickness: +15 pts
+[16:42:44] 25.00 | Parry: +5 pts
+[16:42:44] 25.00 | Sword: +5 pts
+[16:42:44]  
+[16:42:44] Level Requirement: 50 Level
+[16:42:44]  
+[16:42:44] Magical Ability:
+[16:42:44] Increases the player's combat speed.
+[16:42:44] 
+[16:42:44] Target hasted: 20%
+[16:42:44] Target: Self
+[16:42:44] Duration: 60 seconds
+[16:42:44] Casting time: Instant
+[16:42:44]  
+[16:42:44] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:44]  
+[16:42:44]  
+[16:42:44] Damage Modifiers:
+[16:42:44] - 16.5 Base DPS
+[16:42:44] - 16.2 Clamped DPS
+[16:42:44] - 3.3 Weapon Speed
+[16:42:44] - 100% Quality
+[16:42:44] - 100% Condition
+[16:42:44] - Damage Type: Slash
+[16:42:44]  
+[16:42:44] Effective Damage:
+[16:42:44] - 16.2 DPS
+[16:42:44] <End Info>
+[16:42:46] <Begin Info: Bewitched Draconic Shield>
+[16:42:46]  
+[16:42:46] Total Utility: 90
+[16:42:46] Single Skill Utility: 75
+[16:42:46]  
+[16:42:46] Magical Bonuses:
+[16:42:46] 20.00 | Energy: +10 %
+[16:42:46] 20.00 | Thrust: +10 %
+[16:42:46] 20.00 | Shields: +4 pts
+[16:42:46] 30.00 | ALL melee weapon skills: +3 pts
+[16:42:46]  
+[16:42:46] Level Requirement: 50 Level
+[16:42:46]  
+[16:42:46] Magical Ability:
+[16:42:46] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:46] 
+[16:42:46] Damage: 65
+[16:42:46] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:46] Damage returned to caster as health: 100%
+[16:42:46] Target: Enemy Target
+[16:42:46] Range: 300
+[16:42:46] Damage Type: Cold
+[16:42:46] Casting time: Instant
+[16:42:46]  
+[16:42:46] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:46]  
+[16:42:46]  
+[16:42:46]  
+[16:42:46] Damage Modifiers (when used with shield styles):
+[16:42:46] - 16.5 Base DPS
+[16:42:46] - 16.2 Clamped DPS
+[16:42:46] - 3.0 Shield Speed
+[16:42:46]  
+[16:42:46] - Shield Size : Large
+[16:42:46] <End Info>
+[16:42:47] <Begin Info: Ensorcelled Draconic Shield>
+[16:42:47]  
+[16:42:47] Total Utility: 80
+[16:42:47] Single Skill Utility: 65
+[16:42:47]  
+[16:42:47] Magical Bonuses:
+[16:42:47] 20.00 | Strength: +30 pts
+[16:42:47] 30.00 | Shields: +6 pts
+[16:42:47] 30.00 | ALL melee weapon skills: +3 pts
+[16:42:47]  
+[16:42:47] Level Requirement: 50 Level
+[16:42:47]  
+[16:42:47] Magical Ability:
+[16:42:47] Spell line: Damage over Time
+[16:42:47] 
+[16:42:47] Inflicts damage to the target repeatedly over a given time period. This spell can be cast during combat.
+[16:42:47] 
+[16:42:47] Damage per tick: 64
+[16:42:47] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:47] Target: Enemy Target
+[16:42:47] Range: 1500
+[16:42:47] Damage Type: Body
+[16:42:47] Duration: 20 seconds
+[16:42:47] Casting time: Instant
+[16:42:47]  
+[16:42:47] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:47]  
+[16:42:47]  
+[16:42:47]  
+[16:42:47] Damage Modifiers (when used with shield styles):
+[16:42:47] - 16.5 Base DPS
+[16:42:47] - 16.2 Clamped DPS
+[16:42:47] - 3.5 Shield Speed
+[16:42:47]  
+[16:42:47] - Shield Size : Medium
+[16:42:47] <End Info>
+[16:42:49] <Begin Info: Runed Saga Etched Shield>
+[16:42:49]  
+[16:42:49] Total Utility: 86
+[16:42:49] Single Skill Utility: 71
+[16:42:49]  
+[16:42:49] Magical Bonuses:
+[16:42:49] 20.00 | Crush: +10 %
+[16:42:49] 20.00 | Thrust: +10 %
+[16:42:49] 16.00 | Acuity: +24 pts
+[16:42:49] 30.00 | ALL magic skills: +3 pts
+[16:42:49]  
+[16:42:49] Level Requirement: 50 Level
+[16:42:49]  
+[16:42:49] Charged Magic Ability:
+[16:42:49] - 10 Charges
+[16:42:49] - 10 Max
+[16:42:49]  
+[16:42:49] Target regenerates power regeneration during the duration of the spell.
+[16:42:49]  
+[16:42:49] Value: 3
+[16:42:49] Target: Self
+[16:42:49] Duration: 10:00 min
+[16:42:49] Casting time: instant
+[16:42:49]  
+[16:42:49] - This spell is cast when the item is used.
+[16:42:49]  
+[16:42:49] Can use item every: 2:00 min.
+[16:42:49]  
+[16:42:49]  
+[16:42:49]  
+[16:42:49] Damage Modifiers (when used with shield styles):
+[16:42:49] - 16.5 Base DPS
+[16:42:49] - 16.2 Clamped DPS
+[16:42:49] - 2.8 Shield Speed
+[16:42:49]  
+[16:42:49] - Shield Size : Small
+[16:42:49] <End Info>
+[16:42:50] @@[LFG] Healeress (50, Healer): RM+ sm for mod
+[16:42:51] <Begin Info: Bloodfire Battle Spear>
+[16:42:51]  
+[16:42:51] Total Utility: 55
+[16:42:51]  
+[16:42:51] Magical Bonuses:
+[16:42:51] 6.67 | Strength: +10 pts
+[16:42:51] 6.67 | Dexterity: +10 pts
+[16:42:51] 6.67 | Constitution: +10 pts
+[16:42:51] 35.00 | Spear: +7 pts
+[16:42:51]  
+[16:42:51] Level Requirement: 50 Level
+[16:42:51]  
+[16:42:51] Magical Ability:
+[16:42:51] Spell line: Damage over Time
+[16:42:51] 
+[16:42:51] Inflicts damage to the target repeatedly over a given time period. This spell can be cast during combat.
+[16:42:51] 
+[16:42:51] Damage per tick: 64
+[16:42:51] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:51] Target: Enemy Target
+[16:42:51] Range: 1500
+[16:42:51] Damage Type: Heat
+[16:42:51] Duration: 20 seconds
+[16:42:51] Casting time: Instant
+[16:42:51]  
+[16:42:51] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:51]  
+[16:42:51]  
+[16:42:51] Damage Modifiers:
+[16:42:51] - 16.5 Base DPS
+[16:42:51] - 16.2 Clamped DPS
+[16:42:51] - 4.5 Weapon Speed
+[16:42:51] - 100% Quality
+[16:42:51] - 100% Condition
+[16:42:51] - Damage Type: Thrust
+[16:42:51]  
+[16:42:51] Effective Damage:
+[16:42:51] - 16.2 DPS
+[16:42:51] <End Info>
+[16:42:53] <Begin Info: Long Claw of the Wulfen>
+[16:42:53]  
+[16:42:53] Total Utility: 45
+[16:42:53]  
+[16:42:53] Magical Bonuses:
+[16:42:53] 10.00 | Strength: +15 pts
+[16:42:53] 10.00 | Dexterity: +15 pts
+[16:42:53] 25.00 | Spear: +5 pts
+[16:42:53]  
+[16:42:53] Level Requirement: 50 Level
+[16:42:53]  
+[16:42:53] Magical Ability:
+[16:42:53] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:53] 
+[16:42:53] Damage: 65
+[16:42:53] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:53] Damage returned to caster as health: 100%
+[16:42:53] Target: Enemy Target
+[16:42:53] Range: 300
+[16:42:53] Damage Type: Cold
+[16:42:53] Casting time: Instant
+[16:42:53]  
+[16:42:53] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:53]  
+[16:42:53]  
+[16:42:53] Damage Modifiers:
+[16:42:53] - 16.5 Base DPS
+[16:42:53] - 16.2 Clamped DPS
+[16:42:53] - 5.4 Weapon Speed
+[16:42:53] - 100% Quality
+[16:42:53] - 100% Condition
+[16:42:53] - Damage Type: Thrust
+[16:42:53]  
+[16:42:53] Effective Damage:
+[16:42:53] - 16.2 DPS
+[16:42:53] <End Info>
+[16:42:55] <Begin Info: Dragonfang>
+[16:42:55]  
+[16:42:55] Total Utility: 70
+[16:42:55]  
+[16:42:55] Magical Bonuses:
+[16:42:55] 20.00 | Dexterity: +30 pts
+[16:42:55] 25.00 | Parry: +5 pts
+[16:42:55] 25.00 | Hand To Hand: +5 pts
+[16:42:55]  
+[16:42:55] Level Requirement: 50 Level
+[16:42:55]  
+[16:42:55] Magical Ability:
+[16:42:55] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:55] 
+[16:42:55] Damage: 65
+[16:42:55] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:55] Damage returned to caster as health: 100%
+[16:42:55] Target: Enemy Target
+[16:42:55] Range: 300
+[16:42:55] Damage Type: Body
+[16:42:55] Casting time: Instant
+[16:42:55]  
+[16:42:55] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:55]  
+[16:42:55]  
+[16:42:55] Damage Modifiers:
+[16:42:55] - 16.5 Base DPS
+[16:42:55] - 16.2 Clamped DPS
+[16:42:55] - 3.9 Weapon Speed
+[16:42:55] - 100% Quality
+[16:42:55] - 100% Condition
+[16:42:55] - Damage Type: Thrust
+[16:42:55]  
+[16:42:55] Effective Damage:
+[16:42:55] - 16.2 DPS
+[16:42:55] <End Info>
+[16:42:57] <Begin Info: Paw of the Wulfen>
+[16:42:57]  
+[16:42:57] Total Utility: 45
+[16:42:57]  
+[16:42:57] Magical Bonuses:
+[16:42:57] 10.00 | Dexterity: +15 pts
+[16:42:57] 10.00 | Constitution: +15 pts
+[16:42:57] 25.00 | Hand To Hand: +5 pts
+[16:42:57]  
+[16:42:57] Level Requirement: 50 Level
+[16:42:57]  
+[16:42:57] Magical Ability:
+[16:42:57] Damages the target. A portion of damage inflicted is used to heal the caster.
+[16:42:57] 
+[16:42:57] Damage: 65
+[16:42:57] (This figure is modified by your specialization in the skill and your primary casting stat.)
+[16:42:57] Damage returned to caster as health: 100%
+[16:42:57] Target: Enemy Target
+[16:42:57] Range: 300
+[16:42:57] Damage Type: Cold
+[16:42:57] Casting time: Instant
+[16:42:57]  
+[16:42:57] - Spell has a chance of casting when this weapon strikes an enemy.
+[16:42:57]  
+[16:42:57]  
+[16:42:57] Damage Modifiers:
+[16:42:57] - 16.5 Base DPS
+[16:42:57] - 16.2 Clamped DPS
+[16:42:57] - 4.0 Weapon Speed
+[16:42:57] - 100% Quality
+[16:42:57] - 100% Condition
+[16:42:57] - Damage Type: Slash
+[16:42:57]  
+[16:42:57] Effective Damage:
+[16:42:57] - 16.2 DPS
+[16:42:57] <End Info>
+[16:42:59] <Begin Info: Great Shadowed Impaler>
+[16:42:59]  
+[16:42:59] Total Utility: 65
+[16:42:59]  
+[16:42:59] Magical Bonuses:
+[16:42:59] 10.00 | Strength: +15 pts
+[16:42:59] 10.00 | Dexterity: +15 pts
+[16:42:59] 15.00 | Stealth: +3 pts
+[16:42:59] 30.00 | ALL archery skills: +6 pts
+[16:42:59]  
+[16:42:59] Level Requirement: 45 Level
+[16:42:59]  
+[16:42:59] Charged Magic Ability:
+[16:42:59] - 10 Charges
+[16:42:59] - 10 Max
+[16:42:59]  
+[16:42:59] Increases Dex/Qui for a character.
+[16:42:59] 
+[16:42:59] Dex/Qui bonus: 50
+[16:42:59] Target: Self
+[16:42:59] Duration: 10:00 min
+[16:42:59] Casting time: Instant
+[16:42:59]  
+[16:42:59] - This spell is cast when the item is used.
+[16:42:59]  
+[16:42:59] Can use item every: 2:00 min.
+[16:42:59]  
+[16:42:59]  
+[16:42:59] Damage Modifiers:
+[16:42:59] - 16.5 Base DPS
+[16:42:59] - 16.2 Clamped DPS
+[16:42:59] - 4.4 Weapon Speed
+[16:42:59] - 100% Quality
+[16:42:59] - 100% Condition
+[16:42:59] - Damage Type: Thrust
+[16:42:59]  
+[16:42:59] Effective Damage:
+[16:42:59] - 16.2 DPS
+[16:42:59] <End Info>
+[16:43:00] <Begin Info: Staff of Ageless Power>
+[16:43:00]  
+[16:43:00] Total Utility: 75.333
+[16:43:00] Single Skill Utility: 60.333
+[16:43:00]  
+[16:43:00] Magical Bonuses:
+[16:43:00] 22.67 | Dexterity: +34 pts
+[16:43:00] 22.67 | Piety: +34 pts
+[16:43:00] 30.00 | ALL magic skills: +3 pts
+[16:43:00]  
+[16:43:00]  
+[16:43:00] Focus Bonuses:
+[16:43:00] - ALL spell lines: 50 lvls
+[16:43:00]  
+[16:43:00] Level Requirement: 47 Level
+[16:43:00]  
+[16:43:00] Charged Magic Ability:
+[16:43:00] - 10 Charges
+[16:43:00] - 10 Max
+[16:43:00]  
+[16:43:00] Increases Acuity for a character.
+[16:43:00]  
+[16:43:00] Value: 50
+[16:43:00] Target: Self
+[16:43:00] Duration: 10:00 min
+[16:43:00] Casting time: instant
+[16:43:00]  
+[16:43:00] - This spell is cast when the item is used.
+[16:43:00]  
+[16:43:00]  
+[16:43:00]  
+[16:43:00] Damage Modifiers:
+[16:43:00] - 16.5 Base DPS
+[16:43:00] - 16.2 Clamped DPS
+[16:43:00] - 3.2 Weapon Speed
+[16:43:00] - 100% Quality
+[16:43:00] - 100% Condition
+[16:43:00] - Damage Type: Crush
+[16:43:00]  
+[16:43:00] Effective Damage:
+[16:43:00] - 16.2 DPS
+[16:43:00]  
+[16:43:00] Can use item every: 2:00 min
+[16:43:00] <End Info>
+[16:43:02] The forces of Albion led by Fernandapower have captured Blendrake Faste Outpost!
+[16:43:11] <Begin Info: Arcane Assassin's Leggings>
+[16:43:11]  
+[16:43:11] Total Utility: 72
+[16:43:11]  
+[16:43:11] Magical Bonuses:
+[16:43:11] 16.00 | Constitution: +24 pts
+[16:43:11] 18.00 | Body: +9 %
+[16:43:11] 18.00 | Cold: +9 %
+[16:43:11] 20.00 | Critical Strike: +4 pts
+[16:43:11]  
+[16:43:11] Level Requirement: 50 Level
+[16:43:11]  
+[16:43:11] Magical Ability:
+[16:43:11] Heals the target
+[16:43:11]  
+[16:43:11] Value: 100
+[16:43:11] Target: Self
+[16:43:11] Casting time: instant
+[16:43:11]  
+[16:43:11] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:11]  
+[16:43:11] Armor Modifiers:
+[16:43:11] - 102 Base Factor
+[16:43:11] - 100 Clamped Factor
+[16:43:11] - 10% Absorption
+[16:43:11] - 100% Quality
+[16:43:11] - 100% Condition
+[16:43:11]  
+[16:43:11] Effective Armor:
+[16:43:11] - 110 Factor
+[16:43:11] <End Info>
+[16:43:12] @@[Advice] Natumi: thank you , but i have no freiend
+[16:43:13] <Begin Info: Royal Dragonslayer Gloves>
+[16:43:13]  
+[16:43:13] Total Utility: 70
+[16:43:13]  
+[16:43:13] Magical Bonuses:
+[16:43:13] 16.00 | Strength: +24 pts
+[16:43:13] 16.00 | Dexterity: +24 pts
+[16:43:13] 18.00 | Spirit: +9 %
+[16:43:13] 20.00 | Envenom: +4 pts
+[16:43:13]  
+[16:43:13] Level Requirement: 50 Level
+[16:43:13]  
+[16:43:13] Magical Ability:
+[16:43:13] Function: melee health buffer
+[16:43:13] 
+[16:43:13] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:13] 
+[16:43:13] Absorption: 50%
+[16:43:13] Value: 150
+[16:43:13] Target: Self
+[16:43:13] Duration: 10:00 min
+[16:43:13] Casting time: Instant
+[16:43:13] Function: melee health buffer
+[16:43:13]  
+[16:43:13] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:13]  
+[16:43:13] Armor Modifiers:
+[16:43:13] - 102 Base Factor
+[16:43:13] - 100 Clamped Factor
+[16:43:13] - 10% Absorption
+[16:43:13] - 100% Quality
+[16:43:13] - 100% Condition
+[16:43:13]  
+[16:43:13] Effective Armor:
+[16:43:13] - 110 Factor
+[16:43:13]  
+[16:43:13] Can use item every: 2:00 min
+[16:43:13] <End Info>
+[16:43:14] <Begin Info: Bearman Battle Gauntlets>
+[16:43:14]  
+[16:43:14] Total Utility: 64.333
+[16:43:14]  
+[16:43:14] Magical Bonuses:
+[16:43:14] 12.67 | Strength: +19 pts
+[16:43:14] 14.00 | Constitution: +21 pts
+[16:43:14] 12.67 | Quickness: +19 pts
+[16:43:14] 25.00 | Left Axe: +5 pts
+[16:43:14]  
+[16:43:14] Level Requirement: 50 Level
+[16:43:14]  
+[16:43:14] Magical Ability:
+[16:43:14] Function: melee health buffer
+[16:43:14] 
+[16:43:14] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:14] 
+[16:43:14] Absorption: 50%
+[16:43:14] Value: 150
+[16:43:14] Target: Self
+[16:43:14] Duration: 10:00 min
+[16:43:14] Casting time: Instant
+[16:43:14] Function: melee health buffer
+[16:43:14]  
+[16:43:14] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:14]  
+[16:43:14] Armor Modifiers:
+[16:43:14] - 102 Base Factor
+[16:43:14] - 100 Clamped Factor
+[16:43:14] - 19% Absorption
+[16:43:14] - 100% Quality
+[16:43:14] - 100% Condition
+[16:43:14]  
+[16:43:14] Effective Armor:
+[16:43:14] - 119 Factor
+[16:43:14]  
+[16:43:14] Can use item every: 2:00 min
+[16:43:14] <End Info>
+[16:43:16] <Begin Info: Brutish Brawler's Armguards>
+[16:43:16]  
+[16:43:16] Total Utility: 86
+[16:43:16] Single Skill Utility: 71
+[16:43:16]  
+[16:43:16] Magical Bonuses:
+[16:43:16] 16.00 | Constitution: +24 pts
+[16:43:16] 20.00 | Slash: +10 %
+[16:43:16] 20.00 | Spirit: +10 %
+[16:43:16] 30.00 | ALL melee weapon skills: +3 pts
+[16:43:16]  
+[16:43:16] Level Requirement: 50 Level
+[16:43:16]  
+[16:43:16] Magical Ability:
+[16:43:16] Heals the target
+[16:43:16]  
+[16:43:16] Value: 100
+[16:43:16] Target: Self
+[16:43:16] Casting time: instant
+[16:43:16]  
+[16:43:16] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:16]  
+[16:43:16] Armor Modifiers:
+[16:43:16] - 102 Base Factor
+[16:43:16] - 100 Clamped Factor
+[16:43:16] - 19% Absorption
+[16:43:16] - 100% Quality
+[16:43:16] - 100% Condition
+[16:43:16]  
+[16:43:16] Effective Armor:
+[16:43:16] - 119 Factor
+[16:43:16] <End Info>
+[16:43:18] <Begin Info: Cloth Cap>
+[16:43:18]  
+[16:43:18] Total Utility: 66
+[16:43:18]  
+[16:43:18] Magical Bonuses:
+[16:43:18] 16.00 | Dexterity: +24 pts
+[16:43:18] 16.00 | Piety: +24 pts
+[16:43:18] 16.00 | Hits: +64 pts
+[16:43:18] 18.00 | Thrust: +9 %
+[16:43:18]  
+[16:43:18] Level Requirement: 41 Level
+[16:43:18]  
+[16:43:18] Charged Magic Ability:
+[16:43:18] - 10 Charges
+[16:43:18] - 10 Max
+[16:43:18]  
+[16:43:18] Increases Acuity (casting attribute) for a character.
+[16:43:18]  
+[16:43:18] Value: 50
+[16:43:18] Target: Self
+[16:43:18] Duration: 10:00 min
+[16:43:18] Casting time: instant
+[16:43:18]  
+[16:43:18] - This spell is cast when the item is used.
+[16:43:18]  
+[16:43:18]  
+[16:43:18] Armor Modifiers:
+[16:43:18] - 51 Base Factor
+[16:43:18] - 50 Clamped Factor
+[16:43:18] - 0% Absorption
+[16:43:18] - 100% Quality
+[16:43:18] - 100% Condition
+[16:43:18]  
+[16:43:18] Effective Armor:
+[16:43:18] - 50 Factor
+[16:43:18]  
+[16:43:18] Can use item every: 2:00 min
+[16:43:18] <End Info>
+[16:43:20] <Begin Info: Dragon's Blood Boots>
+[16:43:20]  
+[16:43:20] Total Utility: 68
+[16:43:20]  
+[16:43:20] Magical Bonuses:
+[16:43:20] 16.00 | Dexterity: +24 pts
+[16:43:20] 18.00 | Energy: +9 %
+[16:43:20] 18.00 | Heat: +9 %
+[16:43:20] 16.00 | Acuity: +24 pts
+[16:43:20]  
+[16:43:20] Level Requirement: 50 Level
+[16:43:20]  
+[16:43:20] Magical Ability:
+[16:43:20] Function: melee health buffer
+[16:43:20] 
+[16:43:20] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:20] 
+[16:43:20] Absorption: 50%
+[16:43:20] Value: 150
+[16:43:20] Target: Self
+[16:43:20] Duration: 10:00 min
+[16:43:20] Casting time: Instant
+[16:43:20] Function: melee health buffer
+[16:43:20]  
+[16:43:20] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:20]  
+[16:43:20] Armor Modifiers:
+[16:43:20] - 102 Base Factor
+[16:43:20] - 100 Clamped Factor
+[16:43:20] - 27% Absorption
+[16:43:20] - 100% Quality
+[16:43:20] - 100% Condition
+[16:43:20]  
+[16:43:20] Effective Armor:
+[16:43:20] - 127 Factor
+[16:43:20] <End Info>
+[16:43:21] <Begin Info: Hauberk of Valhalla>
+[16:43:21]  
+[16:43:21] Total Utility: 63.667
+[16:43:21]  
+[16:43:21] Magical Bonuses:
+[16:43:21] 14.67 | Strength: +22 pts
+[16:43:21] 14.00 | Dexterity: +21 pts
+[16:43:21] 15.00 | Hits: +60 pts
+[16:43:21] 20.00 | Slash: +10 %
+[16:43:21]  
+[16:43:21] Level Requirement: 50 Level
+[16:43:21]  
+[16:43:21] Magical Ability:
+[16:43:21] Target regenerates the given amount of health every 'tick'.
+[16:43:21]  
+[16:43:21] Value: 150
+[16:43:21] Target: Self
+[16:43:21] Duration: 10 sec
+[16:43:21] Casting time: instant
+[16:43:21]  
+[16:43:21] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:21]  
+[16:43:21] Armor Modifiers:
+[16:43:21] - 102 Base Factor
+[16:43:21] - 100 Clamped Factor
+[16:43:21] - 27% Absorption
+[16:43:21] - 100% Quality
+[16:43:21] - 100% Condition
+[16:43:21]  
+[16:43:21] Effective Armor:
+[16:43:21] - 127 Factor
+[16:43:21] <End Info>
+[16:43:22] <Begin Info: Lost Hauberk of Valhalla>
+[16:43:22]  
+[16:43:22] Total Utility: 63.667
+[16:43:22]  
+[16:43:22] Magical Bonuses:
+[16:43:22] 14.67 | Strength: +22 pts
+[16:43:22] 14.00 | Dexterity: +21 pts
+[16:43:22] 15.00 | Hits: +60 pts
+[16:43:22] 20.00 | Slash: +10 %
+[16:43:22]  
+[16:43:22] Level Requirement: 50 Level
+[16:43:22]  
+[16:43:22] Charged Magic Ability:
+[16:43:22] - 10 Charges
+[16:43:22] - 10 Max
+[16:43:22]  
+[16:43:22] Increases Str/Con for a character.
+[16:43:22] 
+[16:43:22] Str/Con bonus: 50
+[16:43:22] Target: Self
+[16:43:22] Duration: 10:00 min
+[16:43:22] Casting time: Instant
+[16:43:22]  
+[16:43:22] - This spell is cast when the item is used.
+[16:43:22]  
+[16:43:22]  
+[16:43:22] Armor Modifiers:
+[16:43:22] - 102 Base Factor
+[16:43:22] - 100 Clamped Factor
+[16:43:22] - 27% Absorption
+[16:43:22] - 100% Quality
+[16:43:22] - 100% Condition
+[16:43:22]  
+[16:43:22] Effective Armor:
+[16:43:22] - 127 Factor
+[16:43:22]  
+[16:43:22] Can use item every: 2:00 min
+[16:43:22]  
+[16:43:22] Bonus Level: 48
+[16:43:22] <End Info>
+[16:43:24] <Begin Info: Runed Asgardian Vest>
+[16:43:24]  
+[16:43:24] Total Utility: 53.917
+[16:43:24]  
+[16:43:24] Magical Bonuses:
+[16:43:24] 10.67 | Piety: +16 pts
+[16:43:24] 8.00 | Power: +8 pts
+[16:43:24] 11.25 | Hits: +45 pts
+[16:43:24] 24.00 | Thrust: +12 %
+[16:43:24]  
+[16:43:24] Level Requirement: 50 Level
+[16:43:24]  
+[16:43:24] Magical Ability:
+[16:43:24] Heals the target
+[16:43:24]  
+[16:43:24] Value: 80
+[16:43:24] Target: Self
+[16:43:24] Casting time: instant
+[16:43:24]  
+[16:43:24] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:24]  
+[16:43:24] Armor Modifiers:
+[16:43:24] - 51 Base Factor
+[16:43:24] - 50 Clamped Factor
+[16:43:24] - 0% Absorption
+[16:43:24] - 100% Quality
+[16:43:24] - 100% Condition
+[16:43:24]  
+[16:43:24] Effective Armor:
+[16:43:24] - 50 Factor
+[16:43:24]  
+[16:43:24] Can use item every: 2:00 min
+[16:43:24] <End Info>
+[16:43:25] <Begin Info: Vest of the Pack>
+[16:43:25]  
+[16:43:25] Total Utility: 60
+[16:43:25]  
+[16:43:25] Magical Bonuses:
+[16:43:25] 10.00 | Hits: +40 pts
+[16:43:25] 15.00 | Darkness: +3 pts
+[16:43:25] 15.00 | Suppression: +3 pts
+[16:43:25] 20.00 | Bone Army: +4 pts
+[16:43:25]  
+[16:43:25] Level Requirement: 50 Level
+[16:43:25]  
+[16:43:25] Magical Ability:
+[16:43:25] Function: melee health buffer
+[16:43:25] 
+[16:43:25] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:25] 
+[16:43:25] Absorption: 50%
+[16:43:25] Value: 150
+[16:43:25] Target: Self
+[16:43:25] Duration: 10:00 min
+[16:43:25] Casting time: Instant
+[16:43:25] Function: melee health buffer
+[16:43:25]  
+[16:43:25] - Spell has a chance of casting when enemy strikes at this armor.
+[16:43:25]  
+[16:43:25] Armor Modifiers:
+[16:43:25] - 51 Base Factor
+[16:43:25] - 50 Clamped Factor
+[16:43:25] - 0% Absorption
+[16:43:25] - 100% Quality
+[16:43:25] - 100% Condition
+[16:43:25]  
+[16:43:25] Effective Armor:
+[16:43:25] - 50 Factor
+[16:43:25] <End Info>
+[16:43:28] <Begin Info: Ancient Ebon Bracer>
+[16:43:28]  
+[16:43:28] Total Utility: 29.667
+[16:43:28]  
+[16:43:28] Magical Bonuses:
+[16:43:28] 12.00 | Dexterity: +18 pts
+[16:43:28] 8.67 | Charisma: +13 pts
+[16:43:28] 9.00 | Hits: +36 pts
+[16:43:28]  
+[16:43:28] <End Info>
+[16:43:29] <Begin Info: Dragon Bone Bracer>
+[16:43:29]  
+[16:43:29] Total Utility: 60
+[16:43:29]  
+[16:43:29] Magical Bonuses:
+[16:43:29] 20.00 | Strength: +30 pts
+[16:43:29] 20.00 | Constitution: +30 pts
+[16:43:29] 20.00 | Piety: +30 pts
+[16:43:29]  
+[16:43:29] Level Requirement: 45 Level
+[16:43:29]  
+[16:43:29] Charged Magic Ability:
+[16:43:29] - 10 Charges
+[16:43:29] - 10 Max
+[16:43:29]  
+[16:43:29] Increases Dex/Qui for a character.
+[16:43:29] 
+[16:43:29] Dex/Qui bonus: 50
+[16:43:29] Target: Self
+[16:43:29] Duration: 10:00 min
+[16:43:29] Casting time: Instant
+[16:43:29]  
+[16:43:29] - This spell is cast when the item is used.
+[16:43:29]  
+[16:43:29]  
+[16:43:29]  
+[16:43:29] Can use item every: 2:00 min
+[16:43:29] <End Info>
+[16:43:31] <Begin Info: Dragonscale Bracelet>
+[16:43:31]  
+[16:43:31] Total Utility: 81.333
+[16:43:31] Single Skill Utility: 66.333
+[16:43:31]  
+[16:43:31] Magical Bonuses:
+[16:43:31] 16.67 | Strength: +25 pts
+[16:43:31] 16.67 | Dexterity: +25 pts
+[16:43:31] 18.00 | Hits: +72 pts
+[16:43:31] 30.00 | ALL melee weapon skills: +3 pts
+[16:43:31]  
+[16:43:31] Level Requirement: 50 Level
+[16:43:31]  
+[16:43:31] Charged Magic Ability:
+[16:43:31] - 10 Charges
+[16:43:31] - 10 Max
+[16:43:31]  
+[16:43:31] Function: melee health buffer
+[16:43:31] 
+[16:43:31] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:31] 
+[16:43:31] Absorption: 50%
+[16:43:31] Value: 150
+[16:43:31] Target: Self
+[16:43:31] Duration: 10:00 min
+[16:43:31] Casting time: Instant
+[16:43:31] Function: melee health buffer
+[16:43:31]  
+[16:43:31] - This spell is cast when the item is used.
+[16:43:31]  
+[16:43:31]  
+[16:43:31]  
+[16:43:31] Can use item every: 2:00 min
+[16:43:31] <End Info>
+[16:43:32] <Begin Info: Bracer of Shattering>
+[16:43:32]  
+[16:43:32] Total Utility: 48
+[16:43:32]  
+[16:43:32] Magical Bonuses:
+[16:43:32] 6.00 | Strength: +9 pts
+[16:43:32] 6.00 | Constitution: +9 pts
+[16:43:32] 18.00 | Matter: +9 %
+[16:43:32] 18.00 | Spirit: +9 %
+[16:43:32]  
+[16:43:32] Level Requirement: 50 Level
+[16:43:32]  
+[16:43:32] Charged Magic Ability:
+[16:43:32] - 10 Charges
+[16:43:32] - 10 Max
+[16:43:32]  
+[16:43:32] Function: melee health buffer
+[16:43:32] 
+[16:43:32] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:32] 
+[16:43:32] Absorption: 50%
+[16:43:32] Value: 150
+[16:43:32] Target: Self
+[16:43:32] Duration: 10:00 min
+[16:43:32] Casting time: Instant
+[16:43:32] Function: melee health buffer
+[16:43:32]  
+[16:43:32] - This spell is cast when the item is used.
+[16:43:32]  
+[16:43:32]  
+[16:43:32]  
+[16:43:32] Can use item every: 2:00 min
+[16:43:32] <End Info>
+[16:43:33] <Begin Info: Bracer of the Blaze>
+[16:43:33]  
+[16:43:33] Total Utility: 48
+[16:43:33]  
+[16:43:33] Magical Bonuses:
+[16:43:33] 6.00 | Dexterity: +9 pts
+[16:43:33] 6.00 | Piety: +9 pts
+[16:43:33] 18.00 | Energy: +9 %
+[16:43:33] 18.00 | Heat: +9 %
+[16:43:33]  
+[16:43:33] Level Requirement: 47 Level
+[16:43:33]  
+[16:43:33] Charged Magic Ability:
+[16:43:33] - 10 Charges
+[16:43:33] - 10 Max
+[16:43:33]  
+[16:43:33] Increases Acuity for a character.
+[16:43:33]  
+[16:43:33] Value: 50
+[16:43:33] Target: Self
+[16:43:33] Duration: 10:00 min
+[16:43:33] Casting time: instant
+[16:43:33]  
+[16:43:33] - This spell is cast when the item is used.
+[16:43:33]  
+[16:43:33]  
+[16:43:33]  
+[16:43:33] Can use item every: 2:00 min
+[16:43:33] <End Info>
+[16:43:35] <Begin Info: Ancient Ebon Ring>
+[16:43:35]  
+[16:43:35] Total Utility: 44
+[16:43:35]  
+[16:43:35] Magical Bonuses:
+[16:43:35] 12.00 | Strength: +18 pts
+[16:43:35] 12.00 | Constitution: +18 pts
+[16:43:35] 10.00 | Quickness: +15 pts
+[16:43:35] 10.00 | Charisma: +15 pts
+[16:43:35]  
+[16:43:35]  
+[16:43:35] Bonus Level: 47
+[16:43:35] <End Info>
+[16:43:36] <Begin Info: Bloodbound Book>
+[16:43:36]  
+[16:43:36] Total Utility: 44.667
+[16:43:36]  
+[16:43:36] Magical Bonuses:
+[16:43:36] 8.67 | Piety: +13 pts
+[16:43:36] 12.00 | Body: +6 %
+[16:43:36] 12.00 | Cold: +6 %
+[16:43:36] 12.00 | Spirit: +6 %
+[16:43:36]  
+[16:43:36] <End Info>
+[16:43:38] <Begin Info: Bloodbound Book>
+[16:43:38]  
+[16:43:38] Total Utility: 44.667
+[16:43:38]  
+[16:43:38] Magical Bonuses:
+[16:43:38] 8.67 | Piety: +13 pts
+[16:43:38] 12.00 | Body: +6 %
+[16:43:38] 12.00 | Cold: +6 %
+[16:43:38] 12.00 | Spirit: +6 %
+[16:43:38]  
+[16:43:38] <End Info>
+[16:43:39] <Begin Info: Mystical Golden Scale Belt>
+[16:43:39]  
+[16:43:39] Total Utility: 54
+[16:43:39]  
+[16:43:39] Magical Bonuses:
+[16:43:39] 12.00 | Dexterity: +18 pts
+[16:43:39] 12.00 | Piety: +18 pts
+[16:43:39] 15.00 | Runecarving: +3 pts
+[16:43:39] 15.00 | Summoning: +3 pts
+[16:43:39]  
+[16:43:39] <End Info>
+[16:43:40] <Begin Info: Soulbinder's Belt>
+[16:43:40]  
+[16:43:40] Total Utility: 49
+[16:43:40]  
+[16:43:40] Magical Bonuses:
+[16:43:40] 9.00 | Hits: +36 pts
+[16:43:40] 20.00 | Cold: +10 %
+[16:43:40] 20.00 | Spirit: +10 %
+[16:43:40]  
+[16:43:40] <End Info>
+[16:43:42] <Begin Info: Cloak of the Wicked>
+[16:43:42]  
+[16:43:42] Total Utility: 44
+[16:43:42]  
+[16:43:42] Magical Bonuses:
+[16:43:42] 10.00 | Strength: +15 pts
+[16:43:42] 12.00 | Matter: +6 %
+[16:43:42] 22.00 | Thrust: +11 %
+[16:43:42]  
+[16:43:42] Level Requirement: 50 Level
+[16:43:42]  
+[16:43:42] Charged Magic Ability:
+[16:43:42] - 10 Charges
+[16:43:42] - 10 Max
+[16:43:42]  
+[16:43:42] Function: melee health buffer
+[16:43:42] 
+[16:43:42] Adds a shield to recipient which will temporarily absorb some of the damage type specified.
+[16:43:42] 
+[16:43:42] Absorption: 50%
+[16:43:42] Value: 150
+[16:43:42] Target: Self
+[16:43:42] Duration: 10:00 min
+[16:43:42] Casting time: Instant
+[16:43:42] Function: melee health buffer
+[16:43:42]  
+[16:43:42] - This spell is cast when the item is used.
+[16:43:42]  
+[16:43:42]  
+[16:43:42]  
+[16:43:42] Can use item every: 2:00 min
+[16:43:42] <End Info>
+[16:43:44] <Begin Info: Wulfen-fur Trimmed Cloak>
+[16:43:44]  
+[16:43:44] Total Utility: 44
+[16:43:44]  
+[16:43:44] Magical Bonuses:
+[16:43:44] 10.00 | Piety: +15 pts
+[16:43:44] 22.00 | Slash: +11 %
+[16:43:44] 12.00 | Spirit: +6 %
+[16:43:44]  
+[16:43:44] Level Requirement: 50 Level
+[16:43:44]  
+[16:43:44] Charged Magic Ability:
+[16:43:44] - 10 Charges
+[16:43:44] - 10 Max
+[16:43:44]  
+[16:43:44] Target regenerates power regeneration during the duration of the spell.
+[16:43:44]  
+[16:43:44] Value: 4
+[16:43:44] Target: Self
+[16:43:44] Duration: 10:00 min
+[16:43:44] Casting time: instant
+[16:43:44]  
+[16:43:44] - This spell is cast when the item is used.
+[16:43:44]  
+[16:43:44]  
+[16:43:44]  
+[16:43:44] Can use item every: 2:00 min
+[16:43:44] <End Info>
+
+*** Chat Log Closed: Sun May 30 16:43:46 2021
+
+
+*** Chat Log Opened: Sun May 30 17:00:15 2021
+
+[17:00:15]                                       
+[17:00:18] You need 20000 Phoenix Feather to buy Azure Soul Quencher.
+[17:00:19] You need 15000 Phoenix Feather to buy Dragonstorm.
+[17:00:20] You need 15000 Phoenix Feather to buy Azure Swathe Cutter.
+[17:00:20] You need 15000 Phoenix Feather to buy Dragonmight.
+[17:00:21] You need 15000 Phoenix Feather to buy Dragonfury.
+[17:00:21] You need 15000 Phoenix Feather to buy Fine Steel Long Sword.
+[17:00:22] You need 20000 Phoenix Feather to buy Bewitched Draconic Shield.
+[17:00:25] You need 20000 Phoenix Feather to buy Ensorcelled Draconic Shield.
+[17:00:26] You need 20000 Phoenix Feather to buy Runed Saga Etched Shield.
+[17:00:26] You need 15000 Phoenix Feather to buy Bloodfire Battle Spear.
+[17:00:27] You need 15000 Phoenix Feather to buy Long Claw of the Wulfen.
+[17:00:27] You need 15000 Phoenix Feather to buy Dragonfang.
+[17:00:28] You need 15000 Phoenix Feather to buy Paw of the Wulfen.
+[17:00:29] You need 15000 Phoenix Feather to buy Great Shadowed Impaler.
+[17:00:29] You need 20000 Phoenix Feather to buy Staff of Ageless Power.
+[17:00:31] You need 15000 Phoenix Feather to buy Arcane Assassin's Leggings.
+[17:00:32] You need 15000 Phoenix Feather to buy Royal Dragonslayer Gloves.
+[17:00:33] You need 15000 Phoenix Feather to buy Bearman Battle Gauntlets.
+[17:00:33] You need 20000 Phoenix Feather to buy Brutish Brawler's Armguards.
+[17:00:34] You need 15000 Phoenix Feather to buy Cloth Cap.
+[17:00:34] You need 15000 Phoenix Feather to buy Dragon's Blood Boots.
+[17:00:35] You need 15000 Phoenix Feather to buy Hauberk of Valhalla.
+[17:00:35] You need 15000 Phoenix Feather to buy Lost Hauberk of Valhalla.
+[17:00:36] You need 15000 Phoenix Feather to buy Runed Asgardian Vest.
+[17:00:36] You need 15000 Phoenix Feather to buy Vest of the Pack.
+[17:00:38] You need 10000 Phoenix Feather to buy Ancient Ebon Bracer.
+[17:00:39] You need 10000 Phoenix Feather to buy Dragon Bone Bracer.
+[17:00:40] You need 20000 Phoenix Feather to buy Dragonscale Bracelet.
+[17:00:40] You need 15000 Phoenix Feather to buy Bracer of Shattering.
+[17:00:41] You need 15000 Phoenix Feather to buy Bracer of the Blaze.
+[17:00:41] You need 10000 Phoenix Feather to buy Ancient Ebon Ring.
+[17:00:42] You need 10000 Phoenix Feather to buy Bloodbound Book.
+[17:00:43] You need 15000 Phoenix Feather to buy Mystical Golden Scale Belt.
+[17:00:43] You need 10000 Phoenix Feather to buy Soulbinder's Belt.
+[17:00:44] You need 10000 Phoenix Feather to buy Cloak of the Wicked.
+[17:00:45] You need 10000 Phoenix Feather to buy Wulfen-fur Trimmed Cloak.
+
+*** Chat Log Closed: Sun May 30 17:00:50 2021
+
+
+
