@@ -41,8 +41,14 @@ CREATE TABLES items(
     bonus INTEGER,
     utility INTEGER,
     single_skill_utility INTEGER,
+    af INTEGER,
+    dps REAL,
+    speed REAL,
     realm_fk REFERENCES realm(realm_pk),
-    slot_fk REFERENCES slot(slot_fk)
+    slot_fk REFERENCES slot(slot_fk),
+    armor_type_fk REFERENCES armor_type(armor_type_pk),
+    weapon_type_fk REFERENCES weapon_type(weapon_type_pk),
+    item_source_fk REFERENCES item_source(item_source_pk)
 );
 
 CREATE TABLE item_bonus(
