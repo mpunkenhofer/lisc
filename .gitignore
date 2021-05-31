@@ -31,7 +31,12 @@ testem.log
 /typings
 .awcache
 /debug
+__pychache__/
+*.pyc
 
 # System Files
 .DS_Store
 Thumbs.db
+
+# temp sqlite files
+*.sqlite3-journal

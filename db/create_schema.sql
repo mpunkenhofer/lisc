@@ -5,50 +5,50 @@ PRAGMA foreign_keys = ON;
 DROP TABLE IF EXISTS realm;
 CREATE TABLE realm(
     realm_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS class;
 CREATE TABLE class(
     class_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS slot;
 CREATE TABLE slot(
     slot_pk INTEGER PRIMARY KEY,
-    Name TEXT NOT NULL
+    Name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS bonus;
 CREATE TABLE bonus(
     bonus_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
+    name TEXT UNIQUE NOT NULL,
     type TEXT NOT NULL
 );
 
 DROP TABLE IF EXISTS armor_type;
 CREATE TABLE armor_type(
     armor_type_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS weapon_type;
 CREATE TABLE weapon_type(
     weapon_type_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS item_source;
 CREATE TABLE item_source(
     item_source_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL
+    name TEXT UNIQUE NOT NULL
 );
 
 DROP TABLE IF EXISTS items;
 CREATE TABLE items(
     items_pk INTEGER PRIMARY KEY,
-    name TEXT NOT NULL,
+    name TEXT UNIQUE NOT NULL,
     quality INTEGER,
     bonus INTEGER,
     utility INTEGER,
