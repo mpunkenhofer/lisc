@@ -1,42 +1,54 @@
--- Cleanup existing tables and data
-DROP TABLE IF EXISTS Realm, Class, Slot, Bonus, Items
+-- Pragmas
+PRAGMA foreign_keys = ON;
 
 -- Create all tables, incl constraits
-
+DROP TABLE IF EXISTS realm;
 CREATE TABLE realm(
     realm_pk INTEGER PRIMARY KEY,
-    name VARCHAR(10) NOT NULL
+    name TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS class;
 CREATE TABLE class(
     class_pk INTEGER PRIMARY KEY,
-    name VARCHAR(15) NOT NULL
+    name TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS slot;
 CREATE TABLE slot(
     slot_pk INTEGER PRIMARY KEY,
-    Name VARCHAR(20) NOT NULL
+    Name TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS bonus;
 CREATE TABLE bonus(
     bonus_pk INTEGER PRIMARY KEY,
-    name VARCHAR(20) NOT NULL,
-    type VARCHAR(20) NOT NULL
+    name TEXT NOT NULL,
+    type TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS armor_type;
 CREATE TABLE armor_type(
     armor_type_pk INTEGER PRIMARY KEY,
-    name VARCHAR(20) NOT NULL
+    name TEXT NOT NULL
 );
 
+DROP TABLE IF EXISTS weapon_type;
 CREATE TABLE weapon_type(
     weapon_type_pk INTEGER PRIMARY KEY,
-    name VARCHAR(20) NOT NULL
+    name TEXT NOT NULL
 );
 
-CREATE TABLES items(
+DROP TABLE IF EXISTS item_source;
+CREATE TABLE item_source(
+    item_source_pk INTEGER PRIMARY KEY,
+    name TEXT NOT NULL
+);
+
+DROP TABLE IF EXISTS items;
+CREATE TABLE items(
     items_pk INTEGER PRIMARY KEY,
-    name VARCHAR(256) NOT NULL,
+    name TEXT NOT NULL,
     quality INTEGER,
     bonus INTEGER,
     utility INTEGER,
@@ -51,23 +63,21 @@ CREATE TABLES items(
     item_source_fk REFERENCES item_source(item_source_pk)
 );
 
+DROP TABLE IF EXISTS item_bonus;
 CREATE TABLE item_bonus(
     item_fk REFERENCES item(items_pk),
     bonus_fk REFERENCES bonus(bonus_pk),
     value INTEGER
 );
 
-CREATE TABLE item_source(
-    item_source_pk INTEGER PRIMARY KEY,
-    name VARCHAR(30) NOT NULL
-);
-
+DROP TABLE IF EXISTS item_class;
 CREATE TABLE item_class(
-    item_fk REFERENCES item(items_pk)
+    item_fk REFERENCES item(items_pk),
     class_fk REFERENCES class(class_pk)
 );
 
+DROP TABLE IF EXISTS item_slot;
 CREATE TABLE item_slot(
-    item_fk REFERENCES item(items_pk)
+    item_fk REFERENCES item(items_pk),
     slot_fk REFERENCES slot(slot_pk)
 );
