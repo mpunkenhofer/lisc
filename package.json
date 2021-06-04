@@ -16,6 +16,7 @@
     "clean": "rimraf build",
     "build": "npm run clean && webpack --config webpack.production.js",
     "start": "npm run clean && webpack serve --config=webpack.development.js",
+    "gen-db": "ts-node db/ingest.ts",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
@@ -62,6 +63,7 @@
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
     "react-router-dom": "^5.2.0",
-    "redux-thunk": "^2.3.0"
+    "redux-thunk": "^2.3.0",
+    "sqlite3": "^5.0.2"
   }
 }

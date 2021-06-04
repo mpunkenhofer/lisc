@@ -13,7 +13,7 @@ def out(command):
     return result.stdout
 
 
-IMAGES_PATH = 'public/images'
+IMAGES_PATH = 'assets/images'
 INDENT = 4 * ' '
 
 # realm spritesheet

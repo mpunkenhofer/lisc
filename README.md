@@ -20,3 +20,4 @@ A collection of useful links regarding this project.
 - [SVG Optimization](https://www.npmjs.com/package/svgo)
 - [CSS Animation](https://animate.style/)
 - [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- [Fav Icon Generator](https://realfavicongenerator.net/)
