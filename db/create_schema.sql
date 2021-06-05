@@ -50,7 +50,6 @@ CREATE TABLE items(
     items_pk INTEGER PRIMARY KEY,
     name TEXT UNIQUE NOT NULL,
     quality INTEGER,
-    bonus INTEGER,
     utility INTEGER,
     single_skill_utility INTEGER,
     af INTEGER,

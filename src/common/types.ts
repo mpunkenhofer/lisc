@@ -4,11 +4,12 @@ import { Class } from "../constants/classes";
 export enum Realm {
   Albion = 'Albion',
   Hibernia = 'Hibernia',
-  Midgard = 'Midgard'
+  Midgard = 'Midgard',
+  All = 'All'
 }
 
 export enum Slot {
-  Torso,
+  Body,
   Arms,
   Legs,
   Head,
@@ -17,11 +18,13 @@ export enum Slot {
   Necklace,
   Cloak,
   Belt,
-  Gem,
-  LeftRing,
-  RightRing,
-  LeftBracer,
-  RightBracer
+  Jewel,
+  Ring,
+  Bracer,
+  LeftHand,
+  RightHand,
+  TwoHanded,
+  Ranged
 }
 
 export enum Stat {
@@ -38,11 +41,14 @@ export enum Stat {
 }
 
 export enum ArmorType {
-  Cloth,
-  Leather,
-  Studded,
-  Chain,
-  Plate,
+  Cloth = 'Cloth',
+  Leather = 'Leather',
+  Studded = 'Studded',
+  Reinforced = 'Reinforced',
+  Chain = 'Chain',
+  Scale = 'Scale',
+  Plate = 'Plate'
+  //Unspecified = 'Unspecified'
 }
 
 export enum WeaponType {
@@ -73,8 +79,19 @@ export type Options = {
 export type Item = {
   name: string;
   slot: Slot;
+  realm: Realm;  
   classes: Class[];
   bonuses: Bonus[];
+  quality: number;
+  bonus: number;
+  utility: number;
+  sutility?: number;
+  af?: number;
+  dps?: number;
+  speed?: number;
+  source?: string;
+  armorType?: ArmorType;
+  weaponType?: WeaponType;
 }
 
 export interface Template {

@@ -285,7 +285,7 @@ export const Animist: Class = {
 export const Bard: Class = {
   name: "Bard",
   realm: Realm.Hibernia,
-  armor: ArmorType.Studded,
+  armor: ArmorType.Reinforced,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg],
   magic: Stat.Charisma,
@@ -302,7 +302,7 @@ export const Bard: Class = {
 export const Blademaster: Class = {
   name: "Blademaster",
   realm: Realm.Hibernia,
-  armor: ArmorType.Studded,
+  armor: ArmorType.Reinforced,
   shield: ShieldSize.Medium,
 
   races: [Race.Celt, Race.Elf, Race.Firbolg, Race.Shar],
@@ -319,7 +319,7 @@ export const Blademaster: Class = {
 export const Champion: Class = {
   name: "Champion",
   realm: Realm.Hibernia,
-  armor: ArmorType.Chain,
+  armor: ArmorType.Scale,
   shield: ShieldSize.Medium,
   races: [Race.Celt, Race.Elf, Race.Lurikeen, Race.Shar],
   magic: Stat.Intelligence,
@@ -337,7 +337,7 @@ export const Champion: Class = {
 export const Druid: Class = {
   name: "Druid",
   realm: Realm.Hibernia,
-  armor: ArmorType.Chain,
+  armor: ArmorType.Scale,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
   magic: Stat.Empathy,
@@ -385,7 +385,7 @@ export const Enchanter: Class = {
 export const Hero: Class = {
   name: "Hero",
   realm: Realm.Hibernia,
-  armor: ArmorType.Chain,
+  armor: ArmorType.Scale,
   shield: ShieldSize.Large,
   races: [Race.Celt, Race.Firbolg, Race.Lurikeen, Race.Sylvan, Race.Shar],
   skills: [
@@ -436,7 +436,7 @@ export const Nightshade: Class = {
 export const Ranger: Class = {
   name: "Ranger",
   realm: Realm.Hibernia,
-  armor: ArmorType.Studded,
+  armor: ArmorType.Reinforced,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Elf, Race.Lurikeen, Race.Shar],
   skills: [
@@ -469,7 +469,7 @@ export const Valewalker: Class = {
 export const Warden: Class = {
   name: "Warden",
   realm: Realm.Hibernia,
-  armor: ArmorType.Chain,
+  armor: ArmorType.Scale,
   shield: ShieldSize.Medium,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
   magic: Stat.Empathy,
