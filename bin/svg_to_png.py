@@ -28,7 +28,7 @@ def main():
         return 1
 
     for r in args.resolutions:
-        os.system("inkscape {} --export-png={} -w {} -h {}".format(args.input, str(Path(args.directory, '{}{}'.format(args.prefix, r)).with_suffix('.png')), r, r))
+        os.system('inkscape {} --export-type="png" -w {} -h {} -o {}'.format(args.input, r, r, str(Path(args.directory, '{}{}'.format(args.prefix, r)).with_suffix('.png'))))
 
 
 if __name__ == "__main__":

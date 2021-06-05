@@ -1,0 +1,20 @@
+{
+    "name": "lisc",
+    "short_name": "lisc",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "description": "Spellcrafting Calculator for the Phoenix Freeshard Server",
+    "icons": [
+        {
+            "src": "/lisc192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/lisc512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

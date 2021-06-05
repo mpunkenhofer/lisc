@@ -14,7 +14,7 @@
         "allowJs": false,
         "jsx": "react",
         "target": "es2020",
-        "module": "es2020",
+        "module": "commonjs",
         "moduleResolution": "node",
         "typeRoots": [
             "node_modules/@types"
