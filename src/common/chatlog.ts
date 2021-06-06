@@ -1,113 +1,179 @@
-import { ArmorType, Item, Realm, Slot } from "./types";
+import {ArmorType, Item, Realm, Slot} from './types';
+import * as Stats from './../constants/bonuses/stat';
+import * as Resists from './../constants/bonuses/resistance';
+import * as Focuses from './../constants/bonuses/focus';
+import {Bonus} from '../constants/bonuses';
 
 const matcher = (regex: RegExp, data: string): string | null => {
-    const m = regex.exec(data);
-    return (m && m.length > 1) ? m[1] : null;
-}
+  const m = regex.exec(data);
+  return m && m.length > 1 ? m[1] : null;
+};
 
-const slots = new Map([
-    ['robe', Slot.Body],
-    ['robes', Slot.Body],
-    ['skin', Slot.Body],
-    ['vest', Slot.Body],
-    ['warchain', Slot.Body],
-    ['warplate', Slot.Body],
-    ['chitin', Slot.Body],
-    ['hauberk', Slot.Body],
-    ['vambraces', Slot.Arms],
-    ['sleeves', Slot.Arms],
-    ['greaves', Slot.Legs],
-    ['leggings', Slot.Legs],
-    ['leggins', Slot.Legs],
-    ['pants', Slot.Legs],
-    ['cap', Slot.Head],
-    ['crown', Slot.Head],
-    ['gauntlets', Slot.Hands],
-    ['gloves', Slot.Hands],
-    ['boots', Slot.Feet],
-    ['ring', Slot.Ring],
-    ['wrap', Slot.Bracer],
-    ['bracer', Slot.Bracer],
-    ['cowl', Slot.Cloak],
-    ['cloak', Slot.Cloak],
-    ['necklace', Slot.Necklace],
-    ['medallion', Slot.Necklace],
-    ['choker', Slot.Necklace],
-    ['belt', Slot.Belt],
-    ['girdle', Slot.Belt],
-    ['jewel', Slot.Jewel],
-    ['flayer', Slot.TwoHanded],
-    ['ravager', Slot.TwoHanded],
-    ['slicer', Slot.TwoHanded],
-    ['glaive', Slot.TwoHanded],
-    ['breaker', Slot.TwoHanded],
-    ['staff', Slot.TwoHanded],
-    ['harp', Slot.Ranged],
-    ['bow', Slot.Ranged],
-    ['shield', Slot.RightHand],
-    ['defender', Slot.RightHand],
-    ['protector', Slot.RightHand]
+const toNumber = (s: string | null) => {
+  return s !== null ? Number(s) : null;
+};
+
+const makeBonusesMap = (): Map<string, Bonus> => {
+  const map = new Map<string, Bonus>();
+  const f = (stat: Bonus) =>
+    map.set(stat.name.replace(/\s/g, '').toLowerCase(), stat);
+
+  Object.values(Stats).map(f);
+  Object.values(Resists).map(f);
+  Object.values(Focuses).map(f);
+
+  return map;
+};
+
+const bonuses = makeBonusesMap();
+
+const makeSlotsMap = (aliases: [string[], Slot][]): Map<string, Slot> => {
+  const map = new Map<string, Slot>();
+  const f = (n: string, s: Slot) => map.set(n, s);
+
+  for (const pair of aliases) {
+    const [item_aliases, slot] = pair;
+    item_aliases.map(alias => f(alias, slot));
+  }
+
+  return map;
+};
+
+const jewelry_slots = makeSlotsMap([
+  [['ring', 'band'], Slot.Ring],
+  [['bracer', 'bracelet', 'wrap'], Slot.Bracer],
+  [['cloak', 'cape', 'cowl', 'mantle'], Slot.Cloak],
+  [['necklace', 'chain', 'choker', 'medallion'], Slot.Necklace],
+  [['belt', 'girdle', 'sash'], Slot.Belt],
+  [['jewel', 'gem', 'quiver'], Slot.Jewel],
 ]);
 
-const inferSlot = (name: string | null): Slot | null => {
-    if (name) {
-        const words = name.toLowerCase().split(' ');
+const armor_slots = makeSlotsMap([
+  [
+    [
+      'robe',
+      'robes',
+      'skin',
+      'vest',
+      'mail',
+      'warchain',
+      'warplate',
+      'chitin',
+      'hauberk',
+      'breastplate',
+      'chestplate',
+      'jerkin',
+      'carapace',
+    ],
+    Slot.Body,
+  ],
+  [['sleeves', 'armguards', 'vambraces'], Slot.Arms],
+  [['leggings', 'leggins', 'pants', 'greaves'], Slot.Legs],
+  [['cap', 'crown', 'tiara'], Slot.Head],
+  [['gloves', 'gauntlets'], Slot.Hands],
+  [['boots'], Slot.Feet],
+]);
 
-        for (const word of words) {
-            const slot = slots.get(word.trim())
+const inferSlot = (
+  name: string | null,
+  map: Map<string, Slot>
+): Slot | null => {
+  if (name) {
+    const words = name.toLowerCase().split(' ');
 
-            if (slot !== undefined)
-                return slot;
-        }
+    for (const word of words) {
+      const slot = map.get(word.trim());
+
+      if (slot !== undefined) return slot;
     }
+  }
 
-    return null;
-}
+  return null;
+};
 
 const inferArmorType = (abs: number, realm: Realm): ArmorType | null => {
-    switch(abs) {
-        case 0: return ArmorType.Cloth;
-        case 10: return ArmorType.Leather;
-        case 19: return realm != Realm.Hibernia ? ArmorType.Studded : ArmorType.Reinforced;
-        case 27: return realm != Realm.Hibernia ? ArmorType.Chain : ArmorType.Scale;
-        case 34: return ArmorType.Plate;
-        default: return null;
-    }
-}
+  switch (abs) {
+    case 0:
+      return ArmorType.Cloth;
+    case 10:
+      return ArmorType.Leather;
+    case 19:
+      return realm !== Realm.Hibernia
+        ? ArmorType.Studded
+        : ArmorType.Reinforced;
+    case 27:
+      return realm !== Realm.Hibernia ? ArmorType.Chain : ArmorType.Scale;
+    case 34:
+      return ArmorType.Plate;
+    default:
+      return null;
+  }
+};
+
+const inferBonus = (s: string): Bonus | null => {
+  const b = bonuses.get(s.replace(/\s/g, '').toLowerCase());
+  return b !== undefined ? b : null;
+};
 
 export type ParseLogOptions = {
-    realm?: Realm;
-    slot?: Slot;
-    source?: string;
-}
+  realm?: Realm;
+  slot?: Slot;
+  source?: string;
+};
 
 export const parseLog = (data: string, options?: ParseLogOptions): Item[] => {
-    const matches = [...data.matchAll(/<Begin Info:[^>]+>[^<]+?<End Info>/gi)];
-    const items: Item[] = []
+  const matches = [...data.matchAll(/<Begin Info:[^>]+>[^<]+?<End Info>/gi)];
+  const items: Item[] = [];
 
-    for (const match of matches) {
-        if (match.length > 0) {
-            //const item = match[0].replace(/\[\d+:\d+:\d+\] */g, '');  //remove log timestamps
-            const item = match[0];
+  for (const match of matches) {
+    if (match.length > 0) {
+      //const item = match[0].replace(/\[\d+:\d+:\d+\] */g, '');  //remove log timestamps
+      const item = match[0];
 
-            const name = matcher(/<Begin Info: ([^>]+)>/i, item);
-            const realm = (options && options.realm) ? options.realm : Realm.All;
-            const slot = (options && options.slot) ? options.slot : inferSlot(name);
-            const source = (options && options.source) ? options.source : '';
-            const util = matcher(/Total Utility: (\d+)/i, item);
-            const sutil = matcher(/Single Skill Utility: (\d+)/i, item);
-            const qual = matcher(/- (\d+)% Quality/i, item);
-            const abs = matcher(/- (\d+)% Absorption/i, item);
-            const af = matcher(/- (\d+) Base Factor/i, item);
-            const dps = matcher(/- ([+-]?([0-9]*[.])?[0-9]+) Base DPS/i, item);
-            const speed = matcher(/([+-]?([0-9]*[.])?[0-9]+) Weapon Speed/i, item);
+      const name = matcher(/<Begin Info: ([^>]+)>/i, item);
 
-            const bonus_matches = [...item.matchAll(/(((\w+\s)+)?\w+): ([+-]?\d+) (pts|lvls|%)/gi)];
+      if (!name) continue;
 
-           // console.log(item)
-        }
+      const realm = options && options.realm ? options.realm : Realm.All;
+      const slot = options && options.slot ? options.slot : null;
+      const source = options && options.source ? options.source : null;
+
+      const utility = toNumber(matcher(/Total Utility: (\d+)/i, item));
+      const sutility = toNumber(matcher(/Single Skill Utility: (\d+)/i, item));
+      const quality = toNumber(matcher(/- (\d+)% Quality/i, item));
+
+      const abs = toNumber(matcher(/- (\d+)% Absorption/i, item));
+      const af = toNumber(matcher(/- (\d+) Base Factor/i, item));
+
+      const dps = toNumber(
+        matcher(/- ([+-]?([0-9]*[.])?[0-9]+) Base DPS/i, item)
+      );
+      const speed = toNumber(
+        matcher(/([+-]?([0-9]*[.])?[0-9]+) (Weapon|Shield) Speed/i, item)
+      );
+      const dmg_type = matcher(/- Damage Type: (\w+)/i, item);
+
+      const shield_size = matcher(/- Shield Size: (\w+)/i, item);
+
+      const bonus_matches = [
+        ...item.matchAll(/(((\w+\s)+)?\w+): ([+-]?\d+) (pts|lvls|%)/gi),
+      ];
+
+      const bonuses: [Bonus, number][] = [];
+
+      for (const match of bonus_matches) {
+        const bonus = inferBonus(match[1]);
+        if (bonus) bonuses.push([bonus, Number(match[4])]);
+      }
+
+      if (!slot) {
+        console.log('yes');
+      } else {
+        console.log('no');
+        //items.push({name, realm, slot});
+      }
     }
+  }
 
-    return items;
-}
-
+  return items;
+};

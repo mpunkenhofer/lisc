@@ -1,16 +1,15 @@
-import {createSlice, PayloadAction} from "@reduxjs/toolkit";
-import { Template } from "../common/types";
-import { AppThunk } from "../store";
-import * as storage from "../common/storage";
+// import { createSlice, PayloadAction } from '@reduxjs/toolkit';
+// import { Template } from "../common/types";
+// import { AppThunk } from "../store";
+// import * as storage from "../common/storage";
 
-type ProjectState = {
-    template: Template;
-    str: number;
-    con: number;
-    dex: number;
-    qui: number;
-
-}
+// type ProjectState = {
+//   template: Template;
+//   str: number;
+//   con: number;
+//   dex: number;
+//   qui: number;
+// };
 
 // const TemplatesInitialState: TemplatesState = {
 //     templates: [],
@@ -65,6 +64,5 @@ type ProjectState = {
 //         .then(templates => dispatch(templatesSuccess(templates)))
 //         .catch((err: string) => dispatch(templatesFailure(err.toString())));
 // };
-
 
 // export default templatesSlice.reducer;

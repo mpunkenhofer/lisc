@@ -1,15 +1,1 @@
-# don't ever lint node_modules
-node_modules
-# don't lint build output (make sure it's set to your correct build folder name)
-build
-dist
-# don't lint nyc coverage output
-coverage
-# don't lint locales
-locales
-# don't lint assets
-assets
-# don't lint webpack config files
-webpack.*
-#
-.eslintrc.js
+build/

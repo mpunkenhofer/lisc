@@ -1,11 +1,11 @@
-import { Bonus, Dust, Liquid } from ".";
+import {Bonus, Dust, Liquid} from '.';
 
 export type Skill = Bonus;
 
 export const Augmentation: Skill = {
-  name: "Augmentation",
+  name: 'Augmentation',
   jewel: {
-    name: "Airy Chaos Rune",
+    name: 'Airy Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -14,9 +14,9 @@ export const Augmentation: Skill = {
 };
 
 export const Axe: Skill = {
-  name: "Axe",
+  name: 'Axe',
   jewel: {
-    name: "Earthen War Rune",
+    name: 'Earthen War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -25,9 +25,9 @@ export const Axe: Skill = {
 };
 
 export const Battlesongs: Skill = {
-  name: "Battlesongs",
+  name: 'Battlesongs',
   jewel: {
-    name: "Airy Primal Rune",
+    name: 'Airy Primal Rune',
     dust: Dust.GroundVendoBone,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -36,9 +36,9 @@ export const Battlesongs: Skill = {
 };
 
 export const Beastcraft: Skill = {
-  name: "Beastcraft",
+  name: 'Beastcraft',
   jewel: {
-    name: "Earthen Primal Rune",
+    name: 'Earthen Primal Rune',
     dust: Dust.GroundVendoBone,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -47,9 +47,9 @@ export const Beastcraft: Skill = {
 };
 
 export const BoneArmy: Skill = {
-  name: "Bone Army",
+  name: 'Bone Army',
   jewel: {
-    name: "Ashen Primal Rune",
+    name: 'Ashen Primal Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -58,9 +58,9 @@ export const BoneArmy: Skill = {
 };
 
 export const Subterranean: Skill = {
-  name: "Subterranean",
+  name: 'Subterranean',
   jewel: {
-    name: "Fiery Chaos Rune",
+    name: 'Fiery Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -69,9 +69,9 @@ export const Subterranean: Skill = {
 };
 
 export const CompositeBow: Skill = {
-  name: "Composite Bow",
+  name: 'Composite Bow',
   jewel: {
-    name: "Airy War Rune",
+    name: 'Airy War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -80,9 +80,9 @@ export const CompositeBow: Skill = {
 };
 
 export const CriticalStrike: Skill = {
-  name: "Critical Strike",
+  name: 'Critical Strike',
   jewel: {
-    name: "Heated Battle Jewel",
+    name: 'Heated Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -91,9 +91,9 @@ export const CriticalStrike: Skill = {
 };
 
 export const Cursing: Skill = {
-  name: "Cursing",
+  name: 'Cursing',
   jewel: {
-    name: "Blighted Primal Rune",
+    name: 'Blighted Primal Rune',
     dust: Dust.GroundVendoBone,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -102,9 +102,9 @@ export const Cursing: Skill = {
 };
 
 export const Darkness: Skill = {
-  name: "Darkness",
+  name: 'Darkness',
   jewel: {
-    name: "Icy Chaos Rune",
+    name: 'Icy Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -113,9 +113,9 @@ export const Darkness: Skill = {
 };
 
 export const Hammer: Skill = {
-  name: "Hammer",
+  name: 'Hammer',
   jewel: {
-    name: "Fiery War Rune",
+    name: 'Fiery War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -124,9 +124,9 @@ export const Hammer: Skill = {
 };
 
 export const HandToHand: Skill = {
-  name: "Hand to Hand",
+  name: 'Hand to Hand',
   jewel: {
-    name: "Lightning Charged War Rune",
+    name: 'Lightning Charged War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -135,9 +135,9 @@ export const HandToHand: Skill = {
 };
 
 export const Hexing: Skill = {
-  name: "Hexing",
+  name: 'Hexing',
   jewel: {
-    name: "Unholy Primal Rune",
+    name: 'Unholy Primal Rune',
     dust: Dust.GroundVendoBone,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -146,9 +146,9 @@ export const Hexing: Skill = {
 };
 
 export const LeftAxe: Skill = {
-  name: "Left Axe",
+  name: 'Left Axe',
   jewel: {
-    name: "Icy War Rune",
+    name: 'Icy War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -157,9 +157,9 @@ export const LeftAxe: Skill = {
 };
 
 export const Mending: Skill = {
-  name: "Mending",
+  name: 'Mending',
   jewel: {
-    name: "Watery Chaos Rune",
+    name: 'Watery Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -168,20 +168,20 @@ export const Mending: Skill = {
 };
 
 export const Pacification: Skill = {
-    name: "Pacification",
-    jewel: {
-      name: "Earthen Chaos Rune",
-      dust: Dust.SootFromNilfheim,
-      liquid: Liquid.TreantBlood,
-      dust_amount: [1, 4],
-      liquid_amount: [1, 1],
-    },
-  };
+  name: 'Pacification',
+  jewel: {
+    name: 'Earthen Chaos Rune',
+    dust: Dust.SootFromNilfheim,
+    liquid: Liquid.TreantBlood,
+    dust_amount: [1, 4],
+    liquid_amount: [1, 1],
+  },
+};
 
 export const Parry: Skill = {
-  name: "Parry",
+  name: 'Parry',
   jewel: {
-    name: "Vapor Battle Jewel",
+    name: 'Vapor Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -190,9 +190,9 @@ export const Parry: Skill = {
 };
 
 export const Runecarving: Skill = {
-  name: "Runecarving",
+  name: 'Runecarving',
   jewel: {
-    name: "Heated Chaos Rune",
+    name: 'Heated Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -201,9 +201,9 @@ export const Runecarving: Skill = {
 };
 
 export const Shield: Skill = {
-  name: "Shield",
+  name: 'Shield',
   jewel: {
-    name: "Fiery Battle Jewel",
+    name: 'Fiery Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -212,9 +212,9 @@ export const Shield: Skill = {
 };
 
 export const Spear: Skill = {
-  name: "Spear",
+  name: 'Spear',
   jewel: {
-    name: "Heated War Rune",
+    name: 'Heated War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -223,9 +223,9 @@ export const Spear: Skill = {
 };
 
 export const Staff: Skill = {
-  name: "Staff",
+  name: 'Staff',
   jewel: {
-    name: "Earthen Battle Jewel",
+    name: 'Earthen Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -234,9 +234,9 @@ export const Staff: Skill = {
 };
 
 export const Stealth: Skill = {
-  name: "Stealth",
+  name: 'Stealth',
   jewel: {
-    name: "Airy Battle Jewel",
+    name: 'Airy Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -245,9 +245,9 @@ export const Stealth: Skill = {
 };
 
 export const Stormcalling: Skill = {
-  name: "Stormcalling",
+  name: 'Stormcalling',
   jewel: {
-    name: "Fiery Primal Rune",
+    name: 'Fiery Primal Rune',
     dust: Dust.GroundVendoBone,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -256,9 +256,9 @@ export const Stormcalling: Skill = {
 };
 
 export const Summoning: Skill = {
-  name: "Summoning",
+  name: 'Summoning',
   jewel: {
-    name: "Vapor Chaos Rune",
+    name: 'Vapor Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -267,9 +267,9 @@ export const Summoning: Skill = {
 };
 
 export const Suppression: Skill = {
-  name: "Suppression",
+  name: 'Suppression',
   jewel: {
-    name: "Dusty Chaos Rune",
+    name: 'Dusty Chaos Rune',
     dust: Dust.SootFromNilfheim,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -278,9 +278,9 @@ export const Suppression: Skill = {
 };
 
 export const Sword: Skill = {
-  name: "Sword",
+  name: 'Sword',
   jewel: {
-    name: "Watery War Rune",
+    name: 'Watery War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -289,9 +289,9 @@ export const Sword: Skill = {
 };
 
 export const ThrownWeapons: Skill = {
-  name: "Thrown Weapons",
+  name: 'Thrown Weapons',
   jewel: {
-    name: "Vapor War Rune",
+    name: 'Vapor War Rune',
     dust: Dust.GroundGiantBone,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -300,9 +300,9 @@ export const ThrownWeapons: Skill = {
 };
 
 export const ArborealPath: Skill = {
-  name: "Arboreal Path",
+  name: 'Arboreal Path',
   jewel: {
-    name: "Steaming Nature Spell Stone",
+    name: 'Steaming Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -311,9 +311,9 @@ export const ArborealPath: Skill = {
 };
 
 export const Blades: Skill = {
-  name: "Blades",
+  name: 'Blades',
   jewel: {
-    name: "Watery War Spell Stone",
+    name: 'Watery War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -322,9 +322,9 @@ export const Blades: Skill = {
 };
 
 export const Blunt: Skill = {
-  name: "Blunt",
+  name: 'Blunt',
   jewel: {
-    name: "Fiery War Spell Stone",
+    name: 'Fiery War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -333,9 +333,9 @@ export const Blunt: Skill = {
 };
 
 export const CelticDual: Skill = {
-  name: "Celtic Dual",
+  name: 'Celtic Dual',
   jewel: {
-    name: "Icy War Spell Stone",
+    name: 'Icy War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -344,9 +344,9 @@ export const CelticDual: Skill = {
 };
 
 export const CelticSpear: Skill = {
-  name: "Celtic Spear",
+  name: 'Celtic Spear',
   jewel: {
-    name: "Earthen War Spell Stone",
+    name: 'Earthen War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -355,9 +355,9 @@ export const CelticSpear: Skill = {
 };
 
 export const CreepingPath: Skill = {
-  name: "Creeping Path",
+  name: 'Creeping Path',
   jewel: {
-    name: "Oozing Nature Spell Stone",
+    name: 'Oozing Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -366,9 +366,9 @@ export const CreepingPath: Skill = {
 };
 
 export const Enchantment: Skill = {
-  name: "Enchantment",
+  name: 'Enchantment',
   jewel: {
-    name: "Vapor Arcane Spell Stone",
+    name: 'Vapor Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -377,9 +377,9 @@ export const Enchantment: Skill = {
 };
 
 export const LargeWeaponry: Skill = {
-  name: "Large Weaponry",
+  name: 'Large Weaponry',
   jewel: {
-    name: "Heated War Spell Stone",
+    name: 'Heated War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -388,9 +388,9 @@ export const LargeWeaponry: Skill = {
 };
 
 export const LightMagic: Skill = {
-  name: "Light Magic",
+  name: 'Light Magic',
   jewel: {
-    name: "Fiery Arcane Spell Stone",
+    name: 'Fiery Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -399,9 +399,9 @@ export const LightMagic: Skill = {
 };
 
 export const ManaMagic: Skill = {
-  name: "Mana Magic",
+  name: 'Mana Magic',
   jewel: {
-    name: "Watery Arcane Spell Stone",
+    name: 'Watery Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -410,9 +410,9 @@ export const ManaMagic: Skill = {
 };
 
 export const Mentalism: Skill = {
-  name: "Mentalism",
+  name: 'Mentalism',
   jewel: {
-    name: "Earthen Arcane Spell Stone",
+    name: 'Earthen Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -421,9 +421,9 @@ export const Mentalism: Skill = {
 };
 
 export const Music: Skill = {
-  name: "Music",
+  name: 'Music',
   jewel: {
-    name: "Airy Nature Spell Stone",
+    name: 'Airy Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -432,9 +432,9 @@ export const Music: Skill = {
 };
 
 export const Nature: Skill = {
-  name: "Nature",
+  name: 'Nature',
   jewel: {
-    name: "Earthen Nature Spell Stone",
+    name: 'Earthen Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -443,9 +443,9 @@ export const Nature: Skill = {
 };
 
 export const Nurture: Skill = {
-  name: "Nurture",
+  name: 'Nurture',
   jewel: {
-    name: "Fiery Nature Spell Stone",
+    name: 'Fiery Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -454,9 +454,9 @@ export const Nurture: Skill = {
 };
 
 export const Piercing: Skill = {
-  name: "Piercing",
+  name: 'Piercing',
   jewel: {
-    name: "Dusty War Spell Stone",
+    name: 'Dusty War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -465,9 +465,9 @@ export const Piercing: Skill = {
 };
 
 export const RecurveBow: Skill = {
-  name: "Recurve Bow",
+  name: 'Recurve Bow',
   jewel: {
-    name: "Airy War Spell Stone",
+    name: 'Airy War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -476,9 +476,9 @@ export const RecurveBow: Skill = {
 };
 
 export const Regrowth: Skill = {
-  name: "Regrowth",
+  name: 'Regrowth',
   jewel: {
-    name: "Watery Nature Spell Stone",
+    name: 'Watery Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -487,9 +487,9 @@ export const Regrowth: Skill = {
 };
 
 export const Scythe: Skill = {
-  name: "Scythe",
+  name: 'Scythe',
   jewel: {
-    name: "Light War Spell Stone",
+    name: 'Light War Spell Stone',
     dust: Dust.UnseelieDust,
     liquid: Liquid.SunLight,
     dust_amount: [1, 4],
@@ -498,9 +498,9 @@ export const Scythe: Skill = {
 };
 
 export const ShadowMastery: Skill = {
-  name: "Shadow Mastery",
+  name: 'Shadow Mastery',
   jewel: {
-    name: "Shadowy Arcane Spell Stone",
+    name: 'Shadowy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -509,9 +509,9 @@ export const ShadowMastery: Skill = {
 };
 
 export const Valor: Skill = {
-  name: "Valor",
+  name: 'Valor',
   jewel: {
-    name: "Airy Arcane Spell Stone",
+    name: 'Airy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -520,9 +520,9 @@ export const Valor: Skill = {
 };
 
 export const VerdantPath: Skill = {
-  name: "Verdant Path",
+  name: 'Verdant Path',
   jewel: {
-    name: "Mineral Encrusted Nature Spell Stone",
+    name: 'Mineral Encrusted Nature Spell Stone',
     dust: Dust.FairyDust,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -531,9 +531,9 @@ export const VerdantPath: Skill = {
 };
 
 export const VoidMagic: Skill = {
-  name: "Void Magic",
+  name: 'Void Magic',
   jewel: {
-    name: "Icy Arcane Spell Stone",
+    name: 'Icy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -542,9 +542,9 @@ export const VoidMagic: Skill = {
 };
 
 export const BodyMagic: Skill = {
-  name: "Body Magic",
+  name: 'Body Magic',
   jewel: {
-    name: "Heated Evocation Sigil",
+    name: 'Heated Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -553,9 +553,9 @@ export const BodyMagic: Skill = {
 };
 
 export const Chants: Skill = {
-  name: "Chants",
+  name: 'Chants',
   jewel: {
-    name: "Earthen Fervor Sigil",
+    name: 'Earthen Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -564,9 +564,9 @@ export const Chants: Skill = {
 };
 
 export const ColdMagic: Skill = {
-  name: "Cold Magic",
+  name: 'Cold Magic',
   jewel: {
-    name: "Icy Evocation Sigil",
+    name: 'Icy Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -575,9 +575,9 @@ export const ColdMagic: Skill = {
 };
 
 export const Crossbow: Skill = {
-  name: "Crossbow",
+  name: 'Crossbow',
   jewel: {
-    name: "Vapor War Sigil",
+    name: 'Vapor War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -586,9 +586,9 @@ export const Crossbow: Skill = {
 };
 
 export const Crush: Skill = {
-  name: "Crush",
+  name: 'Crush',
   jewel: {
-    name: "Fiery War Sigil",
+    name: 'Fiery War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -597,9 +597,9 @@ export const Crush: Skill = {
 };
 
 export const DeathServant: Skill = {
-  name: "Death Servant",
+  name: 'Death Servant',
   jewel: {
-    name: "Ashen Fervor Sigil",
+    name: 'Ashen Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -608,9 +608,9 @@ export const DeathServant: Skill = {
 };
 
 export const Deathsight: Skill = {
-  name: "Deathsight",
+  name: 'Deathsight',
   jewel: {
-    name: "Vacuous Fervor Sigil",
+    name: 'Vacuous Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -619,9 +619,9 @@ export const Deathsight: Skill = {
 };
 
 export const DualWield: Skill = {
-  name: "Dual Wield",
+  name: 'Dual Wield',
   jewel: {
-    name: "Icy War Sigil",
+    name: 'Icy War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -630,9 +630,9 @@ export const DualWield: Skill = {
 };
 
 export const EarthMagic: Skill = {
-  name: "Earth Magic",
+  name: 'Earth Magic',
   jewel: {
-    name: "Earthen Evocation Sigil",
+    name: 'Earthen Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -641,9 +641,9 @@ export const EarthMagic: Skill = {
 };
 
 export const Enhancement: Skill = {
-  name: "Enhancement",
+  name: 'Enhancement',
   jewel: {
-    name: "Airy Fervor Sigil",
+    name: 'Airy Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -652,9 +652,9 @@ export const Enhancement: Skill = {
 };
 
 export const FireMagic: Skill = {
-  name: "Fire Magic",
+  name: 'Fire Magic',
   jewel: {
-    name: "Fiery Evocation Sigil",
+    name: 'Fiery Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -663,9 +663,9 @@ export const FireMagic: Skill = {
 };
 
 export const Flexible: Skill = {
-  name: "Flexible",
+  name: 'Flexible',
   jewel: {
-    name: "Molten Magma War Sigil",
+    name: 'Molten Magma War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -674,9 +674,9 @@ export const Flexible: Skill = {
 };
 
 export const Instruments: Skill = {
-  name: "Instruments",
+  name: 'Instruments',
   jewel: {
-    name: "Vapor Fervor Sigil",
+    name: 'Vapor Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -685,9 +685,9 @@ export const Instruments: Skill = {
 };
 
 export const Longbow: Skill = {
-  name: "Longbow",
+  name: 'Longbow',
   jewel: {
-    name: "Airy War Sigil",
+    name: 'Airy War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -696,20 +696,20 @@ export const Longbow: Skill = {
 };
 
 export const Envenom: Skill = {
-    name: "Envenom",
-    jewel: {
-      name: "Dusty Battle Jewel",
-      dust: Dust.BloodiedBattlefieldDirt,
-      liquid: Liquid.UndeadAshAndHolyWater,
-      dust_amount: [1, 4],
-      liquid_amount: [1, 1],
-    },
-  };
+  name: 'Envenom',
+  jewel: {
+    name: 'Dusty Battle Jewel',
+    dust: Dust.BloodiedBattlefieldDirt,
+    liquid: Liquid.UndeadAshAndHolyWater,
+    dust_amount: [1, 4],
+    liquid_amount: [1, 1],
+  },
+};
 
 export const MatterMagic: Skill = {
-  name: "Matter Magic",
+  name: 'Matter Magic',
   jewel: {
-    name: "Dusty Evocation Sigil",
+    name: 'Dusty Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -718,9 +718,9 @@ export const MatterMagic: Skill = {
 };
 
 export const MindMagic: Skill = {
-  name: "Mind Magic",
+  name: 'Mind Magic',
   jewel: {
-    name: "Watery Evocation Sigil",
+    name: 'Watery Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -729,9 +729,9 @@ export const MindMagic: Skill = {
 };
 
 export const Painworking: Skill = {
-  name: "Painworking",
+  name: 'Painworking',
   jewel: {
-    name: "Salt Crusted Fervor Sigil",
+    name: 'Salt Crusted Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.MysticEnergy,
     dust_amount: [1, 4],
@@ -740,9 +740,9 @@ export const Painworking: Skill = {
 };
 
 export const Polearm: Skill = {
-  name: "Polearm",
+  name: 'Polearm',
   jewel: {
-    name: "Earthen War Sigil",
+    name: 'Earthen War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -751,9 +751,9 @@ export const Polearm: Skill = {
 };
 
 export const Rejuvenation: Skill = {
-  name: "Rejuvenation",
+  name: 'Rejuvenation',
   jewel: {
-    name: "Watery Fervor Sigil",
+    name: 'Watery Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -762,9 +762,9 @@ export const Rejuvenation: Skill = {
 };
 
 export const Slash: Skill = {
-  name: "Slash",
+  name: 'Slash',
   jewel: {
-    name: "Watery War Sigil",
+    name: 'Watery War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -773,9 +773,9 @@ export const Slash: Skill = {
 };
 
 export const Smiting: Skill = {
-  name: "Smiting",
+  name: 'Smiting',
   jewel: {
-    name: "Fiery Fervor Sigil",
+    name: 'Fiery Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -784,9 +784,9 @@ export const Smiting: Skill = {
 };
 
 export const Soulrending: Skill = {
-  name: "Soulrending",
+  name: 'Soulrending',
   jewel: {
-    name: "Steaming Fervor Sigil",
+    name: 'Steaming Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -795,9 +795,9 @@ export const Soulrending: Skill = {
 };
 
 export const SpiritMagic: Skill = {
-  name: "SpiritMagic",
+  name: 'SpiritMagic',
   jewel: {
-    name: "Vapor Evocation Sigil",
+    name: 'Vapor Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -806,9 +806,9 @@ export const SpiritMagic: Skill = {
 };
 
 export const Thrust: Skill = {
-  name: "Thrust",
+  name: 'Thrust',
   jewel: {
-    name: "Dusty War Sigil",
+    name: 'Dusty War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -817,9 +817,9 @@ export const Thrust: Skill = {
 };
 
 export const TwoHanded: Skill = {
-  name: "Two Handed",
+  name: 'Two Handed',
   jewel: {
-    name: "Heated War Sigil",
+    name: 'Heated War Sigil',
     dust: Dust.GroundCaerStone,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -828,9 +828,9 @@ export const TwoHanded: Skill = {
 };
 
 export const WindMagic: Skill = {
-  name: "Wind Magic",
+  name: 'Wind Magic',
   jewel: {
-    name: "Airy Evocation Sigil",
+    name: 'Airy Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],

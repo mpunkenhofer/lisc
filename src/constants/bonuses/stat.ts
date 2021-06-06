@@ -1,11 +1,11 @@
-import { Bonus, Dust, Liquid } from ".";
+import {Bonus, Dust, Liquid} from '.';
 
 export type Stat = Bonus;
 
 export const Strength: Stat = {
-  name: "Strength",
+  name: 'Strength',
   jewel: {
-    name: "Fiery Essence Jewel",
+    name: 'Fiery Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 4],
@@ -14,9 +14,9 @@ export const Strength: Stat = {
 };
 
 export const Constitution: Stat = {
-  name: "Constitution",
+  name: 'Constitution',
   jewel: {
-    name: "Earthen Essence Jewel",
+    name: 'Earthen Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 4],
@@ -25,9 +25,9 @@ export const Constitution: Stat = {
 };
 
 export const Dexterity: Stat = {
-  name: "Dexterity",
+  name: 'Dexterity',
   jewel: {
-    name: "Vapor Essence Jewel",
+    name: 'Vapor Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 4],
@@ -36,9 +36,9 @@ export const Dexterity: Stat = {
 };
 
 export const Quickness: Stat = {
-  name: "Quickness",
+  name: 'Quickness',
   jewel: {
-    name: "Airy Essence Jewel",
+    name: 'Airy Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 4],
@@ -47,9 +47,9 @@ export const Quickness: Stat = {
 };
 
 export const Intelligence: Stat = {
-  name: "Intelligence",
+  name: 'Intelligence',
   jewel: {
-    name: "Dusty Essence Jewel",
+    name: 'Dusty Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 4],
@@ -58,9 +58,9 @@ export const Intelligence: Stat = {
 };
 
 export const Piety: Stat = {
-  name: "Piety",
+  name: 'Piety',
   jewel: {
-    name: "Watery Essence Jewel",
+    name: 'Watery Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 4],
@@ -69,9 +69,9 @@ export const Piety: Stat = {
 };
 
 export const Charisma: Stat = {
-  name: "Charisma",
+  name: 'Charisma',
   jewel: {
-    name: "Icy Essence Jewel",
+    name: 'Icy Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 4],
@@ -80,9 +80,9 @@ export const Charisma: Stat = {
 };
 
 export const Empathy: Stat = {
-  name: "Empathy",
+  name: 'Empathy',
   jewel: {
-    name: "Heated Essence Jewel",
+    name: 'Heated Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 4],
@@ -91,9 +91,9 @@ export const Empathy: Stat = {
 };
 
 export const Hits: Stat = {
-  name: "Hits",
+  name: 'Hits',
   jewel: {
-    name: "Blood Essence Jewel",
+    name: 'Blood Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.GiantBlood,
     dust_amount: [1, 4],
@@ -102,9 +102,9 @@ export const Hits: Stat = {
 };
 
 export const Power: Stat = {
-  name: "Power",
+  name: 'Power',
   jewel: {
-    name: "Mystical Essence Jewel",
+    name: 'Mystical Essence Jewel',
     dust: Dust.EssenceOfLife,
     liquid: Liquid.MysticEnergy,
     dust_amount: [1, 4],

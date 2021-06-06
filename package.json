@@ -13,14 +13,15 @@
   },
   "homepage": "https://mpunkenhofer.github.io/lisc/",
   "scripts": {
-    "clean": "rimraf build",
+    "clean": "gts clean",
     "build": "npm run clean && webpack --config webpack.production.js",
     "start": "npm run clean && webpack serve --config=webpack.development.js",
     "gen-db": "ts-node db/ingest.ts",
     "gen-icons": "py ./bin/svg_to_png.py ./assets/images/lisc.svg -d ./public/ -p lisc -r 16 32 48 180 192 512 && magick public/lisc16.png public/lisc32.png public/lisc48.png public/favicon.ico && rimraf public/lisc16.png public/lisc32.png public/lisc48.png && copyfiles -f assets/images/lisc_mask.svg assets/images/lisc.svg public",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
+    "lint": "gts lint",
+    "fix": "gts fix"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^5.4.1",
@@ -44,6 +45,7 @@
     "fork-ts-checker-webpack-plugin": "^6.2.7",
     "gh-pages": "^3.1.0",
     "glob": "^7.1.7",
+    "gts": "^3.1.0",
     "html-webpack-plugin": "^5.3.1",
     "mini-css-extract-plugin": "^1.6.0",
     "prettier": "2.3.0",

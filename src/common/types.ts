@@ -1,11 +1,11 @@
-import { Bonus } from "../constants/bonuses";
-import { Class } from "../constants/classes";
+import {Bonus} from '../constants/bonuses';
+import {Class} from '../constants/classes';
 
 export enum Realm {
   Albion = 'Albion',
   Hibernia = 'Hibernia',
   Midgard = 'Midgard',
-  All = 'All'
+  All = 'All',
 }
 
 export enum Slot {
@@ -24,20 +24,7 @@ export enum Slot {
   LeftHand,
   RightHand,
   TwoHanded,
-  Ranged
-}
-
-export enum Stat {
-  Strength,
-  Dexterity,
-  Constitution,
-  Quickness,
-  Piety,
-  Empathy,
-  Intelligence,
-  Charisma,
-  Acuity,
-  Hitpoints,
+  Ranged,
 }
 
 export enum ArmorType {
@@ -47,7 +34,7 @@ export enum ArmorType {
   Reinforced = 'Reinforced',
   Chain = 'Chain',
   Scale = 'Scale',
-  Plate = 'Plate'
+  Plate = 'Plate',
   //Unspecified = 'Unspecified'
 }
 
@@ -74,16 +61,15 @@ export enum ShieldSize {
 
 export type Options = {
   a: boolean;
-}
+};
 
 export type Item = {
   name: string;
   slot: Slot;
-  realm: Realm;  
+  realm: Realm;
   classes: Class[];
   bonuses: Bonus[];
   quality: number;
-  bonus: number;
   utility: number;
   sutility?: number;
   af?: number;
@@ -92,28 +78,28 @@ export type Item = {
   source?: string;
   armorType?: ArmorType;
   weaponType?: WeaponType;
-}
+};
 
 export interface Template {
   character_name: string;
-  realm: Realm;
-  class: Class;
-  torso: Item;
-  arms: Item;
-  legs: Item;
-  head: Item;
-  hands: Item;
-  boots: Item;
-  necklace: Item;
-  cloak: Item;
-  gem: Item;
-  belt: Item;
-  left_ring: Item;
-  right_ring: Item;
-  left_bracer: Item;
-  right_bracer: Item;
-  right_hand: Item;
-  left_hand: Item;
-  two_hand: Item;
-  ranged: Item;
+  // realm: Realm;
+  // class: Class;
+  // torso: Item;
+  // arms: Item;
+  // legs: Item;
+  // head: Item;
+  // hands: Item;
+  // boots: Item;
+  // necklace: Item;
+  // cloak: Item;
+  // gem: Item;
+  // belt: Item;
+  // left_ring: Item;
+  // right_ring: Item;
+  // left_bracer: Item;
+  // right_bracer: Item;
+  // right_hand: Item;
+  // left_hand: Item;
+  // two_hand: Item;
+  // ranged: Item;
 }

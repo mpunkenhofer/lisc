@@ -1,11 +1,11 @@
-import { Bonus, Dust, Liquid } from ".";
+import {Bonus, Dust, Liquid} from '.';
 
 export type Resistance = Bonus;
 
 export const Body: Resistance = {
-  name: "Body",
+  name: 'Body',
   jewel: {
-    name: "Dusty Shielding Jewel",
+    name: 'Dusty Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.UndeadAshAndHolyWater,
     dust_amount: [1, 5],
@@ -14,9 +14,9 @@ export const Body: Resistance = {
 };
 
 export const Cold: Resistance = {
-  name: "Cold",
+  name: 'Cold',
   jewel: {
-    name: "Icy Shielding Jewel",
+    name: 'Icy Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.FrostFromAWasteland,
     dust_amount: [1, 5],
@@ -25,9 +25,9 @@ export const Cold: Resistance = {
 };
 
 export const Heat: Resistance = {
-  name: "Heat",
+  name: 'Heat',
   jewel: {
-    name: "Heated Shielding Jewel",
+    name: 'Heated Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.HeatFromAnUnearthlyPyre,
     dust_amount: [1, 5],
@@ -36,9 +36,9 @@ export const Heat: Resistance = {
 };
 
 export const Energy: Resistance = {
-  name: "Energy",
+  name: 'Energy',
   jewel: {
-    name: "Light Shielding Jewel",
+    name: 'Light Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.SunLight,
     dust_amount: [1, 5],
@@ -47,9 +47,9 @@ export const Energy: Resistance = {
 };
 
 export const Matter: Resistance = {
-  name: "Matter",
+  name: 'Matter',
   jewel: {
-    name: "Earthen Shielding Jewel",
+    name: 'Earthen Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.TreantBlood,
     dust_amount: [1, 5],
@@ -58,9 +58,9 @@ export const Matter: Resistance = {
 };
 
 export const Spirit: Resistance = {
-  name: "Spirit",
+  name: 'Spirit',
   jewel: {
-    name: "Vapor Shielding Jewel",
+    name: 'Vapor Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.SwampFog,
     dust_amount: [1, 5],
@@ -69,9 +69,9 @@ export const Spirit: Resistance = {
 };
 
 export const Crush: Resistance = {
-  name: "Crush",
+  name: 'Crush',
   jewel: {
-    name: "Fiery Shielding Jewel",
+    name: 'Fiery Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.DraconicFire,
     dust_amount: [1, 5],
@@ -80,9 +80,9 @@ export const Crush: Resistance = {
 };
 
 export const Thrust: Resistance = {
-  name: "Thrust",
+  name: 'Thrust',
   jewel: {
-    name: "Airy Shielding Jewel",
+    name: 'Airy Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.AirElementalEssence,
     dust_amount: [1, 5],
@@ -91,9 +91,9 @@ export const Thrust: Resistance = {
 };
 
 export const Slash: Resistance = {
-  name: "Slash",
+  name: 'Slash',
   jewel: {
-    name: "Watery Shielding Jewel",
+    name: 'Watery Shielding Jewel',
     dust: Dust.GroundDraconicScales,
     liquid: Liquid.LeviathanBlood,
     dust_amount: [1, 5],

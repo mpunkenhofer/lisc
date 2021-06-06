@@ -1,12 +1,12 @@
-import { Bonus } from "./bonuses";
-import * as Resist from "./bonuses/resistance";
+import {Bonus} from './bonuses';
+import * as Resist from './bonuses/resistance';
 export interface Race {
   readonly name: string;
   readonly resists: [Bonus, number][];
 }
 
 export const Avalonian: Race = {
-  name: "Avalonian",
+  name: 'Avalonian',
   resists: [
     [Resist.Crush, 2],
     [Resist.Slash, 3],
@@ -15,7 +15,7 @@ export const Avalonian: Race = {
 };
 
 export const Briton: Race = {
-  name: "Briton",
+  name: 'Briton',
   resists: [
     [Resist.Crush, 2],
     [Resist.Slash, 3],
@@ -24,7 +24,7 @@ export const Briton: Race = {
 };
 
 export const HalfOgre: Race = {
-  name: "HalOgre",
+  name: 'HalOgre',
   resists: [
     [Resist.Thrust, 2],
     [Resist.Slash, 3],
@@ -33,7 +33,7 @@ export const HalfOgre: Race = {
 };
 
 export const Highlander: Race = {
-  name: "Highlander",
+  name: 'Highlander',
   resists: [
     [Resist.Crush, 3],
     [Resist.Slash, 2],
@@ -42,7 +42,7 @@ export const Highlander: Race = {
 };
 
 export const Inconnu: Race = {
-  name: "Inconnu",
+  name: 'Inconnu',
   resists: [
     [Resist.Crush, 2],
     [Resist.Thrust, 3],
@@ -52,7 +52,7 @@ export const Inconnu: Race = {
 };
 
 export const Saracen: Race = {
-  name: "Saracen",
+  name: 'Saracen',
   resists: [
     [Resist.Slash, 2],
     [Resist.Thrust, 3],
@@ -61,7 +61,7 @@ export const Saracen: Race = {
 };
 
 export const Celt: Race = {
-  name: "Celt",
+  name: 'Celt',
   resists: [
     [Resist.Crush, 2],
     [Resist.Slash, 3],
@@ -70,7 +70,7 @@ export const Celt: Race = {
 };
 
 export const Elf: Race = {
-  name: "Elf",
+  name: 'Elf',
   resists: [
     [Resist.Slash, 2],
     [Resist.Thrust, 3],
@@ -79,7 +79,7 @@ export const Elf: Race = {
 };
 
 export const Firbolg: Race = {
-  name: "Firbolg",
+  name: 'Firbolg',
   resists: [
     [Resist.Crush, 3],
     [Resist.Slash, 2],
@@ -88,7 +88,7 @@ export const Firbolg: Race = {
 };
 
 export const Lurikeen: Race = {
-  name: "Lurikeen",
+  name: 'Lurikeen',
   resists: [
     [Resist.Crush, 5],
     [Resist.Energy, 5],
@@ -96,7 +96,7 @@ export const Lurikeen: Race = {
 };
 
 export const Shar: Race = {
-  name: "Shar",
+  name: 'Shar',
   resists: [
     [Resist.Crush, 5],
     [Resist.Energy, 5],
@@ -104,7 +104,7 @@ export const Shar: Race = {
 };
 
 export const Sylvan: Race = {
-  name: "Sylvan",
+  name: 'Sylvan',
   resists: [
     [Resist.Crush, 3],
     [Resist.Thrust, 2],
@@ -114,7 +114,7 @@ export const Sylvan: Race = {
 };
 
 export const Dwarf: Race = {
-  name: "Dwarf",
+  name: 'Dwarf',
   resists: [
     [Resist.Slash, 2],
     [Resist.Thrust, 3],
@@ -123,7 +123,7 @@ export const Dwarf: Race = {
 };
 
 export const Frostalf: Race = {
-  name: "Frostalf",
+  name: 'Frostalf',
   resists: [
     [Resist.Slash, 2],
     [Resist.Thrust, 3],
@@ -132,7 +132,7 @@ export const Frostalf: Race = {
 };
 
 export const Kobold: Race = {
-  name: "Kobold",
+  name: 'Kobold',
   resists: [
     [Resist.Crush, 5],
     [Resist.Energy, 5],
@@ -140,7 +140,7 @@ export const Kobold: Race = {
 };
 
 export const Troll: Race = {
-  name: "Troll",
+  name: 'Troll',
   resists: [
     [Resist.Slash, 3],
     [Resist.Thrust, 2],
@@ -149,7 +149,7 @@ export const Troll: Race = {
 };
 
 export const Norseman: Race = {
-  name: "Norseman",
+  name: 'Norseman',
   resists: [
     [Resist.Crush, 2],
     [Resist.Slash, 3],
@@ -158,7 +158,7 @@ export const Norseman: Race = {
 };
 
 export const Valkyn: Race = {
-  name: "Valkyn",
+  name: 'Valkyn',
   resists: [
     [Resist.Slash, 3],
     [Resist.Thrust, 2],

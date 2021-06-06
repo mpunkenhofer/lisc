@@ -1,21 +1,22 @@
-import * as Race from "./races";
-import * as Skill from "./bonuses/skill"
-import { Stat, ArmorType, Realm, ShieldSize, WeaponType } from "../common/types";
-import { Bonus } from "./bonuses";
+import * as Race from './races';
+import * as Skill from './bonuses/skill';
+import {ArmorType, Realm, ShieldSize, WeaponType} from '../common/types';
+import {Bonus} from './bonuses';
+import * as Stats from './bonuses/stat';
 
 export interface Class {
   readonly name: string;
   readonly realm: Realm;
   readonly races: Race.Race[];
   readonly skills: Bonus[];
-  readonly magic?: Stat;
+  readonly magic?: Stats.Stat;
   readonly armor: ArmorType;
   readonly shield: ShieldSize;
   readonly weapon?: WeaponType[];
 }
 
 export const Armsman: Class = {
-  name: "Armsman",
+  name: 'Armsman',
   realm: Realm.Albion,
   races: [
     Race.Avalonian,
@@ -39,10 +40,10 @@ export const Armsman: Class = {
   shield: ShieldSize.Large,
 };
 export const Cleric: Class = {
-  name: "Cleric",
+  name: 'Cleric',
   realm: Realm.Albion,
   races: [Race.Avalonian, Race.Briton, Race.Highlander],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Rejuvenation, Skill.Enhancement, Skill.Smiting],
   armor: ArmorType.Chain,
   shield: ShieldSize.Medium,
@@ -55,11 +56,11 @@ export const Cleric: Class = {
 };
 
 export const Friar: Class = {
-  name: "Friar",
+  name: 'Friar',
   realm: Realm.Albion,
   armor: ArmorType.Leather,
   races: [Race.Briton],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   shield: ShieldSize.Small,
   skills: [Skill.Rejuvenation, Skill.Enhancement, Skill.Staff, Skill.Parry],
   weapon: [
@@ -71,12 +72,12 @@ export const Friar: Class = {
 };
 
 export const Necromancer: Class = {
-  name: "Necromancer",
+  name: 'Necromancer',
   realm: Realm.Albion,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Briton, Race.Inconnu, Race.Saracen],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.Deathsight, Skill.Painworking, Skill.DeathServant],
   weapon: [
     WeaponType.Crush,
@@ -87,12 +88,12 @@ export const Necromancer: Class = {
 };
 
 export const Theurgist: Class = {
-  name: "Theurgist",
+  name: 'Theurgist',
   realm: Realm.Albion,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Avalonian, Race.Briton, Race.HalfOgre],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.EarthMagic, Skill.ColdMagic, Skill.WindMagic],
   weapon: [
     WeaponType.Crush,
@@ -103,12 +104,12 @@ export const Theurgist: Class = {
 };
 
 export const Wizard: Class = {
-  name: "Wizard",
+  name: 'Wizard',
   realm: Realm.Albion,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Avalonian, Race.Briton, Race.HalfOgre],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.EarthMagic, Skill.ColdMagic, Skill.FireMagic],
   weapon: [
     WeaponType.Crush,
@@ -119,11 +120,11 @@ export const Wizard: Class = {
 };
 
 export const Reaver: Class = {
-  name: "Reaver",
+  name: 'Reaver',
   realm: Realm.Albion,
   armor: ArmorType.Chain,
   races: [Race.Briton, Race.Inconnu, Race.Saracen],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   shield: ShieldSize.Large,
   skills: [
     Skill.Crush,
@@ -137,7 +138,7 @@ export const Reaver: Class = {
 };
 
 export const Mercenary: Class = {
-  name: "Mercenary",
+  name: 'Mercenary',
   realm: Realm.Albion,
   armor: ArmorType.Chain,
   shield: ShieldSize.Medium,
@@ -161,12 +162,12 @@ export const Mercenary: Class = {
 };
 
 export const Paladin: Class = {
-  name: "Paladin",
+  name: 'Paladin',
   realm: Realm.Albion,
   armor: ArmorType.Plate,
   shield: ShieldSize.Large,
   races: [Race.Avalonian, Race.Briton, Race.Highlander, Race.Saracen],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [
     Skill.Crush,
     Skill.Slash,
@@ -179,7 +180,7 @@ export const Paladin: Class = {
 };
 
 export const Cabalist: Class = {
-  name: "Cabalist",
+  name: 'Cabalist',
   realm: Realm.Albion,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
@@ -190,7 +191,7 @@ export const Cabalist: Class = {
     Race.Inconnu,
     Race.Saracen,
   ],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.BodyMagic, Skill.MatterMagic, Skill.SpiritMagic],
   weapon: [
     WeaponType.Crush,
@@ -201,7 +202,7 @@ export const Cabalist: Class = {
 };
 
 export const Sorcerer: Class = {
-  name: "Sorcerer",
+  name: 'Sorcerer',
   realm: Realm.Albion,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
@@ -212,7 +213,7 @@ export const Sorcerer: Class = {
     Race.Inconnu,
     Race.Saracen,
   ],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.MindMagic, Skill.BodyMagic, Skill.MatterMagic],
   weapon: [
     WeaponType.Crush,
@@ -223,7 +224,7 @@ export const Sorcerer: Class = {
 };
 
 export const Infiltrator: Class = {
-  name: "Infiltrator",
+  name: 'Infiltrator',
   realm: Realm.Albion,
   armor: ArmorType.Leather,
   shield: ShieldSize.Small,
@@ -240,18 +241,18 @@ export const Infiltrator: Class = {
 };
 
 export const Minstrel: Class = {
-  name: "Minstrel",
+  name: 'Minstrel',
   realm: Realm.Albion,
   armor: ArmorType.Chain,
   shield: ShieldSize.Small,
   races: [Race.Briton, Race.Highlander, Race.Saracen],
-  magic: Stat.Charisma,
+  magic: Stats.Charisma,
   skills: [Skill.Stealth, Skill.Slash, Skill.Thrust, Skill.Instruments],
   weapon: [WeaponType.Crush, WeaponType.Shield],
 };
 
 export const Scout: Class = {
-  name: "Scout",
+  name: 'Scout',
   realm: Realm.Albion,
   armor: ArmorType.Studded,
   shield: ShieldSize.Small,
@@ -267,12 +268,12 @@ export const Scout: Class = {
 };
 
 export const Animist: Class = {
-  name: "Animist",
+  name: 'Animist',
   realm: Realm.Hibernia,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.ArborealPath, Skill.CreepingPath, Skill.VerdantPath],
   weapon: [
     WeaponType.Blades,
@@ -283,12 +284,12 @@ export const Animist: Class = {
 };
 
 export const Bard: Class = {
-  name: "Bard",
+  name: 'Bard',
   realm: Realm.Hibernia,
   armor: ArmorType.Reinforced,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg],
-  magic: Stat.Charisma,
+  magic: Stats.Charisma,
   skills: [
     Skill.Blades,
     Skill.Blunt,
@@ -300,7 +301,7 @@ export const Bard: Class = {
 };
 
 export const Blademaster: Class = {
-  name: "Blademaster",
+  name: 'Blademaster',
   realm: Realm.Hibernia,
   armor: ArmorType.Reinforced,
   shield: ShieldSize.Medium,
@@ -317,12 +318,12 @@ export const Blademaster: Class = {
 };
 
 export const Champion: Class = {
-  name: "Champion",
+  name: 'Champion',
   realm: Realm.Hibernia,
   armor: ArmorType.Scale,
   shield: ShieldSize.Medium,
   races: [Race.Celt, Race.Elf, Race.Lurikeen, Race.Shar],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [
     Skill.Blades,
     Skill.Blunt,
@@ -335,12 +336,12 @@ export const Champion: Class = {
 };
 
 export const Druid: Class = {
-  name: "Druid",
+  name: 'Druid',
   realm: Realm.Hibernia,
   armor: ArmorType.Scale,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
-  magic: Stat.Empathy,
+  magic: Stats.Empathy,
   skills: [Skill.Regrowth, Skill.Nurture, Skill.Nature],
   weapon: [
     WeaponType.Shield,
@@ -351,12 +352,12 @@ export const Druid: Class = {
 };
 
 export const Eldritch: Class = {
-  name: "Eldritch",
+  name: 'Eldritch',
   realm: Realm.Hibernia,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Elf, Race.Lurikeen],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.LightMagic, Skill.ManaMagic, Skill.VoidMagic],
   weapon: [
     WeaponType.Blades,
@@ -367,12 +368,12 @@ export const Eldritch: Class = {
 };
 
 export const Enchanter: Class = {
-  name: "Enchanter",
+  name: 'Enchanter',
   realm: Realm.Hibernia,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Elf, Race.Lurikeen],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.LightMagic, Skill.ManaMagic, Skill.Enchantment],
   weapon: [
     WeaponType.Blades,
@@ -383,7 +384,7 @@ export const Enchanter: Class = {
 };
 
 export const Hero: Class = {
-  name: "Hero",
+  name: 'Hero',
   realm: Realm.Hibernia,
   armor: ArmorType.Scale,
   shield: ShieldSize.Large,
@@ -400,12 +401,12 @@ export const Hero: Class = {
 };
 
 export const Mentalist: Class = {
-  name: "Mentalist",
+  name: 'Mentalist',
   realm: Realm.Hibernia,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Elf, Race.Lurikeen, Race.Shar],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.LightMagic, Skill.ManaMagic, Skill.Mentalism],
   weapon: [
     WeaponType.Blades,
@@ -416,12 +417,12 @@ export const Mentalist: Class = {
 };
 
 export const Nightshade: Class = {
-  name: "Nightshade",
+  name: 'Nightshade',
   realm: Realm.Hibernia,
   armor: ArmorType.Leather,
   shield: ShieldSize.Small,
   races: [Race.Elf, Race.Lurikeen],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [
     Skill.Stealth,
     Skill.Blades,
@@ -434,7 +435,7 @@ export const Nightshade: Class = {
 };
 
 export const Ranger: Class = {
-  name: "Ranger",
+  name: 'Ranger',
   realm: Realm.Hibernia,
   armor: ArmorType.Reinforced,
   shield: ShieldSize.Small,
@@ -451,12 +452,12 @@ export const Ranger: Class = {
 };
 
 export const Valewalker: Class = {
-  name: "Valewalker",
+  name: 'Valewalker',
   realm: Realm.Hibernia,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
-  magic: Stat.Intelligence,
+  magic: Stats.Intelligence,
   skills: [Skill.ArborealPath, Skill.Scythe, Skill.Parry],
   weapon: [
     WeaponType.Blades,
@@ -467,12 +468,12 @@ export const Valewalker: Class = {
 };
 
 export const Warden: Class = {
-  name: "Warden",
+  name: 'Warden',
   realm: Realm.Hibernia,
   armor: ArmorType.Scale,
   shield: ShieldSize.Medium,
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
-  magic: Stat.Empathy,
+  magic: Stats.Empathy,
   skills: [
     Skill.Blades,
     Skill.Blunt,
@@ -485,7 +486,7 @@ export const Warden: Class = {
 };
 
 export const Berserker: Class = {
-  name: "Berserker",
+  name: 'Berserker',
   realm: Realm.Midgard,
   armor: ArmorType.Studded,
   shield: ShieldSize.Small,
@@ -495,12 +496,12 @@ export const Berserker: Class = {
 };
 
 export const Bonedancer: Class = {
-  name: "Bonedancer",
+  name: 'Bonedancer',
   realm: Realm.Midgard,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Kobold, Race.Troll, Race.Valkyn],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.BoneArmy],
   weapon: [
     WeaponType.Shield,
@@ -511,12 +512,12 @@ export const Bonedancer: Class = {
 };
 
 export const Healer: Class = {
-  name: "Healer",
+  name: 'Healer',
   realm: Realm.Midgard,
   armor: ArmorType.Chain,
   shield: ShieldSize.Small,
   races: [Race.Dwarf, Race.Norseman, Race.Frostalf],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Mending, Skill.Augmentation, Skill.Pacification],
   weapon: [
     WeaponType.Shield,
@@ -527,7 +528,7 @@ export const Healer: Class = {
 };
 
 export const Hunter: Class = {
-  name: "Hunter",
+  name: 'Hunter',
   realm: Realm.Midgard,
   armor: ArmorType.Studded,
   shield: ShieldSize.Small,
@@ -543,12 +544,12 @@ export const Hunter: Class = {
 };
 
 export const Runemaster: Class = {
-  name: "Runemaster",
+  name: 'Runemaster',
   realm: Realm.Midgard,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Dwarf, Race.Kobold, Race.Norseman, Race.Frostalf],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.Runecarving],
   weapon: [
     WeaponType.Shield,
@@ -559,7 +560,7 @@ export const Runemaster: Class = {
 };
 
 export const Savage: Class = {
-  name: "Savage",
+  name: 'Savage',
   realm: Realm.Midgard,
   armor: ArmorType.Studded,
   shield: ShieldSize.Small,
@@ -570,13 +571,13 @@ export const Savage: Class = {
     Skill.Hammer,
     Skill.Sword,
     Skill.HandToHand,
-    Skill.Parry  
+    Skill.Parry,
   ],
   weapon: [WeaponType.Shield],
 };
 
 export const Shadowblade: Class = {
-  name: "Shadowblade",
+  name: 'Shadowblade',
   realm: Realm.Midgard,
   armor: ArmorType.Leather,
   shield: ShieldSize.Small,
@@ -593,12 +594,12 @@ export const Shadowblade: Class = {
 };
 
 export const Shaman: Class = {
-  name: "Shaman",
+  name: 'Shaman',
   realm: Realm.Midgard,
   armor: ArmorType.Chain,
   shield: ShieldSize.Small,
   races: [Race.Kobold, Race.Troll, Race.Frostalf],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Mending, Skill.Augmentation, Skill.Subterranean],
   weapon: [
     WeaponType.Shield,
@@ -609,12 +610,12 @@ export const Shaman: Class = {
 };
 
 export const Skald: Class = {
-  name: "Skald",
+  name: 'Skald',
   realm: Realm.Midgard,
   armor: ArmorType.Chain,
   shield: ShieldSize.Small,
   races: [Race.Dwarf, Race.Kobold, Race.Troll, Race.Norseman, Race.Frostalf],
-  magic: Stat.Charisma,
+  magic: Stats.Charisma,
   skills: [
     Skill.Axe,
     Skill.Hammer,
@@ -626,12 +627,12 @@ export const Skald: Class = {
 };
 
 export const Spiritmaster: Class = {
-  name: "Spiritmaster",
+  name: 'Spiritmaster',
   realm: Realm.Midgard,
   armor: ArmorType.Cloth,
   shield: ShieldSize.Small,
   races: [Race.Kobold, Race.Norseman, Race.Frostalf],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.Summoning],
   weapon: [
     WeaponType.Shield,
@@ -642,12 +643,12 @@ export const Spiritmaster: Class = {
 };
 
 export const Thane: Class = {
-  name: "Thane",
+  name: 'Thane',
   realm: Realm.Midgard,
   armor: ArmorType.Chain,
   shield: ShieldSize.Medium,
   races: [Race.Dwarf, Race.Troll, Race.Norseman, Race.Frostalf],
-  magic: Stat.Piety,
+  magic: Stats.Piety,
   skills: [
     Skill.Axe,
     Skill.Hammer,
@@ -659,7 +660,7 @@ export const Thane: Class = {
 };
 
 export const Warrior: Class = {
-  name: "Warrior",
+  name: 'Warrior',
   realm: Realm.Midgard,
   armor: ArmorType.Chain,
   shield: ShieldSize.Large,
