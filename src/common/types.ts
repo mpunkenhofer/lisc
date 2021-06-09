@@ -9,22 +9,30 @@ export enum Realm {
 }
 
 export enum Slot {
-  Body,
-  Arms,
-  Legs,
-  Head,
-  Hands,
-  Feet,
-  Necklace,
-  Cloak,
-  Belt,
-  Jewel,
-  Ring,
-  Bracer,
-  LeftHand,
-  RightHand,
-  TwoHanded,
-  Ranged,
+  Body = 'Body',
+  Arms = 'Arms',
+  Legs = 'Legs',
+  Head = 'Head',
+  Hands = 'Hands',
+  Feet = 'Feet',
+  Necklace = 'Necklace',
+  Cloak = 'Cloak',
+  Belt = 'Belt',
+  Jewel = 'Jewel',
+  Ring = 'Ring',
+  Bracer = 'Bracer',
+  LeftHand = 'LeftHand',
+  RightHand = 'RightHand',
+  TwoHanded = 'TwoHanded',
+  Ranged = 'Ranged',
+  Unspecified = 'Unspecified',
+}
+
+export enum BonusType {
+  Stat = 'Stat',
+  Resist = 'Resist',
+  Skill = 'Skill',
+  Focus = 'Focus',
 }
 
 export enum ArmorType {
@@ -35,28 +43,25 @@ export enum ArmorType {
   Chain = 'Chain',
   Scale = 'Scale',
   Plate = 'Plate',
-  //Unspecified = 'Unspecified'
+  Unspecified = 'Unspecified',
 }
 
 export enum WeaponType {
-  Shield,
-  Crush,
-  Slash,
-  Thrust,
-  Short_Bow,
-  Crossbow,
-  Blades,
-  Blunt,
-  Piercing,
-  Axe,
-  Hammer,
-  Sword,
-}
-
-export enum ShieldSize {
-  Small,
-  Medium,
-  Large,
+  SmallShield = 'SmallShield',
+  MediumShield = 'MediumShield',
+  LargeShield = 'LargeShield',
+  Crush = 'Crush',
+  Slash = 'Slash',
+  Thrust = 'Thrust',
+  Short_Bow = 'Short_Bow',
+  Crossbow = 'Crossbow',
+  Blades = 'Blades',
+  Blunt = 'Blunt',
+  Piercing = 'Piercing',
+  Axe = 'Axe',
+  Hammer = 'Hammer',
+  Sword = 'Sword',
+  Unspecified = 'Unspecified',
 }
 
 export type Options = {
@@ -68,16 +73,17 @@ export type Item = {
   slot: Slot;
   realm: Realm;
   classes: Class[];
-  bonuses: Bonus[];
+  bonuses: [Bonus, number][];
   quality: number;
   utility: number;
-  sutility?: number;
-  af?: number;
-  dps?: number;
-  speed?: number;
-  source?: string;
-  armorType?: ArmorType;
-  weaponType?: WeaponType;
+  sutility: number | null;
+  source: string | null;
+  af: number | null;
+  abs: number | null;
+  dps: number | null;
+  speed: number | null;
+  armor_type: ArmorType;
+  weapon_type: WeaponType;
 };
 
 export interface Template {

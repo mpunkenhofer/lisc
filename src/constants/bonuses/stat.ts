@@ -1,9 +1,11 @@
 import {Bonus, Dust, Liquid} from '.';
+import {BonusType} from '../../common/types';
 
 export type Stat = Bonus;
 
 export const Strength: Stat = {
   name: 'Strength',
+  type: BonusType.Stat,
   jewel: {
     name: 'Fiery Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -15,6 +17,7 @@ export const Strength: Stat = {
 
 export const Constitution: Stat = {
   name: 'Constitution',
+  type: BonusType.Stat,
   jewel: {
     name: 'Earthen Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -26,6 +29,7 @@ export const Constitution: Stat = {
 
 export const Dexterity: Stat = {
   name: 'Dexterity',
+  type: BonusType.Stat,
   jewel: {
     name: 'Vapor Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -37,6 +41,7 @@ export const Dexterity: Stat = {
 
 export const Quickness: Stat = {
   name: 'Quickness',
+  type: BonusType.Stat,
   jewel: {
     name: 'Airy Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -48,6 +53,7 @@ export const Quickness: Stat = {
 
 export const Intelligence: Stat = {
   name: 'Intelligence',
+  type: BonusType.Stat,
   jewel: {
     name: 'Dusty Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -59,6 +65,7 @@ export const Intelligence: Stat = {
 
 export const Piety: Stat = {
   name: 'Piety',
+  type: BonusType.Stat,
   jewel: {
     name: 'Watery Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -70,6 +77,7 @@ export const Piety: Stat = {
 
 export const Charisma: Stat = {
   name: 'Charisma',
+  type: BonusType.Stat,
   jewel: {
     name: 'Icy Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -81,6 +89,7 @@ export const Charisma: Stat = {
 
 export const Empathy: Stat = {
   name: 'Empathy',
+  type: BonusType.Stat,
   jewel: {
     name: 'Heated Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -92,6 +101,7 @@ export const Empathy: Stat = {
 
 export const Hits: Stat = {
   name: 'Hits',
+  type: BonusType.Stat,
   jewel: {
     name: 'Blood Essence Jewel',
     dust: Dust.EssenceOfLife,
@@ -103,6 +113,7 @@ export const Hits: Stat = {
 
 export const Power: Stat = {
   name: 'Power',
+  type: BonusType.Stat,
   jewel: {
     name: 'Mystical Essence Jewel',
     dust: Dust.EssenceOfLife,

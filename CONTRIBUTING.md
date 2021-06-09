@@ -3,7 +3,7 @@
 You want to contribute to LiSc? Awesome! Any form of help is greatly appreciated
 (contributions/pull requests, suggestions, tips, bug reports,...).
 
-Join the [Litags Discord](https://discord.gg/4d7QWUK) to get in touch (LiTags is another browser extension for lichess.org I implemented).
+Join the [Litags Discord](https://discord.gg/4d7QWUK) to get in touch (LiTags is a browser extension for lichess.org I implemented).
 
 ## I want to report a bug or a problem about LiSc
 

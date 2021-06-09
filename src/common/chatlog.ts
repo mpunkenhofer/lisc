@@ -1,8 +1,10 @@
-import {ArmorType, Item, Realm, Slot} from './types';
+import {ArmorType, Item, Realm, Slot, WeaponType} from './types';
 import * as Stats from './../constants/bonuses/stat';
 import * as Resists from './../constants/bonuses/resistance';
 import * as Focuses from './../constants/bonuses/focus';
+import * as Skills from './../constants/bonuses/skill';
 import {Bonus} from '../constants/bonuses';
+import {Class} from '../constants/classes';
 
 const matcher = (regex: RegExp, data: string): string | null => {
   const m = regex.exec(data);
@@ -21,6 +23,7 @@ const makeBonusesMap = (): Map<string, Bonus> => {
   Object.values(Stats).map(f);
   Object.values(Resists).map(f);
   Object.values(Focuses).map(f);
+  Object.values(Skills).map(f);
 
   return map;
 };
@@ -74,10 +77,7 @@ const armor_slots = makeSlotsMap([
   [['boots'], Slot.Feet],
 ]);
 
-const inferSlot = (
-  name: string | null,
-  map: Map<string, Slot>
-): Slot | null => {
+const inferSlot = (name: string | null, map: Map<string, Slot>): Slot => {
   if (name) {
     const words = name.toLowerCase().split(' ');
 
@@ -88,26 +88,52 @@ const inferSlot = (
     }
   }
 
-  return null;
+  return Slot.Unspecified;
 };
 
-const inferArmorType = (abs: number, realm: Realm): ArmorType | null => {
-  switch (abs) {
-    case 0:
-      return ArmorType.Cloth;
-    case 10:
-      return ArmorType.Leather;
-    case 19:
-      return realm !== Realm.Hibernia
-        ? ArmorType.Studded
-        : ArmorType.Reinforced;
-    case 27:
-      return realm !== Realm.Hibernia ? ArmorType.Chain : ArmorType.Scale;
-    case 34:
-      return ArmorType.Plate;
-    default:
-      return null;
+const inferArmorType = (abs: number | null, realm: Realm): ArmorType => {
+  if (abs !== null) {
+    switch (abs) {
+      case 0:
+        return ArmorType.Cloth;
+      case 10:
+        return ArmorType.Leather;
+      case 19:
+        return realm !== Realm.Hibernia
+          ? ArmorType.Studded
+          : ArmorType.Reinforced;
+      case 27:
+        return realm !== Realm.Hibernia ? ArmorType.Chain : ArmorType.Scale;
+      case 34:
+        return ArmorType.Plate;
+    }
   }
+
+  return ArmorType.Unspecified;
+};
+
+const inferWeaponType = (
+  _name: string,
+  _realm: Realm,
+  _dps: Number | null,
+  _speed: Number | null,
+  _dmg_type: string | null,
+  shield_size: string | null
+): [WeaponType, Slot] => {
+  if (shield_size) {
+    switch (shield_size) {
+      case 'Small':
+        return [WeaponType.SmallShield, Slot.RightHand];
+      case 'Medium':
+        return [WeaponType.MediumShield, Slot.RightHand];
+      case 'Large':
+        return [WeaponType.LargeShield, Slot.RightHand];
+      default:
+        return [WeaponType.SmallShield, Slot.RightHand];
+    }
+  }
+
+  return [WeaponType.Unspecified, Slot.Unspecified];
 };
 
 const inferBonus = (s: string): Bonus | null => {
@@ -121,9 +147,13 @@ export type ParseLogOptions = {
   source?: string;
 };
 
-export const parseLog = (data: string, options?: ParseLogOptions): Item[] => {
+export const parseLog = (
+  data: string,
+  options?: ParseLogOptions
+): [Item[], Item[]] => {
   const matches = [...data.matchAll(/<Begin Info:[^>]+>[^<]+?<End Info>/gi)];
-  const items: Item[] = [];
+  const s_items: Item[] = [];
+  const f_items: Item[] = [];
 
   for (const match of matches) {
     if (match.length > 0) {
@@ -132,15 +162,21 @@ export const parseLog = (data: string, options?: ParseLogOptions): Item[] => {
 
       const name = matcher(/<Begin Info: ([^>]+)>/i, item);
 
-      if (!name) continue;
+      if (!name) {
+        console.error(`Failed to parse item name on item: ${item}`);
+        continue;
+      }
 
       const realm = options && options.realm ? options.realm : Realm.All;
-      const slot = options && options.slot ? options.slot : null;
+      let slot: Slot =
+        options && options.slot ? options.slot : Slot.Unspecified;
       const source = options && options.source ? options.source : null;
 
-      const utility = toNumber(matcher(/Total Utility: (\d+)/i, item));
+      // use Number() conversion directly here since we always expect items to have a utility and quality
+      const utility = Number(matcher(/Total Utility: (\d+)/i, item));
+      const quality = Number(matcher(/- (\d+)% Quality/i, item));
+
       const sutility = toNumber(matcher(/Single Skill Utility: (\d+)/i, item));
-      const quality = toNumber(matcher(/- (\d+)% Quality/i, item));
 
       const abs = toNumber(matcher(/- (\d+)% Absorption/i, item));
       const af = toNumber(matcher(/- (\d+) Base Factor/i, item));
@@ -152,9 +188,9 @@ export const parseLog = (data: string, options?: ParseLogOptions): Item[] => {
         matcher(/([+-]?([0-9]*[.])?[0-9]+) (Weapon|Shield) Speed/i, item)
       );
       const dmg_type = matcher(/- Damage Type: (\w+)/i, item);
-
       const shield_size = matcher(/- Shield Size: (\w+)/i, item);
 
+      // TODO: parse usable by
       const bonus_matches = [
         ...item.matchAll(/(((\w+\s)+)?\w+): ([+-]?\d+) (pts|lvls|%)/gi),
       ];
@@ -166,14 +202,75 @@ export const parseLog = (data: string, options?: ParseLogOptions): Item[] => {
         if (bonus) bonuses.push([bonus, Number(match[4])]);
       }
 
-      if (!slot) {
-        console.log('yes');
-      } else {
-        console.log('no');
-        //items.push({name, realm, slot});
+      if (!(bonuses.length > 0)) {
+        console.error(`Failed to parse item bonuses. Item: ${name}`);
+        continue;
       }
+
+      const classes: Class[] = [];
+
+      const armor_type = inferArmorType(abs, realm);
+      const [weapon_type, weapon_slot] = inferWeaponType(
+        name,
+        realm,
+        dps,
+        speed,
+        dmg_type,
+        shield_size
+      );
+
+      // Attempt to infer slot from item name and additional information
+      if (slot !== Slot.Unspecified) {
+        if (armor_type !== ArmorType.Unspecified) {
+          slot = inferSlot(name, armor_slots);
+        } else if (weapon_slot !== Slot.Unspecified) {
+          slot = weapon_slot;
+        } else {
+          slot = inferSlot(name, jewelry_slots);
+        }
+
+        if (slot === Slot.Unspecified) {
+          f_items.push({
+            name,
+            slot,
+            realm,
+            source,
+            classes,
+            bonuses,
+            quality,
+            utility,
+            sutility,
+            af,
+            abs,
+            dps,
+            speed,
+            armor_type,
+            weapon_type,
+          });
+
+          continue;
+        }
+      }
+
+      s_items.push({
+        name,
+        slot,
+        realm,
+        source,
+        classes,
+        bonuses,
+        quality,
+        utility,
+        sutility,
+        af,
+        abs,
+        dps,
+        speed,
+        armor_type,
+        weapon_type,
+      });
     }
   }
 
-  return items;
+  return [s_items, f_items];
 };

@@ -23,3 +23,4 @@ A collection of useful links regarding this project.
 - [CSS Animation](https://animate.style/)
 - [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
 - [Fav Icon Generator](https://realfavicongenerator.net/)
+- [Potential hosting?](https://mdbootstrap.com/docs/standard/cli/getting-started/mern/)

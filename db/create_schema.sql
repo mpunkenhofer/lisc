@@ -23,7 +23,7 @@ CREATE TABLE slot(
 DROP TABLE IF EXISTS bonus;
 CREATE TABLE bonus(
     bonus_pk INTEGER PRIMARY KEY,
-    name TEXT UNIQUE NOT NULL,
+    name TEXT NOT NULL,
     type TEXT NOT NULL
 );
 
@@ -39,20 +39,15 @@ CREATE TABLE weapon_type(
     name TEXT UNIQUE NOT NULL
 );
 
-DROP TABLE IF EXISTS item_source;
-CREATE TABLE item_source(
-    item_source_pk INTEGER PRIMARY KEY,
-    name TEXT UNIQUE NOT NULL
-);
-
 DROP TABLE IF EXISTS items;
 CREATE TABLE items(
     items_pk INTEGER PRIMARY KEY,
-    name TEXT UNIQUE NOT NULL,
+    name TEXT NOT NULL,
     quality INTEGER,
     utility INTEGER,
-    single_skill_utility INTEGER,
+    sutility INTEGER,
     af INTEGER,
+    absorb INTEGER,
     dps REAL,
     speed REAL,
     realm_fk REFERENCES realm(realm_pk),
@@ -60,6 +55,12 @@ CREATE TABLE items(
     armor_type_fk REFERENCES armor_type(armor_type_pk),
     weapon_type_fk REFERENCES weapon_type(weapon_type_pk),
     item_source_fk REFERENCES item_source(item_source_pk)
+);
+
+DROP TABLE IF EXISTS item_slot;
+CREATE TABLE item_slot(
+    item_fk REFERENCES item(items_pk),
+    slot_fk REFERENCES slot(slot_pk)
 );
 
 DROP TABLE IF EXISTS item_bonus;
@@ -75,8 +76,8 @@ CREATE TABLE item_class(
     class_fk REFERENCES class(class_pk)
 );
 
-DROP TABLE IF EXISTS item_slot;
-CREATE TABLE item_slot(
-    item_fk REFERENCES item(items_pk),
-    slot_fk REFERENCES slot(slot_pk)
+DROP TABLE IF EXISTS item_source;
+CREATE TABLE item_source(
+    item_source_pk INTEGER PRIMARY KEY,
+    name TEXT UNIQUE NOT NULL
 );

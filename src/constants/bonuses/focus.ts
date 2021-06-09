@@ -1,9 +1,11 @@
 import {Bonus, Dust, Liquid} from '.';
+import {BonusType} from '../../common/types';
 
 export type Focus = Bonus;
 
 export const BoneArmyFocus: Focus = {
   name: 'Bone Army Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Ashen Rune',
     dust: Dust.GroundDraconicScales,
@@ -15,6 +17,7 @@ export const BoneArmyFocus: Focus = {
 
 export const DarknessFocus: Focus = {
   name: 'Darkness Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Ice Rune',
     dust: Dust.GroundDraconicScales,
@@ -26,6 +29,7 @@ export const DarknessFocus: Focus = {
 
 export const RunecarvingFocus: Focus = {
   name: 'Runecarving Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Heat Rune',
     dust: Dust.GroundDraconicScales,
@@ -37,6 +41,7 @@ export const RunecarvingFocus: Focus = {
 
 export const SummoningFocus: Focus = {
   name: 'Summoning Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Vapor Rune',
     dust: Dust.GroundDraconicScales,
@@ -48,6 +53,7 @@ export const SummoningFocus: Focus = {
 
 export const SuppressionFocus: Focus = {
   name: 'Suppression Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Dust Rune',
     dust: Dust.GroundDraconicScales,
@@ -59,6 +65,7 @@ export const SuppressionFocus: Focus = {
 
 export const ArborealPathFocus: Focus = {
   name: 'Arboreal Path Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Steaming Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -70,6 +77,7 @@ export const ArborealPathFocus: Focus = {
 
 export const CreepingPathFocus: Focus = {
   name: 'Creeping Path Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Oozing Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -81,6 +89,7 @@ export const CreepingPathFocus: Focus = {
 
 export const EnchantmentsFocus: Focus = {
   name: 'Enchantments Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Vapor Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -92,6 +101,7 @@ export const EnchantmentsFocus: Focus = {
 
 export const LightFocus: Focus = {
   name: 'Light Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Fire Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -103,6 +113,7 @@ export const LightFocus: Focus = {
 
 export const ManaFocus: Focus = {
   name: 'Mana Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Water Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -114,6 +125,7 @@ export const ManaFocus: Focus = {
 
 export const MentalismFocus: Focus = {
   name: 'Mentalism Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Earth Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -125,6 +137,7 @@ export const MentalismFocus: Focus = {
 
 export const VerdantPathFocus: Focus = {
   name: 'Verdant Path Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Mineral Encrusted Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -136,6 +149,7 @@ export const VerdantPathFocus: Focus = {
 
 export const VoidFocus: Focus = {
   name: 'Void Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Ice Spell Stone',
     dust: Dust.GroundDraconicScales,
@@ -147,6 +161,7 @@ export const VoidFocus: Focus = {
 
 export const BodyFocus: Focus = {
   name: 'Body Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Heat Sigil',
     dust: Dust.GroundDraconicScales,
@@ -158,6 +173,7 @@ export const BodyFocus: Focus = {
 
 export const ColdFocus: Focus = {
   name: 'Cold Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Ice Sigil',
     dust: Dust.GroundDraconicScales,
@@ -169,6 +185,7 @@ export const ColdFocus: Focus = {
 
 export const DeathServantFocus: Focus = {
   name: 'Death Servant Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Ashen Sigil',
     dust: Dust.GroundDraconicScales,
@@ -180,6 +197,7 @@ export const DeathServantFocus: Focus = {
 
 export const DeathsightFocus: Focus = {
   name: 'Deathsight Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Vacuous Sigil',
     dust: Dust.GroundDraconicScales,
@@ -191,6 +209,7 @@ export const DeathsightFocus: Focus = {
 
 export const EarthFocus: Focus = {
   name: 'Earth Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Earth Sigil',
     dust: Dust.GroundDraconicScales,
@@ -202,6 +221,7 @@ export const EarthFocus: Focus = {
 
 export const FireFocus: Focus = {
   name: 'Fire Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Fire Sigil',
     dust: Dust.GroundDraconicScales,
@@ -213,6 +233,7 @@ export const FireFocus: Focus = {
 
 export const MatterFocus: Focus = {
   name: 'Matter Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Dust Sigil',
     dust: Dust.GroundDraconicScales,
@@ -224,6 +245,7 @@ export const MatterFocus: Focus = {
 
 export const MindFocus: Focus = {
   name: 'Mind Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Water Sigil',
     dust: Dust.GroundDraconicScales,
@@ -235,6 +257,7 @@ export const MindFocus: Focus = {
 
 export const PainworkingFocus: Focus = {
   name: 'Painworking Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Salt Crusted Sigil',
     dust: Dust.GroundDraconicScales,
@@ -246,6 +269,7 @@ export const PainworkingFocus: Focus = {
 
 export const SpiritFocus: Focus = {
   name: 'Spirit Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Vapor Sigil',
     dust: Dust.GroundDraconicScales,
@@ -257,6 +281,7 @@ export const SpiritFocus: Focus = {
 
 export const WindFocus: Focus = {
   name: 'Wind Focus',
+  type: BonusType.Focus,
   jewel: {
     name: 'Air Sigil',
     dust: Dust.GroundDraconicScales,

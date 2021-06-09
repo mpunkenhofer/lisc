@@ -1,9 +1,11 @@
 import {Bonus, Dust, Liquid} from '.';
+import {BonusType} from '../../common/types';
 
 export type Skill = Bonus;
 
 export const Augmentation: Skill = {
   name: 'Augmentation',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -15,6 +17,7 @@ export const Augmentation: Skill = {
 
 export const Axe: Skill = {
   name: 'Axe',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen War Rune',
     dust: Dust.GroundGiantBone,
@@ -26,6 +29,7 @@ export const Axe: Skill = {
 
 export const Battlesongs: Skill = {
   name: 'Battlesongs',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Primal Rune',
     dust: Dust.GroundVendoBone,
@@ -37,6 +41,7 @@ export const Battlesongs: Skill = {
 
 export const Beastcraft: Skill = {
   name: 'Beastcraft',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Primal Rune',
     dust: Dust.GroundVendoBone,
@@ -48,6 +53,7 @@ export const Beastcraft: Skill = {
 
 export const BoneArmy: Skill = {
   name: 'Bone Army',
+  type: BonusType.Skill,
   jewel: {
     name: 'Ashen Primal Rune',
     dust: Dust.SootFromNilfheim,
@@ -59,6 +65,7 @@ export const BoneArmy: Skill = {
 
 export const Subterranean: Skill = {
   name: 'Subterranean',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -70,6 +77,7 @@ export const Subterranean: Skill = {
 
 export const CompositeBow: Skill = {
   name: 'Composite Bow',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy War Rune',
     dust: Dust.GroundGiantBone,
@@ -81,6 +89,7 @@ export const CompositeBow: Skill = {
 
 export const CriticalStrike: Skill = {
   name: 'Critical Strike',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -92,6 +101,7 @@ export const CriticalStrike: Skill = {
 
 export const Cursing: Skill = {
   name: 'Cursing',
+  type: BonusType.Skill,
   jewel: {
     name: 'Blighted Primal Rune',
     dust: Dust.GroundVendoBone,
@@ -103,6 +113,7 @@ export const Cursing: Skill = {
 
 export const Darkness: Skill = {
   name: 'Darkness',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -114,6 +125,7 @@ export const Darkness: Skill = {
 
 export const Hammer: Skill = {
   name: 'Hammer',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery War Rune',
     dust: Dust.GroundGiantBone,
@@ -125,6 +137,7 @@ export const Hammer: Skill = {
 
 export const HandToHand: Skill = {
   name: 'Hand to Hand',
+  type: BonusType.Skill,
   jewel: {
     name: 'Lightning Charged War Rune',
     dust: Dust.GroundGiantBone,
@@ -136,6 +149,7 @@ export const HandToHand: Skill = {
 
 export const Hexing: Skill = {
   name: 'Hexing',
+  type: BonusType.Skill,
   jewel: {
     name: 'Unholy Primal Rune',
     dust: Dust.GroundVendoBone,
@@ -147,6 +161,7 @@ export const Hexing: Skill = {
 
 export const LeftAxe: Skill = {
   name: 'Left Axe',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy War Rune',
     dust: Dust.GroundGiantBone,
@@ -158,6 +173,7 @@ export const LeftAxe: Skill = {
 
 export const Mending: Skill = {
   name: 'Mending',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -169,6 +185,7 @@ export const Mending: Skill = {
 
 export const Pacification: Skill = {
   name: 'Pacification',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -180,6 +197,7 @@ export const Pacification: Skill = {
 
 export const Parry: Skill = {
   name: 'Parry',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -191,6 +209,7 @@ export const Parry: Skill = {
 
 export const Runecarving: Skill = {
   name: 'Runecarving',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -202,6 +221,7 @@ export const Runecarving: Skill = {
 
 export const Shield: Skill = {
   name: 'Shield',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -213,6 +233,7 @@ export const Shield: Skill = {
 
 export const Spear: Skill = {
   name: 'Spear',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated War Rune',
     dust: Dust.GroundGiantBone,
@@ -224,6 +245,7 @@ export const Spear: Skill = {
 
 export const Staff: Skill = {
   name: 'Staff',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -235,6 +257,7 @@ export const Staff: Skill = {
 
 export const Stealth: Skill = {
   name: 'Stealth',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -246,6 +269,7 @@ export const Stealth: Skill = {
 
 export const Stormcalling: Skill = {
   name: 'Stormcalling',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Primal Rune',
     dust: Dust.GroundVendoBone,
@@ -257,6 +281,7 @@ export const Stormcalling: Skill = {
 
 export const Summoning: Skill = {
   name: 'Summoning',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -268,6 +293,7 @@ export const Summoning: Skill = {
 
 export const Suppression: Skill = {
   name: 'Suppression',
+  type: BonusType.Skill,
   jewel: {
     name: 'Dusty Chaos Rune',
     dust: Dust.SootFromNilfheim,
@@ -279,6 +305,7 @@ export const Suppression: Skill = {
 
 export const Sword: Skill = {
   name: 'Sword',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery War Rune',
     dust: Dust.GroundGiantBone,
@@ -290,6 +317,7 @@ export const Sword: Skill = {
 
 export const ThrownWeapons: Skill = {
   name: 'Thrown Weapons',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor War Rune',
     dust: Dust.GroundGiantBone,
@@ -301,6 +329,7 @@ export const ThrownWeapons: Skill = {
 
 export const ArborealPath: Skill = {
   name: 'Arboreal Path',
+  type: BonusType.Skill,
   jewel: {
     name: 'Steaming Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -312,6 +341,7 @@ export const ArborealPath: Skill = {
 
 export const Blades: Skill = {
   name: 'Blades',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -323,6 +353,7 @@ export const Blades: Skill = {
 
 export const Blunt: Skill = {
   name: 'Blunt',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -334,6 +365,7 @@ export const Blunt: Skill = {
 
 export const CelticDual: Skill = {
   name: 'Celtic Dual',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -345,6 +377,7 @@ export const CelticDual: Skill = {
 
 export const CelticSpear: Skill = {
   name: 'Celtic Spear',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -356,6 +389,7 @@ export const CelticSpear: Skill = {
 
 export const CreepingPath: Skill = {
   name: 'Creeping Path',
+  type: BonusType.Skill,
   jewel: {
     name: 'Oozing Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -367,6 +401,7 @@ export const CreepingPath: Skill = {
 
 export const Enchantment: Skill = {
   name: 'Enchantment',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -378,6 +413,7 @@ export const Enchantment: Skill = {
 
 export const LargeWeaponry: Skill = {
   name: 'Large Weaponry',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -389,6 +425,7 @@ export const LargeWeaponry: Skill = {
 
 export const LightMagic: Skill = {
   name: 'Light Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -400,6 +437,7 @@ export const LightMagic: Skill = {
 
 export const ManaMagic: Skill = {
   name: 'Mana Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -411,6 +449,7 @@ export const ManaMagic: Skill = {
 
 export const Mentalism: Skill = {
   name: 'Mentalism',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -422,6 +461,7 @@ export const Mentalism: Skill = {
 
 export const Music: Skill = {
   name: 'Music',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -433,6 +473,7 @@ export const Music: Skill = {
 
 export const Nature: Skill = {
   name: 'Nature',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -444,6 +485,7 @@ export const Nature: Skill = {
 
 export const Nurture: Skill = {
   name: 'Nurture',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -455,6 +497,7 @@ export const Nurture: Skill = {
 
 export const Piercing: Skill = {
   name: 'Piercing',
+  type: BonusType.Skill,
   jewel: {
     name: 'Dusty War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -466,6 +509,7 @@ export const Piercing: Skill = {
 
 export const RecurveBow: Skill = {
   name: 'Recurve Bow',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -477,6 +521,7 @@ export const RecurveBow: Skill = {
 
 export const Regrowth: Skill = {
   name: 'Regrowth',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -488,6 +533,7 @@ export const Regrowth: Skill = {
 
 export const Scythe: Skill = {
   name: 'Scythe',
+  type: BonusType.Skill,
   jewel: {
     name: 'Light War Spell Stone',
     dust: Dust.UnseelieDust,
@@ -499,6 +545,7 @@ export const Scythe: Skill = {
 
 export const ShadowMastery: Skill = {
   name: 'Shadow Mastery',
+  type: BonusType.Skill,
   jewel: {
     name: 'Shadowy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -510,6 +557,7 @@ export const ShadowMastery: Skill = {
 
 export const Valor: Skill = {
   name: 'Valor',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -521,6 +569,7 @@ export const Valor: Skill = {
 
 export const VerdantPath: Skill = {
   name: 'Verdant Path',
+  type: BonusType.Skill,
   jewel: {
     name: 'Mineral Encrusted Nature Spell Stone',
     dust: Dust.FairyDust,
@@ -532,6 +581,7 @@ export const VerdantPath: Skill = {
 
 export const VoidMagic: Skill = {
   name: 'Void Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy Arcane Spell Stone',
     dust: Dust.OtherWorldlyDust,
@@ -543,6 +593,7 @@ export const VoidMagic: Skill = {
 
 export const BodyMagic: Skill = {
   name: 'Body Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -554,6 +605,7 @@ export const BodyMagic: Skill = {
 
 export const Chants: Skill = {
   name: 'Chants',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -565,6 +617,7 @@ export const Chants: Skill = {
 
 export const ColdMagic: Skill = {
   name: 'Cold Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -576,6 +629,7 @@ export const ColdMagic: Skill = {
 
 export const Crossbow: Skill = {
   name: 'Crossbow',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor War Sigil',
     dust: Dust.GroundCaerStone,
@@ -587,6 +641,7 @@ export const Crossbow: Skill = {
 
 export const Crush: Skill = {
   name: 'Crush',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery War Sigil',
     dust: Dust.GroundCaerStone,
@@ -598,6 +653,7 @@ export const Crush: Skill = {
 
 export const DeathServant: Skill = {
   name: 'Death Servant',
+  type: BonusType.Skill,
   jewel: {
     name: 'Ashen Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -609,6 +665,7 @@ export const DeathServant: Skill = {
 
 export const Deathsight: Skill = {
   name: 'Deathsight',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vacuous Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -620,6 +677,7 @@ export const Deathsight: Skill = {
 
 export const DualWield: Skill = {
   name: 'Dual Wield',
+  type: BonusType.Skill,
   jewel: {
     name: 'Icy War Sigil',
     dust: Dust.GroundCaerStone,
@@ -631,6 +689,7 @@ export const DualWield: Skill = {
 
 export const EarthMagic: Skill = {
   name: 'Earth Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -642,6 +701,7 @@ export const EarthMagic: Skill = {
 
 export const Enhancement: Skill = {
   name: 'Enhancement',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -653,6 +713,7 @@ export const Enhancement: Skill = {
 
 export const FireMagic: Skill = {
   name: 'Fire Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -664,6 +725,7 @@ export const FireMagic: Skill = {
 
 export const Flexible: Skill = {
   name: 'Flexible',
+  type: BonusType.Skill,
   jewel: {
     name: 'Molten Magma War Sigil',
     dust: Dust.GroundCaerStone,
@@ -675,6 +737,7 @@ export const Flexible: Skill = {
 
 export const Instruments: Skill = {
   name: 'Instruments',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -686,6 +749,7 @@ export const Instruments: Skill = {
 
 export const Longbow: Skill = {
   name: 'Longbow',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy War Sigil',
     dust: Dust.GroundCaerStone,
@@ -697,6 +761,7 @@ export const Longbow: Skill = {
 
 export const Envenom: Skill = {
   name: 'Envenom',
+  type: BonusType.Skill,
   jewel: {
     name: 'Dusty Battle Jewel',
     dust: Dust.BloodiedBattlefieldDirt,
@@ -708,6 +773,7 @@ export const Envenom: Skill = {
 
 export const MatterMagic: Skill = {
   name: 'Matter Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Dusty Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -719,6 +785,7 @@ export const MatterMagic: Skill = {
 
 export const MindMagic: Skill = {
   name: 'Mind Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -730,6 +797,7 @@ export const MindMagic: Skill = {
 
 export const Painworking: Skill = {
   name: 'Painworking',
+  type: BonusType.Skill,
   jewel: {
     name: 'Salt Crusted Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -741,6 +809,7 @@ export const Painworking: Skill = {
 
 export const Polearm: Skill = {
   name: 'Polearm',
+  type: BonusType.Skill,
   jewel: {
     name: 'Earthen War Sigil',
     dust: Dust.GroundCaerStone,
@@ -752,6 +821,7 @@ export const Polearm: Skill = {
 
 export const Rejuvenation: Skill = {
   name: 'Rejuvenation',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -763,6 +833,7 @@ export const Rejuvenation: Skill = {
 
 export const Slash: Skill = {
   name: 'Slash',
+  type: BonusType.Skill,
   jewel: {
     name: 'Watery War Sigil',
     dust: Dust.GroundCaerStone,
@@ -774,6 +845,7 @@ export const Slash: Skill = {
 
 export const Smiting: Skill = {
   name: 'Smiting',
+  type: BonusType.Skill,
   jewel: {
     name: 'Fiery Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -785,6 +857,7 @@ export const Smiting: Skill = {
 
 export const Soulrending: Skill = {
   name: 'Soulrending',
+  type: BonusType.Skill,
   jewel: {
     name: 'Steaming Fervor Sigil',
     dust: Dust.GroundBlessedUndeadBone,
@@ -796,6 +869,7 @@ export const Soulrending: Skill = {
 
 export const SpiritMagic: Skill = {
   name: 'SpiritMagic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Vapor Evocation Sigil',
     dust: Dust.GroundCaveCrystal,
@@ -807,6 +881,7 @@ export const SpiritMagic: Skill = {
 
 export const Thrust: Skill = {
   name: 'Thrust',
+  type: BonusType.Skill,
   jewel: {
     name: 'Dusty War Sigil',
     dust: Dust.GroundCaerStone,
@@ -818,6 +893,7 @@ export const Thrust: Skill = {
 
 export const TwoHanded: Skill = {
   name: 'Two Handed',
+  type: BonusType.Skill,
   jewel: {
     name: 'Heated War Sigil',
     dust: Dust.GroundCaerStone,
@@ -829,6 +905,7 @@ export const TwoHanded: Skill = {
 
 export const WindMagic: Skill = {
   name: 'Wind Magic',
+  type: BonusType.Skill,
   jewel: {
     name: 'Airy Evocation Sigil',
     dust: Dust.GroundCaveCrystal,

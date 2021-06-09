@@ -1,9 +1,11 @@
 import {Bonus, Dust, Liquid} from '.';
+import {BonusType} from '../../common/types';
 
 export type Resistance = Bonus;
 
 export const Body: Resistance = {
   name: 'Body',
+  type: BonusType.Resist,
   jewel: {
     name: 'Dusty Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -15,6 +17,7 @@ export const Body: Resistance = {
 
 export const Cold: Resistance = {
   name: 'Cold',
+  type: BonusType.Resist,
   jewel: {
     name: 'Icy Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -26,6 +29,7 @@ export const Cold: Resistance = {
 
 export const Heat: Resistance = {
   name: 'Heat',
+  type: BonusType.Resist,
   jewel: {
     name: 'Heated Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -37,6 +41,7 @@ export const Heat: Resistance = {
 
 export const Energy: Resistance = {
   name: 'Energy',
+  type: BonusType.Resist,
   jewel: {
     name: 'Light Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -48,6 +53,7 @@ export const Energy: Resistance = {
 
 export const Matter: Resistance = {
   name: 'Matter',
+  type: BonusType.Resist,
   jewel: {
     name: 'Earthen Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -59,6 +65,7 @@ export const Matter: Resistance = {
 
 export const Spirit: Resistance = {
   name: 'Spirit',
+  type: BonusType.Resist,
   jewel: {
     name: 'Vapor Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -70,6 +77,7 @@ export const Spirit: Resistance = {
 
 export const Crush: Resistance = {
   name: 'Crush',
+  type: BonusType.Resist,
   jewel: {
     name: 'Fiery Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -81,6 +89,7 @@ export const Crush: Resistance = {
 
 export const Thrust: Resistance = {
   name: 'Thrust',
+  type: BonusType.Resist,
   jewel: {
     name: 'Airy Shielding Jewel',
     dust: Dust.GroundDraconicScales,
@@ -92,6 +101,7 @@ export const Thrust: Resistance = {
 
 export const Slash: Resistance = {
   name: 'Slash',
+  type: BonusType.Resist,
   jewel: {
     name: 'Watery Shielding Jewel',
     dust: Dust.GroundDraconicScales,

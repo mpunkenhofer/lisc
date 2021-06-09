@@ -1,3 +1,5 @@
+import {BonusType} from '../../common/types';
+
 export enum Dust {
   EssenceOfLife = 'Essence of Life',
   BloodiedBattlefieldDirt = 'Bloodied Battlefield Dirt',
@@ -37,5 +39,6 @@ export interface Jewel {
 
 export interface Bonus {
   readonly name: string;
+  readonly type: BonusType;
   readonly jewel: Jewel;
 }
