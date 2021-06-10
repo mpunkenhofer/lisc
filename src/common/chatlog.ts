@@ -3,6 +3,7 @@ import * as Stats from './../constants/bonuses/stat';
 import * as Resists from './../constants/bonuses/resistance';
 import * as Focuses from './../constants/bonuses/focus';
 import * as Skills from './../constants/bonuses/skill';
+import * as Classes from './../constants/classes';
 import {Bonus} from '../constants/bonuses';
 import {Class} from '../constants/classes';
 
@@ -28,7 +29,7 @@ const makeBonusesMap = (): Map<string, Bonus> => {
   return map;
 };
 
-const bonuses = makeBonusesMap();
+const bonuses_lookup = makeBonusesMap();
 
 const makeSlotsMap = (aliases: [string[], Slot][]): Map<string, Slot> => {
   const map = new Map<string, Slot>();
@@ -42,7 +43,7 @@ const makeSlotsMap = (aliases: [string[], Slot][]): Map<string, Slot> => {
   return map;
 };
 
-const jewelry_slots = makeSlotsMap([
+const jewelry_slots_lookup = makeSlotsMap([
   [['ring', 'band'], Slot.Ring],
   [['bracer', 'bracelet', 'wrap'], Slot.Bracer],
   [['cloak', 'cape', 'cowl', 'mantle'], Slot.Cloak],
@@ -51,7 +52,7 @@ const jewelry_slots = makeSlotsMap([
   [['jewel', 'gem', 'quiver'], Slot.Jewel],
 ]);
 
-const armor_slots = makeSlotsMap([
+const armor_slots_lookup = makeSlotsMap([
   [
     [
       'robe',
@@ -76,6 +77,18 @@ const armor_slots = makeSlotsMap([
   [['gloves', 'gauntlets'], Slot.Hands],
   [['boots'], Slot.Feet],
 ]);
+
+const makeClassMap = () => {
+  const map = new Map<string, Class>();
+
+  for (const cls of Object.values(Classes)) {
+    map.set(cls.name.toLowerCase(), cls);
+  }
+
+  return map;
+};
+
+const classes_lookup = makeClassMap();
 
 const inferSlot = (name: string | null, map: Map<string, Slot>): Slot => {
   if (name) {
@@ -121,12 +134,12 @@ const inferWeaponType = (
   shield_size: string | null
 ): [WeaponType, Slot] => {
   if (shield_size) {
-    switch (shield_size) {
-      case 'Small':
+    switch (shield_size.toLowerCase()) {
+      case 'small':
         return [WeaponType.SmallShield, Slot.RightHand];
-      case 'Medium':
+      case 'medium':
         return [WeaponType.MediumShield, Slot.RightHand];
-      case 'Large':
+      case 'large':
         return [WeaponType.LargeShield, Slot.RightHand];
       default:
         return [WeaponType.SmallShield, Slot.RightHand];
@@ -137,7 +150,7 @@ const inferWeaponType = (
 };
 
 const inferBonus = (s: string): Bonus | null => {
-  const b = bonuses.get(s.replace(/\s/g, '').toLowerCase());
+  const b = bonuses_lookup.get(s.replace(/\s/g, '').toLowerCase());
   return b !== undefined ? b : null;
 };
 
@@ -190,7 +203,6 @@ export const parseLog = (
       const dmg_type = matcher(/- Damage Type: (\w+)/i, item);
       const shield_size = matcher(/- Shield Size: (\w+)/i, item);
 
-      // TODO: parse usable by
       const bonus_matches = [
         ...item.matchAll(/(((\w+\s)+)?\w+): ([+-]?\d+) (pts|lvls|%)/gi),
       ];
@@ -207,7 +219,17 @@ export const parseLog = (
         continue;
       }
 
+      const usable_data = matcher(/Usable by:([\n\r]+[^\n\r]+- (\w+))+/i, item);
+
       const classes: Class[] = [];
+      if (usable_data !== null) {
+        const class_matches = [...usable_data.matchAll(/- (\w+)/gi)];
+
+        for (const match of class_matches) {
+          const cls = classes_lookup.get(match[1].toLocaleLowerCase().trim());
+          if (cls !== undefined) classes.push(cls);
+        }
+      }
 
       const armor_type = inferArmorType(abs, realm);
       const [weapon_type, weapon_slot] = inferWeaponType(
@@ -220,15 +242,16 @@ export const parseLog = (
       );
 
       // Attempt to infer slot from item name and additional information
-      if (slot !== Slot.Unspecified) {
+      if (slot === Slot.Unspecified) {
         if (armor_type !== ArmorType.Unspecified) {
-          slot = inferSlot(name, armor_slots);
+          slot = inferSlot(name, armor_slots_lookup);
         } else if (weapon_slot !== Slot.Unspecified) {
           slot = weapon_slot;
         } else {
-          slot = inferSlot(name, jewelry_slots);
+          slot = inferSlot(name, jewelry_slots_lookup);
         }
 
+        // If slot is still unspecified here add it to the failed items. (failed to determine slot)
         if (slot === Slot.Unspecified) {
           f_items.push({
             name,

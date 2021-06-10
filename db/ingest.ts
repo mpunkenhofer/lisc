@@ -11,9 +11,20 @@ import * as Classes from './../src/constants/classes';
 import {Class} from './../src/constants/classes';
 import {Bonus} from '../src/constants/bonuses';
 
+const capitalize = (s: string): string => {
+  const words = s.split(' ');
+
+  return words
+    .map(w => w.charAt(0).toLocaleUpperCase() + w.slice(1))
+    .join(' ')
+    .trim();
+};
+
 const filenames = glob.sync('db/logs/*.log');
 
 if (filenames.length > 0) {
+  console.log(`Processing ${filenames.length} log files... `);
+
   const db = new Database('db/items.sqlite3');
 
   // create db from schema
@@ -38,19 +49,26 @@ if (filenames.length > 0) {
     }
   );
 
+  const insertSource = db.transaction((source: string) => {
+    const src_stmt = db.prepare('insert into item_source values (NULL, ?)');
+    const info = src_stmt.run(source);
+    return info.lastInsertRowid;
+  });
+
   const insertItems = db.transaction(
     (
       items: Item[],
       realm_lookup: Map<Realm, Number>,
       slot_lookup: Map<Slot, Number>,
-      _class_lookup: Map<Class, Number>,
+      class_lookup: Map<Class, Number>,
       bonus_lookup: Map<Bonus, Number>,
       armor_lookup: Map<ArmorType, Number>,
-      weapon_lookup: Map<WeaponType, Number>
+      weapon_lookup: Map<WeaponType, Number>,
+      source_lookup: Map<string, Number>
     ) => {
-      // const item_stmt = db.prepare(
-      //   'insert into items values (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
-      // );
+      const item_stmt = db.prepare(
+        'insert into items values (NULL, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+      );
       const slot_stmt = db.prepare('insert into item_slot values (?, ?)');
       const bonus_stmt = db.prepare('insert into item_bonus values (?, ?, ?)');
       const class_stmt = db.prepare('insert into item_class values (?, ?)');
@@ -60,25 +78,49 @@ if (filenames.length > 0) {
         const slot_fk = slot_lookup.get(item.slot);
         const armor_type_fk = armor_lookup.get(item.armor_type);
         const weapon_type_fk = weapon_lookup.get(item.weapon_type);
-        const item_source_fk = null;
+        const item_source_fk = item.source
+          ? source_lookup.get(item.source)
+          : null;
 
-        // const info = item_stmt.run(
-        //   item.name,
-        //   item.quality,
-        //   item.utility,
-        //   item.sutility,
-        //   item.af,
-        //   item.abs,
-        //   item.dps,
-        //   item.speed,
-        //   realm_fk,
-        //   slot_fk,
-        //   armor_type_fk,
-        //   weapon_type_fk,
-        //   item_source_fk
-        // );
+        const info = item_stmt.run(
+          item.name,
+          item.quality,
+          item.utility,
+          item.sutility,
+          item.af,
+          item.abs,
+          item.dps,
+          item.speed,
+          realm_fk,
+          slot_fk,
+          armor_type_fk,
+          weapon_type_fk,
+          item_source_fk
+        );
 
-        //console.log(info.lastInsertRowid);
+        const item_id = info.lastInsertRowid;
+
+        slot_stmt.run(item_id, slot_fk);
+
+        for (const [bonus, value] of item.bonuses) {
+          const bonus_fk = bonus_lookup.get(bonus);
+          if (bonus_fk !== undefined) {
+            bonus_stmt.run(item_id, bonus_fk, value);
+          } else {
+            console.error(`Failed to lookup bonus FK. ${bonus}: ${value}`);
+          }
+        }
+
+        for (const cls of item.classes) {
+          const class_fk = class_lookup.get(cls);
+          if (class_fk !== undefined) {
+            class_stmt.run(item_id, class_fk);
+          } else {
+            console.error(
+              `Failed to lookup class FK. item: ${item.name}, class; ${cls}`
+            );
+          }
+        }
       }
     }
   );
@@ -128,17 +170,29 @@ if (filenames.length > 0) {
     ['all', Realm.All],
   ]);
 
+  let successes = 0,
+    fails = 0;
+
+  const source_lookup = new Map<string, Number>();
+
   for (const fname of filenames) {
-    const match = /(alb|hib|mid|all)_([^.0-9]+)/.exec(fname);
+    const match = /(alb|hib|mid|all)_(.+)\.log/.exec(fname.toLowerCase());
 
     if (match) {
       const realm = filename_realms.get(match[1]);
-      const source = match[2].replace(/_/g, ' ').trim();
+      const source = capitalize(match[2].replace(/_/g, ' ').trim());
+
+      if (source_lookup.get(source) === undefined) {
+        const source_fk = Number(insertSource(source));
+        source_lookup.set(source, source_fk);
+      }
 
       const data = fs.readFileSync(fname, 'utf8');
 
       const [s_items, f_items] = parseLog(data, {realm, source});
-      console.log(s_items.length, f_items.length);
+
+      successes += s_items.length;
+      fails += f_items.length;
 
       insertItems(
         s_items,
@@ -147,7 +201,8 @@ if (filenames.length > 0) {
         class_lookup,
         bonus_lookup,
         armor_lookup,
-        weapon_lookup
+        weapon_lookup,
+        source_lookup
       );
     } else {
       throw new Error(
@@ -156,5 +211,10 @@ if (filenames.length > 0) {
     }
   }
 
+  console.log(
+    `Created Database with ${successes} items of a total of ${
+      successes + fails
+    } parsed. (${((successes / (successes + fails)) * 100).toFixed(2)}%)`
+  );
   db.close();
 }

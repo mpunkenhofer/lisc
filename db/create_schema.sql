@@ -1,5 +1,5 @@
--- Pragmas
-PRAGMA foreign_keys = ON;
+-- FK constraint off in order to drop tables with fks
+PRAGMA foreign_keys = OFF;
 
 -- Create all tables, incl constraits
 DROP TABLE IF EXISTS realm;
@@ -51,7 +51,7 @@ CREATE TABLE items(
     dps REAL,
     speed REAL,
     realm_fk REFERENCES realm(realm_pk),
-    slot_fk REFERENCES slot(slot_fk),
+    slot_fk REFERENCES slot(slot_pk),
     armor_type_fk REFERENCES armor_type(armor_type_pk),
     weapon_type_fk REFERENCES weapon_type(weapon_type_pk),
     item_source_fk REFERENCES item_source(item_source_pk)
@@ -59,20 +59,20 @@ CREATE TABLE items(
 
 DROP TABLE IF EXISTS item_slot;
 CREATE TABLE item_slot(
-    item_fk REFERENCES item(items_pk),
+    item_fk REFERENCES items(items_pk),
     slot_fk REFERENCES slot(slot_pk)
 );
 
 DROP TABLE IF EXISTS item_bonus;
 CREATE TABLE item_bonus(
-    item_fk REFERENCES item(items_pk),
+    item_fk REFERENCES items(items_pk),
     bonus_fk REFERENCES bonus(bonus_pk),
     value INTEGER
 );
 
 DROP TABLE IF EXISTS item_class;
 CREATE TABLE item_class(
-    item_fk REFERENCES item(items_pk),
+    item_fk REFERENCES items(items_pk),
     class_fk REFERENCES class(class_pk)
 );
 
@@ -81,3 +81,6 @@ CREATE TABLE item_source(
     item_source_pk INTEGER PRIMARY KEY,
     name TEXT UNIQUE NOT NULL
 );
+
+-- Turn fk constraint back on
+PRAGMA foreign_keys = ON;
