@@ -6,7 +6,7 @@ Lisc (**Li**bre **S**pell**C**rafting Tool) is a browser based app that aids you
 
 ## Project Status
 
-This project is currently under slow development. To visit the currently deployed site head over to [https://mpunkenhofer.github.io/lisc/](https://mpunkenhofer.github.io/lisc/).
+Since the Phoenix Freeshard sever is shutting down, this project is shelved. ~~This project is currently under slow development~~. To visit the currently deployed site head over to [https://mpunkenhofer.github.io/lisc/](https://mpunkenhofer.github.io/lisc/).
 
 ## Resources
 
