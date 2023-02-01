@@ -2,7 +2,7 @@
 
 <img alt="Logo" align="left" src="https://github.com/mpunkenhofer/lisc/blob/main/assets/images/lisc.svg?raw=true" width="20%" />
 
-Lisc (**Li**bre **S**pell**C**rafting Tool) is a browser based app that aids you in planing your character equipment for the DaoC Phoenix Freeshard server.
+Lisc (**Li**bre **S**pell**C**rafting Tool) is a browser based app that aids you in planing your character equipment for a DaoC Freeshard server (Eden).
 
 ## Project Status
 
