@@ -1,36 +1,36 @@
 import * as React from 'react';
-import * as ReactDOM from 'react-dom';
+import {createRoot} from 'react-dom/client';
 import {Provider} from 'react-redux';
-import {Switch, Route, HashRouter, Link} from 'react-router-dom';
+import {Route, HashRouter, Link, Routes} from 'react-router-dom';
 import Chooser from './components/Chooser';
 import Footer from './components/Footer';
 import store from './store';
 
 console.log('LiSc is open source! https://github.com/mpunkenhofer/lisc');
 
-const App: React.FunctionComponent = () => (
+const New = () => <Link to="/new">New</Link>;
+const Test = () => <h1>Test</h1>;
+const NotFound = () => <p>Route not found.</p>;
+
+const App = () => (
   <HashRouter>
-    <Switch>
-      <Route exact path="/">
-        <Link to="/new">New</Link>
-      </Route>
-      <Route path="/test">
-        <h1>Test</h1>
-      </Route>
-      <Route path="/new">
-        <Chooser />
-      </Route>
-      <Route>
-        <p>Route not found.</p>
-      </Route>
-    </Switch>
+    <Routes>
+      <Route path="/" element={<New />} />
+      <Route path="/test" element={<Test />} />
+      <Route path="/new" element={<Chooser />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
     <Footer />
   </HashRouter>
 );
 
-ReactDOM.render(
-  <Provider store={store}>
-    <App />
-  </Provider>,
-  document.getElementById('root') as HTMLElement
+const container = document.getElementById('root') as HTMLElement;
+const root = createRoot(container);
+
+root.render(
+  <React.StrictMode>
+    <Provider store={store}>
+      <App />
+    </Provider>
+  </React.StrictMode>
 );

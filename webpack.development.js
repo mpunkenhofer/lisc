@@ -1,18 +1,22 @@
 const commonConfig = require('./webpack.common');
 const path = require('path');
 const {merge} = require('webpack-merge');
-const webpack = require('webpack');
+//const webpack = require('webpack');
 //const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = merge(commonConfig, {
   mode: 'development',
   devServer: {
-    contentBase: path.join(__dirname, 'public'),
-    publicPath: '/',
-    compress: true,
+    static: {
+      directory: path.join(__dirname, 'public'),
+    },
+    //compress: true,
     port: 9000,
     hot: true,
-    inline: true,
+    historyApiFallback: true, //this makes client side routing possible
+    devMiddleware: {
+      publicPath: '/',
+    },
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  // plugins: [new webpack.HotModuleReplacementPlugin()],
 });

@@ -10,10 +10,7 @@ interface ClassChooserProps {
   onClassButtonClicked: (c: cls.Class) => () => void;
 }
 
-const ClassChooser: React.FunctionComponent<ClassChooserProps> = ({
-  realm,
-  onClassButtonClicked,
-}: ClassChooserProps) => {
+const ClassChooser = ({realm, onClassButtonClicked}: ClassChooserProps) => {
   switch (realm) {
     case Realm.Albion: {
       return (
@@ -268,6 +265,8 @@ const ClassChooser: React.FunctionComponent<ClassChooserProps> = ({
       );
     }
   }
+
+  return null;
 };
 
 const Chooser: React.FunctionComponent = () => {

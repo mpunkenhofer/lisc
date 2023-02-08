@@ -35,17 +35,16 @@ module.exports = {
         ],
         exclude: /node_modules/,
       },
+      // Assets: https://webpack.js.org/guides/asset-modules/
       {
         test: /\.(png|jpg|jpeg|gif)$/,
-        use: 'url-loader',
+        //use: 'url-loader',
+        type: 'asset',
       },
       {
         test: /\.(woff2?|ttf|otf|eot|svg)$/,
         exclude: /node_modules/,
-        loader: 'file-loader',
-        options: {
-          name: '[name].[ext]',
-        },
+        type: 'asset/resource',
       },
       {
         test: /\.scss$/,

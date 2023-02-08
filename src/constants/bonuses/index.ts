@@ -33,7 +33,7 @@ export interface Jewel {
   readonly name: string;
   readonly dust: Dust;
   readonly liquid: Liquid;
-  readonly dust_amount: [number, number];
+  readonly dust_amount: [number, number]; // TODO add aliases for documentation purposes (i.e. Base & Increment)
   readonly liquid_amount: [number, number];
 }
 
