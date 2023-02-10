@@ -5,10 +5,9 @@ import json
 import argparse
 import sys
 
-# source: https://stackoverflow.com/questions/6169217/replace-console-output-in-python
-
 
 def progress_bar(value, endvalue, bar_length=20):
+    # source: https://stackoverflow.com/questions/6169217/replace-console-output-in-python
     percent = float(value) / endvalue
     arrow = '-' * int(round(percent * bar_length) - 1) + '>'
     spaces = ' ' * (bar_length - len(arrow))
@@ -18,8 +17,8 @@ def progress_bar(value, endvalue, bar_length=20):
     sys.stdout.flush()
 
 
-def main(items):
-    print('Crawling Eden Item DB for details...')
+def main(items_file, output_fname):
+    print('Scraping Eden Item DB for details...')
     cj = browser_cookie3.firefox(domain_name='eden-daoc.net')
 
     def uri(id): return f'https://www.eden-daoc.net/itm/item.php?id={id}'
@@ -41,7 +40,7 @@ def main(items):
                 uri(item['id']), cookies=cj, headers=headers).json()
 
             if details:
-                #print('\ndetails:\n', details)
+                # print('\ndetails:\n', details)
                 merged = {**item, **details}
                 items[idx] = merged
             else:
@@ -55,8 +54,8 @@ def main(items):
 
             progress_bar(idx, total)
 
-        with open('eden_items_details.json', "w") as f:
-            print('\nWriting eden_items_details.json...')
+        with open(output_fname, "w") as f:
+            print(f'\nWriting {output_fname} ...')
             json.dump(items, f, indent=4)
 
 
@@ -65,7 +64,9 @@ if __name__ == "__main__":
         description='Gets details for eden database items.')
 
     parser.add_argument('ids', type=str, help='eden item ids (.json)')
+    parser.add_argument('-o', '--output', type=str, default='eden_items_details.json',
+                        help='output file name')
 
     args = parser.parse_args()
 
-    main(args.ids)
+    main(args.ids, args.output)

@@ -4,8 +4,8 @@ import time
 import json
 
 
-def main():
-    print('Crawling Eden Item DB...')
+def main(output_fname):
+    print('Scraping Eden Item DB...')
     cj = browser_cookie3.firefox(domain_name='eden-daoc.net')
 
     def uri(p): return f'https://www.eden-daoc.net/itm/search.php?p={p}'
@@ -16,6 +16,7 @@ def main():
         'Accept-Language': 'en-US,en;q=0.5',
     }
 
+    # eden item site is paginated ... get all items from one page and go next (page + 1) 
     items = []
     page = 0
 
@@ -29,12 +30,20 @@ def main():
         rj = requests.get(uri(page), cookies=cj, headers=headers).json()
         time.sleep(0.1)
 
-    print(f'\nCrawled {page} pages of items.')
+    print(f'\nScraped {page} pages of items.')
 
-    with open('eden_items.json', "w") as f:
-        print('Writing eden_items.json...')
+    with open(output_fname, "w") as f:
+        print(f'Writing {output_fname} ...')
         json.dump(items, f, indent=4)
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(
+        description='Gets eden database items.')
+
+    parser.add_argument('-o', '--output', type=str, default='eden_items.json',
+                        help='output file name')
+
+    args = parser.parse_args()
+
+    main(args.output)

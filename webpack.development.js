@@ -17,6 +17,11 @@ module.exports = merge(commonConfig, {
     devMiddleware: {
       publicPath: '/',
     },
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': '*',
+      'Access-Control-Allow-Headers': '*',
+    },
   },
   // plugins: [new webpack.HotModuleReplacementPlugin()],
 });
