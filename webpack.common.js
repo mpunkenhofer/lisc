@@ -70,7 +70,6 @@ module.exports = {
     new MiniCssExtractPlugin({filename: '[name].css'}),
     new FontPreloadPlugin(),
   ],
-  devtool: 'source-map',
   externals: {
     React: 'React',
     ReactDOM: 'ReactDOM',

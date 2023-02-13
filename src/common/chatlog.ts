@@ -1,10 +1,10 @@
 import {ArmorType, Item, Realm, Slot, WeaponType} from './types';
-import * as Stats from './../constants/bonuses/stat';
-import * as Resists from './../constants/bonuses/resistance';
-import * as Focuses from './../constants/bonuses/focus';
-import * as Skills from './../constants/bonuses/skill';
+import * as Stats from '../bonuses/stats';
+import * as Resists from '../bonuses/resistance';
+import * as Focuses from '../bonuses/focus';
+import * as Skills from '../bonuses/skill';
 import * as Classes from './../constants/classes';
-import {Bonus} from '../constants/bonuses';
+import {Bonus} from '../bonuses';
 import {Class} from '../constants/classes';
 
 const matcher = (regex: RegExp, data: string): string | null => {

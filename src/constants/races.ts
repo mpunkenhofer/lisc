@@ -1,5 +1,6 @@
-import {Bonus} from './bonuses';
-import * as Resist from './bonuses/resistance';
+import {Bonus} from '../bonuses';
+import * as Resist from '../bonuses/resistance';
+
 export interface Race {
   readonly name: string;
   readonly resists: [Bonus, number][];

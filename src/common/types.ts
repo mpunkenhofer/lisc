@@ -1,4 +1,4 @@
-import {Bonus} from '../constants/bonuses';
+import {Bonus} from '../bonuses';
 import {Class} from '../constants/classes';
 
 export enum Realm {
@@ -9,7 +9,7 @@ export enum Realm {
 }
 
 export enum Slot {
-  Body = 'Body',
+  Chest = 'Chest',
   Arms = 'Arms',
   Legs = 'Legs',
   Head = 'Head',
@@ -21,10 +21,11 @@ export enum Slot {
   Jewel = 'Jewel',
   Ring = 'Ring',
   Bracer = 'Bracer',
-  LeftHand = 'LeftHand',
-  RightHand = 'RightHand',
-  TwoHanded = 'TwoHanded',
+  LeftHand = 'Left Hand',
+  RightHand = 'Right Hand',
+  TwoHanded = 'Two Handed',
   Ranged = 'Ranged',
+  Mythirian = 'Mythirian',
   Unspecified = 'Unspecified',
 }
 
@@ -47,13 +48,11 @@ export enum ArmorType {
 }
 
 export enum WeaponType {
-  SmallShield = 'SmallShield',
-  MediumShield = 'MediumShield',
-  LargeShield = 'LargeShield',
+  Shield = 'Shield',
   Crush = 'Crush',
   Slash = 'Slash',
   Thrust = 'Thrust',
-  Short_Bow = 'Short_Bow',
+  ShortBow = 'ShortBow',
   Crossbow = 'Crossbow',
   Blades = 'Blades',
   Blunt = 'Blunt',
@@ -62,6 +61,12 @@ export enum WeaponType {
   Hammer = 'Hammer',
   Sword = 'Sword',
   Unspecified = 'Unspecified',
+}
+
+export enum ShieldSize {
+  Small = 'Small',
+  Medium = 'Medium',
+  Large = 'Large',
 }
 
 export type Options = {

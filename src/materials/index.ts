@@ -1,5 +1,3 @@
-import {BonusType} from '../../common/types';
-
 export enum Dust {
   EssenceOfLife = 'Essence of Life',
   BloodiedBattlefieldDirt = 'Bloodied Battlefield Dirt',
@@ -29,16 +27,14 @@ export enum Liquid {
   AirElementalEssence = 'Air Elemental Essence',
 }
 
+// Type aliases for documentation purposes
+export type IngredientBase = number;
+export type IngredientIncrement = number;
+
 export interface Jewel {
   readonly name: string;
   readonly dust: Dust;
   readonly liquid: Liquid;
-  readonly dust_amount: [number, number]; // TODO add aliases for documentation purposes (i.e. Base & Increment)
-  readonly liquid_amount: [number, number];
-}
-
-export interface Bonus {
-  readonly name: string;
-  readonly type: BonusType;
-  readonly jewel: Jewel;
+  readonly dust_amount: [IngredientBase, IngredientIncrement];
+  readonly liquid_amount: [IngredientBase, IngredientIncrement];
 }

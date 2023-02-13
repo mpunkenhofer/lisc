@@ -23,5 +23,6 @@ module.exports = merge(commonConfig, {
       'Access-Control-Allow-Headers': '*',
     },
   },
+  devtool: 'source-map',
   // plugins: [new webpack.HotModuleReplacementPlugin()],
 });

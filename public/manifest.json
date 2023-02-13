@@ -4,7 +4,7 @@
     "start_url": ".",
     "display": "standalone",
     "background_color": "#ffffff",
-    "description": "Spellcrafting Calculator for the Phoenix Freeshard Server",
+    "description": "Spellcrafting Calculator for the MMO Dark Age of Camelot.",
     "icons": [
         {
             "src": "/lisc192.png",
