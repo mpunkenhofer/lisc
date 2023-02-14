@@ -1,9 +1,14 @@
-import {CraftAbleBonus} from '.';
+import {Cap, CraftAbleBonus, ImbuePoints} from '.';
 import {Jewel, Dust, Liquid} from '../materials';
+
+const cap: Cap = {cap_add: 0, cap_mult: 1};
+const imbue: ImbuePoints = {imbue_add: 1, imbue_mult: 0};
+const bonuses = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+const util = 0;
 
 export class Focus extends CraftAbleBonus {
   constructor(name: string, jewel: Jewel) {
-    super(name, jewel, 2.0);
+    super(name, cap, bonuses, imbue, jewel, util);
   }
 }
 

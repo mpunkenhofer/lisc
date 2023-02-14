@@ -1,9 +1,14 @@
-import {CraftAbleBonus} from '.';
+import {Cap, CraftAbleBonus, ImbuePoints} from '.';
 import {Jewel, Dust, Liquid} from '../materials';
+
+const cap: Cap = {cap_add: 1, cap_mult: 0.5};
+const imbue: ImbuePoints = {imbue_add: 2, imbue_mult: 2};
+const bonuses = [1, 2, 3, 5, 7, 9, 11, 13, 15, 17];
+const util = 2.0;
 
 export class Resistance extends CraftAbleBonus {
   constructor(name: string, jewel: Jewel) {
-    super(name, jewel, 2.0);
+    super(name, cap, bonuses, imbue, jewel, util);
   }
 }
 

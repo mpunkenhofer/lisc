@@ -1,11 +1,16 @@
-import {CraftAbleBonus} from '.';
+import {Cap, CraftAbleBonus, ImbuePoints} from '.';
 import {Jewel, Dust, Liquid} from '../materials';
 
-//TODO: Short Bow
+//TODO: Short Bow ?
+
+const cap: Cap = {cap_add: 1, cap_mult: 0.2};
+const imbue: ImbuePoints = {imbue_add: -5, imbue_mult: 5};
+const bonuses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const util = 5.0;
 
 export class Skill extends CraftAbleBonus {
   constructor(name: string, jewel: Jewel) {
-    super(name, jewel, 5.0);
+    super(name, cap, bonuses, imbue, jewel, util);
   }
 }
 

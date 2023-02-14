@@ -1,9 +1,14 @@
-import {CraftAbleBonus} from '.';
+import {Cap, CraftAbleBonus, ImbuePoints} from '.';
 import {Dust, Jewel, Liquid} from '../materials';
+
+const cap: Cap = {cap_add: 0, cap_mult: 1.5};
+const bonuses = [1, 4, 7, 10, 13, 16, 19, 22, 25, 28];
+const imbue: ImbuePoints = {imbue_add: 1, imbue_mult: 0.67};
+const util = 0.6666667;
 
 export class Stat extends CraftAbleBonus {
   constructor(name: string, jewel: Jewel) {
-    super(name, jewel, 0.6666667);
+    super(name, cap, bonuses, imbue, jewel, util);
   }
 }
 
@@ -57,12 +62,12 @@ export const Empathy = new Stat(
   statJewelFactory('Heated Essence Jewel', Liquid.HeatFromAnUnearthlyPyre)
 );
 
-export const Hits = new Stat(
-  'Hits',
-  statJewelFactory('Blood Essence Jewel', Liquid.GiantBlood)
-);
+// export const Hits = new Stat(
+//   'Hits',
+//   statJewelFactory('Blood Essence Jewel', Liquid.GiantBlood)
+// );
 
-export const Power = new Stat(
-  'Power',
-  statJewelFactory('Mystical Essence Jewel', Liquid.MysticEnergy)
-);
+// export const Power = new Stat(
+//   'Power',
+//   statJewelFactory('Mystical Essence Jewel', Liquid.MysticEnergy)
+// );
