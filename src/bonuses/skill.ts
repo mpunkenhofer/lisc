@@ -1,689 +1,177 @@
 import {Cap, CraftAbleBonus, ImbuePoints} from '.';
-import {Jewel, Dust, Liquid} from '../materials';
-
-//TODO: Short Bow ?
 
 const cap: Cap = {cap_add: 1, cap_mult: 0.2};
 const imbue: ImbuePoints = {imbue_add: -5, imbue_mult: 5};
-const bonuses = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const gem_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const util = 5.0;
 
 export class Skill extends CraftAbleBonus {
-  constructor(name: string, jewel: Jewel) {
-    super(name, cap, bonuses, imbue, jewel, util);
+  constructor(name: string, id: number) {
+    super(name, id, cap, gem_values, imbue, util);
   }
 }
 
-const skillJewelFactory = (name: string, dust: Dust, liquid: Liquid): Jewel => {
-  return {
-    name,
-    dust,
-    liquid,
-    dust_amount: [1, 4],
-    liquid_amount: [1, 1],
-  };
-};
+export enum SkillTypes {
+  TwoHanded = 20,
+  BodyMagic,
+  Chants,
+  CriticalStrike,
+  Crossbow,
+  Crush,
+  DeathServant,
+  Deathsight,
+  DualWield,
+  EarthMagic,
+  Enhancement,
+  Envenom,
+  FireMagic,
+  Flexible,
+  ColdMagic,
+  Instruments,
+  Longbow,
+  MatterMagic,
+  MindMagic,
+  PainWorking,
+  Parry,
+  Polearm,
+  Rejuvenation,
+  Shield,
+  Slash,
+  Smiting,
+  SoulRending,
+  SpiritMagic,
+  Staff,
+  Stealth,
+  Thrust,
+  WindMagic,
+  Sword,
+  Hammer,
+  Axe,
+  LeftAxe,
+  Spear,
+  Mending,
+  Augmentation,
+  Darkness = 60, // skipped 59
+  Suppression,
+  Runecarving,
+  Stormcalling,
+  Beastcraft,
+  LightMagic,
+  VoidMagic,
+  ManaMagic,
+  Battlesongs = 69, // skipped 68
+  Enchantment,
+  Blades = 72, // skipped 71
+  Blunt,
+  Piercing,
+  LargeWeaponry,
+  Mentalism,
+  Regrowth,
+  Nurture,
+  Nature,
+  Music,
+  CelticDual,
+  CelticSpear,
+  RecurveBow,
+  Valor,
+  Subterranean,
+  BoneArmy,
+  VerdantPath,
+  CreepingPath,
+  ArborealPath,
+  Scythe,
+  ThrownWeapons,
+  HandToHand,
+  ShortBow,
+  Pacification,
+  Savagery,
+  Nightshade,
+  Pathfinding,
+  Summoning,
+}
 
-export const Augmentation = new Skill(
-  'Augmentation',
-  skillJewelFactory(
-    'Airy Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Axe = new Skill(
-  'Axe',
-  skillJewelFactory(
-    'Earthen War Rune',
-    Dust.GroundGiantBone,
-    Liquid.TreantBlood
-  )
-);
-
-export const Battlesongs = new Skill(
-  'Battlesongs',
-  skillJewelFactory(
-    'Airy Primal Rune',
-    Dust.GroundVendoBone,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Beastcraft = new Skill(
-  'Beastcraft',
-  skillJewelFactory(
-    'Earthen Primal Rune',
-    Dust.GroundVendoBone,
-    Liquid.TreantBlood
-  )
-);
-
-export const BoneArmy = new Skill(
-  'Bone Army',
-  skillJewelFactory(
-    'Ashen Primal Rune',
-    Dust.SootFromNilfheim,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const Subterranean = new Skill(
-  'Subterranean',
-  skillJewelFactory(
-    'Fiery Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.DraconicFire
-  )
-);
-
-export const CompositeBow = new Skill(
-  'Composite Bow',
-  skillJewelFactory(
-    'Airy War Rune',
-    Dust.GroundGiantBone,
-    Liquid.AirElementalEssence
-  )
-);
-
+export const TwoHanded = new Skill('Two Handed', SkillTypes.TwoHanded);
+export const BodyMagic = new Skill('Body Magic', SkillTypes.BodyMagic);
+export const Chants = new Skill('Chants', SkillTypes.Chants);
 export const CriticalStrike = new Skill(
   'Critical Strike',
-  skillJewelFactory(
-    'Heated Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
+  SkillTypes.CriticalStrike
 );
-
-export const Cursing = new Skill(
-  'Cursing',
-  skillJewelFactory(
-    'Blighted Primal Rune',
-    Dust.GroundVendoBone,
-    Liquid.TreantBlood
-  )
-);
-
-export const Darkness = new Skill(
-  'Darkness',
-  skillJewelFactory(
-    'Icy Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const Hammer = new Skill(
-  'Hammer',
-  skillJewelFactory('Fiery War Rune', Dust.GroundGiantBone, Liquid.DraconicFire)
-);
-
-export const HandToHand = new Skill(
-  'Hand To Hand',
-  skillJewelFactory(
-    'Lightning Charged War Rune',
-    Dust.GroundGiantBone,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Hexing = new Skill(
-  'Hexing',
-  skillJewelFactory(
-    'Unholy Primal Rune',
-    Dust.GroundVendoBone,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const LeftAxe = new Skill(
-  'Left Axe',
-  skillJewelFactory(
-    'Icy War Rune',
-    Dust.GroundGiantBone,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const Mending = new Skill(
-  'Mending',
-  skillJewelFactory(
-    'Watery Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Pacification = new Skill(
-  'Pacification',
-  skillJewelFactory(
-    'Earthen Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.TreantBlood
-  )
-);
-
-export const Parry = new Skill(
-  'Parry',
-  skillJewelFactory(
-    'Vapor Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.SwampFog
-  )
-);
-
-export const Runecarving = new Skill(
-  'Runecarving',
-  skillJewelFactory(
-    'Heated Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const Shield = new Skill(
-  'Shield',
-  skillJewelFactory(
-    'Fiery Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.DraconicFire
-  )
-);
-
-export const Spear = new Skill(
-  'Spear',
-  skillJewelFactory(
-    'Heated War Rune',
-    Dust.GroundGiantBone,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const Staff = new Skill(
-  'Staff',
-  skillJewelFactory(
-    'Earthen Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.TreantBlood
-  )
-);
-
-export const Stealth = new Skill(
-  'Stealth',
-  skillJewelFactory(
-    'Airy Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Stormcalling = new Skill(
-  'Stormcalling',
-  skillJewelFactory(
-    'Fiery Primal Rune',
-    Dust.GroundVendoBone,
-    Liquid.DraconicFire
-  )
-);
-
-export const Summoning = new Skill(
-  'Summoning',
-  skillJewelFactory('Vapor Chaos Rune', Dust.SootFromNilfheim, Liquid.SwampFog)
-);
-
-export const Suppression = new Skill(
-  'Suppression',
-  skillJewelFactory(
-    'Dusty Chaos Rune',
-    Dust.SootFromNilfheim,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const Sword = new Skill(
-  'Sword',
-  skillJewelFactory(
-    'Watery War Rune',
-    Dust.GroundGiantBone,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const ThrownWeapons = new Skill(
-  'Thrown Weapons',
-  skillJewelFactory('Vapor War Rune', Dust.GroundGiantBone, Liquid.SwampFog)
-);
-
-export const ArborealPath = new Skill(
-  'Arboreal Path',
-  skillJewelFactory(
-    'Steaming Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.SwampFog
-  )
-);
-
-export const Blades = new Skill(
-  'Blades',
-  skillJewelFactory(
-    'Watery War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Blunt = new Skill(
-  'Blunt',
-  skillJewelFactory(
-    'Fiery War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.DraconicFire
-  )
-);
-
-export const CelticDual = new Skill(
-  'Celtic Dual',
-  skillJewelFactory(
-    'Icy War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const CelticSpear = new Skill(
-  'Celtic Spear',
-  skillJewelFactory(
-    'Earthen War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.TreantBlood
-  )
-);
-
-export const CreepingPath = new Skill(
-  'Creeping Path',
-  skillJewelFactory(
-    'Oozing Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.TreantBlood
-  )
-);
-
-export const Enchantment = new Skill(
-  'Enchantment',
-  skillJewelFactory(
-    'Vapor Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.SwampFog
-  )
-);
-
+export const Crossbow = new Skill('Crossbow', SkillTypes.Crossbow);
+export const Crush = new Skill('Crush', SkillTypes.Crush);
+export const DeathServant = new Skill('Death Servant', SkillTypes.DeathServant);
+export const Deathsight = new Skill('Deathsight', SkillTypes.Deathsight);
+export const DualWield = new Skill('Dual Wield', SkillTypes.DualWield);
+export const EarthMagic = new Skill('Earth Magic', SkillTypes.EarthMagic);
+export const Enhancement = new Skill('Enhancement', SkillTypes.Enhancement);
+export const Envenom = new Skill('Envenom', SkillTypes.Envenom);
+export const FireMagic = new Skill('Fire Magic', SkillTypes.FireMagic);
+export const Flexible = new Skill('Flexible Weapon', SkillTypes.Flexible);
+export const ColdMagic = new Skill('Cold Magic', SkillTypes.ColdMagic);
+export const Instruments = new Skill('Instruments', SkillTypes.Instruments);
+export const Longbow = new Skill('Longbow', SkillTypes.Longbow);
+export const MatterMagic = new Skill('Matter Magic', SkillTypes.MatterMagic);
+export const MindMagic = new Skill('Mind Magic', SkillTypes.MindMagic);
+export const PainWorking = new Skill('Pain Working', SkillTypes.PainWorking);
+export const Parry = new Skill('Parry', SkillTypes.Parry);
+export const Polearm = new Skill('Polearm', SkillTypes.Polearm);
+export const Rejuvenation = new Skill('Rejuvenation', SkillTypes.Rejuvenation);
+export const Shield = new Skill('Shield', SkillTypes.Shield);
+export const Slash = new Skill('Slash', SkillTypes.Slash);
+export const Smiting = new Skill('Smiting', SkillTypes.Smiting);
+export const SoulRending = new Skill('Soul Rending', SkillTypes.SoulRending);
+export const SpiritMagic = new Skill('Spirit Magic', SkillTypes.SpiritMagic);
+export const Staff = new Skill('Staff', SkillTypes.Staff);
+export const Stealth = new Skill('Stealth', SkillTypes.Stealth);
+export const Thrust = new Skill('Thrust', SkillTypes.Thrust);
+export const WindMagic = new Skill('Wind Magic', SkillTypes.WindMagic);
+export const Sword = new Skill('Sword', SkillTypes.Sword);
+export const Hammer = new Skill('Hammer', SkillTypes.Hammer);
+export const Axe = new Skill('Axe', SkillTypes.Axe);
+export const LeftAxe = new Skill('Left Axe', SkillTypes.LeftAxe);
+export const Spear = new Skill('Spear', SkillTypes.Spear);
+export const Mending = new Skill('Mending', SkillTypes.Mending);
+export const Augmentation = new Skill('Augmentation', SkillTypes.Augmentation);
+export const Darkness = new Skill('Darkness', SkillTypes.Darkness);
+export const Suppression = new Skill('Suppression', SkillTypes.Suppression);
+export const Runecarving = new Skill('Runecarving', SkillTypes.Runecarving);
+export const Stormcalling = new Skill('Stormcalling', SkillTypes.Stormcalling);
+export const Beastcraft = new Skill('Beastcraft', SkillTypes.Beastcraft);
+export const LightMagic = new Skill('Light Magic', SkillTypes.LightMagic);
+export const VoidMagic = new Skill('Void Magic', SkillTypes.VoidMagic);
+export const ManaMagic = new Skill('Mana Magic', SkillTypes.ManaMagic);
+export const Battlesongs = new Skill('Battlesongs', SkillTypes.Battlesongs);
+export const Enchantment = new Skill('Enchantment', SkillTypes.Enchantment);
+export const Blades = new Skill('Blades', SkillTypes.Blades);
+export const Blunt = new Skill('Blunt', SkillTypes.Blunt);
+export const Piercing = new Skill('Piercing', SkillTypes.Piercing);
 export const LargeWeaponry = new Skill(
   'Large Weaponry',
-  skillJewelFactory(
-    'Heated War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
+  SkillTypes.LargeWeaponry
 );
-
-export const LightMagic = new Skill(
-  'Light Magic',
-  skillJewelFactory(
-    'Fiery Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.DraconicFire
-  )
+export const Mentalism = new Skill('Mentalism', SkillTypes.Mentalism);
+export const Regrowth = new Skill('Regrowth', SkillTypes.Regrowth);
+export const Nurture = new Skill('Nurture', SkillTypes.Nurture);
+export const Nature = new Skill('Nature', SkillTypes.Nature);
+export const Music = new Skill('Music', SkillTypes.Music);
+export const CelticDual = new Skill('Celtic Dual', SkillTypes.CelticDual);
+export const CelticSpear = new Skill('Celtic Spear', SkillTypes.CelticSpear);
+export const RecurveBow = new Skill('RecurveBow', SkillTypes.RecurveBow);
+export const Valor = new Skill('Valor', SkillTypes.Valor);
+export const Subterranean = new Skill('Subterranean', SkillTypes.Subterranean);
+export const BoneArmy = new Skill('Bone Army', SkillTypes.BoneArmy);
+export const VerdantPath = new Skill('Verdant Path', SkillTypes.VerdantPath);
+export const CreepingPath = new Skill('Creeping Path', SkillTypes.CreepingPath);
+export const ArborealPath = new Skill('Arboreal Path', SkillTypes.ArborealPath);
+export const Scythe = new Skill('Scythe', SkillTypes.Scythe);
+export const ThrownWeapons = new Skill(
+  'Thrown Weapons',
+  SkillTypes.ThrownWeapons
 );
-
-export const ManaMagic = new Skill(
-  'Mana Magic',
-  skillJewelFactory(
-    'Watery Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Mentalism = new Skill(
-  'Mentalism',
-  skillJewelFactory(
-    'Earthen Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.TreantBlood
-  )
-);
-
-export const Music = new Skill(
-  'Music',
-  skillJewelFactory(
-    'Airy Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Nature = new Skill(
-  'Nature',
-  skillJewelFactory(
-    'Earthen Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.TreantBlood
-  )
-);
-
-export const Nurture = new Skill(
-  'Nurture',
-  skillJewelFactory(
-    'Fiery Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.DraconicFire
-  )
-);
-
-export const Piercing = new Skill(
-  'Piercing',
-  skillJewelFactory(
-    'Dusty War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const RecurveBow = new Skill(
-  'Recurve Bow',
-  skillJewelFactory(
-    'Airy War Spell Stone',
-    Dust.UnseelieDust,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Regrowth = new Skill(
-  'Regrowth',
-  skillJewelFactory(
-    'Watery Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Scythe = new Skill(
-  'Scythe',
-  skillJewelFactory('Light War Spell Stone', Dust.UnseelieDust, Liquid.SunLight)
-);
-
-export const ShadowMastery = new Skill(
-  'Shadow Mastery',
-  skillJewelFactory(
-    'Shadowy Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.SwampFog
-  )
-);
-
-export const Valor = new Skill(
-  'Valor',
-  skillJewelFactory(
-    'Airy Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const VerdantPath = new Skill(
-  'Verdant Path',
-  skillJewelFactory(
-    'Mineral Encrusted Nature Spell Stone',
-    Dust.FairyDust,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const VoidMagic = new Skill(
-  'Void Magic',
-  skillJewelFactory(
-    'Icy Arcane Spell Stone',
-    Dust.OtherWorldlyDust,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const BodyMagic = new Skill(
-  'Body Magic',
-  skillJewelFactory(
-    'Heated Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const Chants = new Skill(
-  'Chants',
-  skillJewelFactory(
-    'Earthen Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.TreantBlood
-  )
-);
-
-export const ColdMagic = new Skill(
-  'Cold Magic',
-  skillJewelFactory(
-    'Icy Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const Crossbow = new Skill(
-  'Crossbow',
-  skillJewelFactory('Vapor War Sigil', Dust.GroundCaerStone, Liquid.SwampFog)
-);
-
-export const Crush = new Skill(
-  'Crush',
-  skillJewelFactory(
-    'Fiery War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.DraconicFire
-  )
-);
-
-export const DeathServant = new Skill(
-  'Death Servant',
-  skillJewelFactory(
-    'Ashen Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const Deathsight = new Skill(
-  'Deathsight',
-  skillJewelFactory(
-    'Vacuous Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.SwampFog
-  )
-);
-
-export const DualWield = new Skill(
-  'Dual Wield',
-  skillJewelFactory(
-    'Icy War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.FrostFromAWasteland
-  )
-);
-
-export const EarthMagic = new Skill(
-  'Earth Magic',
-  skillJewelFactory(
-    'Earthen Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.TreantBlood
-  )
-);
-
-export const Enhancement = new Skill(
-  'Enhancement',
-  skillJewelFactory(
-    'Airy Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const FireMagic = new Skill(
-  'Fire Magic',
-  skillJewelFactory(
-    'Fiery Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.DraconicFire
-  )
-);
-
-export const Flexible = new Skill(
-  'Flexible',
-  skillJewelFactory(
-    'Molten Magma War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Instruments = new Skill(
-  'Instruments',
-  skillJewelFactory(
-    'Vapor Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.SwampFog
-  )
-);
-
-export const Longbow = new Skill(
-  'Longbow',
-  skillJewelFactory(
-    'Airy War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.AirElementalEssence
-  )
-);
-
-export const Envenom = new Skill(
-  'Envenom',
-  skillJewelFactory(
-    'Dusty Battle Jewel',
-    Dust.BloodiedBattlefieldDirt,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const MatterMagic = new Skill(
-  'Matter Magic',
-  skillJewelFactory(
-    'Dusty Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const MindMagic = new Skill(
-  'Mind Magic',
-  skillJewelFactory(
-    'Watery Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Painworking = new Skill(
-  'Painworking',
-  skillJewelFactory(
-    'Salt Crusted Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.MysticEnergy
-  )
-);
-
-export const Polearm = new Skill(
-  'Polearm',
-  skillJewelFactory(
-    'Earthen War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.TreantBlood
-  )
-);
-
-export const Rejuvenation = new Skill(
-  'Rejuvenation',
-  skillJewelFactory(
-    'Watery Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Slash = new Skill(
-  'Slash',
-  skillJewelFactory(
-    'Watery War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.LeviathanBlood
-  )
-);
-
-export const Smiting = new Skill(
-  'Smiting',
-  skillJewelFactory(
-    'Fiery Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.DraconicFire
-  )
-);
-
-export const SoulRending = new Skill(
-  'Soul Rending',
-  skillJewelFactory(
-    'Steaming Fervor Sigil',
-    Dust.GroundBlessedUndeadBone,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const SpiritMagic = new Skill(
-  'Spirit Magic',
-  skillJewelFactory(
-    'Vapor Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.SwampFog
-  )
-);
-
-export const Thrust = new Skill(
-  'Thrust',
-  skillJewelFactory(
-    'Dusty War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.UndeadAshAndHolyWater
-  )
-);
-
-export const TwoHanded = new Skill(
-  'Two Handed',
-  skillJewelFactory(
-    'Heated War Sigil',
-    Dust.GroundCaerStone,
-    Liquid.HeatFromAnUnearthlyPyre
-  )
-);
-
-export const WindMagic = new Skill(
-  'Wind Magic',
-  skillJewelFactory(
-    'Airy Evocation Sigil',
-    Dust.GroundCaveCrystal,
-    Liquid.AirElementalEssence
-  )
-);
+export const HandToHand = new Skill('Hand To Hand', SkillTypes.HandToHand);
+export const ShortBow = new Skill('Short Bow', SkillTypes.ShortBow);
+export const Pacification = new Skill('Pacification', SkillTypes.Pacification);
+export const Savagery = new Skill('Savagery', SkillTypes.Savagery);
+export const Nightshade = new Skill('Nightshade', SkillTypes.Nightshade);
+export const Pathfinding = new Skill('Pathfinding', SkillTypes.Pathfinding);
+export const Summoning = new Skill('Summoning', SkillTypes.Summoning);

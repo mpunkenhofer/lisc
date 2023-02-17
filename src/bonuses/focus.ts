@@ -1,146 +1,126 @@
 import {Cap, CraftAbleBonus, ImbuePoints} from '.';
-import {Jewel, Dust, Liquid} from '../materials';
 
 const cap: Cap = {cap_add: 0, cap_mult: 1};
 const imbue: ImbuePoints = {imbue_add: 1, imbue_mult: 0};
-const bonuses = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
+const gem_values = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50];
 const util = 0;
 
 export class Focus extends CraftAbleBonus {
-  constructor(name: string, jewel: Jewel) {
-    super(name, cap, bonuses, imbue, jewel, util);
+  constructor(name: string, id: number) {
+    super(name, id, cap, gem_values, imbue, util);
   }
 }
 
-const focusJewelFactory = (name: string, liquid: Liquid): Jewel => {
-  return {
-    name,
-    dust: Dust.GroundDraconicScales,
-    liquid,
-    dust_amount: [1, 5],
-    liquid_amount: [1, 1],
-  };
-};
+export enum FocusTypes {
+  BoneArmyFocus,
+  DarknessFocus,
+  RunecarvingFocus,
+  SummoningFocus,
+  SuppressionFocus,
+  ArborealPathFocus,
+  CreepingPathFocus,
+  EnchantmentsFocus,
+  LightFocus,
+  ManaFocus,
+  MentalismFocus,
+  VerdantPathFocus,
+  VoidFocus,
+  BodyFocus,
+  ColdFocus,
+  DeathServantFocus,
+  DeathsightFocus,
+  EarthFocus,
+  FireFocus,
+  MatterFocus,
+  MindFocus,
+  PainworkingFocus,
+  SpiritFocus,
+  WindFocus,
+}
 
 export const BoneArmyFocus = new Focus(
   'Bone Army Focus',
-  focusJewelFactory('Ashen Rune', Liquid.UndeadAshAndHolyWater)
+  FocusTypes.BoneArmyFocus
 );
 
 export const DarknessFocus = new Focus(
   'Darkness Focus',
-  focusJewelFactory('Ice Rune', Liquid.FrostFromAWasteland)
+  FocusTypes.DarknessFocus
 );
 
 export const RunecarvingFocus = new Focus(
   'Runecarving Focus',
-  focusJewelFactory('Heat Rune', Liquid.HeatFromAnUnearthlyPyre)
+  FocusTypes.RunecarvingFocus
 );
 
 export const SummoningFocus = new Focus(
   'Summoning Focus',
-  focusJewelFactory('Vapor Rune', Liquid.SwampFog)
+  FocusTypes.SummoningFocus
 );
 
 export const SuppressionFocus = new Focus(
   'Suppression Focus',
-  focusJewelFactory('Dust Rune', Liquid.UndeadAshAndHolyWater)
+  FocusTypes.SuppressionFocus
 );
 
 export const ArborealPathFocus = new Focus(
   'Arboreal Path Focus',
-  focusJewelFactory('Steaming Spell Stone', Liquid.SwampFog)
+  FocusTypes.ArborealPathFocus
 );
 
 export const CreepingPathFocus = new Focus(
   'Creeping Path Focus',
-  focusJewelFactory('Oozing Spell Stone', Liquid.TreantBlood)
+  FocusTypes.CreepingPathFocus
 );
 
 export const EnchantmentsFocus = new Focus(
   'Enchantments Focus',
-  focusJewelFactory('Vapor Spell Stone', Liquid.SwampFog)
+  FocusTypes.EnchantmentsFocus
 );
 
-export const LightFocus = new Focus(
-  'Light Focus',
-  focusJewelFactory('Fire Spell Stone', Liquid.DraconicFire)
-);
+export const LightFocus = new Focus('Light Focus', FocusTypes.LightFocus);
 
-export const ManaFocus = new Focus(
-  'Mana Focus',
-  focusJewelFactory('Water Spell Stone', Liquid.LeviathanBlood)
-);
+export const ManaFocus = new Focus('Mana Focus', FocusTypes.ManaFocus);
 
 export const MentalismFocus = new Focus(
   'Mentalism Focus',
-  focusJewelFactory('Earth Spell Stone', Liquid.TreantBlood)
+  FocusTypes.MentalismFocus
 );
 
 export const VerdantPathFocus = new Focus(
   'Verdant Path Focus',
-  focusJewelFactory(
-    'Mineral Encrusted Spell Stone',
-    Liquid.HeatFromAnUnearthlyPyre
-  )
+  FocusTypes.VerdantPathFocus
 );
 
-export const VoidFocus = new Focus(
-  'Void Focus',
-  focusJewelFactory('Ice Spell Stone', Liquid.FrostFromAWasteland)
-);
+export const VoidFocus = new Focus('Void Focus', FocusTypes.VoidFocus);
 
-export const BodyFocus = new Focus(
-  'Body Focus',
-  focusJewelFactory('Heat Sigil', Liquid.HeatFromAnUnearthlyPyre)
-);
+export const BodyFocus = new Focus('Body Focus', FocusTypes.BodyFocus);
 
-export const ColdFocus = new Focus(
-  'Cold Focus',
-  focusJewelFactory('Ice Sigil', Liquid.FrostFromAWasteland)
-);
+export const ColdFocus = new Focus('Cold Focus', FocusTypes.ColdFocus);
 
 export const DeathServantFocus = new Focus(
   'Death Servant Focus',
-  focusJewelFactory('Ashen Sigil', Liquid.UndeadAshAndHolyWater)
+  FocusTypes.DeathServantFocus
 );
 
 export const DeathsightFocus = new Focus(
   'Deathsight Focus',
-  focusJewelFactory('Vacuous Sigil', Liquid.SwampFog)
+  FocusTypes.DeathsightFocus
 );
 
-export const EarthFocus = new Focus(
-  'Earth Focus',
-  focusJewelFactory('Earth Sigil', Liquid.TreantBlood)
-);
+export const EarthFocus = new Focus('Earth Focus', FocusTypes.EarthFocus);
 
-export const FireFocus = new Focus(
-  'Fire Focus',
-  focusJewelFactory('Fire Sigil', Liquid.DraconicFire)
-);
+export const FireFocus = new Focus('Fire Focus', FocusTypes.FireFocus);
 
-export const MatterFocus = new Focus(
-  'Matter Focus',
-  focusJewelFactory('Dust Sigil', Liquid.UndeadAshAndHolyWater)
-);
+export const MatterFocus = new Focus('Matter Focus', FocusTypes.MatterFocus);
 
-export const MindFocus = new Focus(
-  'Mind Focus',
-  focusJewelFactory('Water Sigil', Liquid.LeviathanBlood)
-);
+export const MindFocus = new Focus('Mind Focus', FocusTypes.MindFocus);
 
 export const PainworkingFocus = new Focus(
   'Painworking Focus',
-  focusJewelFactory('Salt Crusted Sigil', Liquid.MysticEnergy)
+  FocusTypes.PainworkingFocus
 );
 
-export const SpiritFocus = new Focus(
-  'Spirit Focus',
-  focusJewelFactory('Vapor Sigil', Liquid.SwampFog)
-);
+export const SpiritFocus = new Focus('Spirit Focus', FocusTypes.SpiritFocus);
 
-export const WindFocus = new Focus(
-  'Wind Focus',
-  focusJewelFactory('Air Sigil', Liquid.AirElementalEssence)
-);
+export const WindFocus = new Focus('Wind Focus', FocusTypes.WindFocus);

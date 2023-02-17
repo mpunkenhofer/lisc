@@ -1,11 +1,15 @@
 import {Bonus} from '../bonuses';
 import {Class} from '../constants/classes';
 
+export interface Dictionary<T> {
+  [id: number]: T | undefined;
+}
+
 export enum Realm {
-  Albion = 'Albion',
-  Hibernia = 'Hibernia',
-  Midgard = 'Midgard',
   All = 'All',
+  Albion = 'Albion',
+  Midgard = 'Midgard',
+  Hibernia = 'Hibernia',
 }
 
 export enum Slot {
