@@ -11,7 +11,7 @@ export class Stat extends CraftAbleBonus {
   }
 }
 
-export enum StatTypes {
+export enum Types {
   Strength = 1,
   Dexterity,
   Constitution,
@@ -23,20 +23,21 @@ export enum StatTypes {
   Power,
   HitPoints,
   Acuity = 156,
+  ArmorFactor = 148,
 }
 
-export const Strength = new Stat('Strength', StatTypes.Strength);
-export const Constitution = new Stat('Constitution', StatTypes.Constitution);
-export const Dexterity = new Stat('Dexterity', StatTypes.Dexterity);
-export const Quickness = new Stat('Quickness', StatTypes.Quickness);
-export const Intelligence = new Stat('Intelligence', StatTypes.Intelligence);
-export const Piety = new Stat('Piety', StatTypes.Piety);
-export const Charisma = new Stat('Charisma', StatTypes.Charisma);
-export const Empathy = new Stat('Empathy', StatTypes.Empathy);
+export const Strength = new Stat('Strength', Types.Strength);
+export const Constitution = new Stat('Constitution', Types.Constitution);
+export const Dexterity = new Stat('Dexterity', Types.Dexterity);
+export const Quickness = new Stat('Quickness', Types.Quickness);
+export const Intelligence = new Stat('Intelligence', Types.Intelligence);
+export const Piety = new Stat('Piety', Types.Piety);
+export const Charisma = new Stat('Charisma', Types.Charisma);
+export const Empathy = new Stat('Empathy', Types.Empathy);
 
 export const Power = new CraftAbleBonus(
   'Hit Points',
-  StatTypes.Power,
+  Types.Power,
   {cap_add: 1, cap_mult: 0.5},
   [4, 12, 20, 28, 36, 44, 52, 60, 68, 76],
   {imbue_add: -2, imbue_mult: 2},
@@ -45,7 +46,7 @@ export const Power = new CraftAbleBonus(
 
 export const HitPoints = new CraftAbleBonus(
   'Hit Points',
-  StatTypes.HitPoints,
+  Types.HitPoints,
   {cap_add: 0, cap_mult: 4},
   [1, 2, 3, 5, 7, 9, 11, 13, 15, 17],
   {imbue_add: 0, imbue_mult: 0.25},
@@ -53,4 +54,10 @@ export const HitPoints = new CraftAbleBonus(
 );
 
 // non-craft able
-export const Acuity = new Bonus('Acuity', StatTypes.Acuity, cap, util);
+export const Acuity = new Bonus('Acuity', Types.Acuity, cap, util);
+export const ArmorFactor = new Bonus(
+  'Armor Factor',
+  Types.ArmorFactor,
+  {cap_add: 0, cap_mult: 1},
+  1
+);

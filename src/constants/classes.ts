@@ -12,7 +12,7 @@ export interface Class {
   readonly magic?: Stats.Stat;
   readonly armor: ArmorType;
   readonly shield?: ShieldSize;
-  readonly weapon?: WeaponType[];
+  readonly weapons?: WeaponType[];
 }
 
 export const Armsman: Class = {
@@ -44,10 +44,10 @@ export const Cleric: Class = {
   realm: Realm.Albion,
   races: [Race.Avalonian, Race.Briton, Race.Highlander],
   magic: Stats.Piety,
-  skills: [Skill.Rejuvenation, Skill.Enhancement, Skill.Smiting],
+  skills: [Skill.Rejuvenation, Skill.Enhancement, Skill.Smite],
   armor: ArmorType.Chain,
   shield: ShieldSize.Medium,
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Friar: Class = {
@@ -58,7 +58,7 @@ export const Friar: Class = {
   magic: Stats.Piety,
   shield: ShieldSize.Small,
   skills: [Skill.Rejuvenation, Skill.Enhancement, Skill.Staff, Skill.Parry],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Necromancer: Class = {
@@ -69,7 +69,7 @@ export const Necromancer: Class = {
   races: [Race.Briton, Race.Inconnu, Race.Saracen],
   magic: Stats.Intelligence,
   skills: [Skill.Deathsight, Skill.Painworking, Skill.DeathServant],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Theurgist: Class = {
@@ -80,7 +80,7 @@ export const Theurgist: Class = {
   races: [Race.Avalonian, Race.Briton, Race.HalfOgre],
   magic: Stats.Intelligence,
   skills: [Skill.EarthMagic, Skill.ColdMagic, Skill.WindMagic],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Wizard: Class = {
@@ -91,7 +91,7 @@ export const Wizard: Class = {
   races: [Race.Avalonian, Race.Briton, Race.HalfOgre],
   magic: Stats.Intelligence,
   skills: [Skill.EarthMagic, Skill.ColdMagic, Skill.FireMagic],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Reaver: Class = {
@@ -133,7 +133,7 @@ export const Mercenary: Class = {
     Skill.Parry,
     Skill.DualWield,
   ],
-  weapon: [WeaponType.ShortBow],
+  weapons: [WeaponType.ShortBow],
 };
 
 export const Paladin: Class = {
@@ -168,7 +168,7 @@ export const Cabalist: Class = {
   ],
   magic: Stats.Intelligence,
   skills: [Skill.BodyMagic, Skill.MatterMagic, Skill.SpiritMagic],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Sorcerer: Class = {
@@ -185,7 +185,7 @@ export const Sorcerer: Class = {
   ],
   magic: Stats.Intelligence,
   skills: [Skill.MindMagic, Skill.BodyMagic, Skill.MatterMagic],
-  weapon: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
+  weapons: [WeaponType.Crush, WeaponType.Slash, WeaponType.Thrust],
 };
 
 export const Infiltrator: Class = {
@@ -202,7 +202,7 @@ export const Infiltrator: Class = {
     Skill.Envenom,
     Skill.DualWield,
   ],
-  weapon: [WeaponType.Crush, WeaponType.Crossbow],
+  weapons: [WeaponType.Crush, WeaponType.Crossbow],
 };
 
 export const Minstrel: Class = {
@@ -213,7 +213,7 @@ export const Minstrel: Class = {
   races: [Race.Briton, Race.Highlander, Race.Saracen],
   magic: Stats.Charisma,
   skills: [Skill.Stealth, Skill.Slash, Skill.Thrust, Skill.Instruments],
-  weapon: [WeaponType.Crush],
+  weapons: [WeaponType.Crush],
 };
 
 export const Scout: Class = {
@@ -227,9 +227,9 @@ export const Scout: Class = {
     Skill.Slash,
     Skill.Thrust,
     Skill.Shield,
-    Skill.Longbow,
+    Skill.Archery,
   ],
-  weapon: [WeaponType.Crush, WeaponType.ShortBow],
+  weapons: [WeaponType.Crush, WeaponType.ShortBow],
 };
 
 export const Animist: Class = {
@@ -240,7 +240,7 @@ export const Animist: Class = {
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
   magic: Stats.Intelligence,
   skills: [Skill.ArborealPath, Skill.CreepingPath, Skill.VerdantPath],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Bard: Class = {
@@ -257,7 +257,7 @@ export const Bard: Class = {
     Skill.Nurture,
     Skill.Music,
   ],
-  weapon: [WeaponType.Piercing],
+  weapons: [WeaponType.Piercing],
 };
 
 export const Blademaster: Class = {
@@ -303,7 +303,7 @@ export const Druid: Class = {
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
   magic: Stats.Empathy,
   skills: [Skill.Regrowth, Skill.Nurture, Skill.Nature],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Eldritch: Class = {
@@ -314,7 +314,7 @@ export const Eldritch: Class = {
   races: [Race.Elf, Race.Lurikeen],
   magic: Stats.Intelligence,
   skills: [Skill.LightMagic, Skill.ManaMagic, Skill.VoidMagic],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Enchanter: Class = {
@@ -324,8 +324,8 @@ export const Enchanter: Class = {
   shield: ShieldSize.Small,
   races: [Race.Elf, Race.Lurikeen],
   magic: Stats.Intelligence,
-  skills: [Skill.LightMagic, Skill.ManaMagic, Skill.Enchantment],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  skills: [Skill.LightMagic, Skill.ManaMagic, Skill.Enchantments],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Hero: Class = {
@@ -353,7 +353,7 @@ export const Mentalist: Class = {
   races: [Race.Celt, Race.Elf, Race.Lurikeen, Race.Shar],
   magic: Stats.Intelligence,
   skills: [Skill.LightMagic, Skill.ManaMagic, Skill.Mentalism],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Nightshade: Class = {
@@ -371,7 +371,7 @@ export const Nightshade: Class = {
     Skill.Envenom,
     Skill.CelticDual,
   ],
-  weapon: [WeaponType.Blunt],
+  weapons: [WeaponType.Blunt],
 };
 
 export const Ranger: Class = {
@@ -384,11 +384,10 @@ export const Ranger: Class = {
     Skill.Stealth,
     Skill.Blades,
     Skill.Piercing,
-    Skill.RecurveBow,
+    Skill.Archery,
     Skill.CelticDual,
-    // Skill.Pathfinding, //TODO Not craft able ?
   ],
-  weapon: [WeaponType.Blunt],
+  weapons: [WeaponType.Blunt],
 };
 
 export const Valewalker: Class = {
@@ -399,7 +398,7 @@ export const Valewalker: Class = {
   races: [Race.Celt, Race.Firbolg, Race.Sylvan],
   magic: Stats.Intelligence,
   skills: [Skill.ArborealPath, Skill.Scythe, Skill.Parry],
-  weapon: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
+  weapons: [WeaponType.Blades, WeaponType.Blunt, WeaponType.Piercing],
 };
 
 export const Warden: Class = {
@@ -417,7 +416,7 @@ export const Warden: Class = {
     Skill.Parry,
     Skill.Shield,
   ],
-  weapon: [WeaponType.Piercing],
+  weapons: [WeaponType.Piercing],
 };
 
 export const Berserker: Class = {
@@ -437,7 +436,7 @@ export const Bonedancer: Class = {
   races: [Race.Kobold, Race.Troll, Race.Valkyn],
   magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.BoneArmy],
-  weapon: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
+  weapons: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
 };
 
 export const Healer: Class = {
@@ -448,7 +447,7 @@ export const Healer: Class = {
   races: [Race.Dwarf, Race.Norseman, Race.Frostalf],
   magic: Stats.Piety,
   skills: [Skill.Mending, Skill.Augmentation, Skill.Pacification],
-  weapon: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
+  weapons: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
 };
 
 export const Hunter: Class = {
@@ -461,10 +460,10 @@ export const Hunter: Class = {
     Skill.Stealth,
     Skill.Sword,
     Skill.Spear,
-    Skill.CompositeBow,
+    Skill.Archery,
     Skill.Beastcraft,
   ],
-  weapon: [WeaponType.Axe, WeaponType.Hammer],
+  weapons: [WeaponType.Axe, WeaponType.Hammer],
 };
 
 export const Runemaster: Class = {
@@ -475,7 +474,7 @@ export const Runemaster: Class = {
   races: [Race.Dwarf, Race.Kobold, Race.Norseman, Race.Frostalf],
   magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.Runecarving],
-  weapon: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
+  weapons: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
 };
 
 export const Savage: Class = {
@@ -485,7 +484,7 @@ export const Savage: Class = {
   shield: ShieldSize.Small,
   races: [Race.Dwarf, Race.Kobold, Race.Troll, Race.Norseman, Race.Valkyn],
   skills: [
-    // Skill.Savagery, //Todo not craft able
+    // Skill.Savagery, //not craft able ?
     Skill.Axe,
     Skill.Hammer,
     Skill.Sword,
@@ -508,7 +507,7 @@ export const Shadowblade: Class = {
     Skill.CriticalStrike,
     Skill.Envenom,
   ],
-  weapon: [WeaponType.Hammer],
+  weapons: [WeaponType.Hammer],
 };
 
 export const Shaman: Class = {
@@ -519,7 +518,7 @@ export const Shaman: Class = {
   races: [Race.Kobold, Race.Troll, Race.Frostalf],
   magic: Stats.Piety,
   skills: [Skill.Mending, Skill.Augmentation, Skill.Subterranean],
-  weapon: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
+  weapons: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
 };
 
 export const Skald: Class = {
@@ -546,7 +545,7 @@ export const Spiritmaster: Class = {
   races: [Race.Kobold, Race.Norseman, Race.Frostalf],
   magic: Stats.Piety,
   skills: [Skill.Darkness, Skill.Suppression, Skill.Summoning],
-  weapon: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
+  weapons: [WeaponType.Axe, WeaponType.Hammer, WeaponType.Sword],
 };
 
 export const Thane: Class = {

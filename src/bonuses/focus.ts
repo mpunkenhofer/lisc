@@ -11,8 +11,8 @@ export class Focus extends CraftAbleBonus {
   }
 }
 
-export enum FocusTypes {
-  BoneArmyFocus,
+export enum Types {
+  BoneArmyFocus = 400,
   DarknessFocus,
   RunecarvingFocus,
   SummoningFocus,
@@ -38,89 +38,83 @@ export enum FocusTypes {
   WindFocus,
 }
 
-export const BoneArmyFocus = new Focus(
-  'Bone Army Focus',
-  FocusTypes.BoneArmyFocus
-);
+export const BoneArmyFocus = new Focus('Bone Army Focus', Types.BoneArmyFocus);
 
-export const DarknessFocus = new Focus(
-  'Darkness Focus',
-  FocusTypes.DarknessFocus
-);
+export const DarknessFocus = new Focus('Darkness Focus', Types.DarknessFocus);
 
 export const RunecarvingFocus = new Focus(
   'Runecarving Focus',
-  FocusTypes.RunecarvingFocus
+  Types.RunecarvingFocus
 );
 
 export const SummoningFocus = new Focus(
   'Summoning Focus',
-  FocusTypes.SummoningFocus
+  Types.SummoningFocus
 );
 
 export const SuppressionFocus = new Focus(
   'Suppression Focus',
-  FocusTypes.SuppressionFocus
+  Types.SuppressionFocus
 );
 
 export const ArborealPathFocus = new Focus(
   'Arboreal Path Focus',
-  FocusTypes.ArborealPathFocus
+  Types.ArborealPathFocus
 );
 
 export const CreepingPathFocus = new Focus(
   'Creeping Path Focus',
-  FocusTypes.CreepingPathFocus
+  Types.CreepingPathFocus
 );
 
 export const EnchantmentsFocus = new Focus(
   'Enchantments Focus',
-  FocusTypes.EnchantmentsFocus
+  Types.EnchantmentsFocus
 );
 
-export const LightFocus = new Focus('Light Focus', FocusTypes.LightFocus);
+export const LightFocus = new Focus('Light Focus', Types.LightFocus);
 
-export const ManaFocus = new Focus('Mana Focus', FocusTypes.ManaFocus);
+export const ManaFocus = new Focus('Mana Focus', Types.ManaFocus);
 
 export const MentalismFocus = new Focus(
   'Mentalism Focus',
-  FocusTypes.MentalismFocus
+  Types.MentalismFocus
 );
 
 export const VerdantPathFocus = new Focus(
   'Verdant Path Focus',
-  FocusTypes.VerdantPathFocus
+  Types.VerdantPathFocus
 );
 
-export const VoidFocus = new Focus('Void Focus', FocusTypes.VoidFocus);
+export const VoidFocus = new Focus('Void Focus', Types.VoidFocus);
 
-export const BodyFocus = new Focus('Body Focus', FocusTypes.BodyFocus);
+export const BodyFocus = new Focus('Body Focus', Types.BodyFocus);
 
-export const ColdFocus = new Focus('Cold Focus', FocusTypes.ColdFocus);
+export const ColdFocus = new Focus('Cold Focus', Types.ColdFocus);
 
 export const DeathServantFocus = new Focus(
   'Death Servant Focus',
-  FocusTypes.DeathServantFocus
+  Types.DeathServantFocus
 );
 
 export const DeathsightFocus = new Focus(
   'Deathsight Focus',
-  FocusTypes.DeathsightFocus
+  Types.DeathsightFocus
 );
 
-export const EarthFocus = new Focus('Earth Focus', FocusTypes.EarthFocus);
+export const EarthFocus = new Focus('Earth Focus', Types.EarthFocus);
 
-export const FireFocus = new Focus('Fire Focus', FocusTypes.FireFocus);
+export const FireFocus = new Focus('Fire Focus', Types.FireFocus);
 
-export const MatterFocus = new Focus('Matter Focus', FocusTypes.MatterFocus);
+export const MatterFocus = new Focus('Matter Focus', Types.MatterFocus);
 
-export const MindFocus = new Focus('Mind Focus', FocusTypes.MindFocus);
+export const MindFocus = new Focus('Mind Focus', Types.MindFocus);
 
 export const PainworkingFocus = new Focus(
   'Painworking Focus',
-  FocusTypes.PainworkingFocus
+  Types.PainworkingFocus
 );
 
-export const SpiritFocus = new Focus('Spirit Focus', FocusTypes.SpiritFocus);
+export const SpiritFocus = new Focus('Spirit Focus', Types.SpiritFocus);
 
-export const WindFocus = new Focus('Wind Focus', FocusTypes.WindFocus);
+export const WindFocus = new Focus('Wind Focus', Types.WindFocus);

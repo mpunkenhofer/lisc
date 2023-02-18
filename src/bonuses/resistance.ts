@@ -11,7 +11,7 @@ export class Resistance extends CraftAbleBonus {
   }
 }
 
-export enum ResistanceTypes {
+export enum Types {
   Body = 11,
   Cold,
   Crush,
@@ -23,12 +23,12 @@ export enum ResistanceTypes {
   Thrust,
 }
 
-export const Body = new Resistance('Body', ResistanceTypes.Body);
-export const Cold = new Resistance('Cold', ResistanceTypes.Cold);
-export const Crush = new Resistance('Crush', ResistanceTypes.Crush);
-export const Energy = new Resistance('Energy', ResistanceTypes.Energy);
-export const Heat = new Resistance('Heat', ResistanceTypes.Heat);
-export const Matter = new Resistance('Matter', ResistanceTypes.Matter);
-export const Slash = new Resistance('Slash', ResistanceTypes.Slash);
-export const Spirit = new Resistance('Spirit', ResistanceTypes.Spirit);
-export const Thrust = new Resistance('Thrust', ResistanceTypes.Thrust);
+export const Body = new Resistance('Body', Types.Body);
+export const Cold = new Resistance('Cold', Types.Cold);
+export const Crush = new Resistance('Crush', Types.Crush);
+export const Energy = new Resistance('Energy', Types.Energy);
+export const Heat = new Resistance('Heat', Types.Heat);
+export const Matter = new Resistance('Matter', Types.Matter);
+export const Slash = new Resistance('Slash', Types.Slash);
+export const Spirit = new Resistance('Spirit', Types.Spirit);
+export const Thrust = new Resistance('Thrust', Types.Thrust);

@@ -15,7 +15,7 @@ export class ResistanceCaps extends Bonus {
   }
 }
 
-export enum CapTypes {
+export enum Types {
   Strength = 201,
   Dexterity,
   Constitution,
@@ -38,42 +38,42 @@ export enum CapTypes {
   Thrust,
 }
 
-export const Strength = new StatCaps('Strength Cap', CapTypes.Strength);
+export const Strength = new StatCaps('Strength Cap', Types.Strength);
 export const Constitution = new StatCaps(
   'Constitution Cap',
-  CapTypes.Constitution
+  Types.Constitution
 );
-export const Dexterity = new StatCaps('Dexterity Cap', CapTypes.Dexterity);
-export const Quickness = new StatCaps('Quickness Cap', CapTypes.Quickness);
+export const Dexterity = new StatCaps('Dexterity Cap', Types.Dexterity);
+export const Quickness = new StatCaps('Quickness Cap', Types.Quickness);
 export const Intelligence = new StatCaps(
   'Intelligence Cap',
-  CapTypes.Intelligence
+  Types.Intelligence
 );
-export const Piety = new StatCaps('Piety Cap', CapTypes.Piety);
-export const Charisma = new StatCaps('Charisma Cap', CapTypes.Charisma);
-export const Empathy = new StatCaps('Empathy Cap', CapTypes.Empathy);
-export const Acuity = new StatCaps('Acuity Cap', CapTypes.Acuity);
+export const Piety = new StatCaps('Piety Cap', Types.Piety);
+export const Charisma = new StatCaps('Charisma Cap', Types.Charisma);
+export const Empathy = new StatCaps('Empathy Cap', Types.Empathy);
+export const Acuity = new StatCaps('Acuity Cap', Types.Acuity);
 
 export const HitPoints = new Bonus(
   'Hit Points Cap',
-  CapTypes.HitPoints,
+  Types.HitPoints,
   {cap_add: 0, cap_mult: 4},
   0.25
 );
 
 export const Power = new Bonus(
   'Power Cap',
-  CapTypes.Power,
+  Types.Power,
   {cap_add: 0, cap_mult: 1},
   2
 );
 
-export const Body = new ResistanceCaps('Body Cap', CapTypes.Body);
-export const Cold = new ResistanceCaps('Cold Cap', CapTypes.Cold);
-export const Crush = new ResistanceCaps('Crush Cap', CapTypes.Crush);
-export const Energy = new ResistanceCaps('Energy Cap', CapTypes.Energy);
-export const Heat = new ResistanceCaps('Heat Cap', CapTypes.Heat);
-export const Matter = new ResistanceCaps('Matter Cap', CapTypes.Matter);
-export const Slash = new ResistanceCaps('Slash Cap', CapTypes.Slash);
-export const Spirit = new ResistanceCaps('Spirit Cap', CapTypes.Spirit);
-export const Thrust = new ResistanceCaps('Thrust Cap', CapTypes.Thrust);
+export const Body = new ResistanceCaps('Body Cap', Types.Body);
+export const Cold = new ResistanceCaps('Cold Cap', Types.Cold);
+export const Crush = new ResistanceCaps('Crush Cap', Types.Crush);
+export const Energy = new ResistanceCaps('Energy Cap', Types.Energy);
+export const Heat = new ResistanceCaps('Heat Cap', Types.Heat);
+export const Matter = new ResistanceCaps('Matter Cap', Types.Matter);
+export const Slash = new ResistanceCaps('Slash Cap', Types.Slash);
+export const Spirit = new ResistanceCaps('Spirit Cap', Types.Spirit);
+export const Thrust = new ResistanceCaps('Thrust Cap', Types.Thrust);

@@ -1,7 +1,8 @@
-import {FocusTypes} from '../bonuses/focus';
-import {ResistanceTypes} from '../bonuses/resistance';
-import {SkillTypes} from '../bonuses/skill';
-import {StatTypes} from '../bonuses/stats';
+import * as Focus from '../bonuses/focus';
+import * as Resist from '../bonuses/resistance';
+import * as Skill from '../bonuses/skill';
+import * as Stats from '../bonuses/stats';
+import * as Toa from '../bonuses/toa';
 import {Dictionary} from '../common/types';
 import {
   focusJewelFactory,
@@ -9,6 +10,19 @@ import {
   skillJewelFactory,
   statJewelFactory,
 } from './factories';
+
+export enum Gems {
+  Lo = 'Lo',
+  Um = 'Um',
+  On = 'On',
+  Ee = 'Ee',
+  Pal = 'Pal',
+  Mon = 'Mon',
+  Ros = 'Ros',
+  Zo = 'Zo',
+  Kath = 'Kath',
+  Ra = 'Ra',
+}
 
 export enum Dust {
   EssenceOfLife,
@@ -67,6 +81,7 @@ export const LiquidNames: Dictionary<string> = {
   [Liquid.DraconicFire]: 'Draconic Fire',
   [Liquid.AirElementalEssence]: 'Air Elemental Essence',
 };
+
 // Type aliases for documentation purposes
 export type IngredientBase = number;
 export type IngredientIncrement = number;
@@ -79,53 +94,50 @@ export interface Jewel {
   readonly liquid_amount: [IngredientBase, IngredientIncrement];
 }
 
-// All Magic Skills: 1 fairy dust 2 draconic fire, mystic energy, treant blood
-// All Melee Skills: 1 unseelie dust 2 draconic fire, mystic energy, treant blood
-
 export const ingredients: Dictionary<Jewel> = {
   // STATS
 
-  [StatTypes.Strength]: statJewelFactory(
+  [Stats.Types.Strength]: statJewelFactory(
     'Fiery Essence Jewel',
     Liquid.DraconicFire
   ),
 
-  [StatTypes.Constitution]: statJewelFactory(
+  [Stats.Types.Constitution]: statJewelFactory(
     'Earthen Essence Jewel',
     Liquid.TreantBlood
   ),
 
-  [StatTypes.Dexterity]: statJewelFactory(
+  [Stats.Types.Dexterity]: statJewelFactory(
     'Vapor Essence Jewel',
     Liquid.SwampFog
   ),
 
-  [StatTypes.Quickness]: statJewelFactory(
+  [Stats.Types.Quickness]: statJewelFactory(
     'Airy Essence Jewel',
     Liquid.AirElementalEssence
   ),
 
-  [StatTypes.Intelligence]: statJewelFactory(
+  [Stats.Types.Intelligence]: statJewelFactory(
     'Dusty Essence Jewel',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [StatTypes.Piety]: statJewelFactory(
+  [Stats.Types.Piety]: statJewelFactory(
     'Watery Essence Jewel',
     Liquid.LeviathanBlood
   ),
 
-  [StatTypes.Charisma]: statJewelFactory(
+  [Stats.Types.Charisma]: statJewelFactory(
     'Icy Essence Jewel',
     Liquid.FrostFromAWasteland
   ),
 
-  [StatTypes.Empathy]: statJewelFactory(
+  [Stats.Types.Empathy]: statJewelFactory(
     'Heated Essence Jewel',
     Liquid.HeatFromAnUnearthlyPyre
   ),
 
-  [StatTypes.HitPoints]: {
+  [Stats.Types.HitPoints]: {
     name: 'Blood Essence Jewel',
     dusts: [Dust.EssenceOfLife],
     liquids: [Liquid.GiantBlood],
@@ -133,431 +145,431 @@ export const ingredients: Dictionary<Jewel> = {
     liquid_amount: [1, 1],
   },
 
-  [StatTypes.Power]: statJewelFactory(
+  [Stats.Types.Power]: statJewelFactory(
     'Mystical Essence Jewel',
     Liquid.MysticEnergy
   ),
 
   // RESISTS
 
-  [ResistanceTypes.Body]: resistJewelFactory(
+  [Resist.Types.Body]: resistJewelFactory(
     'Dusty Shielding Jewel',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [ResistanceTypes.Cold]: resistJewelFactory(
+  [Resist.Types.Cold]: resistJewelFactory(
     'Icy Shielding Jewel',
     Liquid.FrostFromAWasteland
   ),
 
-  [ResistanceTypes.Heat]: resistJewelFactory(
+  [Resist.Types.Heat]: resistJewelFactory(
     'Heated Shielding Jewel',
     Liquid.HeatFromAnUnearthlyPyre
   ),
 
-  [ResistanceTypes.Energy]: resistJewelFactory(
+  [Resist.Types.Energy]: resistJewelFactory(
     'Light Shielding Jewel',
     Liquid.SunLight
   ),
 
-  [ResistanceTypes.Matter]: resistJewelFactory(
+  [Resist.Types.Matter]: resistJewelFactory(
     'Earthen Shielding Jewel',
     Liquid.TreantBlood
   ),
 
-  [ResistanceTypes.Spirit]: resistJewelFactory(
+  [Resist.Types.Spirit]: resistJewelFactory(
     'Vapor Shielding Jewel',
     Liquid.SwampFog
   ),
 
-  [ResistanceTypes.Crush]: resistJewelFactory(
+  [Resist.Types.Crush]: resistJewelFactory(
     'Fiery Shielding Jewel',
     Liquid.DraconicFire
   ),
 
-  [ResistanceTypes.Thrust]: resistJewelFactory(
+  [Resist.Types.Thrust]: resistJewelFactory(
     'Airy Shielding Jewel',
     Liquid.AirElementalEssence
   ),
 
-  [ResistanceTypes.Slash]: resistJewelFactory(
+  [Resist.Types.Slash]: resistJewelFactory(
     'Watery Shielding Jewel',
     Liquid.LeviathanBlood
   ),
 
   // SKILLS
 
-  [SkillTypes.Augmentation]: skillJewelFactory(
+  [Skill.Types.Augmentation]: skillJewelFactory(
     'Airy Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Axe]: skillJewelFactory(
+  [Skill.Types.Axe]: skillJewelFactory(
     'Earthen War Rune',
     Dust.GroundGiantBone,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Battlesongs]: skillJewelFactory(
+  [Skill.Types.Battlesongs]: skillJewelFactory(
     'Airy Primal Rune',
     Dust.GroundVendoBone,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Beastcraft]: skillJewelFactory(
+  [Skill.Types.Beastcraft]: skillJewelFactory(
     'Earthen Primal Rune',
     Dust.GroundVendoBone,
     Liquid.TreantBlood
   ),
-  [SkillTypes.BoneArmy]: skillJewelFactory(
+  [Skill.Types.BoneArmy]: skillJewelFactory(
     'Ashen Primal Rune',
     Dust.SootFromNilfheim,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.Subterranean]: skillJewelFactory(
+  [Skill.Types.Subterranean]: skillJewelFactory(
     'Fiery Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.DraconicFire
   ),
-  // [SkillTypes.CompositeBow]: skillJewelFactory(
+  // [Skill.SkillTypes.CompositeBow]: skillJewelFactory(
   //   'Airy War Rune',
   //   Dust.GroundGiantBone,
   //   Liquid.AirElementalEssence
   // ),
-  [SkillTypes.CriticalStrike]: skillJewelFactory(
+  [Skill.Types.CriticalStrike]: skillJewelFactory(
     'Heated Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.Darkness]: skillJewelFactory(
+  [Skill.Types.Darkness]: skillJewelFactory(
     'Icy Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.Hammer]: skillJewelFactory(
+  [Skill.Types.Hammer]: skillJewelFactory(
     'Fiery War Rune',
     Dust.GroundGiantBone,
     Liquid.DraconicFire
   ),
-  [SkillTypes.HandToHand]: skillJewelFactory(
+  [Skill.Types.HandToHand]: skillJewelFactory(
     'Lightning Charged War Rune',
     Dust.GroundGiantBone,
     Liquid.LeviathanBlood
   ),
-  // [SkillTypes.Hexing]: skillJewelFactory(
+  // [Skill.SkillTypes.Hexing]: skillJewelFactory(
   //   'Unholy Primal Rune',
   //   Dust.GroundVendoBone,
   //   Liquid.AirElementalEssence
   // ),
-  [SkillTypes.LeftAxe]: skillJewelFactory(
+  [Skill.Types.LeftAxe]: skillJewelFactory(
     'Icy War Rune',
     Dust.GroundGiantBone,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.Mending]: skillJewelFactory(
+  [Skill.Types.Mending]: skillJewelFactory(
     'Watery Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Pacification]: skillJewelFactory(
+  [Skill.Types.Pacification]: skillJewelFactory(
     'Earthen Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Parry]: skillJewelFactory(
+  [Skill.Types.Parry]: skillJewelFactory(
     'Vapor Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.SwampFog
   ),
-  [SkillTypes.Runecarving]: skillJewelFactory(
+  [Skill.Types.Runecarving]: skillJewelFactory(
     'Heated Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.Shield]: skillJewelFactory(
+  [Skill.Types.Shield]: skillJewelFactory(
     'Fiery Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.DraconicFire
   ),
-  [SkillTypes.Spear]: skillJewelFactory(
+  [Skill.Types.Spear]: skillJewelFactory(
     'Heated War Rune',
     Dust.GroundGiantBone,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.Staff]: skillJewelFactory(
+  [Skill.Types.Staff]: skillJewelFactory(
     'Earthen Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Stealth]: skillJewelFactory(
+  [Skill.Types.Stealth]: skillJewelFactory(
     'Airy Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Stormcalling]: skillJewelFactory(
+  [Skill.Types.Stormcalling]: skillJewelFactory(
     'Fiery Primal Rune',
     Dust.GroundVendoBone,
     Liquid.DraconicFire
   ),
-  [SkillTypes.Summoning]: skillJewelFactory(
+  [Skill.Types.Summoning]: skillJewelFactory(
     'Vapor Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.SwampFog
   ),
-  [SkillTypes.Suppression]: skillJewelFactory(
+  [Skill.Types.Suppression]: skillJewelFactory(
     'Dusty Chaos Rune',
     Dust.SootFromNilfheim,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.Sword]: skillJewelFactory(
+  [Skill.Types.Sword]: skillJewelFactory(
     'Watery War Rune',
     Dust.GroundGiantBone,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.ThrownWeapons]: skillJewelFactory(
+  [Skill.Types.ThrownWeapons]: skillJewelFactory(
     'Vapor War Rune',
     Dust.GroundGiantBone,
     Liquid.SwampFog
   ),
-  [SkillTypes.ArborealPath]: skillJewelFactory(
+  [Skill.Types.ArborealPath]: skillJewelFactory(
     'Steaming Nature Spell Stone',
     Dust.FairyDust,
     Liquid.SwampFog
   ),
-  [SkillTypes.Blades]: skillJewelFactory(
+  [Skill.Types.Blades]: skillJewelFactory(
     'Watery War Spell Stone',
     Dust.UnseelieDust,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Blunt]: skillJewelFactory(
+  [Skill.Types.Blunt]: skillJewelFactory(
     'Fiery War Spell Stone',
     Dust.UnseelieDust,
     Liquid.DraconicFire
   ),
-  [SkillTypes.CelticDual]: skillJewelFactory(
+  [Skill.Types.CelticDual]: skillJewelFactory(
     'Icy War Spell Stone',
     Dust.UnseelieDust,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.CelticSpear]: skillJewelFactory(
+  [Skill.Types.CelticSpear]: skillJewelFactory(
     'Earthen War Spell Stone',
     Dust.UnseelieDust,
     Liquid.TreantBlood
   ),
-  [SkillTypes.CreepingPath]: skillJewelFactory(
+  [Skill.Types.CreepingPath]: skillJewelFactory(
     'Oozing Nature Spell Stone',
     Dust.FairyDust,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Enchantment]: skillJewelFactory(
+  [Skill.Types.Enchantments]: skillJewelFactory(
     'Vapor Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.SwampFog
   ),
-  [SkillTypes.LargeWeaponry]: skillJewelFactory(
+  [Skill.Types.LargeWeaponry]: skillJewelFactory(
     'Heated War Spell Stone',
     Dust.UnseelieDust,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.LightMagic]: skillJewelFactory(
+  [Skill.Types.LightMagic]: skillJewelFactory(
     'Fiery Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.DraconicFire
   ),
-  [SkillTypes.ManaMagic]: skillJewelFactory(
+  [Skill.Types.ManaMagic]: skillJewelFactory(
     'Watery Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Mentalism]: skillJewelFactory(
+  [Skill.Types.Mentalism]: skillJewelFactory(
     'Earthen Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Music]: skillJewelFactory(
+  [Skill.Types.Music]: skillJewelFactory(
     'Airy Nature Spell Stone',
     Dust.FairyDust,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Nature]: skillJewelFactory(
+  [Skill.Types.Nature]: skillJewelFactory(
     'Earthen Nature Spell Stone',
     Dust.FairyDust,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Nurture]: skillJewelFactory(
+  [Skill.Types.Nurture]: skillJewelFactory(
     'Fiery Nature Spell Stone',
     Dust.FairyDust,
     Liquid.DraconicFire
   ),
-  [SkillTypes.Piercing]: skillJewelFactory(
+  [Skill.Types.Piercing]: skillJewelFactory(
     'Dusty War Spell Stone',
     Dust.UnseelieDust,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.RecurveBow]: skillJewelFactory(
+  [Skill.Types.Archery]: skillJewelFactory(
     'Airy War Spell Stone',
     Dust.UnseelieDust,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Regrowth]: skillJewelFactory(
+  [Skill.Types.Regrowth]: skillJewelFactory(
     'Watery Nature Spell Stone',
     Dust.FairyDust,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Scythe]: skillJewelFactory(
+  [Skill.Types.Scythe]: skillJewelFactory(
     'Light War Spell Stone',
     Dust.UnseelieDust,
     Liquid.SunLight
   ),
-  // [SkillTypes.ShadowMastery]: skillJewelFactory(
+  // [Skill.SkillTypes.ShadowMastery]: skillJewelFactory(
   //   'Shadowy Arcane Spell Stone',
   //   Dust.OtherWorldlyDust,
   //   Liquid.SwampFog
   // ),
-  [SkillTypes.Valor]: skillJewelFactory(
+  [Skill.Types.Valor]: skillJewelFactory(
     'Airy Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.VerdantPath]: skillJewelFactory(
+  [Skill.Types.VerdantPath]: skillJewelFactory(
     'Mineral Encrusted Nature Spell Stone',
     Dust.FairyDust,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.VoidMagic]: skillJewelFactory(
+  [Skill.Types.VoidMagic]: skillJewelFactory(
     'Icy Arcane Spell Stone',
     Dust.OtherWorldlyDust,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.BodyMagic]: skillJewelFactory(
+  [Skill.Types.BodyMagic]: skillJewelFactory(
     'Heated Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.Chants]: skillJewelFactory(
+  [Skill.Types.Chants]: skillJewelFactory(
     'Earthen Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.TreantBlood
   ),
-  [SkillTypes.ColdMagic]: skillJewelFactory(
+  [Skill.Types.ColdMagic]: skillJewelFactory(
     'Icy Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.Crossbow]: skillJewelFactory(
+  [Skill.Types.Crossbow]: skillJewelFactory(
     'Vapor War Sigil',
     Dust.GroundCaerStone,
     Liquid.SwampFog
   ),
-  [SkillTypes.Crush]: skillJewelFactory(
+  [Skill.Types.Crush]: skillJewelFactory(
     'Fiery War Sigil',
     Dust.GroundCaerStone,
     Liquid.DraconicFire
   ),
-  [SkillTypes.DeathServant]: skillJewelFactory(
+  [Skill.Types.DeathServant]: skillJewelFactory(
     'Ashen Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.Deathsight]: skillJewelFactory(
+  [Skill.Types.Deathsight]: skillJewelFactory(
     'Vacuous Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.SwampFog
   ),
-  [SkillTypes.DualWield]: skillJewelFactory(
+  [Skill.Types.DualWield]: skillJewelFactory(
     'Icy War Sigil',
     Dust.GroundCaerStone,
     Liquid.FrostFromAWasteland
   ),
-  [SkillTypes.EarthMagic]: skillJewelFactory(
+  [Skill.Types.EarthMagic]: skillJewelFactory(
     'Earthen Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Enhancement]: skillJewelFactory(
+  [Skill.Types.Enhancement]: skillJewelFactory(
     'Airy Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.FireMagic]: skillJewelFactory(
+  [Skill.Types.FireMagic]: skillJewelFactory(
     'Fiery Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.DraconicFire
   ),
-  [SkillTypes.Flexible]: skillJewelFactory(
+  [Skill.Types.Flexible]: skillJewelFactory(
     'Molten Magma War Sigil',
     Dust.GroundCaerStone,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Instruments]: skillJewelFactory(
+  [Skill.Types.Instruments]: skillJewelFactory(
     'Vapor Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.SwampFog
   ),
-  [SkillTypes.Longbow]: skillJewelFactory(
+  [Skill.Types.Longbow]: skillJewelFactory(
     'Airy War Sigil',
     Dust.GroundCaerStone,
     Liquid.AirElementalEssence
   ),
-  [SkillTypes.Envenom]: skillJewelFactory(
+  [Skill.Types.Envenom]: skillJewelFactory(
     'Dusty Battle Jewel',
     Dust.BloodiedBattlefieldDirt,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.MatterMagic]: skillJewelFactory(
+  [Skill.Types.MatterMagic]: skillJewelFactory(
     'Dusty Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.MindMagic]: skillJewelFactory(
+  [Skill.Types.MindMagic]: skillJewelFactory(
     'Watery Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.PainWorking]: skillJewelFactory(
+  [Skill.Types.Painworking]: skillJewelFactory(
     'Salt Crusted Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.MysticEnergy
   ),
-  [SkillTypes.Polearm]: skillJewelFactory(
+  [Skill.Types.Polearm]: skillJewelFactory(
     'Earthen War Sigil',
     Dust.GroundCaerStone,
     Liquid.TreantBlood
   ),
-  [SkillTypes.Rejuvenation]: skillJewelFactory(
+  [Skill.Types.Rejuvenation]: skillJewelFactory(
     'Watery Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Slash]: skillJewelFactory(
+  [Skill.Types.Slash]: skillJewelFactory(
     'Watery War Sigil',
     Dust.GroundCaerStone,
     Liquid.LeviathanBlood
   ),
-  [SkillTypes.Smiting]: skillJewelFactory(
+  [Skill.Types.Smite]: skillJewelFactory(
     'Fiery Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.DraconicFire
   ),
-  [SkillTypes.SoulRending]: skillJewelFactory(
+  [Skill.Types.SoulRending]: skillJewelFactory(
     'Steaming Fervor Sigil',
     Dust.GroundBlessedUndeadBone,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.SpiritMagic]: skillJewelFactory(
+  [Skill.Types.SpiritMagic]: skillJewelFactory(
     'Vapor Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.SwampFog
   ),
-  [SkillTypes.Thrust]: skillJewelFactory(
+  [Skill.Types.Thrust]: skillJewelFactory(
     'Dusty War Sigil',
     Dust.GroundCaerStone,
     Liquid.UndeadAshAndHolyWater
   ),
-  [SkillTypes.TwoHanded]: skillJewelFactory(
+  [Skill.Types.TwoHanded]: skillJewelFactory(
     'Heated War Sigil',
     Dust.GroundCaerStone,
     Liquid.HeatFromAnUnearthlyPyre
   ),
-  [SkillTypes.WindMagic]: skillJewelFactory(
+  [Skill.Types.WindMagic]: skillJewelFactory(
     'Airy Evocation Sigil',
     Dust.GroundCaveCrystal,
     Liquid.AirElementalEssence
@@ -565,113 +577,135 @@ export const ingredients: Dictionary<Jewel> = {
 
   // FOCUSES
 
-  [FocusTypes.BoneArmyFocus]: focusJewelFactory(
+  [Focus.Types.BoneArmyFocus]: focusJewelFactory(
     'Ashen Rune',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [FocusTypes.DarknessFocus]: focusJewelFactory(
+  [Focus.Types.DarknessFocus]: focusJewelFactory(
     'Ice Rune',
     Liquid.FrostFromAWasteland
   ),
 
-  [FocusTypes.RunecarvingFocus]: focusJewelFactory(
+  [Focus.Types.RunecarvingFocus]: focusJewelFactory(
     'Heat Rune',
     Liquid.HeatFromAnUnearthlyPyre
   ),
 
-  [FocusTypes.SummoningFocus]: focusJewelFactory('Vapor Rune', Liquid.SwampFog),
+  [Focus.Types.SummoningFocus]: focusJewelFactory(
+    'Vapor Rune',
+    Liquid.SwampFog
+  ),
 
-  [FocusTypes.SuppressionFocus]: focusJewelFactory(
+  [Focus.Types.SuppressionFocus]: focusJewelFactory(
     'Dust Rune',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [FocusTypes.ArborealPathFocus]: focusJewelFactory(
+  [Focus.Types.ArborealPathFocus]: focusJewelFactory(
     'Steaming Spell Stone',
     Liquid.SwampFog
   ),
 
-  [FocusTypes.CreepingPathFocus]: focusJewelFactory(
+  [Focus.Types.CreepingPathFocus]: focusJewelFactory(
     'Oozing Spell Stone',
     Liquid.TreantBlood
   ),
 
-  [FocusTypes.EnchantmentsFocus]: focusJewelFactory(
+  [Focus.Types.EnchantmentsFocus]: focusJewelFactory(
     'Vapor Spell Stone',
     Liquid.SwampFog
   ),
 
-  [FocusTypes.LightFocus]: focusJewelFactory(
+  [Focus.Types.LightFocus]: focusJewelFactory(
     'Fire Spell Stone',
     Liquid.DraconicFire
   ),
 
-  [FocusTypes.ManaFocus]: focusJewelFactory(
+  [Focus.Types.ManaFocus]: focusJewelFactory(
     'Water Spell Stone',
     Liquid.LeviathanBlood
   ),
 
-  [FocusTypes.MentalismFocus]: focusJewelFactory(
+  [Focus.Types.MentalismFocus]: focusJewelFactory(
     'Earth Spell Stone',
     Liquid.TreantBlood
   ),
 
-  [FocusTypes.VerdantPathFocus]: focusJewelFactory(
+  [Focus.Types.VerdantPathFocus]: focusJewelFactory(
     'Mineral Encrusted Spell Stone',
     Liquid.HeatFromAnUnearthlyPyre
   ),
 
-  [FocusTypes.VoidFocus]: focusJewelFactory(
+  [Focus.Types.VoidFocus]: focusJewelFactory(
     'Ice Spell Stone',
     Liquid.FrostFromAWasteland
   ),
 
-  [FocusTypes.BodyFocus]: focusJewelFactory(
+  [Focus.Types.BodyFocus]: focusJewelFactory(
     'Heat Sigil',
     Liquid.HeatFromAnUnearthlyPyre
   ),
 
-  [FocusTypes.ColdFocus]: focusJewelFactory(
+  [Focus.Types.ColdFocus]: focusJewelFactory(
     'Ice Sigil',
     Liquid.FrostFromAWasteland
   ),
 
-  [FocusTypes.DeathServantFocus]: focusJewelFactory(
+  [Focus.Types.DeathServantFocus]: focusJewelFactory(
     'Ashen Sigil',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [FocusTypes.DeathsightFocus]: focusJewelFactory(
+  [Focus.Types.DeathsightFocus]: focusJewelFactory(
     'Vacuous Sigil',
     Liquid.SwampFog
   ),
 
-  [FocusTypes.EarthFocus]: focusJewelFactory('Earth Sigil', Liquid.TreantBlood),
+  [Focus.Types.EarthFocus]: focusJewelFactory(
+    'Earth Sigil',
+    Liquid.TreantBlood
+  ),
 
-  [FocusTypes.FireFocus]: focusJewelFactory('Fire Sigil', Liquid.DraconicFire),
+  [Focus.Types.FireFocus]: focusJewelFactory('Fire Sigil', Liquid.DraconicFire),
 
-  [FocusTypes.MatterFocus]: focusJewelFactory(
+  [Focus.Types.MatterFocus]: focusJewelFactory(
     'Dust Sigil',
     Liquid.UndeadAshAndHolyWater
   ),
 
-  [FocusTypes.MindFocus]: focusJewelFactory(
+  [Focus.Types.MindFocus]: focusJewelFactory(
     'Water Sigil',
     Liquid.LeviathanBlood
   ),
 
-  [FocusTypes.PainworkingFocus]: focusJewelFactory(
+  [Focus.Types.PainworkingFocus]: focusJewelFactory(
     'Salt Crusted Sigil',
     Liquid.MysticEnergy
   ),
 
-  [FocusTypes.SpiritFocus]: focusJewelFactory('Vapor Sigil', Liquid.SwampFog),
+  [Focus.Types.SpiritFocus]: focusJewelFactory('Vapor Sigil', Liquid.SwampFog),
 
-  [FocusTypes.WindFocus]: focusJewelFactory(
+  [Focus.Types.WindFocus]: focusJewelFactory(
     'Air Sigil',
     Liquid.AirElementalEssence
   ),
 
   // MISC
+
+  [Toa.Types.AllMagicSkills]: {
+    name: 'Finesse Nature Spell Stone',
+    dusts: [],
+    liquids: [Liquid.DraconicFire, Liquid.MysticEnergy, Liquid.TreantBlood],
+    dust_amount: [0, 0],
+    liquid_amount: [2, 0],
+  },
+
+  [Toa.Types.AllMeleeSkills]: {
+    name: 'Finesse Warp Spell Stone',
+    dusts: [Dust.UnseelieDust],
+    liquids: [Liquid.DraconicFire, Liquid.MysticEnergy, Liquid.TreantBlood],
+    dust_amount: [1, 0],
+    liquid_amount: [2, 0],
+  },
 };
