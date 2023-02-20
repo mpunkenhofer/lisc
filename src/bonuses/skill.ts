@@ -5,6 +5,9 @@ const imbue: ImbuePoints = {imbue_add: -5, imbue_mult: 5};
 const gem_values = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const util = 5.0;
 
+// TODO: Skills to potentially remove:
+// - ShortBow
+
 export enum AllSkillType {
   Magic,
   Melee,

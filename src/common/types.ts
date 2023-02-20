@@ -33,13 +33,6 @@ export enum Slot {
   Unspecified = 'Unspecified',
 }
 
-export enum BonusType {
-  Stat = 'Stat',
-  Resist = 'Resist',
-  Skill = 'Skill',
-  Focus = 'Focus',
-}
-
 export enum ArmorType {
   Cloth = 'Cloth',
   Leather = 'Leather',
@@ -52,18 +45,34 @@ export enum ArmorType {
 }
 
 export enum WeaponType {
-  Shield = 'Shield',
   Crush = 'Crush',
   Slash = 'Slash',
   Thrust = 'Thrust',
-  ShortBow = 'ShortBow',
+  TwoHanded = 'TwoHanded',
+  Polearm = 'Polearm',
+  Staff = 'Staff',
+  Longbow = 'Longbow',
   Crossbow = 'Crossbow',
-  Blades = 'Blades',
+  Sword = 'Sword',
+  Hammer = 'Hammer',
+  Axe = 'Axe',
+  Spear = 'Spear',
+  CompositeBow = 'Composite Bow',
+  LeftAxe = 'Left Axe',
+  RecursiveBow = 'Recursive Bow',
+  Blade = 'Blade',
   Blunt = 'Blunt',
   Piercing = 'Piercing',
-  Axe = 'Axe',
-  Hammer = 'Hammer',
-  Sword = 'Sword',
+  LargeWeapons = 'Large Weapons',
+  CelticSpear = 'Celtic Spear',
+  Flexible = 'Flexible',
+  HandToHand = 'HandToHand',
+  Scythe = 'Scythe',
+  FistWraps = 'Fist Wraps',
+  MaulerStaff = 'Mauler Staff',
+  ShortBow = 'ShortBow',
+  Shield = 'Shield',
+  Instrument = 'Instrument',
   Unspecified = 'Unspecified',
 }
 

@@ -19,7 +19,7 @@
     "clean": "gts clean",
     "build": "npm run clean && webpack --config webpack.production.js",
     "dev": "npm run clean && webpack serve --config=webpack.development.js",
-    "gen-db": "ts-node db/ingest.ts",
+    "gen-eden-db": "ts-node db/eden/ingest.ts",
     "gen-icons": "py ./bin/svg_to_png.py ./assets/images/lisc.svg -d ./public/ -p lisc -r 16 32 48 180 192 512 && magick public/lisc16.png public/lisc32.png public/lisc48.png public/favicon.ico && rimraf public/lisc16.png public/lisc32.png public/lisc48.png && copyfiles -f assets/images/lisc_mask.svg assets/images/lisc.svg public",
     "predeploy": "npm run build",
     "crawl": "npx ts-node scripts/crawl_items.ts",
@@ -38,6 +38,7 @@
     "ts-node": "^10.9.1"
   },
   "devDependencies": {
+    "@types/better-sqlite3": "^7.6.3",
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/react-router-dom": "^5.3.3",
